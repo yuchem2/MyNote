@@ -11,12 +11,9 @@
             "id": "76088c3f45e053fa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "컴파일러/Complier.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/Pasted image 20230915213308.png"
               }
             }
           }
@@ -87,7 +84,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴파일러/Complier.md",
+                "file": "Excalidraw/Pasted image 20230915213308.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴파일러/Complier.md"
+                "file": "Excalidraw/Pasted image 20230915213308.png"
               }
             }
           },
@@ -120,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴파일러/Complier.md",
+                "file": "Excalidraw/Pasted image 20230915213308.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,10 +150,14 @@
   },
   "active": "76088c3f45e053fa",
   "lastOpenFiles": [
+    "FORTRAN.md",
+    "C.md",
+    "운영체제.md",
+    "고급 프로그래밍 언어.md",
     "컴파일러/Interpreter.md",
+    "컴파일러/Cross-Complier.md",
     "컴파일러/Complier.md",
     "Preprocessor.md",
-    "컴파일러/Cross-Complier.md",
     "Excalidraw/Complie Procedure.md",
     "README.md",
     "Thread.md",
@@ -164,7 +165,6 @@
     "Excalidraw/Pasted image 20230915213308.png",
     "Pasted image 20230915213242.png",
     "무제 파일.md",
-    "고급 프로그래밍 언어.md",
     "Excalidraw/Drawing 2023-09-15 21.28.52.excalidraw.md",
     "컴퓨터네트워크.md",
     "컴파일 과정.md",
@@ -173,15 +173,12 @@
     "객체 지향 프로그래밍 언어.md",
     "Excalidraw",
     "C sharp.md",
-    "C.md",
     "Java.md",
     "C++.md",
     "객체 지향 프로그래밍.md",
     "Pascal.md",
     "자료구조.md",
     "고전음악의이해.md",
-    "리눅스프로그래밍실습.md",
-    "데이터베이스.md",
     "무제 파일.canvas",
     "MyNote",
     "컴파일러"
