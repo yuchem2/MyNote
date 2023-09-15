@@ -8,7 +8,7 @@ Compiler-Compiler라고도 한다.
 Machine architecuture와 [[프로그래밍 언어]]의 발전에 따라 자동 컴파일러 생성기가 연구되고 있다. 
 
 + [[Lexial Analyzer Generator]]
-+ [[Parser Generator]]
++ [[Parser Generating System]]
 + [[Automatic Code Generation]]
 + Compiler-Compiler System
 	+ PQCC(Production-Quality Compiler Complier Systme): W.A Wulf(Carnegie-Mellon Univ)
