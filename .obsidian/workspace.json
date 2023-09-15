@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compiler Generating Tools.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da4bb5899973fd5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parser Generating System.md",
+                "file": "컴파일러/Compiler.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +21,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -101,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parser Generating System.md",
+                "file": "컴파일러/Compiler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parser Generating System.md"
+                "file": "컴파일러/Compiler.md"
               }
             }
           },
@@ -134,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parser Generating System.md",
+                "file": "컴파일러/Compiler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,16 +159,18 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "da4bb5899973fd5b",
+  "active": "76088c3f45e053fa",
   "lastOpenFiles": [
-    "Syntax Analyzer.md",
-    "Parser Generating System.md",
+    "컴파일러/Interpreter.md",
+    "Excalidraw/Complie Procedure.md",
+    "컴파일러/Compiler.md",
     "Compiler Generating Tools.md",
+    "Automatic Code Generation.md",
+    "Parser Generating System.md",
+    "Tree.md",
+    "Syntax Analyzer.md",
     "Lexial Analyzer Generator.md",
     "토큰(Token).md",
-    "컴파일러/Compiler.md",
-    "Excalidraw/Complie Procedure.md",
-    "컴파일러/Interpreter.md",
     "컴파일러/Cross-Complier.md",
     "프로그래밍 언어.md",
     "ALGOL.md",
@@ -191,7 +179,6 @@
     "Lexical Analyzer.md",
     "Python.md",
     "Target Code Generator.md",
-    "Tree.md",
     "기계어.md",
     "자료구조.md",
     "Compiler.md",
@@ -202,7 +189,6 @@
     "Excalidraw/Drawing 2023-09-15 21.51.34.excalidraw.md",
     "무제 파일.canvas",
     "고급 프로그래밍 언어.md",
-    "FORTRAN.md",
     "Pasted image 20230915213242.png",
     "Excalidraw",
     "MyNote",
