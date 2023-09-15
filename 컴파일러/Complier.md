@@ -6,8 +6,10 @@
 ![[Pasted image 20230915213308.png]]
 
 컴파일러와 동일하게 "번역기"와 같은 기능을 수행하는 프로그램은 다음과 같다. 
-
 + [[Cross-Complier]]
 + [[Interpreter]]
 + [[Preprocessor]]
-+ 
+
+
+## 일반적인 컴파일러 구조
+

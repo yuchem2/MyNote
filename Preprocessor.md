@@ -4,4 +4,6 @@
 
 추가되는 기능은 다음과 같다.
 
-1. 매크로 체제: 유사한 소스 코드를 매크로로 정의하고 필요할 때마다 확장하여 프로그
+1. Macro subsitution: 유사한 소스 코드를 매크로로 정의하고 필요할 때마다 확장하여 프로그래머의 생산성을 증가시킨다. 
+2. Inclusion of compile-time library
+3. Conditional compilation
