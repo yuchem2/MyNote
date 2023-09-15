@@ -161,6 +161,7 @@
   },
   "active": "76088c3f45e053fa",
   "lastOpenFiles": [
+    "컴파일러/Compiler.md",
     "컴파일러/Code Optimizer.md",
     "컴파일러/Compiler Generating Tools.md",
     "컴파일러/Interpreter.md",
@@ -170,7 +171,6 @@
     "컴파일러/Lexial Analyzer Generator.md",
     "컴파일러/Intermediate Code Generator.md",
     "컴파일러/Error Recovery(Complier).md",
-    "컴파일러/Compiler.md",
     "형식 언어(Formal Language).md",
     "ALGOL.md",
     "문장.md",
