@@ -25,9 +25,14 @@ Front-end 부분은 언어 의존적이고, Back-End 부분은 기계 의존적�
 	+ [[Target Code Generator]]
 
 
-추가적인 컴파일러의 주요 기능은 [[Error Recovery]] 기능이다. 이는 [[Error Repair]]와 다른 기능이다.
+추가적인 컴파일러의 주요 기능은 [[Error Recovery(Complier)]] 기능이다. 이는 [[Error Repair]]와 다른 기능이다.
 컴파일러에서 가능한 에러는 아래와 같다.
 + Error
 	+ Syntax
 	+ Semantic
-	+ 
+	+ Run-time Error
++ Error Handling
+	+ Error detection
+	+ [[Error Recovery(Complier)]]
+	+ Error Reporting
+	+ [[Error Repair]]

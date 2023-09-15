@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "컴파일러/Complier.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -130,9 +130,17 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "645b06813e08ec73",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -153,8 +161,10 @@
   },
   "active": "76088c3f45e053fa",
   "lastOpenFiles": [
-    "Target Code Generator.md",
+    "Error Repair.md",
     "컴파일러/Complier.md",
+    "Error Recovery(Complier).md",
+    "Target Code Generator.md",
     "Code Optimizer.md",
     "Intermediate Code Generator.md",
     "Syntax Analyzer.md",
@@ -180,8 +190,6 @@
     "컴퓨터네트워크.md",
     "컴파일 과정.md",
     "ALGOL.md",
-    "정보보호.md",
-    "객체 지향 프로그래밍 언어.md",
     "Excalidraw",
     "MyNote",
     "컴파일러"
