@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "형식 언어(Formal Language).md",
+                "file": "컴파일러/Compiler.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "형식 언어(Formal Language).md",
+                "file": "컴파일러/Compiler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "형식 언어(Formal Language).md"
+                "file": "컴파일러/Compiler.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "형식 언어(Formal Language).md",
+                "file": "컴파일러/Compiler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,33 +161,33 @@
   },
   "active": "76088c3f45e053fa",
   "lastOpenFiles": [
+    "컴파일러/Code Optimizer.md",
+    "컴파일러/Compiler Generating Tools.md",
+    "컴파일러/Interpreter.md",
+    "컴파일러/Target Code Generator.md",
+    "컴파일러/Syntax Analyzer.md",
+    "컴파일러/Parser Generating System.md",
+    "컴파일러/Lexial Analyzer Generator.md",
+    "컴파일러/Intermediate Code Generator.md",
+    "컴파일러/Error Recovery(Complier).md",
+    "컴파일러/Compiler.md",
+    "형식 언어(Formal Language).md",
     "ALGOL.md",
     "문장.md",
-    "형식 언어(Formal Language).md",
     "언어.md",
-    "컴파일러/Compiler.md",
-    "컴파일러/Interpreter.md",
     "Excalidraw/Complie Procedure.md",
-    "컴파일러/Compiler Generating Tools.md",
     "컴파일러/Automatic Code Generation.md",
-    "컴파일러/Parser Generating System.md",
     "Tree.md",
-    "컴파일러/Syntax Analyzer.md",
-    "컴파일러/Lexial Analyzer Generator.md",
     "토큰(Token).md",
     "컴파일러/Cross-Complier.md",
     "프로그래밍 언어.md",
-    "컴파일러/Code Optimizer.md",
     "Java.md",
     "컴파일러/Lexical Analyzer.md",
     "Python.md",
-    "컴파일러/Target Code Generator.md",
     "기계어.md",
     "자료구조.md",
     "Compiler.md",
     "Excalidraw/Pasted image 20230915213308.png",
-    "Error Repair.md",
-    "컴파일러/Error Recovery(Complier).md",
     "무제 파일.canvas",
     "Pasted image 20230915213242.png",
     "Excalidraw",
