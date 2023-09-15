@@ -7,9 +7,11 @@ Compiler-Compiler라고도 한다.
 
 Machine architecuture와 [[프로그래밍 언어]]의 발전에 따라 자동 컴파일러 생성기가 연구되고 있다. 
 
-+ Lexial Analyzer Generator
-+ Parser Generator
-+ Automatic Code Generation
++ [[Lexial Analyzer Generator]]
++ [[Parser Generator]]
++ [[Automatic Code Generation]]
 + Compiler-Compiler System
-	+ PQCC(Production-Quality Compiler Complier Systme): 입력으로 language description과 target machine description을 받아 PQC()
-	+ ACK
+	+ PQCC(Production-Quality Compiler Complier Systme): W.A Wulf(Carnegie-Mellon Univ)
+	   입력으로 language description과 target machine description을 받아 PQC와 table이 출력된다.중간 언어로 [[Tree]] 구조인 TCOL(Tree Common Oriented Language)를 사용한다. Pattern Matching Code Generation에 의해 코드를 생성한다.
+	+ ACK(Amsterdam Copiler Kit): Andrew S. tanenbaum (Vrije Univ)
+	  Compiler의 Back-End 자동화 도구. EM(Encoding Machine)이라는 Abstract Machine Code를 중간 언어로 사용. Portable Compiler를 만들기에 편리.
