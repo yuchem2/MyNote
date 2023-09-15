@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compiler.md",
+                "file": "Compiler Generating Tools.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Compiler.md",
+                "file": "Compiler Generating Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Compiler.md"
+                "file": "Compiler Generating Tools.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compiler.md",
+                "file": "Compiler Generating Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,11 +161,11 @@
   },
   "active": "76088c3f45e053fa",
   "lastOpenFiles": [
+    "컴파일러/Compiler.md",
     "Compiler.md",
-    "컴파일러/Complier.md",
     "Excalidraw/Complie Procedure.md",
     "Excalidraw/Pasted image 20230915213308.png",
-    "Complier Generating Tools.md",
+    "Compiler Generating Tools.md",
     "Error Repair.md",
     "Error Recovery(Complier).md",
     "Target Code Generator.md",
