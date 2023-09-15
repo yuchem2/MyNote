@@ -23,22 +23,8 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "bda9d30bed99b925",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "C sharp.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 1,
             "stacked": true
           },
           {
@@ -126,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C sharp.md",
+                "file": "컴파일러/컴파일러.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C sharp.md"
+                "file": "컴파일러/컴파일러.md"
               }
             }
           },
@@ -159,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C sharp.md",
+                "file": "컴파일러/컴파일러.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,9 +176,11 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "bda9d30bed99b925",
+  "active": "16871c4ad3fad572",
   "lastOpenFiles": [
     "고급 프로그래밍 언어.md",
+    "Python.md",
+    "컴파일러/컴파일러.md",
     "C sharp.md",
     "무제 파일.md",
     "C.md",
@@ -216,8 +204,6 @@
     "ALGOL.md",
     "기계어.md",
     "FORTRAN.md",
-    "컴파일러/컴파일러.md",
-    "어셈블리어.md",
     "무제 파일.canvas",
     "MyNote",
     "컴파일러"
