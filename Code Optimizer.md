@@ -17,4 +17,9 @@
 	+ Strength reduction (연산 강도 경감)
 	+ Constant folding & propagation
 	+ Algebraic simplification (대수학적 간소화)
-+ Global optimization: 흐름 분석 기술을 이용한다. (블록 간의 정보를 고려ㅛ)
++ Global optimization: 흐름 분석 기술을 이용한다. (블록 간의 정보를 고려)
+	+ Common subexpression
+	+ Moving loop invariants
+	+ Removing unreachable codes
+
+※ Global optimization에서는 Removing unreachable code가 주로 채택되고 나머지는 효율성에 따라 상이하게 채택된다. 

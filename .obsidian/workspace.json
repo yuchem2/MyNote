@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "988720679cc1adf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code Optimizer.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -101,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code Optimizer.md",
+                "file": "컴파일러/Complier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code Optimizer.md"
+                "file": "컴파일러/Complier.md"
               }
             }
           },
@@ -134,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code Optimizer.md",
+                "file": "컴파일러/Complier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,8 +151,9 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "988720679cc1adf6",
+  "active": "76088c3f45e053fa",
   "lastOpenFiles": [
+    "Target Code Generator.md",
     "컴파일러/Complier.md",
     "Code Optimizer.md",
     "Intermediate Code Generator.md",
@@ -196,7 +183,6 @@
     "정보보호.md",
     "객체 지향 프로그래밍 언어.md",
     "Excalidraw",
-    "C sharp.md",
     "MyNote",
     "컴파일러"
   ]
