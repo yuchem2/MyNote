@@ -12,7 +12,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "a94fec092c1afe0c",
+                "id": "76088c3f45e053fa",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -25,64 +25,12 @@
                 }
               },
               {
-                "id": "673aa575945674b0",
+                "id": "fbfc694ba6b3a446",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "고급 프로그래밍 언어.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "5df6897387dcad96",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "고급 프로그래밍 언어.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "b3c054e8315b700c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "고급 프로그래밍 언어.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "31eb9dab8454ed13",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Pascal.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "cbefeb6b8cb1bb05",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "프로그래밍 언어.md",
+                    "file": "README.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -90,7 +38,8 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1,
+            "stacked": true
           },
           {
             "id": "eb0767a49aa7c971",
@@ -177,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pascal.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pascal.md"
+                "file": "README.md"
               }
             }
           },
@@ -210,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pascal.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,10 +190,20 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "31eb9dab8454ed13",
+  "active": "fbfc694ba6b3a446",
   "lastOpenFiles": [
+    "C.md",
     "고급 프로그래밍 언어.md",
     "Pascal.md",
+    "자료구조.md",
+    "README.md",
+    "고전음악의이해.md",
+    "리눅스프로그래밍실습.md",
+    "정보보호.md",
+    "데이터베이스.md",
+    "운영체제.md",
+    "컴퓨터네트워크.md",
+    "알고리즘.md",
     "프로그래밍 언어.md",
     "COBOL.md",
     "ALGOL.md",
@@ -254,7 +213,6 @@
     "어셈블리어.md",
     "저급 프로그래밍 언어.md",
     "컴파일러/인터프린터.md",
-    "README.md",
     "무제 파일.canvas",
     "MyNote",
     "컴파일러",
