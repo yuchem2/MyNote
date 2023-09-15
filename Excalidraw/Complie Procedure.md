@@ -359,44 +359,33 @@ Library File ^cev2LbqH
 			"baseline": 17
 		},
 		{
-			"id": "XVCe3YP9RjXqjHqYqxQ7X",
 			"type": "arrow",
-			"x": -49.44443766276048,
-			"y": -65.59272259526128,
-			"width": 176.88899739583334,
-			"height": 0.5004725653519131,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 648,
+			"versionNonce": 1024098260,
+			"isDeleted": false,
+			"id": "XVCe3YP9RjXqjHqYqxQ7X",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -49.44443766276048,
+			"y": -65.59272259526128,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 176.88899739583334,
+			"height": 0.5004725653519131,
+			"seed": 1005201516,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1005201516,
-			"version": 648,
-			"versionNonce": 1024098260,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1694780629968,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					176.88899739583334,
-					-0.5004725653519131
-				]
-			],
-			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "I6w6GCSJp-EBf57_wSeQ4",
 				"focus": -0.018962087103846184,
@@ -407,8 +396,19 @@ Library File ^cev2LbqH
 				"focus": 0.021613311580214276,
 				"gap": 9.888849894205805
 			},
+			"lastCommittedPoint": null,
 			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					176.88899739583334,
+					-0.5004725653519131
+				]
+			]
 		},
 		{
 			"type": "text",
@@ -682,41 +682,68 @@ Library File ^cev2LbqH
 			"baseline": 17
 		},
 		{
-			"id": "kp15JlqR",
 			"type": "text",
+			"version": 24,
+			"versionNonce": 1817962580,
+			"isDeleted": false,
+			"id": "kp15JlqR",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
 			"x": 394.5293136165982,
 			"y": -43.02379405131171,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
 			"width": 22.5,
 			"height": 45,
+			"seed": 956457300,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694780769923,
+			"link": null,
+			"locked": false,
+			"fontSize": 36,
+			"fontFamily": 1,
+			"text": "+",
+			"rawText": "+",
+			"textAlign": "center",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "+",
+			"lineHeight": 1.25,
+			"baseline": 31
+		},
+		{
+			"id": "VNSdokln",
+			"type": "embeddable",
+			"x": -312.66904518178376,
+			"y": 47.250469961497174,
+			"width": 500,
+			"height": 500,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "transparent",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
 			"roundness": null,
-			"seed": 956457300,
-			"version": 24,
-			"versionNonce": 1817962580,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1694780769923,
-			"link": null,
+			"seed": 1110,
+			"version": 50,
+			"versionNonce": 1945565164,
+			"updated": 1694780878785,
+			"isDeleted": true,
+			"groupIds": [],
+			"boundElements": [],
+			"link": "[[컴파일러#Compiler]]",
 			"locked": false,
-			"text": "+",
-			"rawText": "+",
-			"fontSize": 36,
-			"fontFamily": 1,
-			"textAlign": "center",
-			"verticalAlign": "top",
-			"baseline": 31,
-			"containerId": null,
-			"originalText": "+",
-			"lineHeight": 1.25
+			"validated": true
 		}
 	],
 	"appState": {
@@ -734,10 +761,10 @@ Library File ^cev2LbqH
 		"currentItemTextAlign": "center",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 690.0049761735374,
-		"scrollY": 515.9089258872496,
+		"scrollX": 656.0023159149567,
+		"scrollY": 1015.2655517670185,
 		"zoom": {
-			"value": 0.5999999999999996
+			"value": 0.65
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

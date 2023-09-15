@@ -4,60 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "957439dda8af5249",
-        "type": "split",
+        "id": "19ca4fa66aec972e",
+        "type": "tabs",
         "children": [
           {
-            "id": "19ca4fa66aec972e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "76088c3f45e053fa",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "고급 프로그래밍 언어.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "stacked": true
-          },
-          {
-            "id": "eb0767a49aa7c971",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "16871c4ad3fad572",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "컴파일러/컴파일러.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "88d32faf6b57e9f7",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2023-09-15 21.18.41.excalidraw.md"
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
+            "id": "76088c3f45e053fa",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "direction": "horizontal"
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -123,7 +82,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-09-15 21.18.41.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +103,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-09-15 21.18.41.excalidraw.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,7 +112,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-09-15 21.18.41.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,35 +142,35 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "88d32faf6b57e9f7",
+  "active": "76088c3f45e053fa",
   "lastOpenFiles": [
-    "컴파일러/컴파일러.md",
-    "컴파일 과정.md",
-    "Excalidraw/Drawing 2023-09-15 21.18.41.excalidraw.md",
-    "Excalidraw",
+    "무제 파일.md",
     "고급 프로그래밍 언어.md",
+    "컴파일러/컴파일러.md",
+    "Excalidraw/Drawing 2023-09-15 21.28.52.excalidraw.md",
+    "컴퓨터네트워크.md",
+    "컴파일 과정.md",
+    "ALGOL.md",
+    "정보보호.md",
+    "Excalidraw/Complie Procedure.md",
+    "객체 지향 프로그래밍 언어.md",
+    "Excalidraw",
     "Python.md",
     "C sharp.md",
-    "무제 파일.md",
     "C.md",
     "Java.md",
     "Thread.md",
     "C++.md",
-    "객체 지향 프로그래밍 언어.md",
     "객체 지향 프로그래밍.md",
     "README.md",
     "Pascal.md",
     "자료구조.md",
     "고전음악의이해.md",
     "리눅스프로그래밍실습.md",
-    "정보보호.md",
     "데이터베이스.md",
     "운영체제.md",
-    "컴퓨터네트워크.md",
     "알고리즘.md",
     "프로그래밍 언어.md",
-    "COBOL.md",
-    "ALGOL.md",
     "무제 파일.canvas",
     "MyNote",
     "컴파일러"
