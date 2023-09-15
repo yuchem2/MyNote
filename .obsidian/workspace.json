@@ -23,8 +23,12 @@
                 "id": "e2376603589f564a",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "컴파일러/저급 프로그래밍 언어.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
             ],
@@ -128,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "컴파일러/저급 프로그래밍 언어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,6 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "컴파일러/저급 프로그래밍 언어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +171,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "컴파일러/저급 프로그래밍 언어.md"
+              }
             }
           }
         ],
@@ -188,15 +196,15 @@
   },
   "active": "e2376603589f564a",
   "lastOpenFiles": [
+    "컴파일러/고급 프로그래밍 언어.md",
+    "컴파일러/저급 프로그래밍 언어.md",
+    "컴파일러/인터프린터.md",
+    "컴파일러/컴파일러.md",
     "README.md",
     "컴파일러/프로그래밍 언어.md",
     "무제 파일.canvas",
     "MyNote",
-    "컴파일러/컴파일러.md",
     "컴파일러",
-    "컴파일러/고급 프로그래밍 언어.md",
-    "컴파일러/저급 프로그래밍 언어.md",
-    "컴파일러/인터프린터.md",
     "컴파일러 개론.md",
     "2023-09-15.md",
     "Untitled.md"
