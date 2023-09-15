@@ -30,7 +30,33 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COBOL.md",
+                    "file": "컴파일러/고급 프로그래밍 언어.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5df6897387dcad96",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "FORTRAN.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "cbefeb6b8cb1bb05",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "컴파일러/프로그래밍 언어.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -38,7 +64,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "eb0767a49aa7c971",
@@ -55,34 +81,8 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "0b660e59df66a884",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "컴파일러/프로그래밍 언어.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "1fb3f940a345eafa",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "기계어.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "horizontal"
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COBOL.md",
+                "file": "FORTRAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COBOL.md"
+                "file": "FORTRAN.md"
               }
             }
           },
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COBOL.md",
+                "file": "FORTRAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,16 +215,17 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "673aa575945674b0",
+  "active": "5df6897387dcad96",
   "lastOpenFiles": [
     "컴파일러/고급 프로그래밍 언어.md",
     "COBOL.md",
-    "컴파일러/프로그래밍 언어.md",
     "컴파일러/컴파일러.md",
-    "컴파일러/저급 프로그래밍 언어.md",
-    "컴파일러/인터프린터.md",
+    "컴파일러/프로그래밍 언어.md",
     "어셈블리어.md",
     "기계어.md",
+    "FORTRAN.md",
+    "컴파일러/저급 프로그래밍 언어.md",
+    "컴파일러/인터프린터.md",
     "README.md",
     "무제 파일.canvas",
     "MyNote",
