@@ -25,12 +25,12 @@
                 }
               },
               {
-                "id": "7bb3eba4fc4a7a8a",
+                "id": "bda9d30bed99b925",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "C++.md",
+                    "file": "C sharp.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++.md",
+                "file": "C sharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++.md"
+                "file": "C sharp.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++.md",
+                "file": "C sharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,13 +190,17 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "7bb3eba4fc4a7a8a",
+  "active": "bda9d30bed99b925",
   "lastOpenFiles": [
     "고급 프로그래밍 언어.md",
-    "객체 지향 프로그래밍 언어.md",
-    "C++.md",
-    "객체 지향 프로그래밍.md",
+    "C sharp.md",
+    "무제 파일.md",
     "C.md",
+    "Java.md",
+    "Thread.md",
+    "C++.md",
+    "객체 지향 프로그래밍 언어.md",
+    "객체 지향 프로그래밍.md",
     "README.md",
     "Pascal.md",
     "자료구조.md",
@@ -214,12 +218,8 @@
     "FORTRAN.md",
     "컴파일러/컴파일러.md",
     "어셈블리어.md",
-    "저급 프로그래밍 언어.md",
-    "컴파일러/인터프린터.md",
     "무제 파일.canvas",
     "MyNote",
-    "컴파일러",
-    "컴파일러 개론.md",
-    "2023-09-15.md"
+    "컴파일러"
   ]
 }
