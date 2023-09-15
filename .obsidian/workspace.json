@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴파일러/Complier.md",
-                "mode": "preview",
+                "file": "Compiler.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴파일러/Complier.md",
+                "file": "Compiler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴파일러/Complier.md"
+                "file": "Compiler.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴파일러/Complier.md",
+                "file": "Compiler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,8 +161,12 @@
   },
   "active": "76088c3f45e053fa",
   "lastOpenFiles": [
-    "Error Repair.md",
+    "Compiler.md",
     "컴파일러/Complier.md",
+    "Excalidraw/Complie Procedure.md",
+    "Excalidraw/Pasted image 20230915213308.png",
+    "Complier Generating Tools.md",
+    "Error Repair.md",
     "Error Recovery(Complier).md",
     "Target Code Generator.md",
     "Code Optimizer.md",
@@ -172,8 +176,6 @@
     "토큰(token).md",
     "컴파일러/Cross-Complier.md",
     "Excalidraw/Drawing 2023-09-15 21.51.34.excalidraw.md",
-    "Excalidraw/Complie Procedure.md",
-    "Excalidraw/Pasted image 20230915213308.png",
     "무제 파일.canvas",
     "고급 프로그래밍 언어.md",
     "FORTRAN.md",
@@ -188,8 +190,6 @@
     "무제 파일.md",
     "Excalidraw/Drawing 2023-09-15 21.28.52.excalidraw.md",
     "컴퓨터네트워크.md",
-    "컴파일 과정.md",
-    "ALGOL.md",
     "Excalidraw",
     "MyNote",
     "컴파일러"
