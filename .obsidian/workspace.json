@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴파일러/Cross-Complier.md",
+                "file": "컴파일러/Complier.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c61a64f852523632",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Preprocessor.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,6 +34,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -87,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴파일러/Cross-Complier.md",
+                "file": "Preprocessor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴파일러/Cross-Complier.md"
+                "file": "Preprocessor.md"
               }
             }
           },
@@ -120,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴파일러/Cross-Complier.md",
+                "file": "Preprocessor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,9 +165,10 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "76088c3f45e053fa",
+  "active": "c61a64f852523632",
   "lastOpenFiles": [
     "컴파일러/Complier.md",
+    "Preprocessor.md",
     "컴파일러/Cross-Complier.md",
     "컴파일러/Interpreter.md",
     "Excalidraw/Complie Procedure.md",
@@ -181,7 +196,6 @@
     "고전음악의이해.md",
     "리눅스프로그래밍실습.md",
     "데이터베이스.md",
-    "운영체제.md",
     "무제 파일.canvas",
     "MyNote",
     "컴파일러"
