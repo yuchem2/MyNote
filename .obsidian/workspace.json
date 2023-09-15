@@ -25,12 +25,12 @@
                 }
               },
               {
-                "id": "fbfc694ba6b3a446",
+                "id": "7bb3eba4fc4a7a8a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "README.md",
+                    "file": "C++.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "C++.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,13 +190,16 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "fbfc694ba6b3a446",
+  "active": "7bb3eba4fc4a7a8a",
   "lastOpenFiles": [
-    "C.md",
     "고급 프로그래밍 언어.md",
+    "객체 지향 프로그래밍 언어.md",
+    "C++.md",
+    "객체 지향 프로그래밍.md",
+    "C.md",
+    "README.md",
     "Pascal.md",
     "자료구조.md",
-    "README.md",
     "고전음악의이해.md",
     "리눅스프로그래밍실습.md",
     "정보보호.md",
@@ -217,7 +220,6 @@
     "MyNote",
     "컴파일러",
     "컴파일러 개론.md",
-    "2023-09-15.md",
-    "Untitled.md"
+    "2023-09-15.md"
   ]
 }
