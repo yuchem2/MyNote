@@ -18,21 +18,8 @@
                   "type": "graph",
                   "state": {}
                 }
-              },
-              {
-                "id": "e2376603589f564a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "컴파일러/고급 프로그래밍 언어.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "eb0767a49aa7c971",
@@ -127,29 +114,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "54df83453106facf",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "컴파일러/고급 프로그래밍 언어.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "4717f10be4633069",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴파일러/고급 프로그래밍 언어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,17 +136,31 @@
             }
           },
           {
-            "id": "7a23791f9e555431",
+            "id": "f61d4262f1e18830",
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "aca317498d6669ed",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
               "state": {
-                "file": "컴파일러/고급 프로그래밍 언어.md"
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -189,20 +172,21 @@
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "7a23791f9e555431",
+  "active": "a94fec092c1afe0c",
   "lastOpenFiles": [
-    "컴파일러/저급 프로그래밍 언어.md",
-    "컴파일러/고급 프로그래밍 언어.md",
-    "컴파일러/인터프린터.md",
     "컴파일러/컴파일러.md",
-    "README.md",
     "컴파일러/프로그래밍 언어.md",
+    "컴파일러/인터프린터.md",
+    "컴파일러/고급 프로그래밍 언어.md",
+    "컴파일러/저급 프로그래밍 언어.md",
+    "README.md",
     "무제 파일.canvas",
     "MyNote",
     "컴파일러",

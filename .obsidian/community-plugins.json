@@ -1,4 +1,8 @@
 [
   "obsidian-git",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-excalidraw-plugin",
+  "simple-embeds",
+  "smart-random-note"
 ]
