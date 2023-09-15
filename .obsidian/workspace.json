@@ -4,24 +4,54 @@
     "type": "split",
     "children": [
       {
-        "id": "19ca4fa66aec972e",
-        "type": "tabs",
+        "id": "beeb80527bf8ba27",
+        "type": "split",
         "children": [
           {
-            "id": "76088c3f45e053fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴파일러/Compiler.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+            "id": "2c33df0bbecb490a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bfdff3dd29972c4f",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
               }
-            }
+            ],
+            "stacked": true
+          },
+          {
+            "id": "9d128e6c3027f33f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "daec3878c0ca3f36",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b2ad8c7e09a06f19",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "컴파일러/Compiler.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
           }
         ],
-        "stacked": true
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -87,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴파일러/Compiler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "컴파일러/Compiler.md"
-              }
+              "state": {}
             }
           },
           {
@@ -120,7 +147,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴파일러/Compiler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,9 +185,18 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "76088c3f45e053fa",
+  "active": "bfdff3dd29972c4f",
   "lastOpenFiles": [
     "컴파일러/Compiler.md",
+    "프로그래밍언어",
+    "컴퓨터네트워크",
+    "정보보호",
+    "자료구조",
+    "운영체제",
+    "리눅스프로그래밍",
+    "고전음악의이해",
+    "알고리즘",
+    "데이터베이스",
     "컴파일러/Code Optimizer.md",
     "컴파일러/Compiler Generating Tools.md",
     "컴파일러/Interpreter.md",
@@ -171,27 +206,24 @@
     "컴파일러/Lexial Analyzer Generator.md",
     "컴파일러/Intermediate Code Generator.md",
     "컴파일러/Error Recovery(Complier).md",
-    "형식 언어(Formal Language).md",
-    "ALGOL.md",
-    "문장.md",
+    "컴파일러/형식 언어(Formal Language).md",
+    "프로그래밍언어/ALGOL.md",
+    "컴파일러/문장.md",
     "언어.md",
     "Excalidraw/Complie Procedure.md",
     "컴파일러/Automatic Code Generation.md",
-    "Tree.md",
-    "토큰(Token).md",
+    "자료구조/Tree.md",
+    "컴파일러/토큰(Token).md",
     "컴파일러/Cross-Complier.md",
-    "프로그래밍 언어.md",
-    "Java.md",
+    "프로그래밍언어/프로그래밍 언어.md",
+    "프로그래밍언어/Java.md",
     "컴파일러/Lexical Analyzer.md",
-    "Python.md",
-    "기계어.md",
-    "자료구조.md",
-    "Compiler.md",
+    "프로그래밍언어/Python.md",
+    "프로그래밍언어/기계어.md",
+    "자료구조/자료구조.md",
     "Excalidraw/Pasted image 20230915213308.png",
     "무제 파일.canvas",
     "Pasted image 20230915213242.png",
-    "Excalidraw",
-    "MyNote",
-    "컴파일러"
+    "Excalidraw"
   ]
 }
