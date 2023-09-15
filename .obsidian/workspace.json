@@ -18,8 +18,17 @@
                   "type": "graph",
                   "state": {}
                 }
+              },
+              {
+                "id": "e2376603589f564a",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "eb0767a49aa7c971",
@@ -119,7 +128,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴파일러/프로그래밍 언어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +144,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴파일러/프로그래밍 언어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,12 +165,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "컴파일러/프로그래밍 언어.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -176,13 +182,15 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0b660e59df66a884",
+  "active": "e2376603589f564a",
   "lastOpenFiles": [
-    "무제 파일.canvas",
+    "README.md",
     "컴파일러/프로그래밍 언어.md",
+    "무제 파일.canvas",
     "MyNote",
     "컴파일러/컴파일러.md",
     "컴파일러",
