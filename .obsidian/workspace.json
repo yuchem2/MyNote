@@ -17,7 +17,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "컴파일러/저급 프로그래밍 언어.md",
+                    "file": "어셈블리어.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴파일러/저급 프로그래밍 언어.md",
+                "file": "어셈블리어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴파일러/저급 프로그래밍 언어.md"
+                "file": "어셈블리어.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴파일러/저급 프로그래밍 언어.md",
+                "file": "어셈블리어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,8 +204,9 @@
   "active": "a94fec092c1afe0c",
   "lastOpenFiles": [
     "기계어.md",
-    "컴파일러/프로그래밍 언어.md",
+    "어셈블리어.md",
     "컴파일러/저급 프로그래밍 언어.md",
+    "컴파일러/프로그래밍 언어.md",
     "컴파일러/컴파일러.md",
     "컴파일러/인터프린터.md",
     "컴파일러/고급 프로그래밍 언어.md",
