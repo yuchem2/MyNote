@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "bc94bc3dbc87110c",
-        "type": "split",
+        "id": "c3c41cad8d36c0c7",
+        "type": "tabs",
         "children": [
           {
-            "id": "9d128e6c3027f33f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c52762676915f325",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "고전음악의이해/중세시대 음악.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "44b2ac9f285a29bc",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "그레고리오 성가.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1,
-            "stacked": true
-          },
-          {
-            "id": "c3c41cad8d36c0c7",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d6fe8e6b052ef316",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              }
-            ]
+            "id": "d6fe8e6b052ef316",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "그레고리오 성가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "그레고리오 성가.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "그레고리오 성가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 238.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,39 +148,41 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "44b2ac9f285a29bc",
+  "active": "d6fe8e6b052ef316",
   "lastOpenFiles": [
+    "데이터베이스/정형 데이터(Structured data).md",
+    "데이터베이스/정보(Information).md",
     "고전음악의이해/중세시대 음악.md",
+    "고전음악의이해/계명창법.md",
+    "고전음악의이해/Pasted image 20230916211732.png",
+    "고전음악의이해/그레고리오 성가.md",
+    "Pasted image 20230916211803.png",
+    "고전음악의이해/화성(harmoney).md",
+    "고전음악의이해/피타고라스 음계.md",
+    "고전음악의이해/5음 음계(Pentaonic scale).md",
+    "고전음악의이해/음악(Music).md",
+    "고전음악의이해/고전 음악.md",
+    "고전음악의이해/고대시대 음악.md",
+    "미사 음악.md",
     "네우마.md",
-    "그레고리오 성가.md",
     "단성음악(monophony).md",
     "고전음악의이해/선율(Melody).md",
     "고전음악의이해/음계(scale).md",
     "고전음악의이해/선법 음계.md",
     "고전음악의이해/Pasted image 20230916185818.png",
-    "고전음악의이해/5음 음계(Pentaonic scale).md",
     "고전음악의이해/Pasted image 20230916185453.png",
-    "고전음악의이해/고대시대 음악.md",
-    "고전음악의이해/음악(Music).md",
     "고전음악의이해/단음계(Minor scale).md",
     "고전음악의이해/Pasted image 20230916185137.png",
     "Pasted image 20230916185138.png",
     "고전음악의이해/장음계(Major scale).md",
     "고전음악의이해/Pasted image 20230916184929.png",
-    "고전음악의이해/화성(harmoney).md",
     "고전음악의이해/리듬(Rhythm).md",
-    "고전음악의이해/피타고라스 음계.md",
-    "고전음악의이해/고전 음악.md",
     "README.md",
     "고전음악의이해/고전음악.md",
     "컴파일러/Preprocessor.md",
     "데이터베이스/관계 데이터 모델.md",
     "데이터베이스/투플(tuple)).md",
     "데이터베이스/관계 DBMS.md",
-    "데이터베이스/릴레이션(Relation).md",
-    "데이터베이스/릴레이션 스키마(Relation schema).md",
-    "데이터베이스/릴레이션 인스턴스(Relation instance).md",
-    "데이터베이스/널(null).md",
     "프로그래밍언어",
     "컴퓨터네트워크",
     "정보보호",
