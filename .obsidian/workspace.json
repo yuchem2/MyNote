@@ -4,43 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "beeb80527bf8ba27",
+        "id": "fe1dd2a4ea91ab34",
         "type": "split",
         "children": [
           {
-            "id": "2c33df0bbecb490a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bfdff3dd29972c4f",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              }
-            ],
-            "stacked": true
-          },
-          {
             "id": "9d128e6c3027f33f",
             "type": "tabs",
+            "dimension": 55.38793103448276,
             "children": [
               {
-                "id": "daec3878c0ca3f36",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              },
-              {
-                "id": "b2ad8c7e09a06f19",
+                "id": "c52762676915f325",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "컴파일러/Compiler.md",
+                    "file": "데이터베이스/관계 데이터 모델.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -48,10 +26,25 @@
                 }
               }
             ],
-            "currentTab": 1
+            "stacked": true
+          },
+          {
+            "id": "5fdc67769532dab6",
+            "type": "tabs",
+            "dimension": 44.612068965517246,
+            "children": [
+              {
+                "id": "9e3183759ced4c6e",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
           }
         ],
-        "direction": "vertical"
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -117,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "데이터베이스/관계 데이터 모델.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +123,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -138,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "데이터베이스/관계 데이터 모델.md"
+              }
             }
           },
           {
@@ -147,6 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "데이터베이스/관계 데이터 모델.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -185,9 +182,34 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "bfdff3dd29972c4f",
+  "active": "c52762676915f325",
   "lastOpenFiles": [
-    "컴파일러/Compiler.md",
+    "투플(tuple)).md",
+    "데이터베이스/관계 데이터 모델.md",
+    "데이터베이스/관계 DBMS.md",
+    "데이터베이스/릴레이션(Relation).md",
+    "릴레이션 스키마(Relation schema).md",
+    "릴레이션 인스턴스(Relation instance).md",
+    "널(null).md",
+    "카디널리티(cardicality).md",
+    "차수(Degree).md",
+    "도메인(domain).md",
+    "데이터베이스/속성(attribute).md",
+    "컴파일러/String Concatenation.md",
+    "속성(attribute).md",
+    "README.md",
+    "데이터베이스/데이터 베이스 모델링.md",
+    "데이터베이스/데이터베이스(DB).md",
+    "데이터베이스/데이터 베이스 시스템.md",
+    "데이터베이스/데이터 베이스 언어.md",
+    "데이터베이스/데이터 조작어(DML).md",
+    "데이터베이스/비절차적 데이터 조작어(nonprocedural DML).md",
+    "데이터베이스/절차적 데이터 조작어(procedural DML).md",
+    "데이터베이스/데이터 제어어(DCL).md",
+    "데이터베이스/데이터 정의어(DDL).md",
+    "데이터베이스/데이터(Data).md",
+    "데이터베이스/DBMS(DB management service).md",
+    "데이터베이스/네트워크 DBMS.md",
     "프로그래밍언어",
     "컴퓨터네트워크",
     "정보보호",
@@ -197,30 +219,6 @@
     "고전음악의이해",
     "알고리즘",
     "데이터베이스",
-    "컴파일러/Code Optimizer.md",
-    "컴파일러/Compiler Generating Tools.md",
-    "컴파일러/Interpreter.md",
-    "컴파일러/Target Code Generator.md",
-    "컴파일러/Syntax Analyzer.md",
-    "컴파일러/Parser Generating System.md",
-    "컴파일러/Lexial Analyzer Generator.md",
-    "컴파일러/Intermediate Code Generator.md",
-    "컴파일러/Error Recovery(Complier).md",
-    "컴파일러/형식 언어(Formal Language).md",
-    "프로그래밍언어/ALGOL.md",
-    "컴파일러/문장.md",
-    "언어.md",
-    "Excalidraw/Complie Procedure.md",
-    "컴파일러/Automatic Code Generation.md",
-    "자료구조/Tree.md",
-    "컴파일러/토큰(Token).md",
-    "컴파일러/Cross-Complier.md",
-    "프로그래밍언어/프로그래밍 언어.md",
-    "프로그래밍언어/Java.md",
-    "컴파일러/Lexical Analyzer.md",
-    "프로그래밍언어/Python.md",
-    "프로그래밍언어/기계어.md",
-    "자료구조/자료구조.md",
     "Excalidraw/Pasted image 20230915213308.png",
     "무제 파일.canvas",
     "Pasted image 20230915213242.png",
