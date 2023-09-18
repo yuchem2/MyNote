@@ -14,6 +14,32 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "fd3921092a4bc6ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보보호/Security mechanism.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1ffa2791d81721c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보보호/접근 제어(Access control).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -150,39 +176,39 @@
   },
   "active": "d6fe8e6b052ef316",
   "lastOpenFiles": [
+    "컴파일러/문법(Grammer).md",
+    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
+    "정보보호/Security mechanism.md",
+    "정보보호/사이버 보안(Cybersecurity).md",
+    "정보보호/접근 제어(Access control).md",
+    "정보보호/Security service.md",
+    "정보보호/부인봉쇄(Non-repudiation).md",
+    "정보보호/인증(Authentication).md",
+    "정보보호/Security attack.md",
+    "정보보호/Passive attack.md",
+    "정보보호/정보 보안(Information security).md",
+    "정보보호/데이터 무결성(Data Integrity).md",
+    "정보보호/인증 교환(Authentication exchange).md",
+    "정보보호/공증(Notarization).md",
+    "정보보호/Routing control.md",
+    "정보보호/Traffic padding.md",
+    "정보보호/네트워크 보안(Network security).md",
+    "알고리즘/알고리즘.md",
+    "정보보호/디지털 서명(Digital Signature).md",
+    "정보보호/데이터 기밀성(Data Confidentiality).md",
+    "정보보호/Active attack.md",
+    "정보보호/정보보호.md",
+    "컴파일러/형식 언어(Formal Language).md",
+    "컴파일러/문장.md",
     "데이터베이스/정형 데이터(Structured data).md",
     "데이터베이스/정보(Information).md",
-    "고전음악의이해/중세시대 음악.md",
-    "고전음악의이해/계명창법.md",
     "고전음악의이해/Pasted image 20230916211732.png",
-    "고전음악의이해/그레고리오 성가.md",
     "Pasted image 20230916211803.png",
-    "고전음악의이해/화성(harmoney).md",
-    "고전음악의이해/피타고라스 음계.md",
-    "고전음악의이해/5음 음계(Pentaonic scale).md",
-    "고전음악의이해/음악(Music).md",
-    "고전음악의이해/고전 음악.md",
-    "고전음악의이해/고대시대 음악.md",
-    "미사 음악.md",
-    "네우마.md",
-    "단성음악(monophony).md",
-    "고전음악의이해/선율(Melody).md",
-    "고전음악의이해/음계(scale).md",
-    "고전음악의이해/선법 음계.md",
     "고전음악의이해/Pasted image 20230916185818.png",
     "고전음악의이해/Pasted image 20230916185453.png",
-    "고전음악의이해/단음계(Minor scale).md",
     "고전음악의이해/Pasted image 20230916185137.png",
     "Pasted image 20230916185138.png",
-    "고전음악의이해/장음계(Major scale).md",
     "고전음악의이해/Pasted image 20230916184929.png",
-    "고전음악의이해/리듬(Rhythm).md",
-    "README.md",
-    "고전음악의이해/고전음악.md",
-    "컴파일러/Preprocessor.md",
-    "데이터베이스/관계 데이터 모델.md",
-    "데이터베이스/투플(tuple)).md",
-    "데이터베이스/관계 DBMS.md",
     "프로그래밍언어",
     "컴퓨터네트워크",
     "정보보호",
