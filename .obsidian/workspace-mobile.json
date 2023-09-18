@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴파일러/Language.md",
+                "file": "컴파일러/문법(Grammer).md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "컴파일러/Language.md",
+            "file": "컴파일러/문법(Grammer).md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "컴파일러/Language.md",
+            "file": "컴파일러/문법(Grammer).md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "컴파일러/Language.md"
+            "file": "컴파일러/문법(Grammer).md"
           }
         }
       }
@@ -134,13 +134,21 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "87bd37d2ac6e0835",
+  "active": "54283108f2d7b56d",
   "lastOpenFiles": [
+    "컴파일러/문장.md",
+    "컴파일러/정규언어.md",
+    "컴파일러/Lexical Analyzer.md",
     "컴파일러/형식 언어(Formal Language).md",
+    "컴파일러/문법(Grammer).md",
+    "형식 언어(Fomal Language).md",
+    "컴파일러/Compiler.md",
+    "컴파일러/Syntax Analyzer.md",
+    "컴파일러/String.md",
+    "컴파일러/Reverse String.md",
+    "컴파일러/Language.md",
     "컴파일러/Language product.md",
     "컴파일러/Powers of language.md",
-    "컴파일러/Language.md",
-    "컴파일러/문법(Grammer).md",
     "고전음악의이해/계명창법.md",
     "컴파일러/프로그래밍 언어.md",
     "컴파일러/고급 프로그래밍 언어.md",
