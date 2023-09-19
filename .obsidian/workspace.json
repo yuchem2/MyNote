@@ -4,41 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c3c41cad8d36c0c7",
+        "id": "b38d4fd5313cc99d",
         "type": "tabs",
         "children": [
           {
-            "id": "d6fe8e6b052ef316",
+            "id": "343dd49a8b89915d",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "fd3921092a4bc6ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보보호/Security mechanism.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1ffa2791d81721c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보보호/접근 제어(Access control).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
             }
           }
         ]
@@ -160,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 238.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,34 +149,36 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "d6fe8e6b052ef316",
+  "active": "343dd49a8b89915d",
   "lastOpenFiles": [
-    "컴파일러/문법(Grammer).md",
-    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
-    "정보보호/Security mechanism.md",
-    "정보보호/사이버 보안(Cybersecurity).md",
+    "Excalidraw/Compile Procedure.md",
+    "컴파일러/Compiler.md",
+    "운영체제/운영체제(Operating System).md",
+    "운영체제/Security.md",
+    "운영체제/Proctection.md",
+    "운영체제/입출력 서브시스템.md",
+    "운영체제/Spooling.md",
+    "운영체제/Buffering.md",
+    "운영체제/입출력.md",
+    "운영체제/Mass-Storage Management.md",
+    "운영체제/Storage Management.md",
+    "운영체제/Seconary Storage.md",
+    "운영체제/Teriary storage.md",
+    "운영체제/Storage Strcuture.md",
+    "운영체제/File-System Management.md",
+    "운영체제/Device controller.md",
+    "운영체제/Main Memory.md",
     "정보보호/접근 제어(Access control).md",
-    "정보보호/Security service.md",
-    "정보보호/부인봉쇄(Non-repudiation).md",
-    "정보보호/인증(Authentication).md",
-    "정보보호/Security attack.md",
-    "정보보호/Passive attack.md",
-    "정보보호/정보 보안(Information security).md",
-    "정보보호/데이터 무결성(Data Integrity).md",
-    "정보보호/인증 교환(Authentication exchange).md",
-    "정보보호/공증(Notarization).md",
-    "정보보호/Routing control.md",
-    "정보보호/Traffic padding.md",
-    "정보보호/네트워크 보안(Network security).md",
-    "알고리즘/알고리즘.md",
-    "정보보호/디지털 서명(Digital Signature).md",
-    "정보보호/데이터 기밀성(Data Confidentiality).md",
-    "정보보호/Active attack.md",
-    "정보보호/정보보호.md",
-    "컴파일러/형식 언어(Formal Language).md",
-    "컴파일러/문장.md",
-    "데이터베이스/정형 데이터(Structured data).md",
-    "데이터베이스/정보(Information).md",
+    "운영체제/Single-threaded process.md",
+    "운영체제/Single-processor.md",
+    "운영체제/Process Management.md",
+    "운영체제/Process.md",
+    "운영체제/PC(Program Counter).md",
+    "운영체제/Multitasking.md",
+    "운영체제/Multi-programming.md",
+    "운영체제/Multi-processor.md",
+    "Synchronous I",
+    "I",
     "고전음악의이해/Pasted image 20230916211732.png",
     "Pasted image 20230916211803.png",
     "고전음악의이해/Pasted image 20230916185818.png",
@@ -217,10 +194,8 @@
     "리눅스프로그래밍",
     "고전음악의이해",
     "알고리즘",
-    "데이터베이스",
     "Excalidraw/Pasted image 20230915213308.png",
     "무제 파일.canvas",
-    "Pasted image 20230915213242.png",
-    "Excalidraw"
+    "Pasted image 20230915213242.png"
   ]
 }
