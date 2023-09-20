@@ -1,5 +1,5 @@
 
-a [[String]] consisting of no symbols
+a [[String(Sentence)]] consisting of no symbols
 
 denoted by $\epsilon$ or $\lambda$
 

@@ -1,19 +1,19 @@
 
 언어에 관한 이론을 체계적으로 전개하기 위해서는 잘 정의된 언어가 필요로 한다.
 
-잘 정의된 언어를 형식 언어라고 부르며 보통 [[문장]]의 집합으로 정의된다. 언어의 의미보다는 “형식”에 초점을 두기 때문에 형식 언어라고 한다
+잘 정의된 언어를 형식 언어라고 부르며 보통 [[String(Sentence)]]의 집합으로 정의된다. 언어의 의미보다는 “형식”에 초점을 두기 때문에 형식 언어라고 한다
 
 기본적인 정의는 다음과 같다.
 
 ## **Basic Definitions** 
 --- 
 + [[Alphabet]]
-+ [[String]]
++ [[String(Sentence)]]
 	+ [[Reverse String]]
 	+ [[String Length]]
 	+ [[String Concatenation]]
 	+ [[Empty string]]
-+ [[Language]]
++ [[언어(Language)]]
 	+ [[Language product]]
 	+ [[Powers of language]]
 

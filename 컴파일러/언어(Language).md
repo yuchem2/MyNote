@@ -1,5 +1,5 @@
 
-any set of [[String]]s over an [[Alphabet]] 
+any set of [[String(Sentence)]]s over an [[Alphabet]] 
 
 A language L over the [[alphabet]] T is a subset of $T^*$ ($L \subseteq T^*$)
 

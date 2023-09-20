@@ -15,79 +15,65 @@
       }
     },
     {
-      "query": "음악",
+      "query": "path: 컴파일러  ",
       "color": {
         "a": 1,
-        "rgb": 14069084
+        "rgb": 14851346
       }
     },
     {
-      "query": "자료구조",
+      "query": "path:데이터베이스  ",
       "color": {
         "a": 1,
-        "rgb": 5143079
+        "rgb": 11392604
       }
     },
     {
-      "query": "운영체제",
+      "query": "path: 정보보호  ",
       "color": {
         "a": 1,
-        "rgb": 22230
+        "rgb": 6084188
       }
     },
     {
-      "query": "Data",
+      "query": "path: 알고리즘  ",
       "color": {
         "a": 1,
-        "rgb": 9884511
+        "rgb": 6084269
       }
     },
     {
-      "query": "Language",
+      "query": "path: 자료구조",
       "color": {
         "a": 1,
-        "rgb": 41432
+        "rgb": 6073814
       }
     },
     {
-      "query": "Compiler",
+      "query": "path: 고전음악의이해  ",
       "color": {
         "a": 1,
-        "rgb": 41432
+        "rgb": 16510134
       }
     },
     {
-      "query": "Process",
+      "query": "path: 운영체제  ",
       "color": {
         "a": 1,
-        "rgb": 22230
-      }
-    },
-    {
-      "query": "DB",
-      "color": {
-        "a": 1,
-        "rgb": 9884511
-      }
-    },
-    {
-      "query": "Algorithm",
-      "color": {
-        "a": 1,
-        "rgb": 9972412
+        "rgb": 11361494
       }
     }
   ],
   "collapse-display": false,
-  "showArrow": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.91774193548387,
-  "lineSizeMultiplier": 4.42043010752688,
+  "nodeSizeMultiplier": 2.26176470588235,
+  "lineSizeMultiplier": 1.29532871972318,
   "collapse-forces": false,
-  "centerStrength": 0.456989247311828,
-  "repelStrength": 9.56989247311828,
-  "linkStrength": 0.983870967741936,
-  "linkDistance": 159,
-  "scale": 0.7590390559912737,
+  "centerStrength": 0.481833910034602,
+  "repelStrength": 9.70588235294118,
+  "linkStrength": 0.796712802768166,
+  "linkDistance": 174,
+  "scale": 0.32868109474096435,
   "close": false
 }

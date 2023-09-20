@@ -4,11 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "b38d4fd5313cc99d",
+        "id": "1e7583054b8a463c",
         "type": "tabs",
         "children": [
           {
-            "id": "343dd49a8b89915d",
+            "id": "7d09113a668a3cdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴파일러/정규 문법(RG, Regular grammar).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3f97747b2efcb21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴파일러/정규 언어(RL, Regular Language).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2752a31632f58c71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴파일러/토큰(Token).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6aff8ee2dd2eb424",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -81,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "컴파일러/정규 문법(RG, Regular grammar).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "컴파일러/정규 문법(RG, Regular grammar).md"
+              }
             }
           },
           {
@@ -111,6 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "컴파일러/정규 문법(RG, Regular grammar).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
-    "collapsed": true
+    "width": 238.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,38 +191,35 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "343dd49a8b89915d",
+  "active": "7d09113a668a3cdf",
   "lastOpenFiles": [
-    "데이터베이스/정형 데이터(Structured data).md",
-    "데이터베이스/정보(Information).md",
-    "고전음악의이해/중세시대 음악.md",
-    "고전음악의이해/계명창법.md",
+    "컴파일러/정규 언어(RL, Regular Language).md",
+    "컴파일러/토큰(Token).md",
+    "컴파일러/정규 문법(RG, Regular grammar).md",
+    "컴파일러/문법(Grammer).md",
+    "컴파일러/정규 언어(Regular Language).md",
+    "컴파일러/Unrestriced Grammar.md",
+    "컴파일러/CFG(Context-free grammar).md",
+    "컴파일러/CSG(Context-sensitive Grammar).md",
+    "컴파일러/정규표현(RE, Regular Expression).md",
+    "컴파일러/Lexical Analyzer.md",
+    "컴파일러/String(Sentence).md",
+    "컴파일러/Derivation.md",
+    "컴파일러/형식 언어(Formal Language).md",
+    "컴파일러/언어(Language).md",
+    "알고리즘/알고리즘(Algorithm).md",
+    "컴파일러/Compiler Generating Tools.md",
+    "컴파일러/Alphabet.md",
+    "무제 파일.canvas",
+    "운영체제/Process.md",
+    "자료구조/자료구조(Data Structure).md",
+    "운영체제/Multi-programming.md",
+    "운영체제/Interrupt Service Routine.md",
+    "운영체제/Computer Startup.md",
+    "운영체제/인터럽트(Interrupt).md",
     "Excalidraw/Compile Procedure.md",
     "컴파일러/Compiler.md",
     "운영체제/운영체제(Operating System).md",
-    "운영체제/Security.md",
-    "운영체제/Proctection.md",
-    "운영체제/입출력 서브시스템.md",
-    "운영체제/Spooling.md",
-    "운영체제/Buffering.md",
-    "운영체제/입출력.md",
-    "운영체제/Mass-Storage Management.md",
-    "운영체제/Storage Management.md",
-    "운영체제/Seconary Storage.md",
-    "운영체제/Teriary storage.md",
-    "운영체제/Storage Strcuture.md",
-    "운영체제/File-System Management.md",
-    "운영체제/Device controller.md",
-    "운영체제/Main Memory.md",
-    "정보보호/접근 제어(Access control).md",
-    "운영체제/Single-threaded process.md",
-    "운영체제/Single-processor.md",
-    "운영체제/Process Management.md",
-    "운영체제/Process.md",
-    "운영체제/PC(Program Counter).md",
-    "운영체제/Multitasking.md",
-    "운영체제/Multi-programming.md",
-    "운영체제/Multi-processor.md",
     "Synchronous I",
     "I",
     "고전음악의이해/Pasted image 20230916211732.png",
@@ -199,7 +238,6 @@
     "고전음악의이해",
     "알고리즘",
     "Excalidraw/Pasted image 20230915213308.png",
-    "무제 파일.canvas",
     "Pasted image 20230915213242.png"
   ]
 }
