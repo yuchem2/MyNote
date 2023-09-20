@@ -6,17 +6,88 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "README",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "음악",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "자료구조",
+      "color": {
+        "a": 1,
+        "rgb": 5143079
+      }
+    },
+    {
+      "query": "운영체제",
+      "color": {
+        "a": 1,
+        "rgb": 22230
+      }
+    },
+    {
+      "query": "Data",
+      "color": {
+        "a": 1,
+        "rgb": 9884511
+      }
+    },
+    {
+      "query": "Language",
+      "color": {
+        "a": 1,
+        "rgb": 41432
+      }
+    },
+    {
+      "query": "Compiler",
+      "color": {
+        "a": 1,
+        "rgb": 41432
+      }
+    },
+    {
+      "query": "Process",
+      "color": {
+        "a": 1,
+        "rgb": 22230
+      }
+    },
+    {
+      "query": "DB",
+      "color": {
+        "a": 1,
+        "rgb": 9884511
+      }
+    },
+    {
+      "query": "Algorithm",
+      "color": {
+        "a": 1,
+        "rgb": 9972412
+      }
+    }
+  ],
   "collapse-display": false,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 2.26176470588235,
-  "lineSizeMultiplier": 1.29532871972318,
-  "collapse-forces": true,
-  "centerStrength": 0.496539792387543,
-  "repelStrength": 13.2525951557093,
-  "linkStrength": 0.735294117647059,
-  "linkDistance": 200,
-  "scale": 0.5456181373457033,
-  "close": true
+  "nodeSizeMultiplier": 1.91774193548387,
+  "lineSizeMultiplier": 4.42043010752688,
+  "collapse-forces": false,
+  "centerStrength": 0.456989247311828,
+  "repelStrength": 9.56989247311828,
+  "linkStrength": 0.983870967741936,
+  "linkDistance": 159,
+  "scale": 0.7590390559912737,
+  "close": false
 }

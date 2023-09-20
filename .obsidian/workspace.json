@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c3c41cad8d36c0c7",
+        "id": "b38d4fd5313cc99d",
         "type": "tabs",
         "children": [
           {
-            "id": "d6fe8e6b052ef316",
+            "id": "343dd49a8b89915d",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 238.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,12 +149,40 @@
       "canvas:새 캔버스 만들기": false
     }
   },
-  "active": "d6fe8e6b052ef316",
+  "active": "343dd49a8b89915d",
   "lastOpenFiles": [
     "데이터베이스/정형 데이터(Structured data).md",
     "데이터베이스/정보(Information).md",
     "고전음악의이해/중세시대 음악.md",
     "고전음악의이해/계명창법.md",
+    "Excalidraw/Compile Procedure.md",
+    "컴파일러/Compiler.md",
+    "운영체제/운영체제(Operating System).md",
+    "운영체제/Security.md",
+    "운영체제/Proctection.md",
+    "운영체제/입출력 서브시스템.md",
+    "운영체제/Spooling.md",
+    "운영체제/Buffering.md",
+    "운영체제/입출력.md",
+    "운영체제/Mass-Storage Management.md",
+    "운영체제/Storage Management.md",
+    "운영체제/Seconary Storage.md",
+    "운영체제/Teriary storage.md",
+    "운영체제/Storage Strcuture.md",
+    "운영체제/File-System Management.md",
+    "운영체제/Device controller.md",
+    "운영체제/Main Memory.md",
+    "정보보호/접근 제어(Access control).md",
+    "운영체제/Single-threaded process.md",
+    "운영체제/Single-processor.md",
+    "운영체제/Process Management.md",
+    "운영체제/Process.md",
+    "운영체제/PC(Program Counter).md",
+    "운영체제/Multitasking.md",
+    "운영체제/Multi-programming.md",
+    "운영체제/Multi-processor.md",
+    "Synchronous I",
+    "I",
     "고전음악의이해/Pasted image 20230916211732.png",
     "고전음악의이해/그레고리오 성가.md",
     "Pasted image 20230916211803.png",
@@ -191,10 +220,8 @@
     "리눅스프로그래밍",
     "고전음악의이해",
     "알고리즘",
-    "데이터베이스",
     "Excalidraw/Pasted image 20230915213308.png",
     "무제 파일.canvas",
-    "Pasted image 20230915213242.png",
-    "Excalidraw"
+    "Pasted image 20230915213242.png"
   ]
 }

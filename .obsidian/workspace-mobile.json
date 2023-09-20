@@ -11,13 +11,8 @@
             "id": "87bd37d2ac6e0835",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴파일러/문법(Grammer).md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "컴파일러/문법(Grammer).md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "컴파일러/문법(Grammer).md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,9 +107,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "컴파일러/문법(Grammer).md"
-          }
+          "state": {}
         }
       }
     ],
@@ -136,26 +127,32 @@
   },
   "active": "54283108f2d7b56d",
   "lastOpenFiles": [
-    "컴파일러/문장.md",
-    "컴파일러/정규언어.md",
-    "컴파일러/Lexical Analyzer.md",
-    "컴파일러/형식 언어(Formal Language).md",
+    "정보보호/정보보호.md",
+    "운영체제/Proctection.md",
+    "자료구조/자료구조(Data Structure).md",
+    "알고리즘/알고리즘(Algorithm).md",
+    "README.md",
+    "정규 문법(General Grammar).md",
+    "컴파일러/Cross-Complier.md",
+    "컴파일러/정규 언어(General Language).md",
     "컴파일러/문법(Grammer).md",
-    "형식 언어(Fomal Language).md",
-    "컴파일러/Compiler.md",
-    "컴파일러/Syntax Analyzer.md",
     "컴파일러/String.md",
+    "컴파일러/Lexical Analyzer.md",
+    "컴파일러/Compiler.md",
+    "컴파일러/형식 언어(Formal Language).md",
+    "데이터베이스/릴레이션(Relation).md",
+    "데이터베이스/릴레이션 인스턴스(Relation instance).md",
+    "고전음악의이해/고전 음악.md",
+    "Excalidraw/Drawing 2023-09-20 11.48.12.excalidraw.md",
+    "운영체제/인터럽트(Interrupt).md",
+    "운영체제/운영체제(Operating System).md",
+    "운영체제/Memory Management.md",
+    "컴파일러/문장.md",
+    "형식 언어(Fomal Language).md",
+    "컴파일러/Syntax Analyzer.md",
     "컴파일러/Reverse String.md",
     "컴파일러/Language.md",
     "컴파일러/Language product.md",
-    "컴파일러/Powers of language.md",
-    "고전음악의이해/계명창법.md",
-    "컴파일러/프로그래밍 언어.md",
-    "컴파일러/고급 프로그래밍 언어.md",
-    "README.md",
-    "컴파일러/저급 프로그래밍 언어.md",
-    "컴파일러/컴파일러.md",
-    "컴파일러/인터프린터.md",
     "컴파일러"
   ]
 }
