@@ -6,7 +6,8 @@ $$ If \; \alpha \rightarrow \beta \in P, \quad \begin{array}{cc} {A \rightarrow 
 
 이를 인식하는 [[Recognizer]]를 [[FA(Finite Automata)]]라고 함
 
-『컴파일러 입문』에서는 정규 문법을 다음과 같이 정의한다. 
+### 『컴파일러 입문』의 정의
+
 > A grammar is regular if each rule is 
 > 	i) $A \rightarrow aB, \; A \rightarrow a, \; where \; a \in V_T, \; A, \; B \in V_N$ 
 > 	ii) if $S\rightarrow \epsilon \in P,$ then $S$ doesn't appear in rhs.
@@ -15,7 +16,17 @@ $$ If \; \alpha \rightarrow \beta \in P, \quad \begin{array}{cc} {A \rightarrow 
 
 그리고, *Chomsky Hierachy*에서 말하는 정규 문법이 생성한 문법을 RLG(Regular Linear Grammer)라고 정의한다
 
-『컴파일러 입문』에서 정의한 정규 문법도 *Chomsky Hierachy*의 정규 문법과 정확하게 동일한 것임을 인지할 필요가 있다(어느정도의 치환은 필요)
+『컴파일러 입문』에서 정의한 정규 문법도 *Chomsky Hierachy*의 정규 문법과 정확하게 동일한 것임을 인지할 필요가 있다(어느 정도의 치환은 필요)
 
 학습, 계산의 용이를 위해 다음과 같이 정의한 것이다
 
+
+### 참고사항
+※ 우선형 문법에서 $t=\epsilon$인 경우 생성 규칙의 형태가 $A \rightarrow B$ 또는 $A \rightarrow \epsilon$의 형태가 된다. 
+  전자를 단일 생성 규칙이라고 하며 후자를 $\epsilon$-생성규칙이라 부른다. 이러한 경우 생성 규칙의 대입을 통해 쉽게 제거할 수 있으며 『컴파일러 입문』의 정의와 같은 형태로 변환할 수 있다. 
+  그러므로 다음은 모두 동등한 의미를 가진다
+  + 언어 L은 우선형 문법에 의해 생성된다.
+  + 언어 L은 좌선형 문법에 의해 생성된다.
+  + 언어 L은 정규 문법(『컴파일러 입문』의 정의)에 의해 생성된다. 
+
+※ 이 문법이 나타내는 [[언어(Language)]]의 형태를 체계적으로 구하여 [[정규표현(RE, Regular Expression)]]으로 나타낼 수 있다. 
