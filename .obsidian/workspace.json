@@ -4,28 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1e7583054b8a463c",
+        "id": "cedbe2556d428248",
         "type": "tabs",
         "children": [
           {
-            "id": "7d09113a668a3cdf",
+            "id": "76583fd19e4783cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴파일러/정규표현(RE, Regular Expression).md",
+                "file": "정보보호/MAC(Message Authentication Code).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "6aff8ee2dd2eb424",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -94,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴파일러/정규표현(RE, Regular Expression).md",
+                "file": "정보보호/MAC(Message Authentication Code).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴파일러/정규표현(RE, Regular Expression).md"
+                "file": "정보보호/MAC(Message Authentication Code).md"
               }
             }
           },
@@ -127,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴파일러/정규표현(RE, Regular Expression).md",
+                "file": "정보보호/MAC(Message Authentication Code).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 238.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,35 +157,37 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "7d09113a668a3cdf",
+  "active": "76583fd19e4783cf",
   "lastOpenFiles": [
-    "컴파일러/정규 언어(RL, Regular Language).md",
-    "컴파일러/정규 문법(RG, Regular grammar).md",
-    "컴파일러/Lexical Analyzer.md",
-    "컴파일러/토큰(Token).md",
-    "컴파일러/정규표현(RE, Regular Expression).md",
-    "컴파일러/문법(Grammer).md",
-    "컴파일러/정규 언어(Regular Language).md",
-    "컴파일러/Unrestriced Grammar.md",
-    "컴파일러/CFG(Context-free grammar).md",
-    "컴파일러/CSG(Context-sensitive Grammar).md",
-    "컴파일러/String(Sentence).md",
-    "컴파일러/Derivation.md",
-    "컴파일러/형식 언어(Formal Language).md",
-    "컴파일러/언어(Language).md",
-    "알고리즘/알고리즘(Algorithm).md",
-    "컴파일러/Compiler Generating Tools.md",
-    "컴파일러/Alphabet.md",
+    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
+    "정보보호/Symmetic encryption.md",
+    "정보보호/MAC(Message Authentication Code).md",
+    "정보보호/Stream cipher symmetric encryption.md",
+    "정보보호/Block cipher symmetic encryption.md",
+    "정보보호/PRNG(Pseudo-Random Number Generator).md",
+    "정보보호/Cryptographic hash function.md",
+    "정보보호/디지털 서명(Digital Signature).md",
+    "정보보호/User authentication.md",
+    "정보보호/Key exchange.md",
+    "정보보호/Asymmetric encryption.md",
+    "Cryptography.md",
+    "정보보호/정보 보호(Information Security).md",
+    "README.md",
+    "정보보호/사이버 보안(Cybersecurity).md",
+    "정보보호/부인봉쇄(Non-repudiation).md",
+    "정보보호/데이터 무결성(Data Integrity).md",
+    "정보보호/데이터 기밀성(Data Confidentiality).md",
+    "정보보호/네트워크 보안(Network security).md",
+    "정보보호/공증(Notarization).md",
+    "정보보호/정보 보호(Inforamation Security).md",
+    "정보보호/인증 교환(Authentication exchange).md",
+    "정보보호/인증(Authentication).md",
+    "정보보호/접근 제어(Access control).md",
+    "정보보호/Active attack.md",
+    "정보보호/Passive attack.md",
+    "컴파일러/Pasted image 20230915213308.png",
+    "데이터베이스/Pasted image 20230922154911.png",
     "무제 파일.canvas",
-    "운영체제/Process.md",
-    "자료구조/자료구조(Data Structure).md",
-    "운영체제/Multi-programming.md",
-    "운영체제/Interrupt Service Routine.md",
-    "운영체제/Computer Startup.md",
-    "운영체제/인터럽트(Interrupt).md",
-    "Excalidraw/Compile Procedure.md",
-    "컴파일러/Compiler.md",
-    "운영체제/운영체제(Operating System).md",
     "Synchronous I",
     "I",
     "고전음악의이해/Pasted image 20230916211732.png",
@@ -210,7 +205,6 @@
     "리눅스프로그래밍",
     "고전음악의이해",
     "알고리즘",
-    "Excalidraw/Pasted image 20230915213308.png",
     "Pasted image 20230915213242.png"
   ]
 }

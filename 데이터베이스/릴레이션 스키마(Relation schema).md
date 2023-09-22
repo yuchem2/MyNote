@@ -1,7 +1,7 @@
 
-[[릴레이션(Relation)]]의 논리적 구조로, 
+[[릴레이션(Relation)]]의 논리적 구조이다.
 
-[[스키마(Schema)]]의 구성요소로 [[속성(attribute)]], [[도메인(domain)]], [[차수(Degree)]]를 가진다.
+구성요소로 [[속성(attribute)]], [[도메인(domain)]], [[차수(Degree)]]를 가진다.
 
 [[릴레이션(Relation)]]의 이름과 모든 [[속성(attribute)]] 이름으로 정의된다
 

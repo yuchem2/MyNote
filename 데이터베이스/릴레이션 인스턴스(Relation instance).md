@@ -1,7 +1,7 @@
 
 어느 한 시점에서 [[릴레이션(Relation)]]에 존재하는 [[투플(tuple))]]들의 집합
 
-[[인스턴스(instance)]]의 요소로 [[투플(tuple))]], [[카디널리티(cardicality)]]를 가진다
+요소로 [[투플(tuple))]], [[카디널리티(cardicality)]]를 가진다
 
 [[릴레이션(Relation)]]의 외연(extension)이라고도 한다
 

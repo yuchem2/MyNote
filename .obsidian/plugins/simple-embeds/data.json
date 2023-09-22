@@ -23,7 +23,7 @@
   "codepenEditable": false,
   "redditTheme": "auto",
   "enableInLivePreview": true,
-  "centerEmbeds": false,
+  "centerEmbeds": true,
   "keepLinksInPreview": false,
   "embedPlacement": "above",
   "disableAutomaticEmbeds": false,

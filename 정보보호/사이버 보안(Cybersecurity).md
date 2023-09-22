@@ -1,11 +1,11 @@
 > Cybersecurity is the protection of information that is stored, transmitted, and processed in a networked system of computers, other digital devices, and network devices and transmission lines, including the Internet. Protection encompasses confidentiality, integrity, availability, authenticity, and accountability. Methods of protection include organizational policies and procedures, as well as technical means such as encryption and secure communications protocols. 
 
 
-사이버 보안은 저장되거나 전송되는 정보에 대한 보호를 말한다. 이때 정보는 네트워크 상의 컴퓨터나 다른 디지털 장비 사이에서 전송될 수 있고, 네트워크 장비와 전송 라인 사이에서 있을 수도 있으며 인터넷 상에 존재할 수 있다. 
+사이버 보안은 저장되거나 전송되는 정보를 보호하는 것을 말한다. 이때 정보는 네트워크 상의 컴퓨터나 다른 디지털 장비 사이에서 전송될 수 있고, 네트워크 장비와 전송 라인 사이에서 있을 수도 있으며 인터넷 상에 존재할 수 있다. 
 
 보호에는 기밀성, 무결성, 가용성, 진정성 및 책임이 포함된다. 보호 방법에는 조직 내 정책과 절차, 암호화 및 통신 프로토콜과 같은 기술적 수단이 포함된다. 
 
-사이버 보안은 [[정보 보안(Information security)]]과 [[네트워크 보안(Network security)]]으로 나눌 수 있다. 
+사이버 보안은 [[정보 보호(Information Security)]]과 [[네트워크 보안(Network security)]]으로 나눌 수 있다. 
 
 
 ## **Security Objectives**
