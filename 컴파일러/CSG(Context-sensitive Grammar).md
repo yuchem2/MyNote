@@ -3,4 +3,4 @@
 $$If \; \alpha \rightarrow \beta \in P,\quad \alpha \rightarrow \beta, \; |\alpha| \leq |\beta|$$
 이 문법으로 인해 생성된 [[언어(Language)]]를 [[CSL(Context Sensitive Language)]] 라고 함
 
-이를 인식하는 [[Recognizer]]를 [[Linear Bounded Automata]]라고 함
+이를 인식하는 [[인식기(Recognizer)]]를 [[Linear Bounded Automata]]라고 함

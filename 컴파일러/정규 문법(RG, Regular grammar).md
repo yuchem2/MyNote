@@ -4,7 +4,7 @@ $$ If \; \alpha \rightarrow \beta \in P, \quad \begin{array}{cc} {A \rightarrow 
 
 이 문법으로 인해 생성된 [[언어(Language)]]를 [[정규 언어(RL, Regular Language)]] 라고 함
 
-이를 인식하는 [[Recognizer]]를 [[FA(Finite Automata)]]라고 함
+이를 인식하는 [[인식기(Recognizer)]]를 [[FA(Finite Automata)]]라고 함
 
 ### 『컴파일러 입문』의 정의
 

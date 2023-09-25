@@ -14,6 +14,8 @@ $$G = (V_N, V_T, P, S)$$
 
 하지만, 암묵적으로 [[정규 문법(RG, Regular grammar)]]에서 $P$ 만 존재하는 경우 맨 처음 등장하는 lhs에 위치한 심볼을 $S$로 인지하고, 대문자 심볼을 $V_N$, 소문자 심볼을 $V_T$라고 판단한다. 
 
+생성 규칙에서 $S \rightarrow aSb$와 같이 "같은 수의 terminal symbol" 사이에 "nonterminal symbol" 이 위치한 경우를 embadded 생성 규칙이라고 함. 
+
 ## **[[언어(Language)]]와의 관계**
 ---
 + [[문법(Grammer)]]으로부터 “유일”한 [[언어(Language)]]이 생성된다

@@ -4,4 +4,4 @@ $$If \; \alpha \rightarrow \beta \in P, \quad A \rightarrow \alpha, where \; A \
 
 이 문법으로 인해 생성된 [[언어(Language)]]를 [[CFL(Context Free Language)]] 라고 함
 
-이를 인식하는 [[Recognizer]]를 [[Pushdown Automata]]라고 함
+이를 인식하는 [[인식기(Recognizer)]]를 [[Pushdown Automata]]라고 함
