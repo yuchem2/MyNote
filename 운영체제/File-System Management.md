@@ -8,4 +8,3 @@
 + 파일과 디렉터리를 조작할 수 있는 기본 명령어(Primitives)
 + 파일을 [[Seconary Storage]]에 mapping
 + 비 휘발성 저장 매체에 파일을 백업
-+ 

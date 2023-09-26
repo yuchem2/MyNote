@@ -29,4 +29,4 @@ $$ If \; \alpha \rightarrow \beta \in P, \quad \begin{array}{cc} {A \rightarrow 
   + 언어 L은 좌선형 문법에 의해 생성된다.
   + 언어 L은 정규 문법(『컴파일러 입문』의 정의)에 의해 생성된다. 
 
-※ 이 문법이 나타내는 [[언어(Language)]]의 형태를 체계적으로 구하여 [[정규표현(RE, Regular Expression)]]으로 나타낼 수 있다. 
+※ 이 문법이 나타내는 [[언어(Language)]]의 형태를 체계적으로 구하여 [[정규 표현(RE, Regular Expression)]]으로 나타낼 수 있다. 
