@@ -1,6 +1,6 @@
 > A regullar expression over the alphabet T and the language denoted by that expression are defined recursively as follow:
-> 1. Basic Element: $\emptyset, \; \epsilon, \; a \in T$
-> 	(1) $\emptyset$ is a regular expression denoting the empty set
+> 1. Basic Element: $\varnothing, \; \epsilon, \; a \in T$
+> 	(1) $\varnothing$ is a regular expression denoting the empty set
 > 	(2) $\epsilon$ is a regular expression denoting $\{ \epsilon \}$
 > 	(3) $a$ where $a \in T$ is a regular expression denoting $\{ a \}$
 > 2. Operator: $+, \; \cdot, \; *$
@@ -25,8 +25,8 @@
 	4. $\alpha(\beta + \gamma) = \alpha\beta + \alpha\gamma$
 	5. $(\beta + \gamma)\alpha = \beta\alpha + \gamma\alpha$
 	6. $\alpha + \alpha = \alpha$
-	7. $\alpha + \emptyset = \alpha$
-	8. $\color{orchid}\alpha\emptyset = \emptyset = \emptyset\alpha$
+	7. $\alpha + \varnothing = \alpha$
+	8. $\color{orchid}\alpha\varnothing = \varnothing = \varnothing\alpha$
 	9. $\color{orchid}\epsilon\alpha = \alpha = \alpha\epsilon$
 	10. $\alpha^* = \epsilon + \alpha \cdot \alpha^*$
 	11. $\alpha^* = (\epsilon + \alpha)^*$

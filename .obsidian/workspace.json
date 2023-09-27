@@ -11,8 +11,39 @@
             "id": "1d9d15bb853fa259",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "컴파일러/FA(Finite Automata).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d7cbfea9a6ffcde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴파일러/DFA(Deterministic FA).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d7e6d264909d7d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴파일러/NFA(Nondeterministic FA).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "컴파일러/FA(Finite Automata).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "컴파일러/FA(Finite Automata).md"
+              }
             }
           },
           {
@@ -111,6 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "컴파일러/FA(Finite Automata).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,11 +173,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-random-note:Open Random Note from Search": false
@@ -150,38 +185,38 @@
   },
   "active": "dc290b6402d54d9c",
   "lastOpenFiles": [
-    "운영체제/Layered Structure.md",
-    "컴파일러/Automata.md",
-    "운영체제/Pasted image 20230927000819.png",
-    "운영체제/VM(Virtual Machines).md",
-    "운영체제/운영체제(Operating System).md",
-    "운영체제/Modular Kernel Structure.md",
-    "프로그래밍언어/객체 지향 프로그래밍 언어.md",
-    "운영체제/Microkernel System Structure.md",
-    "운영체제/Simple Structure.md",
-    "프로그래밍언어/어셈블리 언어(Assembly Language).md",
-    "운영체제/System Program.md",
-    "운영체제/System Call.md",
-    "운영체제/API(Application Program Interface).md",
-    "운영체제/GUI(Graphical User Interface).md",
-    "Pasted image 20230927000615.png",
-    "Pasted image 20230927000640.png",
-    "운영체제/UI(User Operating System Interface).md",
-    "운영체제/CLI(Command-Line Interface).md",
-    "운영체제/File-System Manipulation.md",
-    "운영체제/Security.md",
-    "정보보호/User authentication.md",
+    "컴파일러/DFA(Deterministic FA).md",
+    "컴파일러/NFA(Nondeterministic FA).md",
+    "컴파일러/FA(Finite Automata).md",
+    "데이터베이스/카디널리티(cardicality).md",
+    "데이터베이스/정형 데이터(Structured data).md",
+    "데이터베이스/절차적 데이터 조작어(procedural DML).md",
+    "데이터베이스/외래키(Foreign key).md",
+    "데이터베이스/속성(attribute).md",
+    "데이터베이스/복합키(composite key).md",
+    "데이터베이스/반정형 데이터(Semi-structured data).md",
+    "데이터베이스/릴레이션 스키마(Relation schema).md",
+    "데이터베이스/데이터 조작어(DML).md",
+    "데이터베이스/데이터 정의어(DDL).md",
+    "데이터베이스/데이터 베이스 언어.md",
+    "데이터베이스/대체키(Alternate key).md",
+    "데이터베이스/관계 DBMS.md",
+    "데이터베이스/개념 단계(conceptual level).md",
+    "리눅스프로그래밍/리눅스프로그래밍실습.md",
+    "운영체제/Thread.md",
+    "운영체제/Teriary storage.md",
+    "운영체제/Single-processor.md",
     "운영체제/Proctection.md",
-    "운영체제/File-System Management.md",
-    "컴파일러/인식기(Recognizer).md",
-    "Operating System Service.md",
-    "컴파일러/정규 표현(RE, Regular Expression).md",
-    "컴파일러/정규 문법(RG, Regular grammar).md",
-    "고전음악의이해/중세시대 음악.md",
-    "고전음악의이해/선율(Melody).md",
-    "고전음악의이해/Pasted image 20230916184929.png",
+    "운영체제/Mass-Storage Management.md",
+    "운영체제/Interrupt Vector.md",
+    "운영체제/트랩(Trap).md",
+    "운영체제/인터럽트(Interrupt).md",
     "컴파일러/Pasted image 20230926203841.png",
     "컴파일러/Pasted image 20230915213308.png",
+    "운영체제/Pasted image 20230927000819.png",
+    "Pasted image 20230927000615.png",
+    "Pasted image 20230927000640.png",
+    "고전음악의이해/Pasted image 20230916184929.png",
     "데이터베이스/Pasted image 20230922154911.png",
     "무제 파일.canvas",
     "Synchronous I",
