@@ -8,20 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1d9d15bb853fa259",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "3d7cbfea9a6ffcde",
+            "id": "6aaeb970352b40d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/Process.md",
+                "file": "정보보호/Security mechanism.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -29,72 +21,12 @@
             }
           },
           {
-            "id": "54d46f9118d2139f",
+            "id": "d6baf3450729be98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운영체제/IPC (InterProcess Communication).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f44f984278d2e9ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/Client-Sever Communication.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f087460a5cd57f18",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "a4288708d5ed2d34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/Message-Passing System.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3df83eb33a0fd1ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/Indirect Communication.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "291c6cdf4712f75a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "운영체제/Direct Communication.md",
+                "file": "Network Security.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -102,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Network Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Network Security.md"
+              }
             }
           },
           {
@@ -198,6 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Network Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,14 +171,21 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "dc290b6402d54d9c",
+  "active": "d6baf3450729be98",
   "lastOpenFiles": [
+    "정보보호/Security mechanism.md",
+    "Network Security.md",
+    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
+    "운영체제/Message-Passing System.md",
+    "정보보호/Stream cipher symmetric encryption.md",
+    "정보보호/Symmetic encryption.md",
+    "정보보호/Security attack.md",
+    "정보보호/공증(Notarization).md",
     "운영체제/RMI(Remote Method Invocation).md",
     "운영체제/Client-Sever Communication.md",
     "운영체제/RPC(Remote Procedure Calls).md",
     "운영체제/Socket.md",
     "운영체제/IPC (InterProcess Communication).md",
-    "운영체제/Message-Passing System.md",
     "Synchronization.md",
     "운영체제/Indirect Communication.md",
     "운영체제/Direct Communication.md",
@@ -256,14 +199,7 @@
     "운영체제/Context Switch.md",
     "운영체제/Sort-term Scheduler(CPU Scheduler).md",
     "운영체제/Long-term Scheduler(Job Scheduler).md",
-    "운영체제/Mid-term Scheduler.md",
-    "운영체제/Timer.md",
-    "운영체제/Thread.md",
-    "운영체제/Storage Strcuture.md",
-    "운영체제/Security.md",
-    "운영체제/Multitasking.md",
     "운영체제/Pasted image 20230927000819.png",
-    "운영체제/Multi-programming.md",
     "컴파일러/Pasted image 20230926203841.png",
     "컴파일러/Pasted image 20230915213308.png",
     "Pasted image 20230927000615.png",
