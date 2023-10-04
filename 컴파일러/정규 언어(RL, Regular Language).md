@@ -13,3 +13,28 @@
 
 ## **속성**
 ---
+정규 언어는 위와 같이 3가지 표현을 통해 표현될 수 있고, 각각의 표현을 다른 표현으로 쉽게 바꿀 수 있다.
+
+### [[정규 문법(RG, Regular grammar)]] $\Rightarrow$ [[FA(Finite Automata)]]
+Given RG, $G=(V_N, V_T, P, S)$, construct $M=(Q, \Sigma, \delta, q_0, F)$
+1) $Q = V_N \cup \{f\}$, where $f$ is a new final state
+2) $\Sigma = V_T$
+3) $q_0 = S$
+4) $F = \{f\} \; if \; \epsilon \notin L(G)$
+        $= \{S, f\} \; otherwie$
+5) $\delta: \; if \; A \rightarrow aB \in P \; then \; \delta(A, a) \ni B$
+          $if \; A \rightarrow a \in P \; then \; \delta(A, a) \ni f$
+> (proof) If $\omega$ is accepted by $FA$ then it is accepted in some sequence of moves through states, ending inf $f$.
+> But if $\delta(A, a) = B$ and $B \neq f$, then $A \rightarrow aB$ is a productions.
+> Also if $\delta(A, a) = f$ then $A \rightarrow a$ is a prodcution
+> So we can use the same series of productions to generate $\omega$ in $G$
+> 	$\therefore \; S \Rightarrow^* \omega$
+> 	
+
+### [[FA(Finite Automata)]] $\Rightarrow$ [[정규 문법(RG, Regular grammar)]]
+Given $M=(Q, \Sigma, \delta, q_0, F)$, construct $G=(V_N, V_T, P, S)$
+1) $V_N = Q$
+2) $V_T = \Sigma$
+3) $S = q_0$
+4) $P: \; if \; \delta (q, a) = r \; then \; q \rightarrow ar$
+           $if \; p \in F \; then \; p \rightarrow \epsilon$

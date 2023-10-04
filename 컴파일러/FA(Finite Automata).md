@@ -71,11 +71,11 @@ DFA의 상태수를 최소화 하는 것을 FA의 최소화라고 하며 이를 
 ---
 FAL(Finite Automaton Languge)를 FA에 의해 인식되는 언어의 종류를 말하며 이는 즉, [[정규 언어(RL, Regular Language)]]이다
 
-> If $L_1$ and $L_2$ are finite automaton languages, then so are 
-> 	1) $L_1 \cup L_2$
-> 	2) $L_1 \cdot L_2$
-> 	3) $L_1^*$
-> 	4) $L: \; FAL \Rightarrow L^R :\; FAL$
+If $L_1$ and $L_2$ are finite automaton languages, then so are 
+1) $L_1 \cup L_2$
+2) $L_1 \cdot L_2$
+3) $L_1^*$
+4) $L: \; FAL \Rightarrow L^R :\; FAL$
 > (proof) $M_1 = (Q_1, \Sigma, \delta_1, q_1, F_1)$
 > 			$M_2 = (Q_2, \Sigma, \delta_2, q_2, F_2), \quad Q_1 \cap Q_2 = \varnothing (\therefore renaming)$
 > 			(i) $M = (Q_1 \cup Q_2 \cup {q_0}, \Sigma, \delta, q_0, F)$
