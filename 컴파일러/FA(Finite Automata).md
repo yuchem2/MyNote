@@ -46,5 +46,56 @@ $$ \begin{align}\delta(q_0, a_1a_2... a_n) & = \delta(\{q_1, q_2, ...,q_i\}, a_2
 임의의 $NFA \; M = (Q, \Sigma, \delta, q_0, F)$에 대하여 만들어지는 부분집합의 수는 $2^{|Q|}$개이다. 그러므로 너무 많은 상태가 만들어지며 그 중에는 시작 state에서 접근할 수 없는 상태(inaceessible state)도 존재한다. 
 
 그러므로 일반적으로 도달 가능한 state에 대해서만 *subset construction*을 수행한다
+
 > we call a state $p$ accessible if there is $\omega$ such that $(q_0, \omega) \Rightarrow^*(p, \epsilon)$, where $q_0$ is the initial state. 
+
+NFA가 $\epsilon$-NFA인 경우에도 동일한 방법을 통해 연산을 한다. 단, 연산이 종료된 후에 그 결과의 $\epsilon$-closure를 구해야 한다.
+
+
+## **FA의 최소화**
+---
+DFA의 상태수를 최소화 하는 것을 FA의 최소화라고 하며 이를 위해서는 동치 관계를 이용할 필요가 있다.
+
+두 상태가 동치인 상태를 다음과 같이 정의한다.
+>$\omega \in \Sigma^*$ distinguishes $q_1$ from $q_2$ if $\delta (q_1, \omega) = q_3, \; \delta (q_2, \omega)=q_4$ and exactly one of $q_3, q_4$ is in $F$
+
+위 동치 관계에 대한 정의를 통해 다음과 같은 방법을 통해 주어진 FA를 최소화할 수 있다
+1) 먼저 상태를 F의 원소인지 아닌지에 따라 분할한다
+2) 같은 입력 심볼에 대해 다른 동치류(equivalence class)로 분할 되는지 확인하고, 다른 동치류로 분할되면 분할시켜 새로운 동치류들을 만든다
+3) 더 이상 새로운 동치류가 생성되지 않을 때까지 반복해 수행한다
+4) 2~3 작업이 수행이 완료되면 그 FA를 *reduced FA*라고 하며 다음과 같이 정의한다
+	> M is said to be *reduced FA* if no state in $Q$ is inaccessible and no two distinct stats of $Q$ are indistinguishable.
+	
+
+## **FA의 닫힘 성질(Closure properties of FA)**
+---
+FAL(Finite Automaton Languge)를 FA에 의해 인식되는 언어의 종류를 말하며 이는 즉, [[정규 언어(RL, Regular Language)]]이다
+
+> If $L_1$ and $L_2$ are finite automaton languages, then so are 
+> 	1) $L_1 \cup L_2$
+> 	2) $L_1 \cdot L_2$
+> 	3) $L_1^*$
+> 	4) $L: \; FAL \Rightarrow L^R :\; FAL$
+> (proof) $M_1 = (Q_1, \Sigma, \delta_1, q_1, F_1)$
+> 			$M_2 = (Q_2, \Sigma, \delta_2, q_2, F_2), \quad Q_1 \cap Q_2 = \varnothing (\therefore renaming)$
+> 			(i) $M = (Q_1 \cup Q_2 \cup {q_0}, \Sigma, \delta, q_0, F)$
+> 				where, $q_0$ is a new start state.
+> 						   $F = F_1 \cup F_2 \; if \; \epsilon \notin L_1 \cup L_2$
+> 								   $F_1 \cup F_2 \cup \{q_0\}\; if \; if \; \epsilon \in L_1 \cup L_2$
+> 						   $\delta(q_0, a) = \delta(q_1, a) \cup \delta(q_2, a) \; for \; all \; a \in \Sigma$
+> 						   $\delta(q, a) = \delta_1(q, a) \; for \; all \; q \in Q_1, \; a \in \Sigma$
+> 						   $\delta(q, a) = \delta_2(q, a) \; for \; all \; q \in Q_2, \; a \in \Sigma$
+> 			(ii) $M = (Q_1 \cup Q_2, \Sigma, \delta, q_0, F)$
+> 				where, $F = \begin{cases} F_2 & \mbox{if} & q_2 \notin F_2 \\ F_1 \cup F_2 & \mbox{if} & q_2 \in F_2  \end{cases}$
+> 						   $\delta(q, a) = \delta(q_1, a) \; for \; all \; q \in Q_1 - F_1$
+> 						   $\delta(q, a) = \delta_1(q, a) \cup \delta_2(q_2, a) \; for \; all \; q \in F_1$
+> 						   $\delta(q, a) = \delta_2(q, a) \; for \; all \; q \in Q_2$
+> 			(iii) $L: \; FAL \; \Rightarrow L^* : \; FAL$
+> 				Construct $M' = (Q \cup \{ q_0' \}, \Sigma, \delta', q_0', F \cup \{q_0'\})$,
+> 					$\delta':$
+> 						$\delta'(q, a) = \delta(q, a) \; if \; q \in Q - F \; and \; a \in \Sigma$
+> 						$\delta'(q, a) = \delta(q, a) \cup \delta(q_0, a) \; if \; q \in F, \; a \in \Sigma$
+> 						$\delta'(q_0', a) = \delta(q_0, a) \; for \; all \; a \in \Sigma$
+
+
 

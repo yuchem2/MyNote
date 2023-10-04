@@ -10,3 +10,6 @@
 2. [[FA(Finite Automata)]]
 3. [[정규 표현(RE, Regular Expression)]]
 
+
+## **속성**
+---

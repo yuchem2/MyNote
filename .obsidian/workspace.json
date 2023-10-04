@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Security.md",
+                "file": "컴파일러/정규 언어(RL, Regular Language).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14d483412f008f41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴파일러/NFA(Nondeterministic FA).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Security.md",
+                "file": "컴파일러/정규 언어(RL, Regular Language).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Security.md"
+                "file": "컴파일러/정규 언어(RL, Regular Language).md"
               }
             }
           },
@@ -133,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Security.md",
+                "file": "컴파일러/정규 언어(RL, Regular Language).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
-    "collapsed": true
+    "width": 238.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,8 +185,11 @@
   },
   "active": "d6baf3450729be98",
   "lastOpenFiles": [
+    "컴파일러/FA(Finite Automata).md",
     "정보보호/Security mechanism.md",
-    "Network Security.md",
+    "컴파일러/NFA(Nondeterministic FA).md",
+    "컴파일러/DFA(Deterministic FA).md",
+    "정보보호/Network Security.md",
     "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
     "운영체제/Message-Passing System.md",
     "정보보호/Stream cipher symmetric encryption.md",
@@ -196,9 +211,6 @@
     "운영체제/Process Creation.md",
     "운영체제/Process Scheduling.md",
     "운영체제/Scheduler.md",
-    "운영체제/Context Switch.md",
-    "운영체제/Sort-term Scheduler(CPU Scheduler).md",
-    "운영체제/Long-term Scheduler(Job Scheduler).md",
     "운영체제/Pasted image 20230927000819.png",
     "컴파일러/Pasted image 20230926203841.png",
     "컴파일러/Pasted image 20230915213308.png",
