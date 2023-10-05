@@ -10,15 +10,15 @@
 
 ## **Security Objectives**
 ---
-+ 기밀성(Confidentiality)
++ *기밀성(Confidentiality)*
 	+ [[데이터 기밀성(Data Confidentiality)]]: 개인 또는 기밀 정보가 허가 받지 않은 개인이 이용할 수 없도록 하거나 공개하지 않는 것을 보장한다
 	+ Privacy: 개인이 자신과 관련된 정보를 수집하고 저장할 수 있으며 누구에게 정보를 공개할 수 있는지를 통제하거나 영향력을 행사할 수 있도록 보장한다
-+ 무결성(Integrity)
++ *무결성(Integrity)*
 	+ [[데이터 무결성(Data Integrity)]]: 데이터와 프로그램이 모두 특정하게 승인된 방식으로만 변경되도록 보장. 추가적으로 data authenticity를 포함한다. 
 	+ System integrity: 시스템이 정상적인 접근으로는 의도된 방식으로 수행되고, 고의적이거나 부주의한 무단 조작에 자유로운 것을 보장
-+ 사용가능성(Availability): 시스템이 신속하게 작동하고, 승인된 사용자에게 서비스를 거부하지 않음을 보장
++ *사용가능성(Availability)*: 시스템이 신속하게 작동하고, 승인된 사용자에게 서비스를 거부하지 않음을 보장
 
-위 세 요소는 종종 CIA triad 라고 불린다. 
+위 세 요소는 종종 *CIA triad* 라고 불린다. 
 
 ## **Computer security Challenges**
 ---
@@ -43,6 +43,9 @@ OSI 표준으로는 ITU-T(국제전기통신표준화기구)에서 정한 X.800 
 + [[Security service]]: 하나 이상의 보안 메커니즘을 이용하여 서비스를 제공하는 서비스
 
 
-
-
-
+## **종류**
+---
++ [[정보 보호(Information Security)]]
++ [[네트워크 보안(Network security)]]
++ Unconditional security: 컴퓨터 파워가 매우 강력해도 암호문에서 평문을 예측할 수 없는 보안 정책. 사실상 불가능에 가까운 이상적인 형태의 보안
++ Computational security: 컴퓨터 리소르를 제한적으로 생각할 대 암호문에서 평문을 예측할 수 없는 보안 정책. 현실적인 방법으로 언젠가는 암호에 대한 내용이 풀릴 수 있다.

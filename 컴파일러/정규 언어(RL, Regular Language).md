@@ -37,4 +37,5 @@ Given $M=(Q, \Sigma, \delta, q_0, F)$, construct $G=(V_N, V_T, P, S)$
 2) $V_T = \Sigma$
 3) $S = q_0$
 4) $P: \; if \; \delta (q, a) = r \; then \; q \rightarrow ar$
-           $if \; p \in F \; then \; p \rightarrow \epsilon$
+           $if \; p \in F \; then \; p \rightarrow \epsilon$ 
+
