@@ -6,8 +6,8 @@
 1970년대 public key 암호화의 개발 이전에 사용되던 유일한 암호화 유형이다. 이로 인해 고전 암호라고도 한다.
 
 데이터를 처리하는 방법에 따라 구분된다
-+ [[Block cipher symmetic encryption]]
-+ [[Stream cipher symmetric encryption]]
++ [[Block Cipher Symmetric Encryption]]
++ [[Stream Cipher Symmetric Encryption]]
 
 ## **Ingredients**
 ---

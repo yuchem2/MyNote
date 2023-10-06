@@ -11,9 +11,17 @@
             "id": "29b9ae25df37ed86",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "b90157c32b56ca8d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/네트워크 보안(Network security).md",
+                "file": "정보보호/Symmetric encryption.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +29,12 @@
             }
           },
           {
-            "id": "651feb8596518b1d",
+            "id": "9cd2d2e9b2e2aa89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/Substitution Ciphers.md",
+                "file": "정보보호/Mono-alphabetic Cipher.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,19 +47,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/Symmetic encryption.md",
+                "file": "Playfair Cipher.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "a149fc89d209a3df",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
@@ -121,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Playfair Cipher.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +143,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Playfair Cipher.md"
+              }
             }
           },
           {
@@ -151,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Playfair Cipher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,34 +192,37 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "dc290b6402d54d9c",
+  "active": "10ee1ddf866976df",
   "lastOpenFiles": [
+    "Pasted image 20231006164233.png",
+    "정보보호/Mono-alphabetic Cipher.md",
+    "정보보호/Symmetric encryption.md",
+    "Playfair Cipher.md",
+    "Pasted image 20231006162737.png",
+    "운영체제/Client-Sever Communication.md",
+    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
+    "정보보호/Asymmetric encryption.md",
+    "정보보호/Stream Cipher Symmetric Encryption.md",
+    "Block Cipher.md",
+    "Stream Cipher.md",
+    "Stream Cipher Asymmetric Encryption.md",
+    "정보보호/Block Cipher Symmetric Encryption.md",
+    "Symmetric encryption.md",
+    "Block Cipher Asymmetric Encryption.md",
+    "정보보호/네트워크 보안(Network security).md",
+    "정보보호/Substitution Ciphers.md",
+    "Pasted image 20231006155346.png",
+    "Pasted image 20231006155252.png",
     "컴파일러/정규 문법(RG, Regular grammar).md",
     "정보보호/Brute-force attack.md",
     "정보보호/Firewall.md",
-    "정보보호/Mono-alphabetic Cipher.md",
-    "정보보호/Substitution Ciphers.md",
     "정보보호/Caesar Cipher.md",
-    "정보보호/Symmetic encryption.md",
-    "정보보호/네트워크 보안(Network security).md",
-    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
     "정보보호/인증 교환(Authentication exchange).md",
     "정보보호/사이버 보안(Cybersecurity).md",
     "Cryptography.md",
     "정보보호/데이터 기밀성(Data Confidentiality).md",
     "정보보호/인증(Authentication).md",
     "정보보호/접근 제어(Access control).md",
-    "정보보호/정보 보호(Information Security).md",
-    "정보보호/Active attack.md",
-    "정보보호/Asymmetric encryption.md",
-    "정보보호/Block cipher symmetic encryption.md",
-    "정보보호/Security service.md",
-    "정보보호/Security attack.md",
-    "정보보호/PRNG(Pseudo-Random Number Generator).md",
-    "정보보호/Stream cipher symmetric encryption.md",
-    "정보보호/User authentication.md",
-    "정보보호/Traffic padding.md",
-    "정보보호/Security mechanism.md",
     "정보보호/Pasted image 20231005180415.png",
     "정보보호/Pasted image 20231005172837.png",
     "운영체제/Pasted image 20230927000819.png",
@@ -223,12 +230,9 @@
     "컴파일러/Pasted image 20230915213308.png",
     "Pasted image 20230927000615.png",
     "Pasted image 20230927000640.png",
-    "고전음악의이해/Pasted image 20230916184929.png",
-    "데이터베이스/Pasted image 20230922154911.png",
     "무제 파일.canvas",
     "Synchronous I",
     "I",
-    "고전음악의이해/Pasted image 20230916211732.png",
     "프로그래밍언어",
     "컴퓨터네트워크",
     "정보보호",

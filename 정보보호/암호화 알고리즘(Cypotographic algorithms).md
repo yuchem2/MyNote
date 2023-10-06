@@ -16,14 +16,16 @@
 
 ### Single-Key
 하나의 사용자 비밀 키를 이용한 알고리즘
-+ [[Symmetic encryption]]
-	+ [[Block cipher symmetic encryption]]
-	+ [[Stream cipher symmetric encryption]]
++ [[Symmetric encryption]]
+	+ [[Block Cipher Symmetric Encryption]]
+	+ [[Stream Cipher Symmetric Encryption]]
 + [[MAC(Message Authentication Code)]]
 
 ### Two-key
 두 개의 사용자 비밀 키를 이용한 알고리즘. Private key와 public key로 나눠진다. 
 + [[Asymmetric encryption]]
+	+ [[Block Cipher Asymmetric Encryption]]
+	+ [[Stream Cipher Asymmetric Encryption]]
 + [[디지털 서명(Digital Signature)]]
 + [[Key exchange]]
 + [[User authentication]]
