@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Substitution Ciphers.md",
+                "file": "정보보호/Substitution Ciphers.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -50,13 +50,8 @@
             "id": "a149fc89d209a3df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mono-alphabetic Cipher.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -126,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mono-alphabetic Cipher.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Mono-alphabetic Cipher.md"
-              }
+              "state": {}
             }
           },
           {
@@ -159,7 +151,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mono-alphabetic Cipher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,11 +188,14 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "a149fc89d209a3df",
+  "active": "dc290b6402d54d9c",
   "lastOpenFiles": [
-    "Substitution Ciphers.md",
-    "Mono-alphabetic Cipher.md",
-    "Caesar Cipher.md",
+    "컴파일러/정규 문법(RG, Regular grammar).md",
+    "정보보호/Brute-force attack.md",
+    "정보보호/Firewall.md",
+    "정보보호/Mono-alphabetic Cipher.md",
+    "정보보호/Substitution Ciphers.md",
+    "정보보호/Caesar Cipher.md",
     "정보보호/Symmetic encryption.md",
     "정보보호/네트워크 보안(Network security).md",
     "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
@@ -222,11 +216,8 @@
     "정보보호/User authentication.md",
     "정보보호/Traffic padding.md",
     "정보보호/Security mechanism.md",
-    "정보보호/부인봉쇄(Non-repudiation).md",
-    "정보보호/디지털 서명(Digital Signature).md",
-    "정보보호/데이터 무결성(Data Integrity).md",
-    "Pasted image 20231005180415.png",
-    "Pasted image 20231005172837.png",
+    "정보보호/Pasted image 20231005180415.png",
+    "정보보호/Pasted image 20231005172837.png",
     "운영체제/Pasted image 20230927000819.png",
     "컴파일러/Pasted image 20230926203841.png",
     "컴파일러/Pasted image 20230915213308.png",
