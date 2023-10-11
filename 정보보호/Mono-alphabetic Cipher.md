@@ -21,7 +21,8 @@ Permutation은 임의의 유한 집합 $S$에 대해 다음과 같이 정의될 
 <div align="center">
 	Table of "English Letter Relative Frequencies"
 </div>
-![[Pasted image 20231006155346.png | 600]]
+
+![[Pasted image 20231011204140.png | 600]]
 <div align="center">
 	Figure of "English Letter Relative Frequencies"
 </div>

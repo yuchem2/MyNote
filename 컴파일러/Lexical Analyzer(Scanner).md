@@ -18,16 +18,37 @@
 
 
 ### Identifier Recognition
-
++ $\Sigma = \{ l, d, \_ \}$ 
++ FA
+![[Pasted image 20231011180443.png | 500]]
++ RG: $S \rightarrow lA \; | \; \_A \quad A \rightarrow lA \; | \; dA \; | \; \_A \; | \; \epsilon$
++ RE: $S = (l+\_)(l+\_+d)^*$
 ### Integer number Recognition
-
++ $\Sigma = \{ d, n, o, h, x, X\}$ $n$은 0을 제외한 한자리 수, $o$는 0-7까지 수, $h$는 0-9와 a-f를 의미 
++ FA
+![[Pasted image 20231011181234.png | 500]]
++ RG: $S \rightarrow nA \; | \; 0B \quad A \rightarrow dA \; | \; \epsilon \quad B \rightarrow oC \; | \; xD \; | \; XD \; | \; \epsilon \quad C \rightarrow oC \; | \; \epsilon \quad D \rightarrow hE \quad E \rightarrow hE \; | \; \epsilon$
++ RE: $S = nd^*+0+0o^+ +0(x+X)h^+$
 ### Real number Recognition
-
++ $\Sigma = \{ d, ., +, -, e\}$
++ FA
+![[Pasted image 20231011185816.png | 500]]
++ RG: $S \rightarrow dA \; | \; .C \quad A \rightarrow dA \; | \; .B \; | \; eD \quad B \rightarrow dB \; | \; eD \; | \; \epsilon \quad C \rightarrow dB \quad D \rightarrow dE \; | \; +F \; | \; -F$ 
+	  $E \rightarrow dE \; | \; \epsilon \quad F \rightarrow dE$
++ RE: $S = \; .d^+ + \; .d^+e('+'+-+\epsilon)d^+ + d^+e('+'+-+\epsilon)d^+ + \; d^+.d^*+ d^+.d^*e('+'+-+\epsilon)d^+$
 ### String Constant Recognition
-
++ $\Sigma = \{ ^", a, c,  \setminus\}$ $a = char\_set - \{^", \setminus\}, \; and \; c=char\_set$
++ FA
+![[Pasted image 20231011192118.png | 500]]
++ RG: $S\rightarrow$ $^"$$A \quad A \rightarrow aA \; | \; \backslash C \; | \; ^"B \quad B \rightarrow \epsilon \quad C \rightarrow cA$
++ RE: $S =$ $^"$$(a+\backslash c)^*$$^"$
 ### Comment Recognition
-
-
+※ Comment는 컴파일되는 부분은 아니지만 컴파일에서 제외시키기 위해 인식할 필요가 있음
++ $\Sigma = \{ a, b, *, /\}$ $a = char\_set - \{*\}, \; and \; b=char\_set - \{*, /\}$
++ FA
+![[Pasted image 20231011193925.png | 500]]
++ RG: $S \rightarrow /A \quad A \rightarrow *B \quad B \rightarrow aB \; | \; *C \quad C \rightarrow *C \; | \; /D \; | \; bB \quad D \rightarrow \epsilon$
++ RE: $S = /*(a+*^+b)^* *^+/$
 ## **Implements**
 ---
 + Programming: 직접 [[프로그래밍 언어]]를 이용

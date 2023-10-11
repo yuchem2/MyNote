@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "29b9ae25df37ed86",
+            "id": "9651df6e9253169a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴파일러/Lexical Analyzer(Scanner).md",
+                "file": "정보보호/Mono-alphabetic Cipher.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,58 +21,15 @@
             }
           },
           {
-            "id": "076d189caac673b3",
+            "id": "bee03a3272ef1829",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴파일러/Lexical Analyzer Generator.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fbadfedea4dd27af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴파일러/토큰(Token).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb86e9cc80d56abd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴파일러/FA(Finite Automata).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1c648114e7f0715",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴파일러/정규 표현(RE, Regular Expression).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,10 +95,17 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴파일러/Lexical Analyzer(Scanner).md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
+            }
+          },
+          {
+            "id": "f61d4262f1e18830",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
             }
           },
           {
@@ -156,29 +120,18 @@
             }
           },
           {
-            "id": "f61d4262f1e18830",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "컴파일러/Lexical Analyzer(Scanner).md"
-              }
-            }
-          },
-          {
             "id": "aca317498d6669ed",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴파일러/Lexical Analyzer(Scanner).md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -190,12 +143,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 246.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,44 +161,44 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "29b9ae25df37ed86",
+  "active": "bee03a3272ef1829",
   "lastOpenFiles": [
-    "컴파일러/Lexical Analyzer Generator.md",
-    "컴파일러/Lexical Analyzer(Scanner).md",
-    "컴파일러/토큰(Token).md",
-    "컴파일러/Syntax Analyzer(Parser).md",
-    "컴파일러/CFG(Context-free grammar).md",
-    "컴파일러/언어(Language).md",
-    "컴파일러/Unrestriced Grammar.md",
-    "컴파일러/CSG(Context-sensitive Grammar).md",
-    "컴파일러/문법(Grammer).md",
-    "컴파일러/형식 언어(Formal Language).md",
-    "자료구조/Hash Table.md",
-    "자료구조/자료구조(Data Structure).md",
-    "컴파일러/Symbol Table.md",
-    "컴파일러/FA(Finite Automata).md",
-    "컴파일러/Parsing Table.md",
-    "컴파일러/Compiler.md",
-    "컴파일러/Code Optimizer.md",
-    "컴파일러/Intermediate Code Generator.md",
-    "컴파일러/정규 언어(RL, Regular Language).md",
-    "컴파일러/정규 표현(RE, Regular Expression).md",
+    "정보보호/Pasted image 20231011204140.png",
     "정보보호/Mono-alphabetic Cipher.md",
     "정보보호/Pasted image 20231006155252.png",
-    "정보보호/Block Cipher.md",
-    "정보보호/Playfair Cipher.md",
-    "정보보호/Pasted image 20231006164233.png",
-    "정보보호/Symmetric encryption.md",
     "정보보호/Pasted image 20231006162737.png",
-    "운영체제/Client-Sever Communication.md",
-    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
-    "정보보호/Pasted image 20231006155346.png",
+    "정보보호/Pasted image 20231006164233.png",
+    "pasted image 20231006155346.png.md",
     "정보보호/Pasted image 20231005180415.png",
     "정보보호/Pasted image 20231005172837.png",
-    "운영체제/Pasted image 20230927000819.png",
-    "컴파일러/Pasted image 20230926203841.png",
-    "컴파일러/Pasted image 20230915213308.png",
-    "Pasted image 20230927000615.png",
+    "정보보호/Pasted image 20231006155346.png",
+    "Pasted image 20231006155346.md",
+    "컴파일러/Pasted image 20231011185816.png",
+    "컴파일러/Pasted image 20231011192118.png",
+    "컴파일러/Pasted image 20231011193925.png",
+    "컴파일러/Lexical Analyzer(Scanner).md",
+    "데이터베이스/관계 데이터 연산.md",
+    "정보보호/Intrusion detection.md",
+    "정보보호/Cryptographic hash function.md",
+    "정보보호/Caesar Cipher.md",
+    "정보보호/Block Cipher Symmetric Encryption.md",
+    "정보보호/Block Cipher.md",
+    "정보보호/정보 보호(Information Security).md",
+    "데이터베이스/관계 해석.md",
+    "데이터베이스/관계 대수.md",
+    "MixPath/릴레이션(Relation).md",
+    "컴파일러/Lexical Analyzer Generator.md",
+    "데이터베이스/비절차적 데이터 조작어(nonprocedural DML).md",
+    "데이터베이스/절차적 데이터 조작어(procedural DML).md",
+    "데이터베이스/관계 데이터 모델.md",
+    "데이터베이스/데이터 베이스 스키마(Schema).md",
+    "데이터베이스/속성(attribute).md",
+    "데이터베이스/유일성 제약조건.md",
+    "데이터베이스/데이터베이스(DB).md",
+    "데이터베이스/데이터 베이스 모델링.md",
+    "데이터베이스/데이터(Data).md",
+    "데이터베이스/참조 무결성 제약조건.md",
+    "MixPath",
     "무제 파일.canvas",
     "Synchronous I",
     "I",
@@ -256,7 +208,6 @@
     "자료구조",
     "운영체제",
     "리눅스프로그래밍",
-    "고전음악의이해",
-    "알고리즘"
+    "고전음악의이해"
   ]
 }
