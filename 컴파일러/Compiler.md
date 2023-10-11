@@ -12,18 +12,23 @@
 
 
 ## **일반적인 컴파일러 구조**
-
+---
 Front-end 부분과 Back-End 부분으로 나눌 수 있다. 
 Front-end 부분은 언어 의존적이고, Back-End 부분은 기계 의존적이다. 
 
 + Front-end
-	+ [[Lexical Analyzer]](Scanner)
-	+ [[Syntax Analyzer]](Parser)
+	+ [[Lexical Analyzer(Scanner)]](Scanner)
+	+ [[Syntax Analyzer(Parser)]](Parser)
 	+ [[Intermediate Code Generator]]
 + Back-end
 	+ [[Code Optimizer]]
 	+ [[Target Code Generator]]
 
+
+여기서 Analysis Phase를 [[Lexical Analyzer(Scanner)]]와 [[Syntax Analyzer(Parser)]]가 담당하는데, 이를 구분해 놓은 이유는 아래와 같다.
++ Modular construction(simple design)
++ compiler efficiency is improved
++ compiler portability is enhanced
 
 추가적인 컴파일러의 주요 기능은 [[Error Recovery(Complier)]] 기능이다. 이는 [[Error Repair]]와 다른 기능이다.
 

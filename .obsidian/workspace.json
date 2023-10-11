@@ -11,17 +11,9 @@
             "id": "29b9ae25df37ed86",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "b90157c32b56ca8d",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/Symmetric encryption.md",
+                "file": "컴파일러/Lexical Analyzer(Scanner).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -29,12 +21,12 @@
             }
           },
           {
-            "id": "9cd2d2e9b2e2aa89",
+            "id": "076d189caac673b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/Mono-alphabetic Cipher.md",
+                "file": "컴파일러/Lexical Analyzer Generator.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -42,20 +34,45 @@
             }
           },
           {
-            "id": "10ee1ddf866976df",
+            "id": "fbadfedea4dd27af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Playfair Cipher.md",
+                "file": "컴파일러/토큰(Token).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb86e9cc80d56abd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴파일러/FA(Finite Automata).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1c648114e7f0715",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴파일러/정규 표현(RE, Regular Expression).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Playfair Cipher.md",
+                "file": "컴파일러/Lexical Analyzer(Scanner).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Playfair Cipher.md"
+                "file": "컴파일러/Lexical Analyzer(Scanner).md"
               }
             }
           },
@@ -154,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Playfair Cipher.md",
+                "file": "컴파일러/Lexical Analyzer(Scanner).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,44 +209,44 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "10ee1ddf866976df",
+  "active": "29b9ae25df37ed86",
   "lastOpenFiles": [
-    "Pasted image 20231006164233.png",
+    "컴파일러/Lexical Analyzer Generator.md",
+    "컴파일러/Lexical Analyzer(Scanner).md",
+    "컴파일러/토큰(Token).md",
+    "컴파일러/Syntax Analyzer(Parser).md",
+    "컴파일러/CFG(Context-free grammar).md",
+    "컴파일러/언어(Language).md",
+    "컴파일러/Unrestriced Grammar.md",
+    "컴파일러/CSG(Context-sensitive Grammar).md",
+    "컴파일러/문법(Grammer).md",
+    "컴파일러/형식 언어(Formal Language).md",
+    "자료구조/Hash Table.md",
+    "자료구조/자료구조(Data Structure).md",
+    "컴파일러/Symbol Table.md",
+    "컴파일러/FA(Finite Automata).md",
+    "컴파일러/Parsing Table.md",
+    "컴파일러/Compiler.md",
+    "컴파일러/Code Optimizer.md",
+    "컴파일러/Intermediate Code Generator.md",
+    "컴파일러/정규 언어(RL, Regular Language).md",
+    "컴파일러/정규 표현(RE, Regular Expression).md",
     "정보보호/Mono-alphabetic Cipher.md",
+    "정보보호/Pasted image 20231006155252.png",
+    "정보보호/Block Cipher.md",
+    "정보보호/Playfair Cipher.md",
+    "정보보호/Pasted image 20231006164233.png",
     "정보보호/Symmetric encryption.md",
-    "Playfair Cipher.md",
-    "Pasted image 20231006162737.png",
+    "정보보호/Pasted image 20231006162737.png",
     "운영체제/Client-Sever Communication.md",
     "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
-    "정보보호/Asymmetric encryption.md",
-    "정보보호/Stream Cipher Symmetric Encryption.md",
-    "Block Cipher.md",
-    "Stream Cipher.md",
-    "Stream Cipher Asymmetric Encryption.md",
-    "정보보호/Block Cipher Symmetric Encryption.md",
-    "Symmetric encryption.md",
-    "Block Cipher Asymmetric Encryption.md",
-    "정보보호/네트워크 보안(Network security).md",
-    "정보보호/Substitution Ciphers.md",
-    "Pasted image 20231006155346.png",
-    "Pasted image 20231006155252.png",
-    "컴파일러/정규 문법(RG, Regular grammar).md",
-    "정보보호/Brute-force attack.md",
-    "정보보호/Firewall.md",
-    "정보보호/Caesar Cipher.md",
-    "정보보호/인증 교환(Authentication exchange).md",
-    "정보보호/사이버 보안(Cybersecurity).md",
-    "Cryptography.md",
-    "정보보호/데이터 기밀성(Data Confidentiality).md",
-    "정보보호/인증(Authentication).md",
-    "정보보호/접근 제어(Access control).md",
+    "정보보호/Pasted image 20231006155346.png",
     "정보보호/Pasted image 20231005180415.png",
     "정보보호/Pasted image 20231005172837.png",
     "운영체제/Pasted image 20230927000819.png",
     "컴파일러/Pasted image 20230926203841.png",
     "컴파일러/Pasted image 20230915213308.png",
     "Pasted image 20230927000615.png",
-    "Pasted image 20230927000640.png",
     "무제 파일.canvas",
     "Synchronous I",
     "I",

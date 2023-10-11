@@ -18,7 +18,7 @@
 	2. $L(\alpha\beta) = L(\alpha)L(\beta)$
 	3. $L(\alpha^*) = L(\alpha)^*$
 + Two regular expressions are *equal* iff they denoted the same language. $$L(\alpha) = L(\beta) \Leftrightarrow \alpha = \beta $$
-+ Axioms: Let $\alpha, \; \beta,$ and $\gamma$ be regular expressions. Then,
++ *Axioms*: Let $\alpha, \; \beta,$ and $\gamma$ be regular expressions. Then,
 	1. $\alpha + \beta = \beta + \alpha$
 	2. $(\alpha + \beta) + \gamma = \alpha + (\beta + \gamma)$
 	3. $(\alpha\beta)\gamma = \alpha(\beta\gamma)$
@@ -38,6 +38,8 @@
 	(a) If $\epsilon$ is not in $\alpha$, then $X = \alpha^* \beta$ is the *unique* solution.
 	(b) If $\epsilon$ is in $\alpha$, then $X = \alpha^* (\beta + L)$ for some Language $L$. 
 	  Smallest solution:  $X = \alpha^* \beta$ 
++ The *size of a regular expression* is the number of operations and operands in the expression
+	e.g. $size(ab+c^*) = 6$
 
 
 ## **실제 사용 예시**

@@ -51,6 +51,7 @@ $$ \begin{align}\delta(q_0, a_1a_2... a_n) & = \delta(\{q_1, q_2, ...,q_i\}, a_2
 
 NFA가 $\epsilon$-NFA인 경우에도 동일한 방법을 통해 연산을 한다. 단, 연산이 종료된 후에 그 결과의 $\epsilon$-closure를 구해야 한다.
 
+※ $\epsilon-arc$로 연결된 두 상태에서 $\epsilon-arc$의 소스 상태에서 다른 나가는 $arc$가 없는 경우 두 상태를 같은 상태로 취급할 수 있다
 
 ## **FA의 최소화**
 ---
@@ -96,6 +97,3 @@ If $L_1$ and $L_2$ are finite automaton languages, then so are
 > 						$\delta'(q, a) = \delta(q, a) \; if \; q \in Q - F \; and \; a \in \Sigma$
 > 						$\delta'(q, a) = \delta(q, a) \cup \delta(q_0, a) \; if \; q \in F, \; a \in \Sigma$
 > 						$\delta'(q_0', a) = \delta(q_0, a) \; for \; all \; a \in \Sigma$
-
-
-
