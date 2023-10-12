@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b7778197b0742f16",
+        "id": "6ae6b9de889fb711",
         "type": "tabs",
         "children": [
           {
-            "id": "9651df6e9253169a",
+            "id": "023af9434f75a28d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/Mono-alphabetic Cipher.md",
+                "file": "SQL(Structured Query Language).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,15 +21,32 @@
             }
           },
           {
-            "id": "bee03a3272ef1829",
+            "id": "0b90c695637dd7b3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "데이터베이스/데이터 조작어(DML).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba18060d56d68744",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "데이터베이스/데이터 정의어(DDL).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,8 +112,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "데이터베이스/데이터(Data).md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -105,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "데이터베이스/데이터(Data).md"
+              }
             }
           },
           {
@@ -125,13 +145,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "데이터베이스/데이터(Data).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -143,7 +164,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -161,43 +183,44 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "bee03a3272ef1829",
+  "active": "aca317498d6669ed",
   "lastOpenFiles": [
+    "데이터베이스/데이터 제어어(DCL).md",
+    "SQL(Structured Query Language).md",
+    "데이터베이스/데이터 조작어(DML).md",
+    "데이터베이스/데이터 정의어(DDL).md",
+    "데이터베이스/데이터베이스(DB).md",
+    "데이터베이스/도메인 무결성 제약조건.md",
+    "데이터베이스/계층 DB.md",
+    "데이터베이스/DBMS(DB management service).md",
+    "데이터베이스/네트워크 DB.md",
+    "데이터베이스/대체키(Alternate key).md",
+    "데이터베이스/키(Key).md",
+    "데이터베이스/관계 DB.md",
+    "데이터베이스/데이터 모델링.md",
+    "데이터베이스/논리적 데이터 모델링.md",
+    "데이터베이스/개체-관계 모델(E-R model; Entity-Relationship model).md",
+    "데이터베이스/관계(Relationship).md",
+    "MixPath/릴레이션(Relation).md",
+    "데이터베이스/외래키(Foreign key).md",
+    "데이터베이스/개념적 데이터 모델링.md",
+    "데이터베이스/속성(attribute).md",
+    "데이터베이스/개체(Entity).md",
+    "데이터베이스/릴레이션 인스턴스(Relation instance).md",
+    "데이터베이스/Pasted image 20231012092230.png",
+    "데이터베이스/데이터(Data).md",
+    "데이터베이스/정보(Information).md",
+    "데이터베이스/정보처리(Information processing).md",
+    "데이터베이스/데이터 베이스 모델링.md",
     "정보보호/Pasted image 20231011204140.png",
-    "정보보호/Mono-alphabetic Cipher.md",
     "정보보호/Pasted image 20231006155252.png",
     "정보보호/Pasted image 20231006162737.png",
     "정보보호/Pasted image 20231006164233.png",
-    "pasted image 20231006155346.png.md",
     "정보보호/Pasted image 20231005180415.png",
     "정보보호/Pasted image 20231005172837.png",
     "정보보호/Pasted image 20231006155346.png",
-    "Pasted image 20231006155346.md",
     "컴파일러/Pasted image 20231011185816.png",
     "컴파일러/Pasted image 20231011192118.png",
-    "컴파일러/Pasted image 20231011193925.png",
-    "컴파일러/Lexical Analyzer(Scanner).md",
-    "데이터베이스/관계 데이터 연산.md",
-    "정보보호/Intrusion detection.md",
-    "정보보호/Cryptographic hash function.md",
-    "정보보호/Caesar Cipher.md",
-    "정보보호/Block Cipher Symmetric Encryption.md",
-    "정보보호/Block Cipher.md",
-    "정보보호/정보 보호(Information Security).md",
-    "데이터베이스/관계 해석.md",
-    "데이터베이스/관계 대수.md",
-    "MixPath/릴레이션(Relation).md",
-    "컴파일러/Lexical Analyzer Generator.md",
-    "데이터베이스/비절차적 데이터 조작어(nonprocedural DML).md",
-    "데이터베이스/절차적 데이터 조작어(procedural DML).md",
-    "데이터베이스/관계 데이터 모델.md",
-    "데이터베이스/데이터 베이스 스키마(Schema).md",
-    "데이터베이스/속성(attribute).md",
-    "데이터베이스/유일성 제약조건.md",
-    "데이터베이스/데이터베이스(DB).md",
-    "데이터베이스/데이터 베이스 모델링.md",
-    "데이터베이스/데이터(Data).md",
-    "데이터베이스/참조 무결성 제약조건.md",
     "MixPath",
     "무제 파일.canvas",
     "Synchronous I",
