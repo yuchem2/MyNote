@@ -3,3 +3,8 @@
 
 + [[Caesar Cipher]]
 + [[Mono-alphabetic Cipher]]
++ [[Playfair Cipher]]
++ [[Poly-alphabetic Cipher]]
+	+ [[Vigenere Cipher]]
+	+ [[Autokey Cipher]]
+	+ [[One-Time Pad]]

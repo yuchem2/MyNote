@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "023af9434f75a28d",
+            "id": "79687908fc820364",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL(Structured Query Language).md",
+                "file": "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "0b90c695637dd7b3",
+            "id": "62d11e8ecb9805d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "데이터베이스/데이터 조작어(DML).md",
+                "file": "정보보호/Symmetric encryption.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,19 +34,46 @@
             }
           },
           {
-            "id": "ba18060d56d68744",
+            "id": "d6e80e4388052021",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "데이터베이스/데이터 정의어(DDL).md",
+                "file": "Transposition Ciphers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "653753e39a2cf0b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴파일러/Lexical Analyzer(Scanner).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2fa4d14ae32cf2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rail Fence Cipher.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "데이터베이스/데이터(Data).md",
+                "file": "컴파일러/Lexical Analyzer(Scanner).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "데이터베이스/데이터(Data).md"
+                "file": "컴파일러/Lexical Analyzer(Scanner).md"
               }
             }
           },
@@ -145,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "데이터베이스/데이터(Data).md",
+                "file": "컴파일러/Lexical Analyzer(Scanner).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,10 +210,26 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "aca317498d6669ed",
+  "active": "653753e39a2cf0b1",
   "lastOpenFiles": [
+    "Row Transposition Cipher.md",
+    "Rail Fence Cipher.md",
+    "Transposition Ciphers.md",
+    "정보보호/Symmetric encryption.md",
+    "정보보호/Substitution Ciphers.md",
+    "One-Time Pad.md",
+    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
+    "정보보호/Mono-alphabetic Cipher.md",
+    "Permutation.md",
+    "Vigenere Cipher.md",
+    "Autokey Cipher.md",
+    "정보보호/Playfair Cipher.md",
+    "정보보호/Cryptanalysis.md",
+    "Poly-alphabetic Cipher.md",
+    "정보보호/Caesar Cipher.md",
+    "데이터베이스/SQL(Structured Query Language).md",
+    "데이터베이스/데이터(Data).md",
     "데이터베이스/데이터 제어어(DCL).md",
-    "SQL(Structured Query Language).md",
     "데이터베이스/데이터 조작어(DML).md",
     "데이터베이스/데이터 정의어(DDL).md",
     "데이터베이스/데이터베이스(DB).md",
@@ -195,23 +238,7 @@
     "데이터베이스/DBMS(DB management service).md",
     "데이터베이스/네트워크 DB.md",
     "데이터베이스/대체키(Alternate key).md",
-    "데이터베이스/키(Key).md",
-    "데이터베이스/관계 DB.md",
-    "데이터베이스/데이터 모델링.md",
-    "데이터베이스/논리적 데이터 모델링.md",
-    "데이터베이스/개체-관계 모델(E-R model; Entity-Relationship model).md",
-    "데이터베이스/관계(Relationship).md",
-    "MixPath/릴레이션(Relation).md",
-    "데이터베이스/외래키(Foreign key).md",
-    "데이터베이스/개념적 데이터 모델링.md",
-    "데이터베이스/속성(attribute).md",
-    "데이터베이스/개체(Entity).md",
-    "데이터베이스/릴레이션 인스턴스(Relation instance).md",
     "데이터베이스/Pasted image 20231012092230.png",
-    "데이터베이스/데이터(Data).md",
-    "데이터베이스/정보(Information).md",
-    "데이터베이스/정보처리(Information processing).md",
-    "데이터베이스/데이터 베이스 모델링.md",
     "정보보호/Pasted image 20231011204140.png",
     "정보보호/Pasted image 20231006155252.png",
     "정보보호/Pasted image 20231006162737.png",
