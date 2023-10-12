@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6ae6b9de889fb711",
+        "id": "9fc525da7d21ac35",
         "type": "tabs",
         "children": [
           {
-            "id": "79687908fc820364",
+            "id": "72819a2b76dcc629",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
+                "file": "정보보호/Block Cipher.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "62d11e8ecb9805d9",
+            "id": "92de3bd0b65184bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/Symmetric encryption.md",
+                "file": "정보보호/Block Cipher Symmetric Encryption.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,38 +34,12 @@
             }
           },
           {
-            "id": "d6e80e4388052021",
+            "id": "8c6ae1f3578383a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transposition Ciphers.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "653753e39a2cf0b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴파일러/Lexical Analyzer(Scanner).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2fa4d14ae32cf2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rail Fence Cipher.md",
+                "file": "정보보호/Feistel Cipher Structure.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 217.5
   },
   "right": {
     "id": "fa8e5b36a88c24c1",
@@ -139,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴파일러/Lexical Analyzer(Scanner).md",
+                "file": "정보보호/Block Cipher Symmetric Encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴파일러/Lexical Analyzer(Scanner).md"
+                "file": "정보보호/Block Cipher Symmetric Encryption.md"
               }
             }
           },
@@ -172,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴파일러/Lexical Analyzer(Scanner).md",
+                "file": "정보보호/Block Cipher Symmetric Encryption.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,12 +165,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,34 +184,37 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "653753e39a2cf0b1",
+  "active": "92de3bd0b65184bd",
   "lastOpenFiles": [
-    "Row Transposition Cipher.md",
-    "Rail Fence Cipher.md",
-    "Transposition Ciphers.md",
+    "정보보호/Block Cipher.md",
+    "정보보호/Block Cipher Symmetric Encryption.md",
+    "정보보호/Feistel Cipher Structure.md",
+    "정보보호/Steganography.md",
+    "정보보호/Stream Cipher.md",
+    "정보보호/Pasted image 20231012193806.png",
+    "정보보호/Pasted image 20231012193746.png",
+    "정보보호/Stream Cipher Symmetric Encryption.md",
+    "정보보호/Block Cipher Asymmetric Encryption.md",
+    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
     "정보보호/Symmetric encryption.md",
     "정보보호/Substitution Ciphers.md",
-    "One-Time Pad.md",
-    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
-    "정보보호/Mono-alphabetic Cipher.md",
-    "Permutation.md",
-    "Vigenere Cipher.md",
-    "Autokey Cipher.md",
-    "정보보호/Playfair Cipher.md",
-    "정보보호/Cryptanalysis.md",
-    "Poly-alphabetic Cipher.md",
-    "정보보호/Caesar Cipher.md",
+    "정보보호/Rail Fence Cipher.md",
+    "정보보호/Transposition Ciphers.md",
+    "정보보호/Product Ciphers.md",
+    "정보보호/Rotor Machines.md",
+    "정보보호/Row Transposition Cipher.md",
+    "정보보호/Pasted image 20231012191353.png",
     "데이터베이스/SQL(Structured Query Language).md",
-    "데이터베이스/데이터(Data).md",
-    "데이터베이스/데이터 제어어(DCL).md",
-    "데이터베이스/데이터 조작어(DML).md",
-    "데이터베이스/데이터 정의어(DDL).md",
-    "데이터베이스/데이터베이스(DB).md",
-    "데이터베이스/도메인 무결성 제약조건.md",
-    "데이터베이스/계층 DB.md",
-    "데이터베이스/DBMS(DB management service).md",
-    "데이터베이스/네트워크 DB.md",
     "데이터베이스/대체키(Alternate key).md",
+    "데이터베이스/후보키(Candidate key).md",
+    "운영체제/API(Application Program Interface).md",
+    "정보보호/Autokey Cipher.md",
+    "컴파일러/Lexical Analyzer(Scanner).md",
+    "정보보호/One-Time Pad.md",
+    "정보보호/Mono-alphabetic Cipher.md",
+    "정보보호/Permutation.md",
+    "정보보호/Vigenere Cipher.md",
+    "정보보호/Playfair Cipher.md",
     "데이터베이스/Pasted image 20231012092230.png",
     "정보보호/Pasted image 20231011204140.png",
     "정보보호/Pasted image 20231006155252.png",
@@ -245,9 +222,6 @@
     "정보보호/Pasted image 20231006164233.png",
     "정보보호/Pasted image 20231005180415.png",
     "정보보호/Pasted image 20231005172837.png",
-    "정보보호/Pasted image 20231006155346.png",
-    "컴파일러/Pasted image 20231011185816.png",
-    "컴파일러/Pasted image 20231011192118.png",
     "MixPath",
     "무제 파일.canvas",
     "Synchronous I",

@@ -5,5 +5,9 @@
 
 실제 사용된 문자는 바뀌지 않기 때문에 문자 빈도수를 이용한 공격이 가능하다([[Cryptanalysis]])
 
+## 종류
+---
 + [[Rail Fence Cipher]]
 + [[Row Transposition Cipher]]
++ etc..
+
