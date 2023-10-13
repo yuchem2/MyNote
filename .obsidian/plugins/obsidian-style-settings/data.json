@@ -4,5 +4,8 @@
   "things-style@@no-kanban-styles": true,
   "things-style@@link-external-decoration": "None",
   "things-style@@link-decoration": "None",
-  "things-style@@h2-underline": false
+  "things-style@@h2-underline": false,
+  "things-style@@active-line": true,
+  "things-style@@fancy-code": false,
+  "things-style@@fancy-highlight": false
 }

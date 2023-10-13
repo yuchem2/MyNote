@@ -6,7 +6,8 @@
   "enabledCssSnippets": [
     "img",
     "obsidian_snippets",
-    "img_center"
+    "img_center",
+    "tag_a"
   ],
   "nativeMenus": false
 }
