@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "72819a2b76dcc629",
+            "id": "74b5487a7b46bee7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/Block Cipher.md",
+                "file": "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "92de3bd0b65184bd",
+            "id": "13dce282f33161bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/Block Cipher Symmetric Encryption.md",
+                "file": "리눅스프로그래밍/리눅스프로그래밍실습.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9df2838f7a19be0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보보호/Symmetric encryption.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -71,7 +84,15 @@
             }
           },
           {
-            "id": "96e95f4880a85e85",
+            "id": "09bd65624b0416e2",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5285295c62f53e8e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,14 +104,6 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "c37ea25253d65b55",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
             }
           }
         ]
@@ -108,46 +121,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4717f10be4633069",
+            "id": "bccc5cc92cfd6777",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "리눅스프로그래밍/리눅스프로그래밍실습.md"
+              }
+            }
+          },
+          {
+            "id": "b3f5e02c69cae736",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보보호/Block Cipher Symmetric Encryption.md",
+                "file": "리눅스프로그래밍/리눅스프로그래밍실습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f61d4262f1e18830",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "정보보호/Block Cipher Symmetric Encryption.md"
-              }
-            }
-          },
-          {
-            "id": "ea6efde22f9c018b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              }
-            }
-          },
-          {
-            "id": "aca317498d6669ed",
+            "id": "32bac9fed2c3152d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보보호/Block Cipher Symmetric Encryption.md",
-                "collapseAll": true,
+                "file": "리눅스프로그래밍/리눅스프로그래밍실습.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -174,29 +176,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "smart-random-note:Open Random Note from Search": false
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "smart-random-note:Open Random Note from Search": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "92de3bd0b65184bd",
+  "active": "13dce282f33161bc",
   "lastOpenFiles": [
-    "정보보호/Block Cipher.md",
     "정보보호/Block Cipher Symmetric Encryption.md",
+    "정보보호/Block Cipher.md",
+    "정보보호/Symmetric encryption.md",
+    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
     "정보보호/Feistel Cipher Structure.md",
+    "README.md",
+    "운영체제/운영체제(Operating System).md",
+    "데이터베이스/데이터 조작어(DML).md",
+    "데이터베이스/데이터 베이스 언어.md",
+    "데이터베이스/데이터 정의어(DDL).md",
+    "데이터베이스/SQL(Structured Query Language).md",
+    "Excalidraw/Drawing 2023-10-13 15.59.32.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-13 15.49.01.excalidraw.md",
+    "Untitled.canvas",
+    "Context/spacesLastSync.log",
+    "Context",
+    "데이터베이스/후보키(Candidate key).md",
     "정보보호/Steganography.md",
     "정보보호/Stream Cipher.md",
     "정보보호/Pasted image 20231012193806.png",
     "정보보호/Pasted image 20231012193746.png",
     "정보보호/Stream Cipher Symmetric Encryption.md",
     "정보보호/Block Cipher Asymmetric Encryption.md",
-    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
-    "정보보호/Symmetric encryption.md",
     "정보보호/Substitution Ciphers.md",
     "정보보호/Rail Fence Cipher.md",
     "정보보호/Transposition Ciphers.md",
@@ -204,17 +215,8 @@
     "정보보호/Rotor Machines.md",
     "정보보호/Row Transposition Cipher.md",
     "정보보호/Pasted image 20231012191353.png",
-    "데이터베이스/SQL(Structured Query Language).md",
     "데이터베이스/대체키(Alternate key).md",
-    "데이터베이스/후보키(Candidate key).md",
     "운영체제/API(Application Program Interface).md",
-    "정보보호/Autokey Cipher.md",
-    "컴파일러/Lexical Analyzer(Scanner).md",
-    "정보보호/One-Time Pad.md",
-    "정보보호/Mono-alphabetic Cipher.md",
-    "정보보호/Permutation.md",
-    "정보보호/Vigenere Cipher.md",
-    "정보보호/Playfair Cipher.md",
     "데이터베이스/Pasted image 20231012092230.png",
     "정보보호/Pasted image 20231011204140.png",
     "정보보호/Pasted image 20231006155252.png",
@@ -230,8 +232,6 @@
     "컴퓨터네트워크",
     "정보보호",
     "자료구조",
-    "운영체제",
-    "리눅스프로그래밍",
-    "고전음악의이해"
+    "운영체제"
   ]
 }

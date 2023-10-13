@@ -1,0 +1,8 @@
+{
+  "things-style@@mobile-black-background": true,
+  "things-style@@no-minimal-title-bar": true,
+  "things-style@@no-kanban-styles": true,
+  "things-style@@link-external-decoration": "None",
+  "things-style@@link-decoration": "None",
+  "things-style@@h2-underline": false
+}
