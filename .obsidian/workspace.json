@@ -19,8 +19,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e22fda8901f4def2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "93e2a21cfbc0324b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DES(Data Encryption Standard).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보보호/Feistel Cipher.md"
+                "file": "DES(Data Encryption Standard).md"
               }
             }
           },
@@ -96,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보보호/Feistel Cipher.md",
+                "file": "DES(Data Encryption Standard).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보보호/Feistel Cipher.md",
+                "file": "DES(Data Encryption Standard).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,18 +158,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "graph:그래프 뷰 열기": false,
+      "templates:템플릿 삽입": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "graph:Open graph view": false,
-      "templates:Insert template": false,
       "smart-random-note:Open Random Note from Search": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dc290b6402d54d9c",
+  "active": "93e2a21cfbc0324b",
   "lastOpenFiles": [
+    "DES(Data Encryption Standard).md",
+    "정보보호/Feistel Cipher.md",
     "정보보호/Pasted image 20231016135525.png",
     "정보보호/Block Cipher Symmetric Encryption.md",
-    "정보보호/Feistel Cipher.md",
     "정보보호/Block Cipher.md",
     "정보보호/Symmetric encryption.md",
     "컴파일러/CFG(Context-free grammar).md",
@@ -183,7 +206,6 @@
     "정보보호/Pasted image 20231006162737.png",
     "정보보호/Pasted image 20231006164233.png",
     "정보보호/Pasted image 20231005180415.png",
-    "정보보호/Pasted image 20231005172837.png",
     "MixPath",
     "무제 파일.canvas",
     "Synchronous I",
