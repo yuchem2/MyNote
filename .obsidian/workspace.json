@@ -4,75 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6ca388d6df42d8a6",
+        "id": "ffff607944fcb2f6",
         "type": "tabs",
         "children": [
           {
-            "id": "8c6ae1f3578383a9",
+            "id": "51a63c6144de764c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "정보보호/Feistel Cipher.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f50cdd95e2a933e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "프로그래밍언어/고급 프로그래밍 언어.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2140c71f0e3321a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "프로그래밍언어/JavaScript(JS).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e715e4826be128a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "프로그래밍언어/Next.js.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "91708b97934ddb35",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "02dec48cf6ebe13b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "프로그래밍언어/React.js.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -145,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로그래밍언어/Next.js.md"
+                "file": "정보보호/Feistel Cipher.md"
               }
             }
           },
@@ -155,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로그래밍언어/Next.js.md",
+                "file": "정보보호/Feistel Cipher.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로그래밍언어/Next.js.md",
+                "file": "정보보호/Feistel Cipher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,41 +136,41 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:그래프 뷰 열기": false,
-      "templates:템플릿 삽입": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
       "smart-random-note:Open Random Note from Search": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4e715e4826be128a",
+  "active": "dc290b6402d54d9c",
   "lastOpenFiles": [
+    "정보보호/Pasted image 20231016135525.png",
+    "정보보호/Block Cipher Symmetric Encryption.md",
+    "정보보호/Feistel Cipher.md",
+    "정보보호/Block Cipher.md",
+    "정보보호/Symmetric encryption.md",
+    "컴파일러/CFG(Context-free grammar).md",
+    "자료구조/Ordered Tree.md",
     "프로그래밍언어/React.js.md",
     "프로그래밍언어/Next.js.md",
     "프로그래밍언어/JavaScript(JS).md",
-    "프로그래밍언어/고급 프로그래밍 언어.md",
-    "프로그래밍언어/객체 지향 프로그래밍 언어.md",
-    "프로그래밍언어/기계어.md",
-    "프로그래밍언어/어셈블리 언어(Assembly Language).md",
-    "프로그래밍언어/프로그래밍 언어.md",
-    "프로그래밍언어/C++.md",
-    "프로그래밍언어/C.md",
-    "프로그래밍언어/ALGOL.md",
-    "프로그래밍언어/저급 프로그래밍 언어.md",
-    "운영체제/Shared-Memory System.md",
-    "운영체제/IPC (InterProcess Communication).md",
-    "운영체제/Message-Passing System.md",
-    "컴파일러/Lexical Analyzer(Scanner).md",
-    "운영체제/RPC(Remote Procedure Calls).md",
-    "운영체제/Indirect Communication.md",
-    "정보보호/Substitution-Permutation(S-P) networks.md",
-    "정보보호/Block Cipher Symmetric Encryption.md",
-    "정보보호/Symmetric encryption.md",
-    "정보보호/Vigenere Cipher.md",
-    "정보보호/Block Cipher.md",
-    "README.md",
     "컴파일러/컴파일러(Compiler).md",
-    "정보보호/Feistel Cipher.md",
+    "정보보호/Substitution-Permutation(S-P) networks.md",
+    "정보보호/Feistel Cipher Structure.md",
+    "정보보호/Asymmetric encryption.md",
+    "정보보호/Stream Cipher Asymmetric Encryption.md",
+    "정보보호/Stream Cipher Symmetric Encryption.md",
+    "자료구조/트리(Tree).md",
+    "컴파일러/Derivation.md",
+    "컴파일러/Syntax Analyzer(Parser).md",
+    "컴파일러/String(Sentence).md",
+    "컴파일러/정규 표현(RE, Regular Expression).md",
+    "컴파일러/Lexical Analyzer(Scanner).md",
+    "컴파일러/정규 문법(RG, Regular grammar).md",
+    "리눅스프로그래밍/리눅스프로그래밍실습.md",
+    "컴파일러/CSG(Context-sensitive Grammar).md",
+    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
     "Untitled.canvas",
     "Context/spacesLastSync.log",
     "Context",

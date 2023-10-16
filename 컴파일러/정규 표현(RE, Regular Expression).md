@@ -12,6 +12,7 @@
 
 [[정규 언어(RL, Regular Language)]]를 표현하기 위한 한 방법으로, [[정규 언어(RL, Regular Language)]]에 속해 있는 [[String(Sentence)]]의 모양을 직접 기술하는 형태를 가짐
 
+즉, [[토큰(Token)]]의 어휘 구조로, [[Lexical Analyzer(Scanner)]]의 출력이 된다.
 ## **추가 정리**
 + If $\alpha$ is a regular expression then $L(\alpha)$ is the language denoted by $\alpha$. Let $\alpha$ and $\beta$ be regular expressions, then
 	1. $L(\alpha + \beta) = L(\alpha) + L(\beta)$

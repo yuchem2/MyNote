@@ -3,6 +3,6 @@ Parser라고도 하며, 한국어로는 구문 분석기라고 한다.
 
 Sysntax Checking과 [[트리(Tree)]] gereation 기능을 수행한다.
 
-입력으로 일련의 [[토큰(Token)]]을 입력받아 오류가 있는지 확인한다. 오류가 있는 경우 error message를 출력하고, 오류가 없는 경우 parser tree라는 결과값을 내보낸다. 
+입력으로 일련의 [[토큰(Token)]]을 입력받아 오류가 있는지 확인한다. 오류가 있는 경우 error message를 출력하고, 오류가 없는 경우 parser tree와 parse라는 결과값을 내보낸다. 
 
 [[Parsing Table]]을 통해 행동(Shift, Reduce, Accept, Error)를 결정한다

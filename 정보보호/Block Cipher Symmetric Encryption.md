@@ -1,7 +1,7 @@
 
 [[Block Cipher]] 및 [[Symmetric encryption]]를 바탕으로 하는 [[암호화 알고리즘(Cypotographic algorithms)]]
 
- [[Playfair Cipher]]가 블럭 암호의 모체이며 현대 대칭키 블럭 암호는 대부분 [[Feistel Cipher]]를 기초하고 있다
+[[Playfair Cipher]]가 블럭 암호의 모체이며 현대 대칭키 블럭 암호는 대부분 [[Feistel Cipher]]를 기초하고 있다
 
 ## **Ideal Bolck Cipher**
 ---
