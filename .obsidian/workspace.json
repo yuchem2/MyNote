@@ -13,6 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "정보보호/Symmetric encryption.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f06cd31a9d01fc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보보호/Block Cipher.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf97c73c9a8f8c09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "정보보호/Feistel Cipher.md",
                 "mode": "source",
                 "backlinks": false,
@@ -21,20 +47,38 @@
             }
           },
           {
-            "id": "e22fda8901f4def2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "93e2a21cfbc0324b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DES(Data Encryption Standard).md",
+                "file": "정보보호/DES(Data Encryption Standard).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3dc2350687abd9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보보호/Differential Cryptanalysis.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c16d61a0062105c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보보호/Linear Cryptanalysis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -42,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DES(Data Encryption Standard).md"
+                "file": "정보보호/DES(Data Encryption Standard).md"
               }
             }
           },
@@ -118,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DES(Data Encryption Standard).md",
+                "file": "정보보호/DES(Data Encryption Standard).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DES(Data Encryption Standard).md",
+                "file": "정보보호/DES(Data Encryption Standard).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,30 +193,44 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:그래프 뷰 열기": false,
-      "templates:템플릿 삽입": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "smart-random-note:Open Random Note from Search": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "93e2a21cfbc0324b",
+  "active": "dc290b6402d54d9c",
   "lastOpenFiles": [
-    "DES(Data Encryption Standard).md",
+    "정보보호/Differential Cryptanalysis.md",
+    "정보보호/Linear Cryptanalysis.md",
+    "정보보호/Cryptanalysis.md",
+    "정보보호/DES(Data Encryption Standard).md",
     "정보보호/Feistel Cipher.md",
-    "정보보호/Pasted image 20231016135525.png",
     "정보보호/Block Cipher Symmetric Encryption.md",
     "정보보호/Block Cipher.md",
+    "정보보호/Analytic Attacks.md",
+    "Timing Attacks.md",
+    "정보보호/Avalanche Effect.md",
+    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
+    "정보보호/Pasted image 20231017101720.png",
     "정보보호/Symmetric encryption.md",
+    "Pasted image 20231017095411.md",
+    "정보보호/Pasted image 20231017095411.png",
+    "정보보호/Asymmetric encryption.md",
+    "정보보호/Key exchange.md",
+    "정보보호/Pasted image 20231017093851.png",
+    "Pasted image 20231017093700.png",
+    "정보보호/Pasted image 20231016135525.png",
     "컴파일러/CFG(Context-free grammar).md",
     "자료구조/Ordered Tree.md",
     "프로그래밍언어/React.js.md",
@@ -181,19 +239,9 @@
     "컴파일러/컴파일러(Compiler).md",
     "정보보호/Substitution-Permutation(S-P) networks.md",
     "정보보호/Feistel Cipher Structure.md",
-    "정보보호/Asymmetric encryption.md",
     "정보보호/Stream Cipher Asymmetric Encryption.md",
     "정보보호/Stream Cipher Symmetric Encryption.md",
     "자료구조/트리(Tree).md",
-    "컴파일러/Derivation.md",
-    "컴파일러/Syntax Analyzer(Parser).md",
-    "컴파일러/String(Sentence).md",
-    "컴파일러/정규 표현(RE, Regular Expression).md",
-    "컴파일러/Lexical Analyzer(Scanner).md",
-    "컴파일러/정규 문법(RG, Regular grammar).md",
-    "리눅스프로그래밍/리눅스프로그래밍실습.md",
-    "컴파일러/CSG(Context-sensitive Grammar).md",
-    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
     "Untitled.canvas",
     "Context/spacesLastSync.log",
     "Context",
@@ -202,10 +250,6 @@
     "정보보호/Pasted image 20231012191353.png",
     "데이터베이스/Pasted image 20231012092230.png",
     "정보보호/Pasted image 20231011204140.png",
-    "정보보호/Pasted image 20231006155252.png",
-    "정보보호/Pasted image 20231006162737.png",
-    "정보보호/Pasted image 20231006164233.png",
-    "정보보호/Pasted image 20231005180415.png",
     "MixPath",
     "무제 파일.canvas",
     "Synchronous I",

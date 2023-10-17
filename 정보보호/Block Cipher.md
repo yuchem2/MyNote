@@ -8,6 +8,9 @@
 특정한 기능을 추가해 마치 [[Stream Cipher]]와 같은 효과를 달성할 수 있다
 
 + [[Block Cipher Symmetric Encryption]]
+	+ [[Feistel Cipher]]
+	+ [[DES(Data Encryption Standard)]]
+	+ [[AES(Advanced Encryption Standard)]]
 + [[Block Cipher Asymmetric Encryption]]
 
 ![[Pasted image 20231012193806.png | 600]]

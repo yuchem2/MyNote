@@ -13,3 +13,8 @@
 | Chosen Ciphertext | 암호 분석가가 선택한 암호문과 그에 상응하는 평문이 암호키와 함께 생성 | 일반적이지 않은 방법                                                                |
 |    Chosen Text    | Chosen Plaintext + Chosen Ciphertext                                  | 일반적이지 않은 방법                                                                |
 
++ [[Timing Attacks]]
++ [[Analytic Attacks]]
+	+ [[Differential Cryptanalysis]]
+	+ [[Linear Cryptanalysis]]
+	+ [[Related Key Attacks]]
