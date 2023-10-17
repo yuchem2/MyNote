@@ -15,3 +15,10 @@
 
 ![[Pasted image 20231012193806.png | 600]]
 
+
+## Design Principles
+---
+기본적인 원칙은 [[Feistel Cipher]]과 유사하다. 
++ number of rounds: 수가 많을 수록 좋다.
++ function $f$: *Confussion*을 제공하고, 비선형적이며 [[Avalanche Effect]]을 발생시킨다
++ key schedule: 복잡한 subkey 생성을 하며 key [[Avalanche Effect]]을 발생시킨다 

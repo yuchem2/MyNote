@@ -24,27 +24,30 @@ DES가 표준으로 채택되었음에도 Lucifer가 $128 \; bit$을 사용하�
 
 ![[Pasted image 20231017093851.png | 550]]
 <div align="center">General Depiction of DES Encrpytion Algorithm</div>
-+ Initial Permutation(IP): 평문을 임의의 permutation을 선택해 transposition을 수행한다
-+ Round Structure: 총 16개의 라운드가 존재하며 각 라운드에서 입력의 입력은 $32 \; bit$씩 반으로 나눠 생각한다([[Feistel Cipher]]와 유사)
-	+ $L_i = R_{i-1} \qquad R_i = L{i-1} \oplus F(R_{i-1}, K_{i})$
-	+ $32 \; bit\; R_{i-1}$와 $48 \; bit \; K_i$의 연산은 다음과 같이 수행된다
-		+ Perm $E$를 통해 $R_{i-1}$를 $48 \; bit$로 늘린 후 $k_i$와 함께 round function $F$의 입력으로 한다.
-		+ 이 연산이 수행된 뒤 8개의 S-box을 통과하게 되고, $32\; bit$의 결과를 얻을 수 있고, 이를 다시 $32 \; bit$ perm $P$를 통해 permutation을 수행한다. 이 결과가 $R_i$이다
-		+ 여기서 각 S-box는 $6 \; bits$를 입력으로 받아 $4 \; bits$ 출력을 한다. 각 S-box는 $4 \times 16 \; matrix$(구조는 모두 동일 but 값이 다름)이며 row entity는 $6 \; bits$에서 맨 앞 $bit$와 맨 뒤 $bit$이고, col entity는 나머지 $bit$이다. 
-![[Pasted image 20231017095411.png | 500]]
-<div align="center">DES Round Structure</div>
-+ Key Schedule: 각 라운드에서 subkey $K_1...K_{16}$이 사용된다. subkey는 다음과 같은 과정을 통해 만들어진다.
-	+ 먼저 평문과 동일하게 비밀 키 $K$에 대해 inital permuation이 수행되어 $56 \; bit$를 생성하며 이를 $28 \; bit$씩 반으로 나눈다
-	+ 각 라운드에서 $LK, \; RK$을 key rotation schedule $K$에 의해 각각 하나 또는 두 개로 나눠 회전시킨다. 
-	+ 그 후 다시 permuation을 수행해 $48 \; bit$의 결과를 생성해 이를 $K_i$로 사용한다
-+ 모든 Round가 종료된 뒤 preoutput이라는 과정을 통해 $L_{16}, R_{16}$이 각각 $32\; bit \; swap$된다. 
-+ 그 후 IP의 역이 수행되며 이 연산의 결과가 최종적인 암호문이 된다. 
+### 1. Initial Permutation(IP)
+평문을 임의의 permutation을 선택해 transposition을 수행한다
+### 2. Round Structure
+총 16개의 라운드가 존재하며 각 라운드에서 입력의 입력은 $32 \; bit$씩 반으로 나눠 생각한다([[Feistel Cipher]]와 유사)
++ $L_i = R_{i-1} \qquad R_i = L{i-1} \oplus F(R_{i-1}, K_{i})$
++ $32 \; bit\; R_{i-1}$와 $48 \; bit \; K_i$의 연산은 다음과 같이 수행된다
+	+ Perm $E$를 통해 $R_{i-1}$를 $48 \; bit$로 늘린 후 $k_i$와 함께 round function $F$의 입력으로 한다.
+	+ 이 연산이 수행된 뒤 8개의 S-box을 통과하게 되고, $32\; bit$의 결과를 얻을 수 있고, 이를 다시 $32 \; bit$ perm $P$를 통해 permutation을 수행한다. 이 결과가 $R_i$이다
+	+ 여기서 각 S-box는 $6 \; bits$를 입력으로 받아 $4 \; bits$ 출력을 한다. 각 S-box는 $4 \times 16 \; matrix$(구조는 모두 동일 but 값이 다름)이며 row entity는 $6 \; bits$에서 맨 앞 $bit$와 맨 뒤 $bit$이고, col entity는 나머지 $bit$이다. 
 
+![[Pasted image 20231017095411.png | 550]]
+<div align="center">DES Round Structure</div>
+### 3. Key Schedule
+각 라운드에서 subkey $K_1...K_{16}$이 사용된다. subkey는 다음과 같은 과정을 통해 만들어진다.
++ 먼저 평문과 동일하게 비밀 키 $K$에 대해 inital permuation이 수행되어 $56 \; bit$를 생성하며 이를 $28 \; bit$씩 반으로 나눈다
++ 각 라운드에서 $LK, \; RK$을 key rotation schedule $K$에 의해 각각 하나 또는 두 개로 나눠 회전시킨다. 
++ 그 후 다시 permuation을 수행해 $48 \; bit$의 결과를 생성해 이를 $K_i$로 사용한다
+### 4. 32-bit swap
+모든 Round가 종료된 뒤 preoutput이라는 과정을 통해 $L_{16}, R_{16}$이 각각 $32\; bit \; swap$된다. 
+### 5. Inverse initail permutation
+그 후 IP의 역이 수행되며 이 연산의 결과가 최종적인 암호문이 된다. 
 ## Decrpytion
 ---
 [[Feistel Cipher]]와 유사한 형태의 연산을 수행함으로 복호화 과정은 암호화 과정의 반대로 수행되며 subkey를 반대로 적용한다. 
-
-
 ## Example
 ---
 아래 표는 기술된 평문과 비밀 키를 이용해 DES 암호화를 수행하는 과정에서 각 과정의 결과를 말한다. 
@@ -111,3 +114,12 @@ DES에서 수행된 transformation을 설명하기 위해 선형 근사치를 �
 
 ## Design Criteria
 ---
+[COPP94]에서 Coppersmith에 의해 보고되었는데, 다음과 같은 내용이 존재한다.
++ S-box에 대한 7가지 기준은 다음과 같다
+	+ 비선형적이여야 한다
+	+ [[Differential Cryptanalysis]]의 저항성을 가져야 한다
+	+ 좋은 *confussion* 을 제공한다![[Substitution-Permutation(S-P) networks#*Confussion*]]
+	+ etc...
++ permutation $p$에 대한 3가지 기준은 다음과 같다 
+	+ *diffusion*을 향상시킨다. ![[Substitution-Permutation(S-P) networks#*Diffussion*]]
+	+ etc...

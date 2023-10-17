@@ -6,12 +6,12 @@
 ## **장점**
 ---
 + 처리율(throughput) 증가: 적은 시간에 더 많은 일을 수행할 수 있음
-+ Economy of scale: 여러 개의 [[Single-processor]]보다 비용이 저렴함
++ Economy of scale: 여러 개의 [[Single-processor system]]보다 비용이 저렴함
 + 신뢰성(Reliability) 증가: 하나의 CPU가 고장나도, 느려질 뿐 시스템이 멈추지 않음
 
 ## **단점**
 ---
-+ 복잡성(complexity) 증가: [[Single-processor]]보다 HW, SW 적으로 복잡하다
++ 복잡성(complexity) 증가: [[Single-processor system]]보다 HW, SW 적으로 복잡하다
 
 
 ## **종류**

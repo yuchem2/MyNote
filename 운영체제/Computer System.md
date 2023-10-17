@@ -16,6 +16,6 @@
 
 ## **Architecutre**
 ---
-+ [[Single-processor]]
-+ [[Multi-processor]]
++ [[Single-processor system]]
++ [[Multi-processor system]]
 + [[Clustered system]]

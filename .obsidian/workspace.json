@@ -8,46 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "51a63c6144de764c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보보호/Symmetric encryption.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0f06cd31a9d01fc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보보호/Block Cipher.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf97c73c9a8f8c09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보보호/Feistel Cipher.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93e2a21cfbc0324b",
+            "id": "23faf745554ed116",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,35 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a3dc2350687abd9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보보호/Differential Cryptanalysis.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c16d61a0062105c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보보호/Linear Cryptanalysis.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,46 +136,46 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "templates:Insert template": false,
+      "graph:그래프 뷰 열기": false,
+      "templates:템플릿 삽입": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "smart-random-note:Open Random Note from Search": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dc290b6402d54d9c",
+  "active": "23faf745554ed116",
   "lastOpenFiles": [
-    "정보보호/Differential Cryptanalysis.md",
-    "정보보호/Linear Cryptanalysis.md",
-    "정보보호/Cryptanalysis.md",
-    "정보보호/DES(Data Encryption Standard).md",
-    "정보보호/Feistel Cipher.md",
-    "정보보호/Block Cipher Symmetric Encryption.md",
-    "정보보호/Block Cipher.md",
-    "정보보호/Analytic Attacks.md",
-    "Timing Attacks.md",
-    "정보보호/Avalanche Effect.md",
-    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
-    "정보보호/Pasted image 20231017101720.png",
-    "정보보호/Symmetric encryption.md",
-    "Pasted image 20231017095411.md",
+    "Math/Ring.md",
+    "Math/Field.md",
     "정보보호/Pasted image 20231017095411.png",
-    "정보보호/Asymmetric encryption.md",
-    "정보보호/Key exchange.md",
-    "정보보호/Pasted image 20231017093851.png",
-    "Pasted image 20231017093700.png",
-    "정보보호/Pasted image 20231016135525.png",
-    "컴파일러/CFG(Context-free grammar).md",
-    "자료구조/Ordered Tree.md",
-    "프로그래밍언어/React.js.md",
-    "프로그래밍언어/Next.js.md",
-    "프로그래밍언어/JavaScript(JS).md",
-    "컴파일러/컴파일러(Compiler).md",
+    "정보보호/DES(Data Encryption Standard).md",
+    "Math/Group.md",
+    "Math",
+    "무제 파일.md",
+    "정보보호/Block Cipher.md",
+    "정보보호/Avalanche Effect.md",
+    "운영체제/Pasted image 20231017232131.png",
+    "정보보호/Feistel Cipher.md",
     "정보보호/Substitution-Permutation(S-P) networks.md",
-    "정보보호/Feistel Cipher Structure.md",
-    "정보보호/Stream Cipher Asymmetric Encryption.md",
-    "정보보호/Stream Cipher Symmetric Encryption.md",
-    "자료구조/트리(Tree).md",
+    "데이터베이스/데이터 조작어(DML).md",
+    "데이터베이스/SQL(Structured Query Language).md",
+    "데이터베이스/정보(Information).md",
+    "데이터베이스/반정형 데이터(Semi-structured data).md",
+    "데이터베이스/도메인 무결성 제약조건.md",
+    "운영체제/Thread.md",
+    "운영체제/Process.md",
+    "운영체제/Process Creation.md",
+    "운영체제/Multi-processor system.md",
+    "운영체제/Single-processor system.md",
+    "운영체제/운영체제(Operating System).md",
+    "DES(Data Encryption Standard).md",
+    "정보보호/Timing Attacks.md",
+    "정보보호/Pasted image 20231017101720.png",
+    "정보보호/Pasted image 20231017093851.png",
+    "정보보호/Linear Cryptanalysis.md",
+    "정보보호/Differential Cryptanalysis.md",
+    "정보보호/Analytic Attacks.md",
+    "정보보호/Pasted image 20231016135525.png",
     "Untitled.canvas",
     "Context/spacesLastSync.log",
     "Context",
@@ -257,7 +191,6 @@
     "프로그래밍언어",
     "컴퓨터네트워크",
     "정보보호",
-    "자료구조",
-    "운영체제"
+    "자료구조"
   ]
 }

@@ -8,15 +8,15 @@
 
 리소스는 [[운영체제(Operating System)]]에게 [[System call]]을 통해 요구해 해당 리소스를 전달받는다
 
-### [[Thread]] 수에 따라 구분
+## [[Thread]] 수에 따라 구분
 + [[Single-threaded process]]
 + [[Mulit-threaded process]]
 
-### 실행 간 특징 구분
+## 실행 간 특징 구분
 + I/O-bound process: [[입출력]]에 계산보다 더 많은 시간을 소비(많고, 짧은 CPU burst)
 + CPU-bound process: 계산하는데 많은 시간을 소비(소수의 긴 CPU burst)
 
-### 프로세스간 협력
+## 프로세스간 협력
 어떠한 이유에 의해 프로세스 간의 협력을 수행할 수도 있다
 + Independent: 다른 프로세스의 실행에 영향을 끼치지도 않고, 받지도 않음
 + Cooperating: 다른 프로세스의 실행에 영향을 끼칠 수 있고, 받을 수 도 있음

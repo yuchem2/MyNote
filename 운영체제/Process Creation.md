@@ -22,7 +22,7 @@
 	+ 원래 process의 주소 공간을 복사해 사용
 	+ 부모, 자식 프로세스가 독립적으로 실행됨
 	+ 자식 프로세스에게 0을 리턴하고, 부모 프로세스에게 자식 프로세스의 PID를 리턴
-+ exec: 현재 program의 이미지를 메모리에서 제거한 후 새로운 binray file을 메로리에 올린 후 실행을 계속한다
++ exec: 현재 program의 이미지를 메모리에서 제거한 후 새로운 binray file을 메모리에 올린 후 실행을 계속한다
 
 ### Unix exapmle
 + CreateProcess(): fork()와 유사하게 작동
