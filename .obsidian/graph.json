@@ -81,7 +81,7 @@
       "query": "path: Math  ",
       "color": {
         "a": 1,
-        "rgb": 15387791
+        "rgb": 3818381
       }
     }
   ],
@@ -95,6 +95,6 @@
   "repelStrength": 10.15625,
   "linkStrength": 1,
   "linkDistance": 182,
-  "scale": 0.324765310215376,
+  "scale": 0.15027967286410215,
   "close": false
 }

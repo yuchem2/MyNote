@@ -1,0 +1,18 @@
+[[Modular Arithmetic]]의 시행 시간을 늘리기 위해 사용되는 number theroem
+
+모듈러 연산을 나누어 연산하는 방법으로 다음과 같이 수행된다.
+
+1. Let $$M = \prod_{i=1}^km_i$$where the $m_i$ are pariwise relatively prime; that is $gcd(m_i, m_j)=1$ for $1\leq i, \; j \leq k, \; and \; i\neq j$
+2. We can represent any integer $A$ in $Z_M$ by a $k$-tuple whose elements are in $Z_{m_i}$ using the following correspondence: $$A \leftrightarrow(a_1, a_2, ..., a_k)\qquad Equation \; 1$$where $A \in Z_M, \; a_i \in Z_{m_i}, and \; a_i =A \bmod m_i \; for \; 1 \leq i \leq k$
+3. CRT makes two assertions
+	1) The mapping of Equation 1 is a one-to-one correspondence(called a *bijection*) between $Z_M$ and the Cartesian product $Z_{m_1} \times Z_{m_2} \times Z_{m_1} ... \times Z_{m_k}$. That is, for every integer $A$ such that $0\leq A < M,$ there is a unique $k$-tuple ($a_1, a_2, ..., a_k$) with $0 \leq a_i < m_i$ that represents it, and for everyt such $k$-tuple ($a_1, a_2, ..., a_k$, there is a unique integer $A$ in $Z_M$
+	2) Operations performed on the elements of $Z_M$ can be equivalently performed on the corresponding $k$-tuples by performing the operation independently in each coordinate position in the appropriate system
+4) Let us demonstrate the *first assertion*. The transformation from $A$ to $(a_1, a_2, ..., a_k), is obviously unique; that is, each $a_i$ is uniquely calculated as $a_i = A \bmod m_i$. Computing $A$ from $(a_1, a_2, ..., a_k)$ can be done as follows.
+5) Let $M_i = M \div m_i \; for \; 1 \leq i \leq k$. Note that $M_i = m_1 \times m_2 \times ... \times m_{i-1} \times m_{i+1} \times ... \times m_k$, so that $M_i \equiv 0 \pmod {m_j} \; for \; j \neq i$. Then let $$c_i = M_i \times (M_i^{-1} \bmod m_i) \qquad for \; 1 \leq i \leq k \qquad Equation \;2$$
+6) By the definition of $M_i$, it is relatively prime to $m_i$ and therefore has a unique multiplicative inverse $\bmod m_i$. So Equation 2 is well defined and produces a unique values $c_i$. We can now compute $$A\equiv \left(\sum_{i=1}^ka_ic_i\right) \pmod M \qquad Equation \; 3$$
+7) To show that the value of $A$ produced by Equation 3 is correct, we must show that $a_i=A\bmod m_i \;for$ $1\leq i\leq k$. Note that $c_i \equiv M_j \equiv 0 \pmod {m_i}$ if $j\neq i$, and that $c_i\equiv 1\pmod{m_i}$. It follows that $a_i=A\bmod m_i$ 
+8) The *second assertion* of the CRT, concering arithemtic operations, follows from the reules for [[Modular Arithmetic]]. That is, the *second assertion* can be stated as follows: $$\begin{align}if &\\ &   \qquad A\leftrightarrow(a_1, a_2, ..., a_k) \\ & \qquad B \leftrightarrow(a_1, a_2, ..., a_k) \\ then & \\ & \qquad (A+B) \bmod M \leftrightarrow ((a_1 + b_1) \bmod m_1, ..., (a_k + b_k) \bmod m_k)\\ & \qquad (A-B) \bmod M \leftrightarrow ((a_1 - b_1) \bmod m_1, ..., (a_k - b_k) \bmod m_k)\\ & \qquad (A\times B) \bmod M \leftrightarrow ((a_1 \times b_1) \bmod m_1, ..., (a_k \times b_k) \bmod m_k)\end{align}$$
+9) One of the useful features of the CRT is that is provides a way to manipulate (potentially very large) numbers $\bmod M$ in terms of tuples of smaller numbers. This can be useful when $M$ is 150 digits or more. However, note that is necessary to know beforehand the factorization of $M$
+
+위 연산을 간단하게 서술하면 다음과 같다 $$\begin{align}A &\equiv \left(\sum_{i=1}^ka_ic_i\right) \pmod M \Rightarrow [a_1M_1M_1^{-1} + a_2M_2M_2^{-1}] \bmod M \; if \; k = 2 \\ c_i &= M_i \times (M_i^{-1} \bmod m_i)  \quad for \; 1 \leq i \leq k \\ a_i &=A \bmod m_i, \quad M_i=M/m_i=m_1\times m_2\times ... \times m_k\end{align}$$
+![[Pasted image 20231019001752.png | 700]]

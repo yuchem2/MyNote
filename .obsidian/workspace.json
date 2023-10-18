@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ffff607944fcb2f6",
+        "id": "e2927c8e60c60c69",
         "type": "tabs",
         "children": [
           {
-            "id": "a276638bcc1504e0",
+            "id": "b7853ffff0e5524a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Group.md",
+                "file": "Math/Modular Arithmetic.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,7 +21,20 @@
             }
           },
           {
-            "id": "bd6077ded97858e1",
+            "id": "09eafe4e5133bf9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Euler Totient Function.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7cdb685f92bfba53",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +47,12 @@
             }
           },
           {
-            "id": "6f580facbb1d200e",
+            "id": "b55ff5172eaa5e9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Finite Field.md",
+                "file": "Math/Field.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,20 +60,25 @@
             }
           },
           {
-            "id": "b881bb7b85b2d432",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "dfe84a15662f8668",
+            "id": "af83f4a9b1324f57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prime Number.md",
+                "file": "알고리즘/알고리즘(Algorithm).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a0d17791064cfcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Prime Number.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -68,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prime Number.md"
+                "file": "Math/Prime Number.md"
               }
             }
           },
@@ -144,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prime Number.md",
+                "file": "Math/Prime Number.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prime Number.md",
+                "file": "Math/Prime Number.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,56 +192,45 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "cc7dbadc17866517",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "templates:Insert template": false,
+      "graph:그래프 뷰 열기": false,
+      "templates:템플릿 삽입": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "smart-random-note:Open Random Note from Search": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dfe84a15662f8668",
+  "active": "1a0d17791064cfcd",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Prime Number.md",
-    "Math/Finite Field.md",
-    "Math/GCD(Greatest Common Divisor).md",
-    "Math/Modular Arithmetic.md",
-    "Math/Divisibility.md",
-    "Math/Ring.md",
-    "Math/Pasted image 20231018165042.png",
-    "컴파일러/CFG(Context-free grammar).md",
-    "Excalidraw/Drawing 2023-10-18 15.13.54.excalidraw.md",
+    "Math/CRT(Chinese Remainder Theorem).md",
+    "Math/Pasted image 20231019001752.png",
+    "알고리즘/알고리즘(Algorithm).md",
+    "Math/Prime Number.md",
+    "Math/Euler Totient Function.md",
+    "Math/Fermat's Theorem.md",
     "Math/Field.md",
+    "Math/Ring.md",
+    "Math/Modular Arithmetic.md",
+    "Math/Group.md",
+    "Math/GCD(Greatest Common Divisor).md",
+    "Math/Finite Field.md",
+    "Math/Pasted image 20231018165042.png",
+    "Math/Pasted image 20231018103715.png",
+    "Math/Divisibility.md",
     "Math/Algebraic Sturcture.md",
     "정보보호/DES(Data Encryption Standard).md",
-    "정보보호/Pasted image 20231017095411.png",
     "정보보호/Pasted image 20231017101720.png",
-    "Math/Pasted image 20231018103715.png",
-    "Math/Group.md",
-    "Math/Abelian Group.md",
-    "Math/Cyclic Group.md",
+    "정보보호/Pasted image 20231017095411.png",
     "Math",
-    "무제 파일.md",
     "정보보호/Block Cipher.md",
     "정보보호/Avalanche Effect.md",
     "운영체제/Pasted image 20231017232131.png",
@@ -235,6 +242,7 @@
     "데이터베이스/반정형 데이터(Semi-structured data).md",
     "데이터베이스/도메인 무결성 제약조건.md",
     "운영체제/Thread.md",
+    "운영체제/Process.md",
     "정보보호/Pasted image 20231017093851.png",
     "정보보호/Pasted image 20231016135525.png",
     "Untitled.canvas",
@@ -242,7 +250,6 @@
     "Context",
     "정보보호/Pasted image 20231012193806.png",
     "정보보호/Pasted image 20231012193746.png",
-    "정보보호/Pasted image 20231012191353.png",
     "MixPath",
     "무제 파일.canvas",
     "Synchronous I",
