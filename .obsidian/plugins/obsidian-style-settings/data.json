@@ -7,5 +7,6 @@
   "things-style@@h2-underline": false,
   "things-style@@active-line": true,
   "things-style@@fancy-code": false,
-  "things-style@@fancy-highlight": false
+  "things-style@@fancy-highlight": true,
+  "things-style@@default-font-color": false
 }

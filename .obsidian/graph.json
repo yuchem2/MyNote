@@ -2,7 +2,7 @@
   "collapse-filter": false,
   "search": "",
   "showTags": false,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
@@ -76,6 +76,13 @@
         "a": 1,
         "rgb": 9926776
       }
+    },
+    {
+      "query": "path: Math  ",
+      "color": {
+        "a": 1,
+        "rgb": 15387791
+      }
     }
   ],
   "collapse-display": false,
@@ -88,6 +95,6 @@
   "repelStrength": 10.15625,
   "linkStrength": 1,
   "linkDistance": 182,
-  "scale": 0.24946769528577142,
-  "close": true
+  "scale": 0.324765310215376,
+  "close": false
 }

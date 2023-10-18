@@ -54,6 +54,7 @@ DES가 표준으로 채택되었음에도 Lucifer가 $128 \; bit$을 사용하�
 + Plaintet:      $02468aceeca86420$
 + Key:            $0f1571c947d9e859$
 + Ciphertext: $da02ce3a89ecac3b$
+
 ![[Pasted image 20231017101720.png | 600]]
 <div align="center">DES Example</div>
 
