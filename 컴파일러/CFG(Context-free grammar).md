@@ -32,7 +32,23 @@ Sential form에서 어떤 nonterminal symbol을 선택하는 지에 따라 유�
 + If $A \in V_N$, then a node $A$ has at least one descendent.
 + If $A \rightarrow A_1 A_2 ...A_n \in P$, then $A$가 subtree의 root가 되고, 좌로부터 $A_1, A_2, ..., A_n$이 자식 노드가 되도록 간선을 구성
 
-유도 방법(좌측, 우측 유도)에 따라 유도 트리의 모양은 달라지지 않는다. 그러나 하나의 [[String(Sentence)]]을 생성하는 Derivation Tree가 두 개 이상 존재하는 경우도 존재한다. 이러한 경우에 그러한 CFG 무법을 모호하다고 하며, 비결정론적이라고도 한다.
-> A context-free grammar G is **ambiguous** iff it produces *more than one derivation trees(nondeterministic)* for some sentence.
+## **Ambigous Grammar**
+---
+> A context-free grammar G is **ambiguous** iff it produces *more than one derivation trees (nondeterministic)* for some sentence.
 
-결정론적인 Pasing을 위해 CFG 문법을 deterministic하게 구성하거나 nondeterministic한 문법을 deterministic하게 바꿔야 한다.
+유도 방법(좌측, 우측 유도)에 따라 유도 트리의 모양은 달라지지 않는다. 그러나 하나의 [[String(Sentence)]]을 생성하는 Derivation Tree가 두 개 이상 존재하는 경우도 존재한다. 이러한 경우에 그러한 CFG 무법을 모호하다고 하며, 비결정론적이라고도 한다. 
+
+주어진 문법이 모호하다는 것을 증명하기 위해서는 단순히 임의의 문장을 생성하는 유도 트리가 유일하지 않음을 밝히면 된다. **일반적으로 한 문법이 모호하다는 것을 형식적으로 증명하는 방법은 존재하지 않으며 모호하지 않게 바꾸는 방법도 존재하지 않는다**
+
+※ 일반적인 상황에서 $A\rightarrow A\alpha A$와 같은 production이 존재하는 문법은 모호하다. 
+
+Deterministic Pasing을 위해 CFG 문법을 deterministic하게 구성하거나 nondeterministic한 문법을 deterministic하게 바꿔야 한다.
+
+
+### Ambiguous $\rightarrow$ Unambiguous
+1. 새로운 nonterminal을 도입해 unambiguous grammar로 변환
+2. 이 과정에서 precedence & associativity 규칙을 이용한다
+	1. precedence 규칙을 적용할 때 우선순위가 낮은 것을 낮은 것이 tree의 깊이가 낮게 구성한다
+	2. associativity는 같은 우선수위인 경우에 규칙을 정하며 좌결합, 우결합에 차이를 두어 구성한다. 
+	   e.g. 좌결합: $T\rightarrow T < F\;|\;F$           우결합: $T \rightarrow F = T \;| \;F$
+	   

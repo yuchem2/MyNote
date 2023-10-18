@@ -1,0 +1,3 @@
+>A integer $p>1$ is *prime number* iff only divisors are $\pm1$ and $\pm p$. All numbers other than $\pm1$ and the prime numbers are *composite numbers*.
+
+위의 정의에 따라 1보다 큰  임의의 정수 $a$는 다음과 같이 표현할 수 있다. $$a=p_1^{a_1}\times p_1^{a_1}\times p_2^{a_2}\times...\times p_t^{a_t} \quad where \; p_1 < p_2 < ... <p_t \; are \; prime \; numbers\; and \; a_i \; is \; a \; positive \; integer$$위 식을 모든 prime number의 집합 $P$를 통해 표기하면 아래와 같다.$$a= \prod_{p\in P} p^{a_p} \quad where \; each \; q_p \geq 0$$위 식을 통하면 두 수에 대한 곱셈을 다음과 같이 표기 할 수 있다. $$\begin{align}a =\prod_{p\in P} p^{a_p} && b = \prod_{p\in P} p^{b_p} \qquad k=ab \\ k = \prod_{p\in P} p^{k_p} && where \; k_p = a_p+b_p  \; for \; all \; p \in P &\end{align}$$
