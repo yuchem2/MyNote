@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b7853ffff0e5524a",
+            "id": "7eac6240d7869557",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Modular Arithmetic.md",
+                "file": "데이터베이스/Before Midterm.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "09eafe4e5133bf9c",
+            "id": "f277aded1ebf3877",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Euler Totient Function.md",
+                "file": "데이터베이스/phpMyAdmin.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "7cdb685f92bfba53",
+            "id": "338edc2b769e57ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Ring.md",
+                "file": "데이터베이스/관계 대수.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,46 +47,19 @@
             }
           },
           {
-            "id": "b55ff5172eaa5e9e",
+            "id": "4828c7dbc4c18081",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Field.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af83f4a9b1324f57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘/알고리즘(Algorithm).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a0d17791064cfcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math/Prime Number.md",
+                "file": "데이터베이스/데이터베이스(DB).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Prime Number.md"
+                "file": "데이터베이스/Before Midterm.md"
               }
             }
           },
@@ -162,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Prime Number.md",
+                "file": "데이터베이스/Before Midterm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Prime Number.md",
+                "file": "데이터베이스/Before Midterm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,9 +165,18 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "ee2c5db5b4419a18",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,47 +184,48 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:그래프 뷰 열기": false,
-      "templates:템플릿 삽입": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "smart-random-note:Open Random Note from Search": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1a0d17791064cfcd",
+  "active": "7eac6240d7869557",
   "lastOpenFiles": [
+    "데이터베이스/Before Midterm.md",
+    "데이터베이스/phpMyAdmin.md",
+    "데이터베이스/개체(Entity).md",
+    "데이터베이스/관계 대수.md",
+    "데이터베이스/데이터베이스(DB).md",
+    "데이터베이스/관계 데이터 연산.md",
+    "데이터베이스/데이터 모델링.md",
+    "데이터베이스/무결성 제약조건(Integrity Constraint).md",
+    "데이터베이스/데이터 베이스 인스턴스(instance).md",
+    "데이터베이스/데이터 베이스 스키마(Schema).md",
+    "데이터베이스/릴레이션 스키마(Relation schema).md",
+    "MixPath/릴레이션(Relation).md",
+    "데이터베이스/속성(attribute).md",
+    "데이터베이스/논리적 데이터 모델링.md",
+    "데이터베이스/개념적 데이터 모델링.md",
+    "데이터베이스/데이터 베이스 모델링.md",
+    "데이터베이스/DBMS(DB management service).md",
+    "데이터베이스/외부단계(external level).md",
+    "데이터베이스/뷰(View).md",
+    "데이터베이스/데이터 베이스 시스템.md",
+    "데이터베이스/파일 시스템.md",
+    "Math/Prime Number.md",
     "Math/CRT(Chinese Remainder Theorem).md",
     "Math/Pasted image 20231019001752.png",
     "알고리즘/알고리즘(Algorithm).md",
-    "Math/Prime Number.md",
     "Math/Euler Totient Function.md",
     "Math/Fermat's Theorem.md",
-    "Math/Field.md",
-    "Math/Ring.md",
-    "Math/Modular Arithmetic.md",
-    "Math/Group.md",
-    "Math/GCD(Greatest Common Divisor).md",
-    "Math/Finite Field.md",
     "Math/Pasted image 20231018165042.png",
     "Math/Pasted image 20231018103715.png",
-    "Math/Divisibility.md",
-    "Math/Algebraic Sturcture.md",
-    "정보보호/DES(Data Encryption Standard).md",
     "정보보호/Pasted image 20231017101720.png",
     "정보보호/Pasted image 20231017095411.png",
     "Math",
-    "정보보호/Block Cipher.md",
-    "정보보호/Avalanche Effect.md",
     "운영체제/Pasted image 20231017232131.png",
-    "정보보호/Feistel Cipher.md",
-    "정보보호/Substitution-Permutation(S-P) networks.md",
-    "데이터베이스/데이터 조작어(DML).md",
-    "데이터베이스/SQL(Structured Query Language).md",
-    "데이터베이스/정보(Information).md",
-    "데이터베이스/반정형 데이터(Semi-structured data).md",
-    "데이터베이스/도메인 무결성 제약조건.md",
-    "운영체제/Thread.md",
-    "운영체제/Process.md",
     "정보보호/Pasted image 20231017093851.png",
     "정보보호/Pasted image 20231016135525.png",
     "Untitled.canvas",
