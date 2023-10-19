@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "데이터베이스/Before Midterm.md",
+                "file": "정보보호/Feistel Cipher.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a3719bcfcabcf6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정보보호/Substitution-Permutation(S-P) networks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -59,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "데이터베이스/Before Midterm.md"
+                "file": "데이터베이스/데이터베이스(DB).md"
               }
             }
           },
@@ -135,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "데이터베이스/Before Midterm.md",
+                "file": "데이터베이스/데이터베이스(DB).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "데이터베이스/Before Midterm.md",
+                "file": "데이터베이스/데이터베이스(DB).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,9 +206,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7eac6240d7869557",
+  "active": "4828c7dbc4c18081",
   "lastOpenFiles": [
+    "정보보호/Substitution-Permutation(S-P) networks.md",
+    "정보보호/Feistel Cipher.md",
+    "정보보호/Block Cipher Symmetric Encryption.md",
+    "정보보호/Substitution Ciphers.md",
+    "정보보호/Block Cipher.md",
+    "정보보호/Product Ciphers.md",
+    "정보보호/Transposition Ciphers.md",
+    "정보보호/Symmetric encryption.md",
+    "정보보호/Playfair Cipher.md",
+    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
+    "정보보호/Differential Cryptanalysis.md",
+    "정보보호/정보 보호(Information Security).md",
     "데이터베이스/Before Midterm.md",
+    "데이터베이스/파일 시스템.md",
     "데이터베이스/phpMyAdmin.md",
     "데이터베이스/개체(Entity).md",
     "데이터베이스/관계 대수.md",
@@ -206,20 +234,7 @@
     "데이터베이스/릴레이션 스키마(Relation schema).md",
     "MixPath/릴레이션(Relation).md",
     "데이터베이스/속성(attribute).md",
-    "데이터베이스/논리적 데이터 모델링.md",
-    "데이터베이스/개념적 데이터 모델링.md",
-    "데이터베이스/데이터 베이스 모델링.md",
-    "데이터베이스/DBMS(DB management service).md",
-    "데이터베이스/외부단계(external level).md",
-    "데이터베이스/뷰(View).md",
-    "데이터베이스/데이터 베이스 시스템.md",
-    "데이터베이스/파일 시스템.md",
-    "Math/Prime Number.md",
-    "Math/CRT(Chinese Remainder Theorem).md",
     "Math/Pasted image 20231019001752.png",
-    "알고리즘/알고리즘(Algorithm).md",
-    "Math/Euler Totient Function.md",
-    "Math/Fermat's Theorem.md",
     "Math/Pasted image 20231018165042.png",
     "Math/Pasted image 20231018103715.png",
     "정보보호/Pasted image 20231017101720.png",
