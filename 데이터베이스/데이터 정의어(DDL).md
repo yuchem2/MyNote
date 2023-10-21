@@ -8,7 +8,7 @@
 ---
 명령어 문법은 모두 [[MySQL]]의 문법에 기초하였다
 1. 테이블 생성: CREATE TABLE 
-```mySQL
+```sql
 CREATE TABLE table_name (
 	(1) attribute_name data_type [NOT NULL] [DEFAULT default_value]
 	(2) [PRIMARY KEY (attribute_list)]
@@ -43,7 +43,7 @@ CREATE TABLE table_name (
 	   + 테이블에 정확하고 유요한 데이터를 유지하기 위해 특정 속성에 대한 제약조건 지정
 	   + CHECK 키워드와 CONSTRAINT 키워드를 사용해 고유의 이름 부여 가능
 <div></div>
-```mySQL
+```sql
 ...
 CHECK (재고량 >= 0 AND 재고량 <= 1000)
 CONSTRAINT CHK_CPK CHECK(제조업체='한빛제과')
@@ -51,7 +51,7 @@ CONSTRAINT CHK_CPK CHECK(제조업체='한빛제과')
 ```
 
 2. 테이블 변경: ALTER TABLE
-```MySQL
+```sql
 ALTER TABLE table_name ADD attribute_name data_type [NOT NULL] [DEFAULT default_value];
 ALTER TABLE table_name DROP attribute_name data_type [NOT NULL] [DEFAULT default_value];
 
@@ -61,7 +61,7 @@ ALTER TABLE table_name DROP CONSTRAINT condition_name;
 만약 삭제할 속성과 관련된 제약조건이나 참조하는 다른 속성이 존재하는 경우 삭제가 수행되지 않음. 관련된 제약조건이나 참조하는 다른 속성을 먼저 삭제해야 한다
 
 3. 테이블 삭제: DROP TABLE
-```MySQL
+```sql
 DROP TABLE table_name;
 ```
 만약 삭제할 테이블을 참조하는 테이블이 존재하고 있다면 데이터 삭제가 수행되지 않는다. 먼저 외래키 제약조건을 삭제한 후에 삭제가 가능하다

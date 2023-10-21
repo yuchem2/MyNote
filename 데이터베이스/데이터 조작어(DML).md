@@ -10,7 +10,7 @@
 ---
 명령어 문법은 모두 [[MySQL]]의 문법에 기초하였다
 1. 데이터 검색: SELECT
- ```MySQL
+ ```sql
  SELECT [ALL | DISTINCT] attribute_list FROM table_list [WHERE conditions];
  SELECT 제품명, 단가 AS 가격 FROM 제품;
  SELECT 제품명, 단가 '가 격' FROM 제품;
@@ -26,7 +26,7 @@
    + 속성의 이름과 산술 연산자를 통해 계산된 결과값을 보여줄 수 있음(원본 값 변경x)
 
 1. 데이터 삽입: INSERT
-```MySQL
+```sql
  INSERT INTO table_name VALUES (attribute_value_list);
  ```
 3. 데이터 수정: UPDATE

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e2927c8e60c60c69",
+        "id": "79cbf5f6a1bf3312",
         "type": "tabs",
         "children": [
           {
-            "id": "7eac6240d7869557",
+            "id": "14470aa1ec799610",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Finite Field.md",
+                "file": "정보보호/DES(Data Encryption Standard).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "0bd3e432735553b7",
+            "id": "149c4f8751861cbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Polynominal Arithmetic.md",
+                "file": "정보보호/Feistel Cipher.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,19 +34,33 @@
             }
           },
           {
-            "id": "f0578b5233dea025",
+            "id": "b80cdf1518904c72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Ring.md",
+                "file": "정보보호/AES(Advanced Encryption Standard).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e5605e8a2cdfc7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "데이터베이스/SQL(Structured Query Language).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Finite Field.md"
+                "file": "정보보호/AES(Advanced Encryption Standard).md"
               }
             }
           },
@@ -122,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Finite Field.md",
+                "file": "정보보호/AES(Advanced Encryption Standard).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Finite Field.md",
+                "file": "정보보호/AES(Advanced Encryption Standard).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,12 +177,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,10 +193,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7eac6240d7869557",
+  "active": "b80cdf1518904c72",
   "lastOpenFiles": [
-    "Math/Polynominal Arithmetic.md",
+    "정보보호/Feistel Cipher.md",
+    "정보보호/DES(Data Encryption Standard).md",
+    "정보보호/AES(Advanced Encryption Standard).md",
+    "정보보호/Pasted image 20231021193750.png",
+    "정보보호/Pasted image 20231021192144.png",
+    "정보보호/Pasted image 20231021193730.png",
+    "정보보호/Substitution-Permutation(S-P) networks.md",
+    "리눅스프로그래밍/리눅스프로그래밍실습.md",
+    "데이터베이스/SQL(Structured Query Language).md",
+    "데이터베이스/데이터 정의어(DDL).md",
+    "컴파일러/Compile Procedure.md",
+    "데이터베이스/데이터 제어어(DCL).md",
+    "데이터베이스/데이터 조작어(DML).md",
+    "www.netsarang.co.kr.md",
     "Math/Finite Field.md",
+    "Math/Polynominal Arithmetic.md",
     "Math/Pasted image 20231020145006.png",
     "Math/Pasted image 20231020160349.png",
     "Math/GCD(Greatest Common Divisor).md",
@@ -197,25 +225,11 @@
     "Math/Group.md",
     "Math/Pasted image 20231020133420.png",
     "Math/Field.md",
-    "정보보호/Substitution-Permutation(S-P) networks.md",
     "Pasted image 20231020133409.png",
     "Math/Pasted image 20231020132305.png",
     "Pasted image 20231020133348.png",
-    "정보보호/Feistel Cipher.md",
     "데이터베이스/phpMyAdmin.md",
     "데이터베이스/관계 대수.md",
-    "데이터베이스/데이터베이스(DB).md",
-    "정보보호/Block Cipher Symmetric Encryption.md",
-    "정보보호/Substitution Ciphers.md",
-    "정보보호/Block Cipher.md",
-    "정보보호/Product Ciphers.md",
-    "정보보호/Transposition Ciphers.md",
-    "정보보호/Symmetric encryption.md",
-    "정보보호/Playfair Cipher.md",
-    "정보보호/암호화 알고리즘(Cypotographic algorithms).md",
-    "Math/Pasted image 20231019001752.png",
-    "Math/Pasted image 20231018165042.png",
-    "Math/Pasted image 20231018103715.png",
     "Math",
     "Untitled.canvas",
     "Context/spacesLastSync.log",

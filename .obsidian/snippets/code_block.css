@@ -1,0 +1,24 @@
+.theme-light .cm-s-obsidian .HyperMD-codeblock  {
+    color: #030303;
+}   
+
+.theme-light .cm-s-obsidian span.cm-inline-code {
+    color: #030303;
+}
+
+.theme-light .markdown-preview-view code {
+    color: #030303;
+}
+
+
+.theme-dark .cm-s-obsidian .HyperMD-codeblock  {
+    color: #BEC6CF;
+}   
+
+.theme-dark .cm-s-obsidian span.cm-inline-code {
+    color: #BEC6CF;
+}
+
+.theme-dark .markdown-preview-view code {
+    color: #BEC6CF;
+}

@@ -1,13 +1,22 @@
 {
   "accentColor": "",
   "cssTheme": "Things",
-  "baseFontSize": 15,
-  "theme": "system",
+  "baseFontSize": 14,
+  "theme": "obsidian",
   "enabledCssSnippets": [
     "img",
     "obsidian_snippets",
     "img_center",
-    "tag_a"
+    "tag_a",
+    "note_width",
+    "things_style",
+    "code_block"
   ],
-  "nativeMenus": false
+  "nativeMenus": true,
+  "translucency": false,
+  "interfaceFontFamily": "",
+  "textFontFamily": "함초롬돋움",
+  "monospaceFontFamily": "Consolas",
+  "baseFontSizeAction": true,
+  "showViewHeader": true
 }

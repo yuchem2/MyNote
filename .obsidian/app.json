@@ -10,5 +10,9 @@
     "landscape": false,
     "margin": "2",
     "downscalePercent": 70
-  }
+  },
+  "newFileLocation": "current",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": false,
+  "attachmentFolderPath": "./"
 }
