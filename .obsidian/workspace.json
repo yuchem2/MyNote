@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "79cbf5f6a1bf3312",
+        "id": "b9cf430ce4261c8d",
         "type": "tabs",
         "children": [
           {
-            "id": "14470aa1ec799610",
+            "id": "755c391f8e969f5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/DES(Data Encryption Standard).md",
+                "file": "고전음악의이해/고전음악의 이해.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,46 +21,19 @@
             }
           },
           {
-            "id": "149c4f8751861cbe",
+            "id": "6db741da725cacae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/Feistel Cipher.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b80cdf1518904c72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정보보호/AES(Advanced Encryption Standard).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e5605e8a2cdfc7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "데이터베이스/SQL(Structured Query Language).md",
+                "file": "고전음악의이해/바로크 음악.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보보호/AES(Advanced Encryption Standard).md"
+                "file": "고전음악의이해/고전음악의 이해.md"
               }
             }
           },
@@ -136,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보보호/AES(Advanced Encryption Standard).md",
+                "file": "고전음악의이해/고전음악의 이해.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보보호/AES(Advanced Encryption Standard).md",
+                "file": "고전음악의이해/고전음악의 이해.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,8 +150,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -193,43 +165,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b80cdf1518904c72",
+  "active": "755c391f8e969f5c",
   "lastOpenFiles": [
-    "정보보호/Feistel Cipher.md",
-    "정보보호/DES(Data Encryption Standard).md",
-    "정보보호/AES(Advanced Encryption Standard).md",
-    "정보보호/Pasted image 20231021193750.png",
-    "정보보호/Pasted image 20231021192144.png",
-    "정보보호/Pasted image 20231021193730.png",
-    "정보보호/Substitution-Permutation(S-P) networks.md",
-    "리눅스프로그래밍/리눅스프로그래밍실습.md",
-    "데이터베이스/SQL(Structured Query Language).md",
-    "데이터베이스/데이터 정의어(DDL).md",
-    "컴파일러/Compile Procedure.md",
-    "데이터베이스/데이터 제어어(DCL).md",
-    "데이터베이스/데이터 조작어(DML).md",
-    "www.netsarang.co.kr.md",
-    "Math/Finite Field.md",
-    "Math/Polynominal Arithmetic.md",
-    "Math/Pasted image 20231020145006.png",
-    "Math/Pasted image 20231020160349.png",
-    "Math/GCD(Greatest Common Divisor).md",
-    "Math/Modular Arithmetic.md",
-    "Math/Prime Number.md",
-    "Math/Euler Totient Function.md",
-    "Math/Fermat's Theorem.md",
-    "Math/CRT(Chinese Remainder Theorem).md",
-    "Math/Divisibility.md",
-    "Math/Ring.md",
-    "Math/Pasted image 20231020140717.png",
-    "Math/Group.md",
-    "Math/Pasted image 20231020133420.png",
-    "Math/Field.md",
-    "Pasted image 20231020133409.png",
-    "Math/Pasted image 20231020132305.png",
-    "Pasted image 20231020133348.png",
-    "데이터베이스/phpMyAdmin.md",
-    "데이터베이스/관계 대수.md",
+    "고전음악의이해/바로크 음악.md",
+    "고전음악의이해/악기.md",
+    "고전음악의이해/오페라.md",
+    "고전음악의이해/고전음악의 이해.md",
+    "고전음악의이해/르네상스 음악.md",
+    "고전음악의이해/영국 마드리갈.md",
+    "고전음악의이해/에어.md",
+    "고전음악의이해/마드리갈.md",
+    "고전음악의이해/팔레스트리나.md",
+    "고전음악의이해/대위법.md",
+    "고전음악의이해/가사 그리기.md",
+    "고전음악의이해/모방 기법.md",
+    "고전음악의이해/호모포니(homophony).md",
+    "고전음악의이해/플랑드르 악파.md",
+    "고전음악의이해/아 카펠라(a cappella).md",
+    "고전음악의이해/다성음악(polyphony).md",
+    "고전음악의이해/고전 음악.md",
+    "고전음악의이해/중세시대 음악.md",
+    "고전음악의이해/고대시대 음악.md",
+    "고전음악의이해/부르고뉴 악파.md",
+    "고전음악의이해/샹송.md",
+    "고전음악의이해/모테트.md",
+    "고전음악의이해/3화음 음악.md",
+    "고전음악의이해/포부르동 기법.md",
+    "고전음악의이해/아르스 노바(14C).md",
+    "고전음악의이해/Pasted image 20231022180625.png",
+    "고전음악의이해/Pasted image 20231022180612.png",
+    "고전음악의이해/오르가눔(organum).md",
+    "고전음악의이해/Pasted image 20231022175949.png",
+    "정보보호/Pasted image 20231022170606.png",
+    "정보보호/Pasted image 20231022163608.png",
+    "정보보호/Pasted image 20231022163540.png",
+    "정보보호/Pasted image 20231022163525.png",
+    "정보보호/Pasted image 20231022162822.png",
+    "정보보호/Pasted image 20231022162807.png",
+    "정보보호/Pasted image 20231022162530.png",
     "Math",
     "Untitled.canvas",
     "Context/spacesLastSync.log",
