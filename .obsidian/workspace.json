@@ -4,76 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "b9cf430ce4261c8d",
+        "id": "b469d3fbb51f1efc",
         "type": "tabs",
         "children": [
           {
-            "id": "755c391f8e969f5c",
+            "id": "4192613f3a079f2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스프로그래밍/리눅스프로그래밍실습.md",
-                "mode": "preview",
+                "file": "정보보호/Before Midterm.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "359d20b229aa2e07",
+            "id": "0d1183e7f9eefea4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리눅스프로그래밍/Basic GCC Compilering.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2b152c07c88760c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리눅스프로그래밍/File Access.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbe192099bdb4bdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리눅스프로그래밍/Remote Connection.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1286055196728c68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리눅스프로그래밍/String Functions.md",
+                "file": "정보보호/DES(Data Encryption Standard).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리눅스프로그래밍/String Functions.md"
+                "file": "정보보호/Before Midterm.md"
               }
             }
           },
@@ -149,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리눅스프로그래밍/String Functions.md",
+                "file": "정보보호/Before Midterm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리눅스프로그래밍/String Functions.md",
+                "file": "정보보호/Before Midterm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,26 +159,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "templates:Insert template": false,
+      "graph:그래프 뷰 열기": false,
+      "templates:템플릿 삽입": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "smart-random-note:Open Random Note from Search": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1286055196728c68",
+  "active": "4192613f3a079f2b",
   "lastOpenFiles": [
-    "리눅스프로그래밍/String Functions.md",
+    "정보보호/DES(Data Encryption Standard).md",
     "정보보호/Before Midterm.md",
+    "정보보호/Feistel Cipher.md",
+    "리눅스프로그래밍/String Functions.md",
     "리눅스프로그래밍/Basic GCC Compilering.md",
     "Math/CRT(Chinese Remainder Theorem).md",
     "정보보호/Rotor Machines.md",
     "Math/Prime Number.md",
     "Math/Polynominal Arithmetic.md",
     "Math/GCD(Greatest Common Divisor).md",
-    "정보보호/DES(Data Encryption Standard).md",
     "정보보호/Block Cipher.md",
-    "정보보호/Feistel Cipher.md",
     "정보보호/Block Cipher Symmetric Encryption.md",
     "정보보호/Product Ciphers.md",
     "정보보호/사이버 보안(Cybersecurity).md",

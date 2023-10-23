@@ -24,6 +24,7 @@ DES가 표준으로 채택되었음에도 Lucifer가 $128 \; bit$을 사용하�
 
 ![[Pasted image 20231017093851.png | 550]]
 <div align="center">General Depiction of DES Encrpytion Algorithm</div>
+
 ### 1. Initial Permutation(IP)
 평문을 임의의 permutation을 선택해 transposition을 수행한다
 ### 2. Round Structure
@@ -36,6 +37,7 @@ DES가 표준으로 채택되었음에도 Lucifer가 $128 \; bit$을 사용하�
 
 ![[Pasted image 20231017095411.png | 550]]
 <div align="center">DES Round Structure</div>
+
 ### 3. Key Schedule
 각 라운드에서 subkey $K_1...K_{16}$이 사용된다. subkey는 다음과 같은 과정을 통해 만들어진다.
 + 먼저 평문과 동일하게 비밀 키 $K$에 대해 inital permuation이 수행되어 $56 \; bit$를 생성하며 이를 $28 \; bit$씩 반으로 나눈다
