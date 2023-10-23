@@ -13,61 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "고전음악의이해/고전음악의 이해.md",
-                "mode": "source",
+                "file": "리눅스프로그래밍/리눅스프로그래밍실습.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "6db741da725cacae",
+            "id": "359d20b229aa2e07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "고전음악의이해/바로크 음악.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "976359afafcdfb13",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "923c62356077488f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "고전음악의이해/오페라.md",
-                "mode": "source",
+                "file": "리눅스프로그래밍/Basic GCC Compilering.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "cdf65a4d8f4a93c6",
+            "id": "c2b152c07c88760c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "고전음악의이해/정서이론.md",
-                "mode": "source",
+                "file": "리눅스프로그래밍/File Access.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bbe192099bdb4bdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "리눅스프로그래밍/Remote Connection.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ebf78d471b541ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "리눅스프로그래밍/String Functions.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -133,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "고전음악의이해/정서이론.md"
+                "file": "리눅스프로그래밍/String Functions.md"
               }
             }
           },
@@ -143,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "고전음악의이해/정서이론.md",
+                "file": "리눅스프로그래밍/String Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "고전음악의이해/정서이론.md",
+                "file": "리눅스프로그래밍/String Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,41 +199,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:그래프 뷰 열기": false,
-      "templates:템플릿 삽입": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "smart-random-note:Open Random Note from Search": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cdf65a4d8f4a93c6",
+  "active": "9ebf78d471b541ff",
   "lastOpenFiles": [
+    "리눅스프로그래밍/Remote Connection.md",
+    "리눅스프로그래밍/Basic GCC Compilering.md",
+    "리눅스프로그래밍/File Access.md",
+    "리눅스프로그래밍/리눅스프로그래밍실습.md",
+    "리눅스프로그래밍/String Functions.md",
+    "고전음악의이해/고전음악의 이해.md",
+    "고전음악의이해/바로크 음악.md",
+    "고전음악의이해/푸가.md",
+    "고전음악의이해/평균율.md",
+    "고전음악의이해/Pasted image 20231023125012.png",
+    "고전음악의이해/변주곡.md",
+    "고전음악의이해/모음곡.md",
+    "고전음악의이해/협주곡.md",
+    "고전음악의이해/셈여림.md",
+    "고전음악의이해/소나타.md",
+    "고전음악의이해/주제의 재현.md",
+    "고전음악의이해/빠르기.md",
+    "고전음악의이해/악기.md",
+    "고전음악의이해/Pasted image 20231023115404.png",
+    "고전음악의이해/칸타타.md",
+    "고전음악의이해/오라토리오.md",
     "고전음악의이해/오페라.md",
     "고전음악의이해/정서이론.md",
-    "고전음악의이해/바로크 음악.md",
     "고전음악의이해/모노디(monody).md",
     "고전음악의이해/숫자 저음.md",
-    "고전음악의이해/고전음악의 이해.md",
-    "고전음악의이해/악기.md",
     "고전음악의이해/르네상스 음악.md",
     "고전음악의이해/영국 마드리갈.md",
     "고전음악의이해/에어.md",
-    "고전음악의이해/마드리갈.md",
-    "고전음악의이해/팔레스트리나.md",
-    "고전음악의이해/대위법.md",
-    "고전음악의이해/가사 그리기.md",
-    "고전음악의이해/모방 기법.md",
-    "고전음악의이해/호모포니(homophony).md",
-    "고전음악의이해/플랑드르 악파.md",
-    "고전음악의이해/아 카펠라(a cappella).md",
-    "고전음악의이해/다성음악(polyphony).md",
-    "고전음악의이해/고전 음악.md",
-    "고전음악의이해/중세시대 음악.md",
-    "고전음악의이해/고대시대 음악.md",
-    "고전음악의이해/부르고뉴 악파.md",
-    "고전음악의이해/샹송.md",
-    "고전음악의이해/모테트.md",
-    "고전음악의이해/3화음 음악.md",
     "고전음악의이해/Pasted image 20231022180625.png",
     "고전음악의이해/Pasted image 20231022180612.png",
     "고전음악의이해/Pasted image 20231022175949.png",
@@ -236,8 +244,6 @@
     "정보보호/Pasted image 20231022163540.png",
     "정보보호/Pasted image 20231022163525.png",
     "정보보호/Pasted image 20231022162822.png",
-    "정보보호/Pasted image 20231022162807.png",
-    "정보보호/Pasted image 20231022162530.png",
     "Math",
     "Untitled.canvas",
     "Context/spacesLastSync.log",
