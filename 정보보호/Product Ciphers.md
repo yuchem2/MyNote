@@ -5,4 +5,4 @@
 
 두 암호를 각각 하나만 사용하는 경우 언어의 특성을 이용한 공격에 취약하기 때문에 둘을 조합한 형태의 암호가 등장하였다. 이러한 암호를 [[Product Ciphers]]라고 한다
 
-+ [[Rotor Machines]]
+![[Rotor Machines]]

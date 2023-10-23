@@ -60,13 +60,13 @@
             }
           },
           {
-            "id": "9ebf78d471b541ff",
+            "id": "1286055196728c68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "리눅스프로그래밍/String Functions.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -151,7 +151,7 @@
               "state": {
                 "file": "리눅스프로그래밍/String Functions.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -206,13 +206,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9ebf78d471b541ff",
+  "active": "1286055196728c68",
   "lastOpenFiles": [
-    "리눅스프로그래밍/Remote Connection.md",
+    "정보보호/Before Midterm.md",
+    "리눅스프로그래밍/String Functions.md",
     "리눅스프로그래밍/Basic GCC Compilering.md",
+    "Math/CRT(Chinese Remainder Theorem).md",
+    "정보보호/Rotor Machines.md",
+    "Math/Prime Number.md",
+    "Math/Polynominal Arithmetic.md",
+    "Math/GCD(Greatest Common Divisor).md",
+    "정보보호/DES(Data Encryption Standard).md",
+    "정보보호/Block Cipher.md",
+    "정보보호/Feistel Cipher.md",
+    "정보보호/Block Cipher Symmetric Encryption.md",
+    "정보보호/Product Ciphers.md",
+    "정보보호/사이버 보안(Cybersecurity).md",
+    "정보보호/Security service.md",
+    "정보보호/Security attack.md",
+    "정보보호/정보 보호(Information Security).md",
+    "리눅스프로그래밍/Remote Connection.md",
     "리눅스프로그래밍/File Access.md",
     "리눅스프로그래밍/리눅스프로그래밍실습.md",
-    "리눅스프로그래밍/String Functions.md",
     "고전음악의이해/고전음악의 이해.md",
     "고전음악의이해/바로크 음악.md",
     "고전음악의이해/푸가.md",
@@ -220,22 +235,7 @@
     "고전음악의이해/Pasted image 20231023125012.png",
     "고전음악의이해/변주곡.md",
     "고전음악의이해/모음곡.md",
-    "고전음악의이해/협주곡.md",
-    "고전음악의이해/셈여림.md",
-    "고전음악의이해/소나타.md",
-    "고전음악의이해/주제의 재현.md",
-    "고전음악의이해/빠르기.md",
-    "고전음악의이해/악기.md",
     "고전음악의이해/Pasted image 20231023115404.png",
-    "고전음악의이해/칸타타.md",
-    "고전음악의이해/오라토리오.md",
-    "고전음악의이해/오페라.md",
-    "고전음악의이해/정서이론.md",
-    "고전음악의이해/모노디(monody).md",
-    "고전음악의이해/숫자 저음.md",
-    "고전음악의이해/르네상스 음악.md",
-    "고전음악의이해/영국 마드리갈.md",
-    "고전음악의이해/에어.md",
     "고전음악의이해/Pasted image 20231022180625.png",
     "고전음악의이해/Pasted image 20231022180612.png",
     "고전음악의이해/Pasted image 20231022175949.png",

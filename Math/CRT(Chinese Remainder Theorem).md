@@ -15,4 +15,4 @@
 9) One of the useful features of the CRT is that is provides a way to manipulate (potentially very large) numbers $\bmod M$ in terms of tuples of smaller numbers. This can be useful when $M$ is 150 digits or more. However, note that is necessary to know beforehand the factorization of $M$
 
 위 연산을 간단하게 서술하면 다음과 같다 $$\begin{align}A &\equiv \left(\sum_{i=1}^ka_ic_i\right) \pmod M \Rightarrow [a_1M_1M_1^{-1} + a_2M_2M_2^{-1}] \bmod M \; if \; k = 2 \\ c_i &= M_i \times (M_i^{-1} \bmod m_i)  \quad for \; 1 \leq i \leq k \\ a_i &=A \bmod m_i, \quad M_i=M/m_i=m_1\times m_2\times ... \times m_k\end{align}$$
-![[Pasted image 20231019001752.png | 700]]
+![[Pasted image 20231019001752.png | 600]]

@@ -38,11 +38,9 @@ OSI 표준으로는 ITU-T(국제전기통신표준화기구)에서 정한 X.800 
 
 ## **Aspects of Security**
 ---
-+ [[Security attack]]: 소유한 정보의 보안을 손상시키는 모든 행위
++ [[Security attack]]: 소유한 정보의 보안을 손상시키는 모든 행위![[Security attack]]
 + [[Security mechanism]]: 보안 공격을 탐지, 예방 또는 복구하도록 설계된 프로세스
-+ [[Security service]]: 하나 이상의 보안 메커니즘을 이용하여 서비스를 제공하는 서비스
-
-
++ [[Security service]]: 하나 이상의 보안 메커니즘을 이용하여 서비스를 제공하는 서비스![[Security service]]
 ## **종류**
 ---
 + [[정보 보호(Information Security)]]

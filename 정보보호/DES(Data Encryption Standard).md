@@ -120,8 +120,8 @@ DES에서 수행된 transformation을 설명하기 위해 선형 근사치를 �
 + S-box에 대한 7가지 기준은 다음과 같다
 	+ 비선형적이여야 한다
 	+ [[Differential Cryptanalysis]]의 저항성을 가져야 한다
-	+ 좋은 *confussion* 을 제공한다![[Substitution-Permutation(S-P) networks#*Confussion*]]
+	+ 좋은 *confussion* 을 제공한다
 	+ etc...
 + permutation $p$에 대한 3가지 기준은 다음과 같다 
-	+ *diffusion*을 향상시킨다. ![[Substitution-Permutation(S-P) networks#*Diffussion*]]
+	+ *diffusion*을 향상시킨다.
 	+ etc...

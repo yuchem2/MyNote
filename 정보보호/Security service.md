@@ -11,8 +11,13 @@
 
 
 주요한 서비스는 다음과 같다.
-+ [[인증(Authentication)]]
-+ [[접근 제어(Access control)]]
-+ [[데이터 기밀성(Data Confidentiality)]]
-+ [[데이터 무결성(Data Integrity)]]
-+ [[부인봉쇄(Non-repudiation)]]
+![[인증(Authentication)]]
+
+![[접근 제어(Access control)]]
+
+![[데이터 기밀성(Data Confidentiality)]]
+
+[[데이터 무결성(Data Integrity)]]
+![[데이터 무결성(Data Integrity)#Security 에서의 정의]]
+
+![[부인봉쇄(Non-repudiation)]]

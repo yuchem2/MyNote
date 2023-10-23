@@ -16,7 +16,22 @@ with polynomial degress:
 여기서 $g(x)$가 prime과 같은 성질(only $g(x)|g(x)$ and $1|g(x)$)인 경우에 *irreducible(or prime) polynomial*이라고 한다. 즉, 계수가 $\pmod p$에 닫혀있고, polynomial이 $\pmod {g(x)}$에 닫혀 있는 경우 [[Field]]라고 할 수 있다. 즉, 곱셈 역원이 정의된다.
 
 여기서 p는 어떠한 소수로 결정해도 상관없다. 하지만 [[암호화 알고리즘(Cypotographic algorithms)]]에서는 $p=2$인 경우에 관심이 있다. [[Finite Field#GF($2 n$)]]와 동일한 표현으로 사용되고 다음과 같이 연산을 정의할 수 있다. $$\begin{align} addition: &\; f_1(x) + f_2(x) = (f_1(x)+f_2(x))\bmod g(x) \\ multiplication: & \;f_1(x) \times f_2(x) = (f_1(x) \times f_2(x)) \bmod g(x)\end{align}$$
-
 ![[Pasted image 20231020160349.png | 700]]
 <div align="center">Polynomial Arithemtic Modulo(x^3+x+1)</div>
 
+## Some Calculation
+---
+### Polynoimal [[GCD(Greatest Common Divisor)]] 
+> $c(x) = GCD(a(x), b(x)$ if $c(x)$ is the polynomial of greatest degree which divides both $a(x), b(x)$
+
+[[GCD(Greatest Common Divisor)#Euclidean Algorithm]]을 적용해 구할 수 있다. 
+```pseudo code
+A(x) = a(x), B(x) = b(x)
+if B(x) = 0
+	return A(x) = gcd(a(x), b(x))
+
+R(x) = A(x) mod B(x)
+A(x) = B(x)
+B(x) = R(x)
+goto [if B(x) = 0]
+```

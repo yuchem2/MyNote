@@ -6,8 +6,7 @@
 관련된 용어는 다음과 같다
 + threat: 보안에 위험이 될 가능성
 + attack: 보안에 대한 공격, 보안 서비스를 의도적으로 회피하려는 시도
-	+ [[Passive attack]]
-	+ [[Active attack]]
+	![[Passive attack]]
+	![[Active attack]]
 + [[Cryptanalysis]]
 + [[Brute-force attack]]
-
