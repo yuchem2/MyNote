@@ -22,6 +22,7 @@ GCD는 말 그대로 "최대"이기 때문에 위 식으로 말할 수 있고, �
 
 ![[Pasted image 20231018165042.png | 500]]
 <div align="center">Euclidean Algorithm</div>
+
 위 식을 [[Modular Arithmetic]]을 이용해 간단하게 표기하면 $gcd(a, b) = gcd(b, a \bmod b) \; where \; a>b$라고 쓸 수 있고, 슈도 코드로 작성하면 다음과 같다
 ```pseudo code
 Euclidean Algorithm(a, b):

@@ -12,6 +12,10 @@ $$FA \quad M = (Q, \Sigma, \delta, q_0, F )$$
 
 유한 오토마타 M에 대해서 $if \; q \in Q \; and\; a \in \Sigma, \; \forall \delta (q, a)\; has \; exactly \; one \; number$ 인 경우에 M은 완전히 명시(completly specified)라고 하며 이러한 오토마타를 [[DFA(Deterministic FA)]]라고 한다. 
 
+## [[NFA(Nondeterministic FA)]]
+![[NFA(Nondeterministic FA)]]
+## [[DFA(Deterministic FA)]]
+![[DFA(Deterministic FA)]]
 ## **표현 방법**
 ---
 1. $FA \; M = (Q, \Sigma, \delta, q_0, F )$
@@ -36,11 +40,10 @@ $$ \begin{align}\delta(q_0, a_1a_2... a_n) & = \delta(\{q_1, q_2, ...,q_i\}, a_2
 >*Let L be a language accepted by NFA, then there exists DFA which accpets L.*
 > (proof) Let $M=(Q, \Sigma, \delta, q_0, F)$ be a NFA accepting L.
 > 	Define DFA $M' = (Q', \Sigma, \delta' q_0', F')$ such that
-> 		(1) $Q' = 2^Q, \; {q_1, q_2, ..., q_i} \in Q', where \; q_i \in Q$
-> 				denote a set of $Q'$ as $[q_1, q_2, ..., q_i]$
-> 		(2) $q_0' = {q_0} = [q_0]$
-> 		(3) $F'=\{[r_1, r_2, ..., r_k]\,|\,r_i \in F\,\}$
-> 		(4) $\delta': \; \delta([q_1, q_2, ..., q_i], a) = [p_1, p_2, ..., p_j] \; if \; \delta(\{q_1, q_2, ..., q_j\}, a) = \{p_1, p_2, ..., p_j\}$
+> 	$\quad$	(1) $Q' = 2^Q, \; {q_1, q_2, ..., q_i} \in Q', where \; q_i \in Q$ denote a set of $Q'$ as $[q_1, q_2, ..., q_i]$
+> 	$\quad$	(2) $q_0' = {q_0} = [q_0]$
+> 	$\quad$	(3) $F'=\{[r_1, r_2, ..., r_k]\,|\,r_i \in F\,\}$
+> 	$\quad$	(4) $\delta': \; \delta([q_1, q_2, ..., q_i], a) = [p_1, p_2, ..., p_j] \; if \; \delta(\{q_1, q_2, ..., q_j\}, a) = \{p_1, p_2, ..., p_j\}$
 > 	Now we must prove that $L(M) = L(M')$ i.e, $$\delta'(q_0', x) \in F' \Leftrightarrow \delta(q_0, x) \cap F \neq \varnothing$$> 	(we can easily show that by *inductive hypothesis* on the length of the input string x)
 
 임의의 $NFA \; M = (Q, \Sigma, \delta, q_0, F)$에 대하여 만들어지는 부분집합의 수는 $2^{|Q|}$개이다. 그러므로 너무 많은 상태가 만들어지며 그 중에는 시작 state에서 접근할 수 없는 상태(inaceessible state)도 존재한다. 
@@ -77,23 +80,18 @@ If $L_1$ and $L_2$ are finite automaton languages, then so are
 2) $L_1 \cdot L_2$
 3) $L_1^*$
 4) $L: \; FAL \Rightarrow L^R :\; FAL$
-> (proof) $M_1 = (Q_1, \Sigma, \delta_1, q_1, F_1)$
-> 			$M_2 = (Q_2, \Sigma, \delta_2, q_2, F_2), \quad Q_1 \cap Q_2 = \varnothing (\therefore renaming)$
-> 			(i) $M = (Q_1 \cup Q_2 \cup {q_0}, \Sigma, \delta, q_0, F)$
-> 				where, $q_0$ is a new start state.
-> 						   $F = F_1 \cup F_2 \; if \; \epsilon \notin L_1 \cup L_2$
-> 								   $F_1 \cup F_2 \cup \{q_0\}\; if \; if \; \epsilon \in L_1 \cup L_2$
-> 						   $\delta(q_0, a) = \delta(q_1, a) \cup \delta(q_2, a) \; for \; all \; a \in \Sigma$
-> 						   $\delta(q, a) = \delta_1(q, a) \; for \; all \; q \in Q_1, \; a \in \Sigma$
-> 						   $\delta(q, a) = \delta_2(q, a) \; for \; all \; q \in Q_2, \; a \in \Sigma$
-> 			(ii) $M = (Q_1 \cup Q_2, \Sigma, \delta, q_0, F)$
-> 				where, $F = \begin{cases} F_2 & \mbox{if} & q_2 \notin F_2 \\ F_1 \cup F_2 & \mbox{if} & q_2 \in F_2  \end{cases}$
-> 						   $\delta(q, a) = \delta(q_1, a) \; for \; all \; q \in Q_1 - F_1$
-> 						   $\delta(q, a) = \delta_1(q, a) \cup \delta_2(q_2, a) \; for \; all \; q \in F_1$
-> 						   $\delta(q, a) = \delta_2(q, a) \; for \; all \; q \in Q_2$
-> 			(iii) $L: \; FAL \; \Rightarrow L^* : \; FAL$
-> 				Construct $M' = (Q \cup \{ q_0' \}, \Sigma, \delta', q_0', F \cup \{q_0'\})$,
-> 					$\delta':$
-> 						$\delta'(q, a) = \delta(q, a) \; if \; q \in Q - F \; and \; a \in \Sigma$
-> 						$\delta'(q, a) = \delta(q, a) \cup \delta(q_0, a) \; if \; q \in F, \; a \in \Sigma$
-> 						$\delta'(q_0', a) = \delta(q_0, a) \; for \; all \; a \in \Sigma$
+> (proof) $M_1 = (Q_1, \Sigma, \delta_1, q_1, F_1)$, $M_2 = (Q_2, \Sigma, \delta_2, q_2, F_2), \quad Q_1 \cap Q_2 = \varnothing (\therefore renaming)$
+> 			$\quad$(i) $M = (Q_1 \cup Q_2 \cup {q_0}, \Sigma, \delta, q_0, F)$ where, $q_0$ is a new start state.
+> 			$\quad \quad$			   $F = F_1 \cup F_2 \; if \; \epsilon \notin L_1 \cup L_2$
+> 			$\quad \quad$					   $F_1 \cup F_2 \cup \{q_0\}\; if \; if \; \epsilon \in L_1 \cup L_2$
+> 			$\quad \quad$			   $\delta(q_0, a) = \delta(q_1, a) \cup \delta(q_2, a) \; for \; all \; a \in \Sigma$
+> 			$\quad \quad$			   $\delta(q, a) = \delta_1(q, a) \; for \; all \; q \in Q_1, \; a \in \Sigma$
+> 			$\quad \quad$			   $\delta(q, a) = \delta_2(q, a) \; for \; all \; q \in Q_2, \; a \in \Sigma$
+> 			$\quad$	(ii) $M = (Q_1 \cup Q_2, \Sigma, \delta, q_0, F)$ where, $F = \begin{cases} F_2 & \mbox{if} & q_2 \notin F_2 \\ F_1 \cup F_2 & \mbox{if} & q_2 \in F_2  \end{cases}$
+> 			$\quad \quad$			   $\delta(q, a) = \delta(q_1, a) \; for \; all \; q \in Q_1 - F_1$
+> 			$\quad \quad$			   $\delta(q, a) = \delta_1(q, a) \cup \delta_2(q_2, a) \; for \; all \; q \in F_1$
+> 			$\quad \quad$			   $\delta(q, a) = \delta_2(q, a) \; for \; all \; q \in Q_2$
+> 			$\quad$	(iii) $L: \; FAL \; \Rightarrow L^* : \; FAL$, Construct $M' = (Q \cup \{ q_0' \}, \Sigma, \delta', q_0', F \cup \{q_0'\})$,
+> 		$\quad$			$\delta':$  $\delta'(q, a) = \delta(q, a) \; if \; q \in Q - F \; and \; a \in \Sigma$
+> 			$\quad \quad$			$\delta'(q, a) = \delta(q, a) \cup \delta(q_0, a) \; if \; q \in F, \; a \in \Sigma$
+> 			$\quad \quad$			$\delta'(q_0', a) = \delta(q_0, a) \; for \; all \; a \in \Sigma$

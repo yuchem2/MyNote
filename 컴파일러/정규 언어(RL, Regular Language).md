@@ -1,6 +1,6 @@
 [[정규 문법(RG, Regular grammar)]]으로부터 생성된 [[언어(Language)]]이다.
 
-주로[[토큰(Token)]]의 구조를 정의하는데 사용된다. 이 이유는 다음과 같다.
+주로 [[토큰(Token)]]의 구조를 정의하는데 사용된다. 이 이유는 다음과 같다.
 + [[토큰(Token)]]의 구조는 간단하기 때문에 [[정규 문법(RG, Regular grammar)]]으로 표현할 수 있다
 + [[CFG(Context-free grammar)]]보다는 [[정규 문법(RG, Regular grammar)]]으로부터 효율적인 [[인식기(Recognizer)]]를 구현할 수 있다
 + [[컴파일러(Compiler)]]의 Front-end를 모듈러하게 나누어 구성할 수 있다.
@@ -59,27 +59,25 @@ If $L_1$ and $L_2$ are regular languages, then so are
 1) $L_1 \cup L_2$
 2) $L_1 \cdot L_2$
 3) $L_1^*$
-> (proof) Since $L_1$ and $L_2$ are RL, $\exists RG \;G_1 = (V_{N1}, V_{T1}, P_1, S_1)$ and $G_2 = (V_{N2}, V_{T2}, P_2, S_2)$, 
-> 			such that $L(G_1) = L_1$ and $L(G_2) = L_2$
-> 			(ii) Construct $G = (V_{N1} \cup V_{N2}, V_{T1} \cup V_{T2}, P, S_1)$ in which $P$ is defined as follows: 
-> 					 $if \; A \rightarrow aB \in P_1, \; A \rightarrow aB \in P$
-> 					 $if \; A \rightarrow a \in P_1, \; A \rightarrow aS_2 \in P$
-> 					 All productions in $P_2$ are in $P$
-> 				 We must prove that $L(G) = L(G_1)\cdot L(G_2)$
-> 				 Since $G$ is RG, $L(G)$ is RL. Therefore $L(G_1)\cdot L(G_2)$ is RL.
-> 			(iii) Let $G' = (V_{N1} \cup \{ S' \}, V_{T1}, P', S')$
-> 				  $P':$ $if \; A \rightarrow aB \in P_1, \; A \rightarrow aB \in P'$
-> 						 $if \; A \rightarrow a \in P_1, \; A \rightarrow a, \; A \rightarrow aS' \in P'$
-> 						 $S' \rightarrow S | \epsilon \in P'$
-> 				 We must prove that $L(G') = (L(G))^*$
-> 				 $\forall \omega \in L(G), \; S \Rightarrow^* \omega. \; S' \Rightarrow S \Rightarrow^* \omega S' \Rightarrow^* \omega^* S' \Rightarrow \omega^*$
-> 				 $\therefore \; (L(G))^* = L(G')$
-					example) $P: S \rightarrow aS, \;S\rightarrow b$
-					               $P': S\rightarrow aS, \; S \rightarrow b, \; S\rightarrow bS', \; S' \rightarrow S, \; S' \rightarrow \epsilon$
-		               note: $P: S = aS + b = a^*b$
-				                $P': S = aS + b + bS' = a^*(b+bS') = a^*b + a^*bS'$
-					         $\therefore S'= S + \epsilon = a^*bS'+a^*b+\epsilon = (a^*b)^*(a^*b+\epsilon)$ 
-							         $= (a^*b)^*(a^*b) + (a^*b)^* = (a^*b)^*$
+> (proof) Since $L_1$ and $L_2$ are RL, $\exists RG \;G_1 = (V_{N1}, V_{T1}, P_1, S_1)$ and $G_2 = (V_{N2}, V_{T2}, P_2, S_2)$, such that $L(G_1) = L_1$ and $L(G_2) = L_2$
+> 			$\quad$(ii) Construct $G = (V_{N1} \cup V_{N2}, V_{T1} \cup V_{T2}, P, S_1)$ in which $P$ is defined as follows: 
+> 				$\quad\quad$	 $if \; A \rightarrow aB \in P_1, \; A \rightarrow aB \in P$
+> 				$\quad\quad$	 $if \; A \rightarrow a \in P_1, \; A \rightarrow aS_2 \in P$
+> 				$\quad\quad$All productions in $P_2$ are in $P$
+> 				 $\quad\quad$We must prove that $L(G) = L(G_1)\cdot L(G_2)$
+> 				 $\quad\quad$Since $G$ is RG, $L(G)$ is RL. Therefore $L(G_1)\cdot L(G_2)$ is RL.
+> 			$\quad$(iii) Let $G' = (V_{N1} \cup \{ S' \}, V_{T1}, P', S')$
+> 				$\quad\quad$  $P':$ $if \; A \rightarrow aB \in P_1, \; A \rightarrow aB \in P'$
+> 				$\quad\quad$		 $if \; A \rightarrow a \in P_1, \; A \rightarrow a, \; A \rightarrow aS' \in P'$
+> 				$\quad\quad$		 $S' \rightarrow S | \epsilon \in P'$
+> 				$\quad\quad$ We must prove that $L(G') = (L(G))^*$
+> 				$\quad\quad$ $\forall \omega \in L(G), \; S \Rightarrow^* \omega. \; S' \Rightarrow S \Rightarrow^* \omega S' \Rightarrow^* \omega^* S' \Rightarrow \omega^*$
+> 				$\quad\quad$ $\therefore \; (L(G))^* = L(G')$
+> 				$\quad\quad$ example) $P: S \rightarrow aS, \;S\rightarrow b$
+> 				$\quad\quad\quad\quad\quad\quad\;$ $P': S\rightarrow aS, \; S \rightarrow b, \; S\rightarrow bS', \; S' \rightarrow S, \; S' \rightarrow \epsilon$
+> 				$\quad\quad\quad\quad\quad\quad\;$note: $P: S = aS + b = a^*b$
+> 				$\quad\quad\quad\quad\quad\quad\;$$P': S = aS + b + bS' = a^*(b+bS') = a^*b + a^*bS'$
+> 				$\quad\quad\quad\quad\quad\quad\;$$\therefore S'= S + \epsilon = a^*bS'+a^*b+\epsilon = (a^*b)^*(a^*b+\epsilon)= (a^*b)^*(a^*b) + (a^*b)^* = (a^*b)^*$
 
 
 ## The Pumping Lemma for RL

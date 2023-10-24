@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/Before Midterm.md",
+                "file": "컴파일러/Before Midterm.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "0d1183e7f9eefea4",
+            "id": "e694aaecfa94af6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "정보보호/DES(Data Encryption Standard).md",
+                "file": "컴파일러/정규 언어(RL, Regular Language).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd550b3e63b8621c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴파일러/FA(Finite Automata).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "정보보호/Before Midterm.md"
+                "file": "컴파일러/Before Midterm.md"
               }
             }
           },
@@ -109,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "정보보호/Before Midterm.md",
+                "file": "컴파일러/Before Midterm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "정보보호/Before Midterm.md",
+                "file": "컴파일러/Before Midterm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,8 +180,18 @@
   },
   "active": "4192613f3a079f2b",
   "lastOpenFiles": [
-    "정보보호/DES(Data Encryption Standard).md",
+    "컴파일러/정규 언어(RL, Regular Language).md",
+    "컴파일러/Before Midterm.md",
+    "컴파일러/Lexical Analyzer Generator.md",
+    "컴파일러/FA(Finite Automata).md",
+    "컴파일러/DFA(Deterministic FA).md",
+    "컴파일러/NFA(Nondeterministic FA).md",
+    "컴파일러/언어(Language).md",
+    "컴파일러/Lexical Analyzer(Scanner).md",
+    "컴파일러/컴파일러(Compiler).md",
     "정보보호/Before Midterm.md",
+    "Math/GCD(Greatest Common Divisor).md",
+    "정보보호/DES(Data Encryption Standard).md",
     "정보보호/Feistel Cipher.md",
     "리눅스프로그래밍/String Functions.md",
     "리눅스프로그래밍/Basic GCC Compilering.md",
@@ -177,7 +199,6 @@
     "정보보호/Rotor Machines.md",
     "Math/Prime Number.md",
     "Math/Polynominal Arithmetic.md",
-    "Math/GCD(Greatest Common Divisor).md",
     "정보보호/Block Cipher.md",
     "정보보호/Block Cipher Symmetric Encryption.md",
     "정보보호/Product Ciphers.md",
@@ -185,16 +206,7 @@
     "정보보호/Security service.md",
     "정보보호/Security attack.md",
     "정보보호/정보 보호(Information Security).md",
-    "리눅스프로그래밍/Remote Connection.md",
-    "리눅스프로그래밍/File Access.md",
-    "리눅스프로그래밍/리눅스프로그래밍실습.md",
-    "고전음악의이해/고전음악의 이해.md",
-    "고전음악의이해/바로크 음악.md",
-    "고전음악의이해/푸가.md",
-    "고전음악의이해/평균율.md",
     "고전음악의이해/Pasted image 20231023125012.png",
-    "고전음악의이해/변주곡.md",
-    "고전음악의이해/모음곡.md",
     "고전음악의이해/Pasted image 20231023115404.png",
     "고전음악의이해/Pasted image 20231022180625.png",
     "고전음악의이해/Pasted image 20231022180612.png",

@@ -6,9 +6,9 @@
 ![[Pasted image 20230915213308.png]]
 
 컴파일러와 동일하게 "번역기"와 같은 기능을 수행하는 프로그램은 다음과 같다. 
-+ [[Cross-Complier]]
-+ [[Interpreter]]
-+ [[Preprocessor]]
+![[Cross-Complier]]
+![[Interpreter]]
+![[Preprocessor]]
 
 
 ## **일반적인 컴파일러 구조**
@@ -17,8 +17,8 @@ Front-end 부분과 Back-End 부분으로 나눌 수 있다.
 Front-end 부분은 언어 의존적이고, Back-End 부분은 기계 의존적이다. 
 
 + Front-end
-	+ [[Lexical Analyzer(Scanner)]](Scanner)
-	+ [[Syntax Analyzer(Parser)]](Parser)
+	+ [[Lexical Analyzer(Scanner)]]
+	+ [[Syntax Analyzer(Parser)]]
 	+ [[Intermediate Code Generator]]
 + Back-end
 	+ [[Code Optimizer]]
