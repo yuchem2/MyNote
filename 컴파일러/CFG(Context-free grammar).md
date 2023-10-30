@@ -11,6 +11,10 @@ $$If \; \alpha \rightarrow \beta \in P, \quad A \rightarrow \alpha, where \; A \
 + CFG로부터 인식기를 자동으로 구성할 수 있다
 + 프로그램의 구조를 생성규칙에 의해 구분할 수 있으므로 번역시에 유용하다
 
+[[CFG(Context-free grammar)]]는 다음과 같은 방법으로 표기할 수 있다
++ [[CFG 표기법]]: [[BNF(Backus-Naur From)]], [[EBNF(Extended BNF)]],[[Syntax Diagram]]
++ [[Pushdown Automata]]
+
 ## **CFG에서의 [[Derivation]]**
 ---
 Sential form에서 어떤 nonterminal symbol을 선택하는 지에 따라 유도를 구분할 수 있다.
