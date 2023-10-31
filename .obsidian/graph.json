@@ -90,6 +90,13 @@
         "a": 1,
         "rgb": 13541603
       }
+    },
+    {
+      "query": "path:\"Space 개발\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 10111528
+      }
     }
   ],
   "collapse-display": true,
@@ -102,6 +109,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 225,
-  "scale": 0.37100598646337024,
-  "close": false
+  "scale": 0.45788517991360683,
+  "close": true
 }

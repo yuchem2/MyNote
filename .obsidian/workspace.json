@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1b18b8d449a33fe1",
+        "id": "b469d3fbb51f1efc",
         "type": "tabs",
         "children": [
           {
-            "id": "c9526054f6233543",
+            "id": "4192613f3a079f2b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -136,24 +136,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:그래프 뷰 열기": false,
-      "templates:템플릿 삽입": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "smart-random-note:Open Random Note from Search": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c9526054f6233543",
+  "active": "4192613f3a079f2b",
   "lastOpenFiles": [
-    "컴파일러/BNF(Backus-Naur From).md",
-    "컴파일러/EBNF(Extended BNF).md",
+    "Space 개발/JetBrains Space Documents.md",
+    "Space 개발/Develop Space Application.md",
+    "Space 개발/Develop Applications.md",
+    "Space 개발",
     "컴파일러/Syntax Diagram.md",
+    "컴파일러/EBNF(Extended BNF).md",
     "컴파일러/CFG 표기법.md",
-    "컴파일러/CFG(Context-free grammar).md",
-    "컴파일러/정규 언어(RL, Regular Language).md",
-    "컴파일러/FA(Finite Automata).md",
+    "컴파일러/BNF(Backus-Naur From).md",
     "컴파일러/Before Midterm.md",
+    "컴파일러/정규 언어(RL, Regular Language).md",
     "컴파일러/Lexical Analyzer Generator.md",
+    "컴파일러/FA(Finite Automata).md",
     "컴파일러/DFA(Deterministic FA).md",
     "컴파일러/NFA(Nondeterministic FA).md",
     "컴파일러/언어(Language).md",
@@ -168,9 +171,6 @@
     "Math/CRT(Chinese Remainder Theorem).md",
     "정보보호/Rotor Machines.md",
     "Math/Prime Number.md",
-    "Math/Polynominal Arithmetic.md",
-    "정보보호/Block Cipher.md",
-    "정보보호/Block Cipher Symmetric Encryption.md",
     "고전음악의이해/Pasted image 20231023125012.png",
     "고전음악의이해/Pasted image 20231023115404.png",
     "고전음악의이해/Pasted image 20231022180625.png",
@@ -191,7 +191,6 @@
     "I",
     "프로그래밍언어",
     "컴퓨터네트워크",
-    "정보보호",
-    "자료구조"
+    "정보보호"
   ]
 }
