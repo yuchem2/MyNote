@@ -92,7 +92,7 @@
       }
     },
     {
-      "query": "path:\"Space 개발\"  ",
+      "query": "path:개발관련  ",
       "color": {
         "a": 1,
         "rgb": 10111528
@@ -110,5 +110,5 @@
   "linkStrength": 1,
   "linkDistance": 225,
   "scale": 0.45788517991360683,
-  "close": true
+  "close": false
 }

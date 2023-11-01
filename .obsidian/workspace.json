@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Space 개발/Authorize in Space.md",
+                "file": "개발관련/Git 협업 방법.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f80712312ebdef4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "개발관련/Space 개발/Space 협업.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Space 개발/Authorize in Space.md"
+                "file": "개발관련/Git 협업 방법.md"
               }
             }
           },
@@ -96,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Space 개발/Authorize in Space.md",
+                "file": "개발관련/Git 협업 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Space 개발/Authorize in Space.md",
+                "file": "개발관련/Git 협업 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,8 +160,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:그래프 뷰 열기": false,
-      "templates:템플릿 삽입": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "smart-random-note:Open Random Note from Search": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
@@ -156,11 +169,17 @@
   },
   "active": "c9526054f6233543",
   "lastOpenFiles": [
-    "Space 개발/Develop Space Application.md",
-    "Space 개발/JetBrains Space Documents.md",
-    "Space 개발/Authorize in Space.md",
-    "Space 개발/Develop Applications.md",
-    "Space 개발",
+    "개발관련/Space 개발/Space 협업.md",
+    "개발관련/Git 협업 방법.md",
+    "리눅스프로그래밍/Remote Connection.md",
+    "리눅스프로그래밍/리눅스프로그래밍실습.md",
+    "개발관련/Space 개발/Authorize in Space.md",
+    "Untitled 1",
+    "개발관련",
+    "개발관련/Space 개발/Develop Space Application.md",
+    "개발관련/Space 개발/JetBrains Space Documents.md",
+    "개발관련/Space 개발/Develop Applications.md",
+    "개발관련/Space 개발",
     "컴파일러/BNF(Backus-Naur From).md",
     "컴파일러/EBNF(Extended BNF).md",
     "컴파일러/Syntax Diagram.md",
@@ -179,10 +198,6 @@
     "Math/GCD(Greatest Common Divisor).md",
     "정보보호/DES(Data Encryption Standard).md",
     "정보보호/Feistel Cipher.md",
-    "리눅스프로그래밍/String Functions.md",
-    "리눅스프로그래밍/Basic GCC Compilering.md",
-    "Math/CRT(Chinese Remainder Theorem).md",
-    "정보보호/Rotor Machines.md",
     "고전음악의이해/Pasted image 20231023125012.png",
     "고전음악의이해/Pasted image 20231023115404.png",
     "고전음악의이해/Pasted image 20231022180625.png",
@@ -201,8 +216,6 @@
     "무제 파일.canvas",
     "Synchronous I",
     "I",
-    "프로그래밍언어",
-    "컴퓨터네트워크",
-    "정보보호"
+    "프로그래밍언어"
   ]
 }
