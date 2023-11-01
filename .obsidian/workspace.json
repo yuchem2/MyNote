@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "개발관련/Git 협업 방법.md",
+                "file": "개발관련/Space 개발/Authorize in Space.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "개발관련/Space 개발/Space 협업.md",
+                "file": "개발관련/Git 협업 방법.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,13 +151,11 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,18 +166,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c9526054f6233543",
+  "active": "4f80712312ebdef4",
   "lastOpenFiles": [
     "개발관련/Space 개발/Space 협업.md",
+    "개발관련/Space 개발/Authorize in Space.md",
+    "개발관련/Space 개발/JetBrains Space Documents.md",
+    "개발관련/Space 개발/Develop Applications.md",
+    "개발관련/Space 개발/Develop Space Application.md",
     "개발관련/Git 협업 방법.md",
     "리눅스프로그래밍/Remote Connection.md",
     "리눅스프로그래밍/리눅스프로그래밍실습.md",
-    "개발관련/Space 개발/Authorize in Space.md",
     "Untitled 1",
     "개발관련",
-    "개발관련/Space 개발/Develop Space Application.md",
-    "개발관련/Space 개발/JetBrains Space Documents.md",
-    "개발관련/Space 개발/Develop Applications.md",
     "개발관련/Space 개발",
     "컴파일러/BNF(Backus-Naur From).md",
     "컴파일러/EBNF(Extended BNF).md",

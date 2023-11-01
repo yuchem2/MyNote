@@ -186,6 +186,179 @@ PKCE의 작동
 5. User가 authorization 요청을 승인하면 client는 authorization code를 받습니다. 그런 다음 client는 space에서 access token을 요청. authorization 코드와 함께 client는 original code verifier를 전송
 6. Space는 수신된 code verifier에서 code challenge를 다시 생성. 그런 다음 새로 생성된 code challenge를 이전에 저장한 code challenge와 비교. 일치하면 space는 client에 access token을 발급
 #### Implement
+##### Kotlin Space SDK
+```ad-tip
+Authorization code flow가 활성화되면 space는 자동으로 refresh token flow를 활성화. access token은 600초 동안에만 유효하고, 이 시간이 지난 후에는 새로운 token은 발행해야 함.
+```
+아래 예시는 PKCE와 함께 Authorization Code Flow를 구현하는 방법. 작동하게 하려면, authentication tab의 application setting에서 Authorization Code Flow와 Require PKCE를 사용하도록 설정해야 한다. 
+
+또한, Cilent ID와 Cilent secret이 application에게 제공되어야 한다. 만약 secret을 제공하지 않고, Authorization Code Flow를 활성화하려면, Allow public (untrusted) clients를 활성화해야 한다. 
+
+```kotlin
+package com.example 
+import io.ktor.http.* 
+import io.ktor.server.application.* 
+import io.ktor.server.engine.* 
+import io.ktor.server.html.* 
+import io.ktor.server.netty.*
+import io.ktor.server.response.* 
+import io.ktor.server.routing.* 
+import kotlinx.html.* 
+import space.jetbrains.api.runtime.* 
+import space.jetbrains.api.runtime.resources.teamDirectory 
+import space.jetbrains.api.runtime.types.GlobalPermissionContextIdentifier 
+import space.jetbrains.api.runtime.types.PermissionIdentifier 
+import space.jetbrains.api.runtime.types.ProfileIdentifier 
+import java.util.* 
+import java.util.concurrent.ConcurrentHashMap 
+// store these in your database, securely and persistently. 
+val codeVerifiersByAuthProcessId: MutableMap<UUID, String> = ConcurrentHashMap() 
+
+// base Ktor client 
+val ktorClient = ktorClientForSpace() 
+
+const val spaceUrl = "https://mycompany.jetbrains.space" 
+const val appUrl = "https://myapp.url" 
+const val showUsernameRoute = "/show-username" 
+const val authorizeInSpaceRoute = "/authorize-in-space" 
+const val redirectUri = "$appUrl$showUsernameRoute" 
+
+// class that describes your app 
+val spaceAppInstance = SpaceAppInstance( 
+	// 'clientId' and 'clientSecret' are generated when you 
+	// register the application(https://www.jetbrains.com/help/space/single-org-applications.html#specify-authentication-options) in Space 
+	// Do not store id and secret in plain text 
+	clientId = System.getenv("JB_SPACE_CLIENT_ID"), 
+	clientSecret = System.getenv("JB_SPACE_CLIENT_SECRET"), 
+	spaceServerUrl = spaceUrl, 
+) 
+
+fun Application.module() { 
+	routing { 
+		// Index page 
+		get("/") { 
+			call.respondHtml { 
+				body { 
+					button { 
+						onClick = "window.location.href = '$authorizeInSpaceRoute'" +"Authorize in Space and show your username" 
+					} 
+				} 
+			} 
+		} 
+			
+		// When the user presses the button, they are redirected to this page. 
+		// There, an ID of the auth process is generated, and a code verifier for this auth process is stored. 
+		// Then the user is redirected to Space for the authentication and authorization. 
+		get(authorizeInSpaceRoute) { 
+			val authProcessId = UUID.randomUUID() 
+			val codeVerifier = Space.generateCodeVerifier() 
+			codeVerifiersByAuthProcessId[authProcessId] = codeVerifier 
+			
+			call.respondRedirect( 
+				Space.authCodeSpaceUrl( 
+					appInstance = spaceAppInstance, 
+					// Specify the scope of resources that the application needs to access. 
+					// In our case, we need to access user profiles. 
+					// Learn more about permissions(https://www.jetbrains.com/help/space/request-permissions.html) 
+					scope = PermissionScope.build( 
+						PermissionScopeElement( 
+							context = GlobalPermissionContextIdentifier, 
+							permission = PermissionIdentifier.ViewMemberProfiles 
+						) 
+					), 
+					redirectUri = redirectUri, 
+					/** [OAuthAccessType.OFFLINE] for offline access on behalf of user */
+					accessType = OAuthAccessType.ONLINE, 
+					state = authProcessId.toString(), 
+					codeVerifier = codeVerifier, 
+				) 
+			) 
+		} 
+			
+		// After the user is authenticated in Space, they are redirected back to our app at this page. 
+		// With this redirect, we receive the auth code, which we can exchange for an auth token. 
+		// We retrieve the stored code verifier and send it to Space, so that we can be sure that the user is the same
+		// person that started the auth process. 
+		get(showUsernameRoute) { 
+			suspend fun respondAuthError() { 
+				call.respondHtml(HttpStatusCode.Unauthorized) { 
+					head { 
+						title("Authentication error") 
+					} 
+					body {
+						p { 
+							+"Authentication error." 
+						} 
+						button { 
+							onClick = "window.location.href = '$authorizeInSpaceRoute'" +"Try again"
+						} 
+					} 
+				} 
+			} 
+				 
+			val authProcessIdString = call.parameters["state"] ?: run { 
+				respondAuthError() 
+				return@get 
+			} 
+				 
+			val authProcessId = try { 
+				UUID.fromString(authProcessIdString) 
+			} catch (_: IllegalArgumentException) { 
+				respondAuthError() 
+				return@get 
+			} 
+				 
+			val authCode = call.parameters["code"] ?: run { 
+				respondAuthError() 
+				return@get 
+			} 
+				 
+			val spaceAccessTokenInfo = try { 
+				Space.exchangeAuthCodeForToken( 
+					ktorClient = ktorClient, 
+					appInstance = spaceAppInstance, 
+					authCode = authCode, 
+					redirectUri = redirectUri, 
+					codeVerifier = codeVerifiersByAuthProcessId[authProcessId] ?: run { 
+						respondAuthError() 
+						return@get 
+					}, 
+				) 
+			} catch (_: PermissionDeniedException) { 
+				respondAuthError() 
+				return@get 
+			} 
+			
+			/** If you requested [OAuthAccessType.OFFLINE] access, you can use [SpaceTokenInfo.refreshToken] 
+			* with [SpaceAuth.RefreshToken]. */ 
+			val spaceClient = SpaceClient(ktorClient, spaceAppInstance, SpaceAuth.Token(spaceAccessTokenInfo.accessToken))
+			val profile = spaceClient.teamDirectory.profiles.getProfile(ProfileIdentifier.Me) 
+			val username = profile.username 
+				
+			val msg = "Hello ${username}!" 
+				
+			call.respondHtml { 
+				head { 
+					title(msg) 
+				} 
+				body { 
+					p { 
+						+msg 
+					} 
+					button { 
+						onClick = "window.location.href = '/'" +"To home page" 
+					} 
+				} 
+			} 
+		} 
+	} 
+} 
+
+
+fun main() { 
+	embeddedServer(Netty, port = 8080, module = Application::module).start(wait = true) 
+}
+```
 ##### Generic instructions
 ###### Initial request
 인증 프로세스를 시작하기 위해서 appliaction은 user's browser로 authentication endpoint `<Space service URL>/oauth/auth`를 redirect: 
@@ -331,5 +504,31 @@ A single ASCII [USASCII] error code
 + `unauthorized_client`: 인증된 application은 이 권한 부여 유형을 사용할 권한이 없음. 
 + `unsupported_grant_type`: 해당 권한 부여 유형은 space에서 지원하지 않음
 + `invalid_scope`: 요청한 범위가 유효하지 않거나 알 수 없거나 형식이 잘못되었거나 리소스 소유자가 부여한 범위 초과
+```
+
+```ad-note
+title: error_description
+color: 190, 198, 207
+application developer가 무엇이 잘못되었는지 이해하는데 도움이 되는 추가적인 정보를 제공하는 Human-readable ASCII [USASCII] text
+```
+
+```ad-note
+title: error_uri
+color: 190, 198, 207
+이 URI는 Human-readable web page를 error에 대한 정보와 함께 식별한다. application 개발자에게 error에 대한 추가적인 정보를 제공
+```
+
+위 매개변수 들은 "application/json" media type을 사용하는 HTTP 응답의 entity-body에 포함되어 있음. JSON 데이터 형태를 띈다.
+
+example: 
+```js
+HTTP/1.1 400 Bad Request
+Content-Type: application/json;charset=UTF-8
+Cache-control: no-store
+Pragma: no-cache
+
+{
+	"error":"invalid_request"
+}
 ```
 ### Client Credentials Flow
