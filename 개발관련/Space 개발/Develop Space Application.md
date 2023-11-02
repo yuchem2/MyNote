@@ -81,7 +81,7 @@ space는 json 형식으로 데이터를 전송. 이 데이터는 3가지로 구�
 	+ className을 읽고 어떤 데이터가 존재할지 알 수 있음
 + Common payload data
 	+ 모든 요청에 공통으로 존재하는 데이터
-```JavaScript
+```json
 // example
 {
 	// Payload class
@@ -126,7 +126,7 @@ space에서 발생한 event의 notification을 application 서버에서 받는 �
 + `webhookId`: webhook의 id
 + `payload`: webhook이 전달하는 payload
 + `payload.className`: <a href="https://www.jetbrains.com/help/space/http-api-reference.html#WebhookEvent">event의 class name</a>
-```javascript
+```json
 {
     "className": "WebhookRequestPayload",
     "accessToken": "",

@@ -1,3 +1,3 @@
 
-+ [[React.js]]
++ [[React]]
 	+ [[Next.js]]

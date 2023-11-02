@@ -80,7 +80,7 @@ Authorization: BearereyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiJhSGZ2eDEyZTU1dCIsImF1ZCI6Im
 Accept: application/json
 ```
 ###### Response: 
-```js
+```json
 200 
 accept-ranges: bytes 
 content-encoding: gzip 
@@ -446,7 +446,7 @@ grant_type=authorization_code&code=SplxlOBeZQQYbYS6WxSbIA&redirect_uri=https%3A%
 토큰 요청이 유효하고 승인된 경우 space는 access token을 발급하고, 요청하는 경우 refresh token을 발급. 요청이 실패했거나 유효하지 않은 경우 space server는 오류 응답을 반환
 
 성공적이 응답 예시: 
-```js
+```json
 HTTP/1.1 200 OK 
 Content-Type: application/json;charset=UTF-8 
 { 

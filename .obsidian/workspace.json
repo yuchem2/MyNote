@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "개발관련/Space 개발/Authorize in Space.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f80712312ebdef4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "개발관련/Git 협업 방법.md",
+                "file": "Math/Euler Totient Function.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "개발관련/Git 협업 방법.md"
+                "file": "Math/Euler Totient Function.md"
               }
             }
           },
@@ -110,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "개발관련/Git 협업 방법.md",
+                "file": "Math/Euler Totient Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -122,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "개발관련/Git 협업 방법.md",
+                "file": "Math/Euler Totient Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,14 +152,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4f80712312ebdef4",
+  "active": "c9526054f6233543",
   "lastOpenFiles": [
-    "개발관련/Space 개발/Space 협업.md",
+    "Math/Divisibility.md",
+    "Math/CRT(Chinese Remainder Theorem).md",
+    "Math/GCD(Greatest Common Divisor).md",
+    "Math/Euler Totient Function.md",
+    "Math/Finite Field.md",
+    "정보보호/Product Ciphers.md",
+    "정보보호/Feistel Cipher.md",
+    "프로그래밍언어/Next.js.md",
+    "개발관련/Next.js Setting.md",
+    "프로그래밍언어/React.md",
     "개발관련/Space 개발/Authorize in Space.md",
-    "개발관련/Space 개발/JetBrains Space Documents.md",
     "개발관련/Space 개발/Develop Applications.md",
+    "개발관련/Space 개발/JetBrains Space Documents.md",
     "개발관련/Space 개발/Develop Space Application.md",
+    "프로그래밍언어/Untitled.md",
+    "프로그래밍언어/JavaScript(JS).md",
     "개발관련/Git 협업 방법.md",
+    "개발관련/Space 개발/Space 협업.md",
     "리눅스프로그래밍/Remote Connection.md",
     "리눅스프로그래밍/리눅스프로그래밍실습.md",
     "Untitled 1",
@@ -185,18 +183,6 @@
     "컴파일러/CFG 표기법.md",
     "컴파일러/CFG(Context-free grammar).md",
     "컴파일러/정규 언어(RL, Regular Language).md",
-    "컴파일러/FA(Finite Automata).md",
-    "컴파일러/Before Midterm.md",
-    "컴파일러/Lexical Analyzer Generator.md",
-    "컴파일러/DFA(Deterministic FA).md",
-    "컴파일러/NFA(Nondeterministic FA).md",
-    "컴파일러/언어(Language).md",
-    "컴파일러/Lexical Analyzer(Scanner).md",
-    "컴파일러/컴파일러(Compiler).md",
-    "정보보호/Before Midterm.md",
-    "Math/GCD(Greatest Common Divisor).md",
-    "정보보호/DES(Data Encryption Standard).md",
-    "정보보호/Feistel Cipher.md",
     "고전음악의이해/Pasted image 20231023125012.png",
     "고전음악의이해/Pasted image 20231023115404.png",
     "고전음악의이해/Pasted image 20231022180625.png",
