@@ -68,9 +68,7 @@ Policy와 mechanism 사이를 잘 조정할 필요가 있다
 + Mechnism: How?
 + Policy: what
 
-
 전통적으로 [[어셈블리 언어(Assembly Language)]]로 구현되었지만, 현재는 [[고급 프로그래밍 언어]]로 구현되고 있다
-
 
 ## **Structure**
 ---

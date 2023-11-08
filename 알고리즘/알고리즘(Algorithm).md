@@ -2,7 +2,7 @@
 ## Friendly for CS
 ---
 + [[암호화 알고리즘(Cypotographic algorithms)]]
-
++ [[Scheduling Algorithm]]
 ## Mathmetical Algorithm
 ---
 + [[GCD(Greatest Common Divisor)#Euclidean Algorithm]]
