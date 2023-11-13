@@ -4,7 +4,7 @@ $$If \; \alpha \rightarrow \beta \in P, \quad A \rightarrow \alpha, where \; A \
 
 이 문법으로 인해 생성된 [[언어(Language)]]를 [[CFL(Context Free Language)]] 라고 함
 
-이를 인식하는 [[인식기(Recognizer)]]를 [[Pushdown Automata]]라고 함
+이를 인식하는 [[인식기(Recognizer)]]를 [[PDA(Pushdown Automata)]]라고 함
 
 [[프로그래밍 언어]]의 구문 구조를 명시하는데 널리 사용된다. 효율적이고, 잘 정의된 구문 분석 알고리즘을 통해 [[프로그래밍 언어]]를 문법적으로 표현하거나 번역을 수행할 수 있다. 이와 같은 방식으로 [[프로그래밍 언어]]의 구조를 CFG로 표현할 경우 다음과 같은 장점이 존재한다. 
 + 간단하고 이해하기 쉽다.
@@ -13,7 +13,8 @@ $$If \; \alpha \rightarrow \beta \in P, \quad A \rightarrow \alpha, where \; A \
 
 [[CFG(Context-free grammar)]]는 다음과 같은 방법으로 표기할 수 있다
 + [[CFG 표기법]]: [[BNF(Backus-Naur From)]], [[EBNF(Extended BNF)]],[[Syntax Diagram]]
-+ [[Pushdown Automata]]
+![[CFG 표기법]]
++ [[PDA(Pushdown Automata)]]
 
 ## **CFG에서의 [[Derivation]]**
 ---
@@ -47,8 +48,6 @@ Sential form에서 어떤 nonterminal symbol을 선택하는 지에 따라 유�
 ※ 일반적인 상황에서 $A\rightarrow A\alpha A$와 같은 production이 존재하는 문법은 모호하다. 
 
 Deterministic Pasing을 위해 CFG 문법을 deterministic하게 구성하거나 nondeterministic한 문법을 deterministic하게 바꿔야 한다.
-
-
 ### Ambiguous $\rightarrow$ Unambiguous
 1. 새로운 nonterminal을 도입해 unambiguous grammar로 변환
 2. 이 과정에서 precedence & associativity 규칙을 이용한다

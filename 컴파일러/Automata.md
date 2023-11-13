@@ -2,5 +2,5 @@
 종류
 + [[Turing machine]]
 + [[Linear Bounded Automata]]
-+ [[Pushdown Automata]]
++ [[PDA(Pushdown Automata)]]
 + [[FA(Finite Automata)]]

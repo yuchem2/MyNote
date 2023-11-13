@@ -67,7 +67,7 @@
 | ---------------------------------- | --------------------------------------- | --------------------------- |
 | [[Unrestriced Grammar]]            | [[REL(Recursively Enumerable Languge)]] | [[Turing machine]]          |
 | [[CSG(Context-sensitive Grammar)]] | [[CSL(Context Sensitive Language)]]     | [[Linear Bounded Automata]] |
-| [[CFG(Context-free grammar)]]      | [[CFL(Context Free Language)]]          | [[Pushdown Automata]]       | 
+| [[CFG(Context-free grammar)]]      | [[CFL(Context Free Language)]]          | [[PDA(Pushdown Automata)]]       | 
 | [[정규 문법(RG, Regular grammar)]] | [[정규 언어(RL, Regular Language)]]     | [[FA(Finite Automata)]]     |
 
 ## 3장 [[정규 언어(RL, Regular Language)]]

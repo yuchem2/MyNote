@@ -1,0 +1,1 @@
+[[CFG(Context-free grammar)]]에 의해 생성되는 언어이자 [[PDA(Pushdown Automata)]]에 의해 accept되는 언어
