@@ -1,0 +1,1 @@
+> $FOLLOW(A):==$ the set of terminals that can appear immediately to the right of  A in some sential form.
