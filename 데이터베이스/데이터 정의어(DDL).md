@@ -54,7 +54,7 @@ CONSTRAINT CHK_CPK CHECK(제조업체='한빛제과')
 ```sql
 ALTER TABLE table_name ADD attribute_name data_type [NOT NULL] [DEFAULT default_value];
 ALTER TABLE table_name DROP attribute_name data_type [NOT NULL] [DEFAULT default_value];
-
+--example
 ALTER TABLE table_name ADD CONSTRAINT condition_name conditions;
 ALTER TABLE table_name DROP CONSTRAINT condition_name;
 ```

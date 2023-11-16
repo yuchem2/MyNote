@@ -14,16 +14,19 @@
 + stack top symbol $Z$를 $\alpha_i$로 대치한다.
 
 ## Characteristic
+---
 + P의 형태(configuration): 어떤 시점에서 P의 현재 상태를 나타내는 방법으로, $Q\times \Sigma^* \times \Gamma^*$인 $(q, \omega, \alpha)$로 표현한다. 여기서 $\alpha$를 서술할 때 stack의 top의 위치를 명시해야 한다. 
 + P의 이동(move): P에 의해 한 상태에서 다른 상태로의 이동은 $\vdash$로 표기한다. 여기서 [[Derivation]]과 같이 0번 이상의 이동을 $\vdash^*$로, 1번 이상의 이동을 $\vdash^+$로 표기한다.
 	1) $a\neq \epsilon: \; (q, a\omega, Z\alpha) \vdash (q', \omega, \gamma \alpha)$ 
 	2) $a=\epsilon:\; (q, \epsilon, Z) \vdash (q', \epsilon, \gamma) \Rightarrow \epsilon-move$ 
 + P의 시작 형태는 $(q_0, \omega, Z_0)$의 형태를 가지며 종결 형태는 $(q, \epsilon, \alpha), \; where \; q \in F, \;\alpha \in \Gamma^*$이다. 이때 P에 의해 accept되는 언어 $L(P)$는 다음과 같이 정의된다. $$L(P) = \{\omega\;|\;(q_0, \omega, Z_0) \;\vdash^*\; (q, \epsilon, \alpha),\; q\in F, \; \alpha\in \Gamma^*\}$$
 ## Extended PDA
+---
 원래 PDA에서 $\delta$의 정의가 변화된 형태로, 확장된 PDA에서 mapping function $\delta$는 다음과 같이 정의된다. $$\delta:\; Q \times (\Sigma \cup \{\epsilon\}) \times \Gamma^* \rightarrow Q \times \Gamma^*$$즉, 기존에는 한번의 move로 stack의 top symbol을 대치하였지만, 확장된 PDA에서는 한번의 move로 stack top 부분에 있는 유한 길이의 string을 다른 string으로 대치가 가능하다.$$(q, a\omega, \alpha\gamma) \vdash(q', \omega, \beta\gamma)$$또한, stack이 empty일 때도 move가 가능하다. 
 
 확장된 PDA에 의해 accept되는 언어 $Le(P)$는 stack을 empty로 만드는 PDA에 의해 인식되는 string의 집합이며 다음과 같이 정의된다. $$Le(P) = \{\omega\;|\;(q_0, \omega, Z_0) \;\vdash^*\; (q, \epsilon, \epsilon),\; q\in Q\}$$
 ## PDA $\rightarrow$ extended PDA
+---
 두 언어는 모두 서로 변환이 가능하며 $Le(P') =L(P)$인 $P'$의 구성은 다음과 같다.
 $P = (Q, \Sigma, \Gamma, \delta, q_0, Z_0, F) ===\Rightarrow P' =(Q\cup \{q_e, q'\}, \Sigma, \Gamma \cup \{Z'\}, \delta', q', Z', \varnothing),$
 $\delta'$: 
@@ -33,6 +36,7 @@ $\delta'$:
 4. 모든 $Z\in \Gamma\cup \{Z'\}$에 대해 $\delta'(q_e, \epsilon, Z) = \{(q_e, \epsilon)\}$
 
 ## [[CFL(Context Free Language)]]과 [[PDA(Pushdown Automata)]] 언어
+---
 PDA에 의해 accept되는 언어는 [[CFL(Context Free Language)]]이다. 즉, $L(CFG) = L(PDA)$
 ### [[CFG(Context-free grammar)]] $\rightarrow$ [[PDA(Pushdown Automata)]]
 #### Top-Down Method
@@ -54,4 +58,3 @@ $PDA \; P$로부터 $L(G)=Le(P)$인 $CFG\; G$를 구성한다.
 > 4) $P$: (1) $\delta(q,a,Z)$가 $k\geq1$에 대해 $(r, X_1...X_K)$이면 $[qZs_k]\rightarrow a[rX_1s_1][s_1X_2s_2]...[s_{k-1}X_ks_k]$를 $P$에 추가. 이때 $s_1, s_2, ..., s_k \in Q$
 > $\quad\quad\;$(2) $\delta(q, a, Z)$가 $(r, \epsilon)$를 포함하면 생성규칙 $[qZr]\rightarrow a$를 $P$에 추가 
 > $\quad\quad\;$(3) 모든 $q\in Q$에 대해 $S\rightarrow[q_0Z_0q]$를 $P$에 추가
-
