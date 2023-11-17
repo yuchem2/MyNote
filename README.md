@@ -15,7 +15,7 @@
 
 ### 📗CS study
 + [[컴파일러(Compiler)]] prof. 임영희
-+ [[데이터베이스(DB)]] prof. 김승연
++ [[데이터 베이스(DB)]] prof. 김승연
 + [[정보 보호(Information Security)]] prof. 정용화
 + [[리눅스프로그래밍실습]] prof. 김명섭
 + [[객체 지향 프로그래밍 언어]] prof. 서민석

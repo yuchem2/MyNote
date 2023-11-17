@@ -6,7 +6,7 @@
 >	The range of R is the set $Rng(R) = \{y \in Y | (x, y) \in R \; for \; some \; x \in X\}$
 
 
-## [[데이터베이스(DB)]]에서의 정의
+## [[데이터 베이스(DB)]]에서의 정의
 ---
 >Formally, given sets $D_1, D_2, ..., D_n$ a relation $r$ is a subset of $D_1 \times D_2 \times ... \times D_n$ (where $\times$ is Cartesian product) Thus, a relation a set of n-tuples ($a_1, a_2, ..., a_n$) where each $a_i \in D_i$
 
