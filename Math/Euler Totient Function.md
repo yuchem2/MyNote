@@ -1,4 +1,4 @@
-> Define function $\phi (n)$ as the number of positive integes less than $n$ and relatively prime to $n$. By convention, $\phi (1) = 1$
+> Define function $\phi (n)$ as the number of positive integers less than $n$ and relatively prime to $n$. By convention, $\phi (1) = 1$
 > 	If $n$ is prime, $\phi(n) = n -1$
 > 	There are two [[Prime Number]]s $p, q$ with $p\neq q$. For $n=pq$, $$\phi(n) = \phi(pq) = \phi(p) \times \phi(q) = (p-1) \times (q-1)$$
 

@@ -9,6 +9,7 @@
 + [[Prime Number#Testing for primality#Miller-Rabin Algorithm]]
 + [[Euler Totient Function]]
 + [[CRT(Chinese Remainder Theorem)]]
++ [[Square and multiply Algorithm]]
 
 ## 분류
 ---
