@@ -9,6 +9,6 @@
 + 사용자와 시스템 [[Process]]를 생성하고, 삭제할 수 있다
 + [[Process]]를 잠시 멈추거나 재개할 수 있다
 + [[Process Synchronization]]을 위한 mechanisms을 제공
-+ [[Process communication]]을 위한 mechanisms을 제공
++ [[IPC (InterProcess Communication)]]을 위한 mechanisms을 제공
 + [[Deadlock handling]]을 위한 mechanisms을 제공
 

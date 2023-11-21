@@ -202,4 +202,102 @@ void sorting_thread(void* p_data) {
 }
 ```
 
-위 예시에서 Mutual exclusion과 progress는 만족하지만 기본적으로 bounded waiting은 만족하지 않는다. 일반적으로 wait() 함수의 구현에 의존적으로 구성된다. e.g. Linux의 sem_wait()은 이를 보장하지 않음.
+위 예시에서 Mutual exclusion과 progress는 만족하지만 기본적으로 bounded waiting은 만족하지 않는다. 일반적으로 `wait()` 함수의 구현에 의존적으로 구성된다. e.g. Linux의 `sem_wait()`은 이를 보장하지 않음.
+### Implementation 
+#### with busy waiting
+동시에 프로세스들이 `wait()`과 `signal()`을 수행하지 않도록 보장되어야 한다. 그러므로 구현은 `wait`과 `signal`가 CS에 위치하는 CS문제로 볼 수 있다.
+
+이전 코드들은 모두 CS에 있어서 *busy waiting*를 수행하고 있다. *busy waiting*은 *spinlock*이라고도 한다. 한 프로세스가 CS에 있는 동안 다른 프로세스들은 계속해서 `wait`을 반복하게 된다. 
+ + 단점: `wait`을 수행하는 동안 CPU cycle이 낭비
+ + 때때로 유용: `wait`, `signal`을 위한 context switch가 필요 없음. 구현할 코드가 짧음. CS가 드물면 *busy waiting*이 거의 발생하지 않음
+
+그러나 응용프로그램들이 CS에서 많은 시간을 소비할 수 있기 때문에 좋은 해결 방안이 아님
+#### without busy waiting
+두 개의 연산을 사용해 *busy waiting*을 해결할 수 있다.
++ `block()`: 연산을 호출한 프로세스를 적당한 waiting queue.
++ `wakeup()`: waiting queue에 있는 여러 프로세스 중 하나를 제거해 ready queue로 옮김
++ semaphore 값이 `wait()`을 수행하는 데 양수가 아닐 때 스스로를 block
++ `signal()` 연산은 대기 중인 프로세스를 wake up
+위 방법을 통해 semaphore를 구현하기 위해 다음 레코드 형식으로 정의한다. 
+```c
+typedef struct {
+	int value; // semaphore
+	struct process *list; // pointer to the PCB list of waiting processes
+}
+```
+각 semaphore에는 연관된 waiting queue가 존재한다. 이때 waiting queue는 다음과 같이 구현한다. 
++ 연결 리스트로 구현
++ 대기 중인 프로세스들은 PCB를 포함
++ 음수 값은 대기하고 있는 프로세스의 수를 의미
++ 양수 값은 이용 가능한 자원 개수를 의미
++ 리스트에 다양한 queuing strategy를 적용 가능
++ 유한 대기 조건을 만족시키기 위하여 큐는 FIFO 큐로 구현할 수 있음. (PCB 리스트의 처음과 끝을 가리키는 두 개의 포인터 변수를 사용)
+##### wait()
+```pseudo code
+wait(semaphore *S) {
+	S->value--;
+	if(S->value < 0) {
+		add this process to S->list;
+		block();
+	}
+}
+```
+##### signal()
+```pseudo code
+signal(semaphore *S) {
+	S->value++;
+	if(S->value <= 0) {
+		remove a process P from S->list;
+		wakeup();
+	}
+}
+```
+## 해결할 수 있는 문제
+---
+### [[Producer-Consumer Problem]] with Bounded-Buffer
+다음과 같은 상태의 [[Producer-Consumer Problem]]가 있다. 
++ 두 개 이상의 생산자, 두 개 이상의 소비자
++ 버퍼는 최대 N개의 아이템을 포함
+
+이 문제는 [[Semaphore]]를 통해 해결할 수 있다. 각 [[Semaphore]]를 다음과 같이 초기화한다.
++ [[Semaphore]]`mutex`: initalized to the value 1
++ [[Semaphore]] `full`: initailized to the value 0
++ [[Semaphore]] `empty`: intialized to the value N
+#### Structure of Producer Process
+```c
+do {
+	// produce an item
+	wait(empty); // check buffer is empty
+	wait(mutex); // enter cs
+
+	// add the item to the buffer
+	signal(mutex); // exit cs
+	signal(full); // one item is produced
+	
+} while(true);
+```
+#### Structure of Consumer Process
+```c
+do {
+	wait(full); // check buffer is empty or not 
+	wait(mutex); // enter cs
+
+	// cs
+
+	signal(mutex); // exit cs
+	signal(empty); // one item is produced
+
+} while(true);
+```
+### [[Readers and Writers Problem]]
+![[Readers and Writers Problem]]
+### [[Dining-Philosophers Problem]]
+![[Dining-Philosophers Problem]]
+## 발생할 수 있는 문제
+---
+사용할 때 잘못 사용한다면 문제가 생길 수 있다. 에러를 처리하기 위해 [[Monitors]]가 사용될 수 있다.
+
+e.g.`mutex`는 1로 초기화하는 semaphore인데, 이를 다음과 같이 사용하면 오류가 생길 수 있다.
++ `signal(mutex) ... wait(mutex)`: mutex exclusion 위반
++ `wait(mutex) ... wait(mutex)`: [[Deadlock]] 발생
++ `wait(mutex)` or `signal(mutex)` 생략: mutex exclusion 위반 or [[Deadlock]] 발생
