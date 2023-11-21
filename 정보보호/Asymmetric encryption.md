@@ -38,7 +38,7 @@ Public-Key encryption
 |:------------------:| --------------------- | ----------------- | ------------ |
 |      [[RSA]]       | Yes                   | Yes               | Yes          |
 | [[Elliptic Curve]] | Yes                   | Yes               | Yes          |
-| [[Diffie-Hellman]] | No                    | No                | Yes          |
+| [[Diffie-Hellman Key Exchange]] | No                    | No                | Yes          |
 |      [[DSS]]       | No                    | Yes               | No           |
 ## Requirements
 ---
@@ -58,6 +58,6 @@ $$\begin{align} Y & = f_k(X) \qquad easy & if \; k \; and \; X \; are \; known\\
 ## Example
 ---
 + [[RSA]]
++ [[Diffie-Hellman Key Exchange]]
 + [[Elliptic Curve]]
-+ [[Diffie-Hellman]]
 + [[DSS]]

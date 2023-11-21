@@ -17,7 +17,7 @@ trial divison을 이용해 큰 prime number를 찾아냈다. 모든 수에 대�
 1. Any positive odd integer $n\geq 3$ can be expressed as $$n-1 = 2^kq \qquad with \; k > 0,\; q \; is \; odd$$
 2. Select a random number $a \; where\; 1<a<n-1$
 3. $if \; a^q \bmod \; n=1$, then return "inconclusive"
-4. $for ; i=0 \; to \; k-1\; do \;that \quad if \; a^{2^iq} \bmod n = n-1$, then return "inconclusive"
+4. $for \; i=0 \; to \; k-1\; do \;that \quad if \; a^{2^iq} \bmod n = n-1$, then return "inconclusive"
 5. return "composite"
 
 결과가 composite가 나온다면 $n$은 prime이 아니다. 그 외의 결과의 경우 prime이거나 pseudo-prime이다.  다른 값인 $a$를 $t$번 사용한다고 하면 a가 모두 pseudo-prime일 확률은 최대 $(\frac{1}{4})^t$이다. 그러므로 충분히 큰 값 $t$을 시도한다고 했을 때 항상 inconclusive 결과를 내놓는다면 $n$은 prime이라고 할 수 있다. 
