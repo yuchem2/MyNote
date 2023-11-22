@@ -7,14 +7,12 @@
 
 임의의 집합의 원소들에게 이항 연산자 $+$에서 *Abelian Group*의 조건을 만족하고, 이항 연산자 $\times$에 한에서는 **닫힘 성질, 결합 법칙, 분배 법칙**을 만족하는 경우 Ring이라고 한다. 이항 연산자 $+$에 대해 **역원**이 만족되므로 이항 연산자 $-$에 대해서도 *Abelain Group*의 조건을 만족하게 된다.
 ## Commutative Ring
----
 > A ring $R$ is said to be *commutative* if it satisfies the following additional condition:
 > 	(M4) Commutativity of multiplication: $ab = ba \; for\; all \; a, b \; in \; R$
 
 Ring이 이항 연산자 $\times$에 대해 **교환법칙**도 성립하는 경우commutative ring이라고 한다. 
 
 ## Integral Domain
----
 > A *commutative ring* $R$ is *integral domain* when it obeys the following axioms:
 > 	(M5) Multiplicative identity: $There \; is \; an \; element \; 1 \; in\; R \; such \; that \; a1 = 1a = a \; for \; all \; a \; in \; R$
 > 	(M6) No zero divisors: $If \; a, b \; in \; R \; and \; ab=0, \; then \; either \; a = 0 \; or\; b = 0$

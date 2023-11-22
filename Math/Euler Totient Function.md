@@ -5,7 +5,6 @@
 즉, $\phi(n)$은 *reduced set of residues*이며 $Z_n$의 subset이다.
 
 ## Euler's Theorem
----
 > For every $a$ and $n$ that are relatively prime:$$a^{\phi(n)} \equiv 1 \pmod n$$
 
 위 식의 다른 형태는 다음과 같다. $$a^{\phi(n)+1} \equiv a \pmod n$$

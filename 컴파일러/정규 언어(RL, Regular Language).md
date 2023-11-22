@@ -12,7 +12,7 @@
 
 
 ## **속성**
----
+
 정규 언어는 위와 같이 3가지 표현을 통해 표현될 수 있고, 각각의 표현을 다른 표현으로 쉽게 바꿀 수 있다.
 
 ### [[정규 문법(RG, Regular grammar)]] $\Rightarrow$ [[FA(Finite Automata)]]
@@ -54,7 +54,6 @@ RE의 basis인 $\epsilon$과 $a$는 다음과 같이 변환될 수 있다
 
 
 ## **RL의 닫힘 성질(Closure properties of RL)**
----
 If $L_1$ and $L_2$ are regular languages, then so are 
 1) $L_1 \cup L_2$
 2) $L_1 \cdot L_2$
@@ -81,7 +80,6 @@ If $L_1$ and $L_2$ are regular languages, then so are
 
 
 ## The Pumping Lemma for RL
----
 주어진 [[언어(Language)]]가 [[정규 언어(RL, Regular Language)]]가 아님을 증명할 때 유용한 정리
 
 > Let $L$ be a RL. There exists a constant $p$ such that if a string $\omega$ is in $L$ and $|\omega| \geq p$, then $\omega$ can be written $xyz$, where $0 \leq |y| \leq p$ and $xy^iz \in L \; for \; all \; i \geq 0$

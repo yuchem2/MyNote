@@ -17,7 +17,6 @@ $$G = (V_N, V_T, P, S)$$
 생성 규칙에서 $S \rightarrow aSb$와 같이 "같은 수의 terminal symbol" 사이에 "nonterminal symbol" 이 위치한 경우를 embadded 생성 규칙이라고 함. 
 
 ## **[[언어(Language)]]와의 관계**
----
 + [[문법(Grammer)]]으로부터 “유일”한 [[언어(Language)]]이 생성된다
 	+ [[Derivation]]을 통해 생성되는 [[언어(Language)]]를 유추할 수 있다 
 + [[언어(Language)]]로부터 설계된 [[문법(Grammer)]]은 “다양한” 형태를 가질 수 있다
@@ -30,7 +29,6 @@ $$G = (V_N, V_T, P, S)$$
 	그러므로 보통 귀납 증명법 혹은 모슨 증명법을 이용해 증명한다. 
 
 ## **분류**
----
 Chomsky에 의해 처음으로 소개된 문법의 분류는 계층적으로 나타낸다(*Chomsky Hierachy*)
 + $\alpha \rightarrow \beta \in P$ 일 때 문법을 다음과 같은 계층으로 나눌 수 있다
 + Type 0([[Unrestriced Grammar]]): No restrictions

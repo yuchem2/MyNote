@@ -10,7 +10,6 @@
 
 여기서 [[토큰(Token)]] 타입을 전달하며 이는 (token number, token value)의 형태를 띈다
 ## **Design Steps**
----
 1) Describe the structure of tokens in [[정규 표현(RE, Regular Expression)]] or, directly design a transition diagram for the tokens.
 2) Program a scanner according to the diagram.
 3) Moreover, we *verify* the scanner action through [[정규 언어(RL, Regular Language)]] theory
@@ -47,6 +46,5 @@
 + RG: $S \rightarrow /A \quad A \rightarrow *B \quad B \rightarrow aB \; | \; *C \quad C \rightarrow *C \; | \; /D \; | \; bB \quad D \rightarrow \epsilon$
 + RE: $S = /*(a+*^+b)^* *^+/$
 ## **Implements**
----
 + Programming: 직접 [[프로그래밍 언어]]를 이용
 + Generating: [[Lexical Analyzer Generator]]를 이용 

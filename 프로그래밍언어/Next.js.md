@@ -5,7 +5,6 @@
 SSR(Server-Side-Rendering) 방식을 수행
 ## Installation
 + [[Next.js Setting]]
----
 ## Features
 ### SSR
 + User가 브라우저를 통해 앱에 접속하면 서버에서 리액트를 실행

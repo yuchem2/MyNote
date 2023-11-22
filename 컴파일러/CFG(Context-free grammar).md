@@ -17,7 +17,6 @@ $$If \; \alpha \rightarrow \beta \in P, \quad A \rightarrow \alpha, where \; A \
 + [[PDA(Pushdown Automata)]]
 
 ## **CFG에서의 [[Derivation]]**
----
 Sential form에서 어떤 nonterminal symbol을 선택하는 지에 따라 유도를 구분할 수 있다.
 + Leftmost Derivation(좌측 유도): 가장 왼쪽에 있는 nonterminal부터 대치
 + Rightmost Derivation(우측 유도): 가장 오른쪽에 있는 nonterminal부터 대치
@@ -29,7 +28,6 @@ Sential form에서 어떤 nonterminal symbol을 선택하는 지에 따라 유�
 	+ [[String(Sentence)]]로부터 nonterminal로  reduce되고, 결국 start symbol로 reduce
 
 ### Derivation Tree
----
 [[String(Sentence)]]이 유도되는 과정을 [[트리(Tree)]] 형태로 표현한 결과로 [[Ordered Tree]]이다. 이 구조는 다음과 같은 특징을 가진다.
 + Root node: start symbol
 + Internal node: $V_N$
@@ -38,7 +36,6 @@ Sential form에서 어떤 nonterminal symbol을 선택하는 지에 따라 유�
 + If $A \rightarrow A_1 A_2 ...A_n \in P$, then $A$가 subtree의 root가 되고, 좌로부터 $A_1, A_2, ..., A_n$이 자식 노드가 되도록 간선을 구성
 
 ## **Ambigous Grammar**
----
 > A context-free grammar G is **ambiguous** iff it produces *more than one derivation trees (nondeterministic)* for some sentence.
 
 유도 방법(좌측, 우측 유도)에 따라 유도 트리의 모양은 달라지지 않는다. 그러나 하나의 [[String(Sentence)]]을 생성하는 Derivation Tree가 두 개 이상 존재하는 경우도 존재한다. 이러한 경우에 그러한 CFG 무법을 모호하다고 하며, 비결정론적이라고도 한다. 

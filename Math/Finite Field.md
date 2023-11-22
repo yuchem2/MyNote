@@ -3,13 +3,11 @@
 암호학에서 점점 더 중요하게 생각하는 수학적 정의로, [[AES(Advanced Encryption Standard)]]와 같은 수많은 [[암호화 알고리즘(Cypotographic algorithms)]]과 elliptic curve cyptography이 Finite Field의 특성에 크게 의존한다. 또한 [[MAC(Message Authentication Code)]]인 [[CMAC]]과 [[인증(Authentication)]]된 암호화 방식 GCM도 이러한 특성을 기초하고 있다
 
 ## Galois Field
----
 수학자 *Galois*는 [[Finite Field]]를 처음 연구한 사람으로, 이 사람의 이름을 따 [[Finite Field]]는 다음과 같은 방법으로 표기한다
 + $GF(p^n)$
 + $GF(p)$
 + $GF(2^n)$
 ## GF(p)
----
 > For a given prime $p$, we define the finite field of order $p$, $GF(p)$, as the set $Z_p$ of integers $\{0, 1, ..., p-1\}$ togetehr with the arithmetic operations modulo $p$. 
 
 > We futher observed that any integer in $Z_n$ has a multiplicative inverse iff that integer is relatively prime to $n$. *If $n$ is prime, then all of the nonzero integers in $Z_n$ are relatively prime to $n$,and therefore there exists a multiplicative inverse for all of the nonzero integers in $Z_n$.* Thus, for $Z_p$ we can add the following properties to those listed in:
@@ -32,7 +30,6 @@ $p$가 prime number인 경우 $Z_p$는 $\phi(p)$와 동일하고, 이 경우에 
 <div align="center">Arithmetic Modulo 8 and Modulo 7</div>
 
 ## GF($2^n$)
----
 대부분의 디지털 시스템에서는 2진수를 통해 데이터를 처리한다. 그러므로 각 데이터는 bit로 저장되는데 bit에 대한 낭비를 줄이기 위해 특별히 $p=2, GF(2^n)$를 정의한다. 
 
 만약 기존의 GF를 이용해 bit값이 가지는 수를 표현하기 위해선 소수를 이용해야 하는데, $2^n$은 $n=1$이 아닌 경우에는 항상 소수가 아니게 된다. 그러므로 $2^n$보다 낮은 수로 GF를 정의해야하고, 이는 곧 표현할 수 있는 값이 줄어듦을 의미한다. 

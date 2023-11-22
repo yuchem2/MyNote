@@ -5,7 +5,7 @@
 [[SQL(Structured Query Language)]]에서 테이블이나 관계의 구조를 생성하는 명령어
 
 ## SQL문 예시
----
+
 명령어 문법은 모두 [[MySQL]]의 문법에 기초하였다
 ### 테이블 생성: CREATE TABLE 
 ```sql

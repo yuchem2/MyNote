@@ -1,7 +1,6 @@
 > A polynomial of degree $n$ (integer $n\geq 0$) is an expression of the form $$f(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0 = \sum_{i=1}^na_ix^i$$where the $a_i$ are elements of some designated set of numbers $S$, called the coefficient set, and $a\neq0$
 
 ## 종류
----
 ### Ordinary Polynomial 
 어떠한 제한도 없는 다항식으로 일반적으로 polynomial이라고 하면 이 형태를 말한다. 덧셈, 뺄셈, 곱셈, 나눗셈이 정의되어 있다. 즉, [[Field]]이다. 
 
@@ -20,7 +19,6 @@ with polynomial degress:
 <div align="center">Polynomial Arithemtic Modulo(x^3+x+1)</div>
 
 ## Some Calculation
----
 ### Polynoimal [[GCD(Greatest Common Divisor)]] 
 > $c(x) = GCD(a(x), b(x)$ if $c(x)$ is the polynomial of greatest degree which divides both $a(x), b(x)$
 

@@ -17,7 +17,6 @@ $$FA \quad M = (Q, \Sigma, \delta, q_0, F )$$
 ## [[DFA(Deterministic FA)]]
 ![[DFA(Deterministic FA)]]
 ## **표현 방법**
----
 1. $FA \; M = (Q, \Sigma, \delta, q_0, F )$
 3. Transition table: FA의 전이함수 $\delta$를 matrix 형태로 나타낸 표
 4. State transition diagram: FA의 각 상태를 노드로, 전이 함수를 directed arc로 표현한 그래프
@@ -25,7 +24,7 @@ $$FA \quad M = (Q, \Sigma, \delta, q_0, F )$$
 ![[Pasted image 20230926203841.png | 500]]
 
 ## **NFA를 DFA로 변환**
----
+
 [[NFA(Nondeterministic FA)]]: 현실 세계의 정보를 묘사하기 쉬움
 [[DFA(Deterministic FA)]]: 간단한 프로그램으로 시뮬레이션 하기 쉬움
 
@@ -57,7 +56,7 @@ NFA가 $\epsilon$-NFA인 경우에도 동일한 방법을 통해 연산을 한�
 ※ $\epsilon-arc$로 연결된 두 상태에서 $\epsilon-arc$의 소스 상태에서 다른 나가는 $arc$가 없는 경우 두 상태를 같은 상태로 취급할 수 있다
 
 ## **FA의 최소화**
----
+
 DFA의 상태수를 최소화 하는 것을 FA의 최소화라고 하며 이를 위해서는 동치 관계를 이용할 필요가 있다.
 
 두 상태가 동치인 상태를 다음과 같이 정의한다.
@@ -72,7 +71,6 @@ DFA의 상태수를 최소화 하는 것을 FA의 최소화라고 하며 이를 
 	
 
 ## **FA의 닫힘 성질(Closure properties of FA)**
----
 FAL(Finite Automaton Languge)를 FA에 의해 인식되는 언어의 종류를 말하며 이는 즉, [[정규 언어(RL, Regular Language)]]이다
 
 If $L_1$ and $L_2$ are finite automaton languages, then so are 

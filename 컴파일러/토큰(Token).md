@@ -6,7 +6,6 @@
 이 [[토큰(Token)]]의 구조를 정의하는데, [[정규 언어(RL, Regular Language)]]가 사용되며 일반적으로 [[정규 표현(RE, Regular Expression)]]을 이용해 나타낸다
 
 ## **토큰 종류**
----
 + Special form (from language designer)
 	+ Keyword --- const, else, if, int, ... etc
 	+ Operator symbols --- +, -, * , /, ++, --, ... etc

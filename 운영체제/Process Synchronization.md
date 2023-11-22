@@ -1,5 +1,4 @@
 ## Background
----
 + 공유 데이터에 대한 동시 접근은 데이터 일관성을 깨뜨리는 결과를 초래함
 + 데이터 일관성을 유지하기 위해서는 [[IPC (InterProcess Communication)]]를 수행하는 프로세스들이 순차적으로 수행되는 것을 보장하는 방법이 요구됨
 
@@ -53,10 +52,8 @@ item remove(void) {
 }
 ```
 ## [[Race Condition]]
----
 ![[Race Condition]]
 ## [[CS(Critical-Section) Problem]]
----
 ![[CS(Critical-Section) Problem]]
 ### Solution
 CS 문제를 해결하기 위해서는 다음과 같은 조건을 만족해야 한다. 
@@ -223,6 +220,6 @@ do {
 ```
 ### [[Semaphore]]
 ![[Semaphore]]
-## [[Monitors]]
----
-![[Monitors]]
+## [[Monitor]]
+--
+![[Monitor]]

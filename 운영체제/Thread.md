@@ -7,7 +7,6 @@
 [[Process]]가 다중 [[Thread]] 제어가 가능하다면 하나 이상의 작업을 동시에 수행할 수 있다.
 
 ## Multi-thread Program
----
 현대 [[운영체제(Operating System)]]에서 수행되는 많은 SW들이 지원하는 기능
 
 현재 많은 [[운영체제(Operating System)]] Kernel이 multi-thread를 기반으로 동작한다. [[운영체제(Operating System)]]내의 모듈들이 thread로 관리되고 실행된다. 각 thread는 장치를 관리하거나 [[인터럽트(Interrupt)]]를 처리하는 등의 특정 작업을 수행한다.
@@ -19,7 +18,6 @@
 + Utilization of Multi-Processor Architectures: thread는 서로 다른 프로세서에서 병렬로 실행될 수 있음
 
 ## Types
----
 두 종류의 타입이 존재하며 각각 user, kernel thread라고 한다. 일반적으로 user thread들은 kernel thread보다 더 빨리 생성되고 관리된다. (kernel의 개입이 필요하지 않기 때문)
 ### User Thread
 프로그래머에게 보이고, 커널에게 알려지지 않은 thread
@@ -34,10 +32,8 @@ e.g. POSIX Pthreads, Win32 threads, Java threads
 e.g. Windows XP/2000/Vista/7/8, Solaris, Linux, Tru64 UNIX, Mac OS X
 
 ## Multithreading Models
----
 user thread와 kernel thread 사이의 관계를 정의한 모델을 말하고 크게 3개로 구분된다. 
 ### Many-to-One
----
 많은 user thread들이 하나의 kernel thread에 매핑된다.  thread 관리는 thread library에 의해 이루어진다. 
 #### 장점
 + 사용자가 원하는 만큼의 많은 user thread를 생성할 수 있어 효율적
@@ -48,7 +44,6 @@ user thread와 kernel thread 사이의 관계를 정의한 모델을 말하고 �
 + Solaris Green Threads
 + GNU Portable Threads
 ### One-to-One
----
 각 user thread는 하나의 kernel thread와 매핑된다. 
 #### 장점
 + Many-to-One 모델보다  더 많은 병렬성을 제공한다
@@ -61,7 +56,6 @@ user thread와 kernel thread 사이의 관계를 정의한 모델을 말하고 �
 + Linux
 + Solaris 9 and later
 ### Many-to-Many
----
 1개 이상의 user thread가 그와 같거나 더 적은 kernel thread들과 매핑된다. 
 #### 장점
 + [[운영체제(Operating System)]]가 충분한 수의 kernel thread를 생성하도록 한다. 이로 인해 생성, 관리가 One-to-One 모델보다 효율적이다. 
@@ -73,7 +67,6 @@ user thread와 kernel thread 사이의 관계를 정의한 모델을 말하고 �
 + Windows NT/2000 with the ThreadFber package
 
 ### Two-level Model
----
 Many-to-Many 모델의 일종으로 많은 user thread를 같은 수나 더 적은 kernel thread로 다중화 시킨다. 그러나 하나의 user thread가 kernel thread에 종속되도록 허용한다.
 
 즉 Many-to-Many 처럼 작동되는 부분이 존재하고, Many-to-One처럼 작동되는 부분이 존재한다. 
@@ -85,7 +78,6 @@ Many-to-Many 모델의 일종으로 많은 user thread를 같은 수나 더 적�
 
 
 ## Thread Libraries
----
 프로그래머에게 thread를 생성하고 관리하기 위한 [[API(Application Program Interface)]]를 제공
 
 ### Implement
@@ -120,7 +112,6 @@ JVM은 host OS 위에서 실행되기 때문에 java thread API는 전형적으�
 ![[Pasted image 20231017232131.png | 600]]
 
 ## Thread Issues
----
 ### Semantics of **fork()** and **exec()** [[System Call]]s
 **fork()** 는 별도의 복제된 process를 생성한는 데 사용된다. 만약 한 프로그램의 thread가 fork()를 호출하면 다음과 같은 이슈가 존재한다
 + 새로운 process는 모든 thread를 복제해야 하는가?

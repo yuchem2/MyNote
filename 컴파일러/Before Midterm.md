@@ -71,7 +71,6 @@
 | [[정규 문법(RG, Regular grammar)]] | [[정규 언어(RL, Regular Language)]]     | [[FA(Finite Automata)]]     |
 
 ## 3장 [[정규 언어(RL, Regular Language)]]
----
 ### [[정규 문법(RG, Regular grammar)]]
 ![[정규 문법(RG, Regular grammar)]]
 ### [[정규 표현(RE, Regular Expression)]]

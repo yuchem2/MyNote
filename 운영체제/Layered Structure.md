@@ -18,7 +18,6 @@
 
 
 ## UNIX
----
 System programs와 kernel로 구분되어 구성
 + kernel layer가 system call interface부터 물리적인 하드웨워까지 모두 포함 -> 하나의 계층에서 너무 많은 기능들을 수행
 + kernel layer가 다른 레이어에 비해 매우 큼

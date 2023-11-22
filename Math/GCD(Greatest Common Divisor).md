@@ -2,16 +2,13 @@
 
 
 ## Equivalent definition 
----
 $$gcd(a, b) = max[k, \; such \; that \; k|a \; and k|b]$$
 GCD는 말 그대로 "최대"이기 때문에 위 식으로 말할 수 있고, 이에 따라 다음과 과 같은 관계들이 성립한다.$$\begin{matrix}gcd(a,b)=gcd(|a|, |b|) \\ gcd(a, 0) = |a|\end{matrix}$$
 ## Relatively Prime
----
 > Two integers $a$ and $b$ are *relatively prime* iff their only common positive intger factor is $1$. This is euqivalent to saying that $a$ and $b$ are *relatively prime* if $gcd(a,b)=1$
 
 
 ## Euclidean Algorithm
----
 *Euclidean algorithm*이라고 불리는 이 알고리즘은 두 정수의 GCD를 찾는 알고리즘이다.
 1. $d = gcd(a, b) = gcd(|a|, |b|)$
 2. $b$로 $a$를 나누면서 [[Divisibility#Divison Algorithm]]를 적용하면 다음과 같다$$a=q_1b+r_1\qquad \qquad 0 \leq r_1 < b$$

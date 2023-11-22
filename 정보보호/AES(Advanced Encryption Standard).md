@@ -1,7 +1,7 @@
 2001년에 NIST로부터 공개된 [[Block Cipher Symmetric Encryption]]을 사용하는 [[Block Cipher]]로, [[DES(Data Encryption Standard)]]를 대체하기 위해 등장하였다
 
 ## History
----
+
 [[DES(Data Encryption Standard)]]는 이론상의 공격과 철저한 비밀 키 탐색 공격을 통해 추론될 수 있다는 것이 밝혀졌고, 새로운 표준 암호의 필요성이 등장했다. 
 
 AES 개발 이전에 [[Triple DES]]도 존재해 이것을 사용할 수도 있었지만 [[Triple DES]]의 경우 느렸고, 블럭의 크기도 작은 문제가 있어 US NIST에서 1997년에 새로운 표준 암호를 위한 제안서를 받기로 결정하였다.
@@ -40,7 +40,6 @@ AES 개발 이전에 [[Triple DES]]도 존재해 이것을 사용할 수도 있�
 	+ 기존 암호를 정제하는 것과 새로운 암호
 
 ## AES Cipher - Rijndael
----
 벨기에의 *Rijmen-Daemen*에 의해 설계된 암호로, $128, 192, 256 \; bit$길이의 비밀 키를 제공하고, 블럭 크기가 $128\; bit$이다.  키 길이에 따라 AES-128, AES-192, AES-256으로 불린다
 
 [[Feistel Cipher]]와 유사하게 작동하며 데이터를 $4 \; bytes$의 4개의 그룹으로 나눠 다루며 각 라운드에서 전체 블록에 대해 연산이 수행된다. 
@@ -48,7 +47,6 @@ AES 개발 이전에 [[Triple DES]]도 존재해 이것을 사용할 수도 있�
 설계의 목표는 알려진 공격으로부터 저항성을 가지고, 대부분의 CPU에서 빠르고, 긴밀하게 작동하는 것과 간단하게 구현하는 것이었다. 
 
 ### Simple Sturcture
----
 
 | AES Encrpytion Process                       | AES Encrpytion and Decrpytion               |
 | -------------------------------------------- | ------------------------------------------- |
@@ -139,7 +137,6 @@ KeyExpansion (byte key[16], word w[44]) {
 <div align="center">AES Key Expansion</div>
 
 ### Example
----
 Plaintext: 012345678abcdeffedcba9876543210
 Key: 0f1571c947d9e8590cb7addaf7f698
 Ciphertext: ff0b844a0853bf7c6934ab4364148fb9
@@ -155,13 +152,11 @@ Ciphertext: ff0b844a0853bf7c6934ab4364148fb9
 |  ![[Pasted image 20231022133647.png ]]                 |  ![[Pasted image 20231022133828.png]]                |
 
 ### Decryption
----
 [[DES(Data Encryption Standard)]]와 다르게 AddRound Key 단계를 제외하고 모든 단계가 역으로 수행되는 과정이 존재해 복호화 과정은 다르게 수행된다. 하지만 암호화 과정과 동일한 순서로 그에 해당하는 역 단계를 수행하며, AddRoundKey 단계의 수행은 [[DES(Data Encryption Standard)]]와 동일하게 암호화 과정과 동일하게 수행하며 암호 키만 반대로 적용한다. 
 
 이러한 특징으로 인해 AES를 *Equivalent Inverse Cipher*라고 할 수 있다.
 
 ### Implementation Aspects
----
 $8\; bit$ processor에 효율적이게 구현이 가능하다. 
 + byte substitution이 256개의 entries를 가진 table을 사용하기 때문(s-box의기)
 + shift rows는 간단한 byte shift이기 때문에 연산이 간단

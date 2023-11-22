@@ -7,7 +7,6 @@ CSR(Cilent-Side-Rencdering) 방식을 수행
 
 ## Features
 ### CSR
----
 + User가 브라우저를 통해 앱에 접속하면 앱은 브라우저에게 js 정보가 들어있는 html 문서를 전달
 + 브라우저는 js 파일을 다운로드하고, 동시에 User는 빈 화면을 보게 됨
 + js 파일의 다운로드가 끝나면 [[React.js]] 코드가 있는 js 파일을 실행

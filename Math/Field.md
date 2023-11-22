@@ -7,7 +7,6 @@
 그러므로 Field는 속하는 원소에 대해 $+, -, \times, \div$ 연산을 수행하더라도 그 결과가 Field의 원소인 집합을 말한다. 
 
 ## Type of Fields
----
 + [[Finite Field]]
 	+ $GF(p)$
 	+ $GF(p^n)$

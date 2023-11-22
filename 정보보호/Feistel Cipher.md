@@ -10,7 +10,6 @@ Feistel은 *ideal block cipher*에 근사하기 위해 두 개이상의 간단�
 즉, Fiestel은  *confusion*과 *diffustion* 함수를 교대로 사용하는 [[Product Ciphers]]를 개발하자는 제안을 실제로 구상한 것이다 ([[Substitution-Permutation(S-P) networks]])
 
 ## *Structure*
----
 먼저 *invertible* [[Product Ciphers]]에 기초를 둔 형태이다. 이 암호의 가장 큰 특징은 암호화 과정을 똑같이 암호문에 수행하면 복호화가 수행된다는 것이다. 여기서 subkey만 반대 순서로 적용하면 된다. 
 
 ![[Pasted image 20231016135525.png | 500]]

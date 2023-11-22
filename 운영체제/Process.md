@@ -27,7 +27,6 @@
 + 편리성(동시에 수행되는 환경)
 
 ## **Process in Memory**
----
 + 프로세스의 현재 활동 정보는 [[PC(Program Counter)]]와 processor의 [[레지스터(Register)]]의 내용에 의해 나타난다
 + [[스택(Stack)]]: 일시적 자료를 포함한다(함수 매개변수, 반환 주소, 지역 변수들...)
 + [[Data section]]: 전역 변수들을 포함한다
@@ -36,7 +35,6 @@
 
 기본적으로는 독립적으로 메모리 영역이 생기지만, 같은 프로그램 내에서 연관될 수도 있다
 ## **Process State**
----
 + new: 프로세스가 생성(메모리에 프로그램이 올라감)
 + running: 실제 코드가 실행 중
 + waiting: 이벤트 발생을 기다리는 상태
@@ -52,12 +50,10 @@
 + [[인터럽트(Interrupt)]] ([[Timer]] event)를 기다리는 경우
 + 할당된 시간이 만료된 경우
 ## **Process Operations**
----
 + [[Process Creation]]
 + [[Process Termination]]
 
 ## **Process Execution time**
----
 프로세스의 실행 시간은 CPU execution(CPU burst)와 I/O wait(I/O burst)의 사이클로 구성된다. 
 
 일반적으로 CPU burst 분산은 exponential or hyper-exponential하게 나타난다. 

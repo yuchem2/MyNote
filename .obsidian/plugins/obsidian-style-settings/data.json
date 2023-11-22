@@ -6,7 +6,7 @@
   "things-style@@link-external-decoration": "None",
   "things-style@@no-kanban-styles": false,
   "things-style@@no-minimal-title-bar": true,
-  "things-style@@h2-underline": false,
+  "things-style@@h2-underline": true,
   "things-style@@fancy-highlight": false,
   "things-style@@active-line": true
 }

@@ -1,5 +1,4 @@
 ## Concepts
----
 Parser라고도 하며, 한국어로는 구문 분석기라고 한다.
 
 Sysntax Checking과 [[트리(Tree)]] gereation 기능을 수행한다.
@@ -8,7 +7,6 @@ Sysntax Checking과 [[트리(Tree)]] gereation 기능을 수행한다.
 
 [[Parsing Table]]을 통해 행동(Shift, Reduce, Accept, Error)를 결정한다
 ## Output of Parser
----
 입력으로 스트링 $\omega$를 받아 만일 $\omega$가 정의된 문법의 문장이라면 구문 분석 정보를 생성하고 $\omega$가 정의된 문법의 문장이 아니라면 에러 메시지를 출력하는 작업을 수행한다. 올바른 문장에 대해서는 다음 단계에 필요한 구문 분석 정보를 내보내는데, 이 출력이 [[Intermediate Code Generator]]의 입력이 된다.
 ### Parse
 유도 과정에서 적용된 일련의 생성 규칙 번호
@@ -37,7 +35,6 @@ Parse tree가 문법 구조에 관한 정확한 정보를 갖고 있으나 중�
 
 여기서 의미있는 생성 규칙은 compiler deginer가 지정하게 된다. 
 ## Syntax Analysis Method
----
 [[CFG(Context-free grammar)]]를 위한 구문 분석 방법은 parse tree를 어떤 순서로 만들어 가느냐에 따라 크게 나누어 top-down 방식과 bottom-up 방식으로 구분할 수 있다. 
 ### Top-down
 > Begining with the start symbol of the grammer, it attempts to produce a string of terminal symbol that is *identiacal* to a given source string. This matching process proceeds by successivlely applying the productions of the grammar to produce substrings from nonterminals
@@ -154,9 +151,7 @@ stack top과 input symbol에 따라 parsing table을 참조하여 action을 결�
 	+ LALR(LookAhead LR)
 	+ CLR(Canonical LR)
 ## Top-down Parser
----
 ### Deterministic Top-Down Parsing
----
 Top-down 방법으로 구문 분석을 할 때 backtracking을 하지 않고 결정적으로 생성규칙을 선택해 적용하는 parsing을 말함. Input string을 한번만 스캐닝(left to right)을 하며 문장의 형태가 잘못됬다고 판단하면 바로 reject할 수 있다. *LL parsing*이라고도 부르며 LL은 "Left to right scanning and Left parse"의 약어이다.
 #### [[FIRST]]
 ![[FIRST]]
@@ -279,4 +274,3 @@ end
 > G is said to be *LL(k)*, for some fixed integer k > 0, if whenever thear are two leftmost derivations.  $S\Rightarrow^* \mu A \gamma \Rightarrow \mu\alpha\gamma \Rightarrow^* \mu x \in V_T^*$and $S\Rightarrow^* \mu A\delta \rightarrow \mu\beta\delta \Rightarrow^* \mu y \in V_T^*$ such that $FIRST_k(X) = FIRST_k(y)$. It follows that $\alpha = \beta$
 
 ## Bottom-up Parser
----

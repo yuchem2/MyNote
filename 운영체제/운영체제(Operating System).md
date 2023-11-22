@@ -3,7 +3,6 @@
 
 
 ## **Objective**
----
 + [[Process Management]]: User Program을 실행하고, 편리하게 사용할 수 있는 환경 제공
 + Resource Management: Hardware를 효율적으로 관리
 	+ [[Memory Management]]
@@ -13,7 +12,6 @@
 
 
 ## **Definition**
----
 > OS is a resource allocator and a control program. 
 
 + 효율적이고, 공정한 자원의 사용을 위하여 충돌하는 요구들을 결정하는 역할 수행
@@ -21,7 +19,6 @@
 
 
 ## **Operations**
----
 + 현대 OS는 HW에 의한 [[인터럽트(Interrupt)]] driven 방식으로 구동한다
 + SW 오류나 요청은 예외나 [[트랩(Trap)]]트랩을 생성한다
 + [[Dual-mode opertaion]]은 OS가 다른 시스템 구성요소와 OS를 스스로 보호하는 것을 가능케 한다
@@ -36,7 +33,6 @@
 + [[Proctection]] and [[Security]]
 
 ## **Services**
----
 사용자에게 도움이 되는 기능들을 제공
 + [[UI(User Operating System Interface)]]
 + Program Execution: 프로그램을 메모리에 적재하고, 적재한 프로그램을 실행하고, 정상적이든 비정상적(에러를 포함)이든 종료할 수 있어야함
@@ -53,7 +49,6 @@
 
 
 ## **Design and Implementation**
----
 아직 완전한 해결책은 없고, 성공적인 접근 방법들이 존재한다
 
 목적과 특징에 따라 설계와 구현이 달라지며 이에 대해 잘 정의할 필요가 있다.
@@ -71,7 +66,6 @@ Policy와 mechanism 사이를 잘 조정할 필요가 있다
 전통적으로 [[어셈블리 언어(Assembly Language)]]로 구현되었지만, 현재는 [[고급 프로그래밍 언어]]로 구현되고 있다
 
 ## **Structure**
----
 + [[Simple Structure]]
 + [[Layered Structure]]
 + [[Microkernel System Structure]]

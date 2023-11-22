@@ -11,7 +11,6 @@ Public-Key encryption
 + [[Block Cipher Asymmetric Encryption]]
 + [[Stream Cipher Asymmetric Encryption]]
 ## Ingredients
----
 + Plaintext
 + Encryption algorithm
 + Public and private keys
@@ -20,16 +19,13 @@ Public-Key encryption
 + Ciphertext
 + Decryption algorithm
 ## Model
----
 ![[Pasted image 20231117154704.png | 600]]
 일반적인 공용키를 통해 암호화는 위와 같은 형식을 띈다. 위의 형식은 수신자의 공용키를 통해 암호화를 진행하고, 수신자는 자신의 비밀키를 통해 복호화를 수행한다. $$\begin{align}Y = &E(PU_a, X)\\ X =&D(PR_a, Y)\end{align}$$
 ## Characteristics
----
 + *Computationally infeasible(difficult)* to find decrypthon key knowing only algorithm & encrypthon key
 + *Computationally easy* to en/decrypt messages when the relevant(en/decrypt) key is known
 + either of the two related keys can be used for encryption, with the other used for decryption(in some schemes)
 ## Applications
----
 + encryption/decryption
 + [[디지털 서명(Digital Signature)]]
 + [[Key exchange]]
@@ -41,14 +37,12 @@ Public-Key encryption
 | [[Diffie-Hellman Key Exchange]] | No                    | No                | Yes          |
 |      [[DSS]]       | No                    | Yes               | No           |
 ## Requirements
----
 [[Asymmetric encryption#Characteristics]]을 만족하기 위해 *trap-door one-way function*을 사용할 수 있다.
 ### One-way function
 $$\begin{align} Y & = f(X) \qquad easy \\ X & = f^{-1}(Y) \quad infeasible\end{align}$$
 ### Trap-door one-way function
 $$\begin{align} Y & = f_k(X) \qquad easy & if \; k \; and \; X \; are \; known\\ X & = f^{-1}_k(Y) \quad\; easy & if \; k \; and \; Y \; are\;known \\ X&=f^{-1}_k(Y) \quad\; infeasible & if \; Y \;known \; but \; k \; not \; known\end{align}$$
 ## Security
----
 [[Symmetric encryption]]과 동일하게 항상 [[Brute-force attack]]의 가능성은 존재한다. 하지만, 계산이 매우 오래 걸리도록 key의 길이는 항상 매우 크게 사용된다. ($>1024\;bits$)
 
 비대칭 암호에서 중요한 것은 암호화, 복호화는 쉬워야 하며 [[Cryptanalysis]]는 어려워야 하는 것을 둘 다 만족해야 한다는 점이다. 
@@ -56,7 +50,6 @@ $$\begin{align} Y & = f_k(X) \qquad easy & if \; k \; and \; X \; are \; known\\
 일반적으로 [[Cryptanalysis]]가 어려워야 하는 것에 초점을 맞추어 매우 큰 길이의 수를 사용한다. 이로 인해 [[Symmetric encryption]]에 비해 느리다는 단점이 존재한다.
 
 ## Example
----
 + [[RSA]]
 + [[Diffie-Hellman Key Exchange]]
 + [[Elliptic Curve]]

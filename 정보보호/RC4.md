@@ -4,7 +4,6 @@
 
 
 ## Structure
----
 ![[Pasted image 20231022170606.png | 600]]
 <div align="center">RC4 Structure</div>
 
@@ -35,6 +34,5 @@ for each message byte M_i
 
 
 ## Security
----
 결과가 매우 비선형적인 특성을 가지고 있고, 알려진 공격에 대해 안전하다는 것이 입증되었다. (몇 개의 [[Cryptanalysis]]) 현실적으로 예측이 불가능한 것으로 밝혀졌다. 이러한 보안성이 유지될려면 사용된 가변 키를 다시 사용해서는 안된다는 점이 존재한다.
 

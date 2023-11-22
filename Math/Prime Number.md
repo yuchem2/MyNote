@@ -7,7 +7,6 @@
 ![[Euler Totient Function]]
 
 ## Testing for primality
----
 많은 [[암호화 알고리즘(Cypotographic algorithms)]]에서 하나 혹은 더 많은 크기가 큰 prime number를 랜덤으로 선택하는 것이 필요할 때가 종종 존재한다. 
 
 ### Traditionally
@@ -25,13 +24,11 @@ trial divison을 이용해 큰 prime number를 찾아냈다. 모든 수에 대�
 ### [[CRT(Chinese Remainder Theorem)]]
 ![[CRT(Chinese Remainder Theorem)]]
 ## Distribution of Primes
----
 소수 검정을 사용하여 prime이 발견되기 전에 기각될 가능성이 있는 수가 몇 개인지에 대해 주목할 필요가 있다. 소수 정리로 알려진 수론의 결과는 $n$ 근처의 prime들이 평균적으로 $ln(n)$개의 정수만큼 이격되어 있음을 말하고 있다. 그러므로 평균적으로 소수 검정에는 $ln(n)$ 개의 정수순서에 대해 테스트를 해야 한다. 모든 짝수는 prime이 아니기 때문에 정확한 수치는 $0.5ln(n)$이다. 
 
 e.g. 만약 $n=2^{200}$ 규모에 대한 prime을 찾기 위해서는 약$0.5 ln(2^{200}) = 69$번의 시행이 필요하다. 하지만 이 수치는 단순히 평균에 불과한 수치이다. 
 
 ## Primitive Roots
----
 > A primitive root modulo a prime $p$ is an integer $r$ in $Zp$ such that every nonzero element of $Zp$ is a power of $r$
 
 $Z_p$의 어떤 원소 $r$에 대해서 $r^{\phi(p)}\pmod {p}$의 결과가 $Z_p$의 모든 원소와 매핑되는 $r$은 *primitive roots*라고 한다. 
@@ -43,7 +40,6 @@ e.g. $p=19$, primitive roots $= 2, 3, 10, 13, 14, 15$
 
 
 ## Discrete Logarithms(or Indices)
----
 > We know that any intger $b$ satisfies $b \equiv r\pmod{p} \; for\; some \; r, \;where\; 0\leq r \leq (p-1)$ by the definition of [[Modular Arithmetic]]. It follows that for any integer $b$ and a primitive root $a$ of prime number $p$, we can find a unique expoent $i$ such that $$b\equiv a^i \pmod p \quad where \; 0 \leq i\leq (p-1)$$This exponent $i$ is referred to as the discrete logarithm of the number $b$ for the base $a\pmod p$. We denote this value as $dlog_{a, p}(b)$
 > 	Note the following:$$\begin{matrix} dlog_{a, p}(1) = 0 \quad becuase \; a^0 \bmod p = 1 \bmod p = 1 \\\\ dlog_{a, p}(a) = 1 \quad becuase \; a^1 \bmod p = a\end{matrix}$$
 

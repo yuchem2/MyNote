@@ -7,7 +7,7 @@
 [[SQL(Structured Query Language)]]에서 테이블에 데이터를 검색, 삽입, 수정, 삭제하는 명령어
 
 ## SQL문 예시
----
+
 명령어 문법은 모두 [[MySQL]]의 문법에 기초하였다
 ### 데이터 검색: SELECT
  ```sql

@@ -6,13 +6,11 @@
 
 임의의 집합의 원소들에게 임의의 2항 연산자을 수행할 때 **닫힘 성질, 결합 법칙, 항등원, 역원**을 만족하는 경우 Group이라고 한다.
 ## Abelian Group
----
 > A group $G$ is said to be *abelian* if it satisfies the following additional condition:
 > 	(A5) Commutative: $a\cdot b = b \cdot a \; for \; all \; a, \; b \; in \; G$
 
 Group이 **교환법칙**도 성립하는 경우 Abelian Group이라고 한다.
 ## Cylic Group
----
 > We define exponentiation within a group as a repeated application of the group operator, so that $a^3 = a \cdot a \cdot a$. Furthermore, we define $a^0 = e$ as the identity element, and $a^{-n} = (a')^n$, where $a'$ is the inverse element of $a$ within the group. 
 > 
 > A group G is *cylic* if every element of $G$ is power $a^k$ ($k$ is an integer) of a fixed element $a \in G$. The element $a$ is said to generate the group $G$ or to be a generate of $G$. A cyclic group is always *abelian* and may be finite or infinte

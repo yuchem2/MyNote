@@ -3,7 +3,6 @@
 Modulo prime의 [[Finite Field#Galois Field]]에서의 정수 지수화를 기초로 작성되었다. 
 이로 인해 정당한 사용자는 연산에 $O((log\; N)^3)$가 소요되고 공격자는 연산에 $O(e^{log\; N \; log \; log \; N})$가 소요된다. 일반적으로 $1024\sim2048\;bits$ 크기의 정수를 사용한다. 
 ## Algorithm
----
 기본적으로 평문은 블럭으로 나누어져 암호화가 진행된다. 블럭 크기 $i$는 $log_2 (n) + 1$보다 작거나 같고, $2^i < n \leq 2^{i+1}$을 만족한다. 암호화와 복호화는 다음과 같은 형식으로 수행된다. $$\begin{align} C & = M^e \bmod n \\ M &=C^d \bmod n = (M^e)^d \bmod n = M^{ed} \bmod n\end{align}$$
 여기서 GF(n)에서 곱셈 역원 관계를 만족하는 $e, d$ 즉,  $d \equiv e^{-1} \bmod n$를 만족하는 키를 찾기 위해 [[Euler Totient Function#Euler's Theorem]]를 이용한다. 
 ![[Euler Totient Function#Euler's Theorem]]
@@ -39,7 +38,6 @@ Modulo prime의 [[Finite Field#Galois Field]]에서의 정수 지수화를 기�
 ![[Pasted image 20231120143351.png | 600]]
 
 ## Computational Aspects
----
 ### Exponentiation in [[Modular Arithmetic]]
 RSA에서 암호화, 복호화 모두 $\bmod n$에서의 정수 거듭 제곱 연산을 수행한다. RSA에서는 매우 큰 수를 사용하고 있기 때문에 큰 수에 대한 제곱 연산을 계산해야 하는데, 효율적이고 빠른 방법으로 [[Square and multiply Algorithm]]을 사용할 수 있다. 이 기법을 사용한다면 $n$에 대해 $O(log_2\;n)$만 소요된다. 
 ![[Square and multiply Algorithm]]
@@ -84,7 +82,6 @@ $p, q$를 결정한 뒤 key generation에서는 $e, d$를 결정해야 한다.
 일반적으로 첫 번째 방법이 많이 사용되며 곱셈 역원을 구할 때 [[GCD(Greatest Common Divisor)#Euclidean Algorithm]]을 이용할 수 있다. 아래 예시에서 $p=\phi(n)$으로 적용하면 된다. 
 ![[Finite Field#Finding the multiplicative Inverse in GF(p)]]
 ## Security
----
 RSA를 공격하는 접근은 다음과 같은 방법들이 존재한다.
 + [[Brute-force attack]]: 현재로써는 실현 불가능한 방법
 + Mathmeatical attacks: factoring the product of two primes

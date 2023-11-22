@@ -21,7 +21,7 @@ Device 보안은 네트워크 장비에대한 보안을 말한다.
 + [[Intrusion prevention]]
 
 ## Model for network security
----
+
 + Plain text  $\rightarrow$ Cyper text $\rightarrow$ Plain text
 + 일반적으로 [[Trust Model]] 개념을 이용해 암호화, 복호화를 진행하며 네트워크 상에는 암호문만 존재하게 된다
 + Network security 모델을 사용하기 위해서는 다음과 같은 요소들이 필요하다

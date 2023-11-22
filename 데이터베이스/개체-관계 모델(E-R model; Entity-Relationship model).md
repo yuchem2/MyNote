@@ -6,7 +6,6 @@
 이 결과물을 그림으로 표현한 것을 개체-관계 다이어그램(E-R diagram)이라고 한다.
 
 ## **E-R Diagram**
----
 ![[Pasted image 20231012092230.png | 550]]
 <div align="center">
 	Example of E-R diagram

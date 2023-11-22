@@ -1,7 +1,6 @@
 n개의 [[Process]] $\{P_0, P_1, ..., P_{n-1}\}$로 이루어진 시스템에서 각 프로세스는 critical section으로 불리는 코드 부분을 가지고 있다. 이 구역은 공유 변수를 변경하거나, 테이블을 수정하거나, 파일을 쓰는 등의 작업을 말한다. 이 경우에 두 개 이상의 프로세스가 critical section을 동시에 수행되지 않게 해야 하는 문제이다.
 
 ## Solution
----
 프로세스들이 협력할 수 있는 [[Protocol]]을 만든다. 
 + 각 프로세스는 CS에 들어갈 때 승인을 요청해야 한다.
 + 이 요청을 구현하는 부분은 entry section로, CS의 앞 부분에 위치한다. 다른 프로세스가 CS을 수행하고 있는지 확인하는 부분이다. 
@@ -28,7 +27,6 @@ Do {
 } while (TRUE);
 ```
 ## Example program for CS
----
 ```c
 #define MAX_LIST 10
 

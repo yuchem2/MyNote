@@ -2,7 +2,6 @@
 
 Public key 분배에 대한 scheme으로, 임의의 메시지 교환에는 사용할 수 없다. [[Prime Number#Primitive Roots]]을 기초로 해 알고리즘이 만들어 졌다. 
 ## Algorithm
----
 ### Setup
 1. 모든 유저는 다음 global prameter를 사용한다
 	+ 충분히 큰 소수나 다항식 $q$

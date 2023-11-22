@@ -10,7 +10,6 @@
 + [[Stream Cipher Symmetric Encryption]]
 
 ## Ingredients
----
 + Plaintext(평문): 원본 메시지나 데이터를 말하며 암호화 알고리즘의 입력 값이다.
 + Encryption algorithm: 평문에 대해 한 번 이상의 substitution과 transformations을 수행하는 알고리즘을 말함
 + Secret key: 암호화 알고리즘의 다른 입력 값으로, 평문에 종속적인 형태를 띈다. 암호화 알고리즘은 특정 키에 따라 다른 출력 값을 나타내며 이는 substitution과 transformation이 키에 의존적임을 의미한다
@@ -22,13 +21,11 @@
 + 송수신자 모두 비밀키에 대한 정보를 가지고 있어야 하며 이를 보호된 상태로 유지해야한다.
 
 ## Model
----
 ![[Pasted image 20231005180415.png | 650]]
 
 일반적인 대칭 암호화 모델은 위와 같은 형식을 띈다. 
 암호화 알고리즘 $E(K, X)$에 의해 $Y$라는 암호문이 만들어지게 된다. 또한, 복호화 알고리즘 $D(K, Y)$에 의해 $X$라는 평문이 만들어지고 이를 수식으로 표현하면 아래와 같다. $$Y = E(K, X)$$ $$X = D(K, Y)$$
 ## Example
----
 + [[Substitution Ciphers]]
 	+ [[Caesar Cipher]]
 	+ [[Mono-alphabetic Cipher]]

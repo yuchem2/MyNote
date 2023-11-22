@@ -12,7 +12,6 @@ CPU scheduling, Process scheduling, Kernel Tread scheduing 세 용어가 같은 
 + Device queue: wait state인 process들 중 I/O를 기다리고 있는 process들의 집합
 	+ 각 Device들은 고유한 자신의 queue를 가지고 있음
 ## [[Process Scheduler]]
----
 [[운영체제(Operating System)]] module 중 하나로, 메모리에 있는 ready 상태의 프로세스 중 하나를 선택하고, CPU를 할당하는 일을 수행한다. 
 ![[Process Scheduler]]
 
@@ -40,7 +39,6 @@ CPU scheduling, Process scheduling, Kernel Tread scheduing 세 용어가 같은 
 	+ jumping to the proper location in the user program to restart that program
 + dipatcher가 실행 중이던 프로세스를 멈추고 다른 프로세스를 실행하는데 걸리는 시간을 Dispatcher latency라고 한다. 
 ## Criteria
----
 다음과 같은 요소들을 기준으로, [[Scheduling Algorithm]]의 성능을 판단할 수 있다. 
 + CPU utilization: 단위 시간 동안 CPU가 작업을 수행한 시간의 비율
 + Throughput: 단위 시간 동안 실행을 완료한 프로세스의 수 
@@ -48,5 +46,4 @@ CPU scheduling, Process scheduling, Kernel Tread scheduing 세 용어가 같은 
 + Waiting time: 프로세스가 ready queue에서 기다리는 시간
 + Response time: interactive system에서 요청이 제출되고, 첫 번째 반응이 올 때까지 걸리는 시간(time-sharing 환경)
 ## [[Scheduling Algorithm]]
----
 ![[Scheduling Algorithm]]

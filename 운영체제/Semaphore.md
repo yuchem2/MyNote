@@ -253,7 +253,6 @@ signal(semaphore *S) {
 }
 ```
 ## 해결할 수 있는 문제
----
 ### [[Producer-Consumer Problem]] with Bounded-Buffer
 다음과 같은 상태의 [[Producer-Consumer Problem]]가 있다. 
 + 두 개 이상의 생산자, 두 개 이상의 소비자
@@ -294,8 +293,7 @@ do {
 ### [[Dining-Philosophers Problem]]
 ![[Dining-Philosophers Problem]]
 ## 발생할 수 있는 문제
----
-사용할 때 잘못 사용한다면 문제가 생길 수 있다. 에러를 처리하기 위해 [[Monitors]]가 사용될 수 있다.
+사용할 때 잘못 사용한다면 문제가 생길 수 있다. 에러를 처리하기 위해 [[Monitor]]가 사용될 수 있다.
 
 e.g.`mutex`는 1로 초기화하는 semaphore인데, 이를 다음과 같이 사용하면 오류가 생길 수 있다.
 + `signal(mutex) ... wait(mutex)`: mutex exclusion 위반
