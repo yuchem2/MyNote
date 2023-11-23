@@ -57,7 +57,7 @@ monitor DP {
 		if((state[(i + 4) % 5] != EATING) && state[i] == HUNGRY 
 			&& STATE[(i + 1) % 5] != EATING) {
 			state[i] = EATING; // 자신의 상태를 EATING으로 바꿈
-			self[i].signal(); // 일시정지되어 있는 경우 활성화
+			self[i].signal();  // 일시정지되어 있는 경우 활성화
 		}
 	}
 
@@ -155,7 +155,6 @@ void F1() {
 		signal(mutex);
 	// ...
 }
-
 ```
 #### Implementation of x.wait()
 ```c

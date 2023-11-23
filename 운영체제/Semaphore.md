@@ -259,7 +259,7 @@ signal(semaphore *S) {
 + 버퍼는 최대 N개의 아이템을 포함
 
 이 문제는 [[Semaphore]]를 통해 해결할 수 있다. 각 [[Semaphore]]를 다음과 같이 초기화한다.
-+ [[Semaphore]]`mutex`: initalized to the value 1
++ [[Semaphore]] `mutex`: initalized to the value 1
 + [[Semaphore]] `full`: initailized to the value 0
 + [[Semaphore]] `empty`: intialized to the value N
 #### Structure of Producer Process

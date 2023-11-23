@@ -221,5 +221,4 @@ do {
 ### [[Semaphore]]
 ![[Semaphore]]
 ## [[Monitor]]
---
 ![[Monitor]]

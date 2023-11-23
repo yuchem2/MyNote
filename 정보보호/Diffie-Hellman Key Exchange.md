@@ -9,4 +9,4 @@ Public key 분배에 대한 scheme으로, 임의의 메시지 교환에는 사�
 2. 각 유저는 key를 생성한다.
 	+ private key를 선택: $x_A<q$
 	+ public key를 계산: $y_A = \alpha^{x_A} \bmod q$
-3. 각 유저는 public key를 생성한다.
+3. public key만 통신을 위해 공유한다. 
