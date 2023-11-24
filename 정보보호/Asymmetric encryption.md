@@ -52,5 +52,6 @@ $$\begin{align} Y & = f_k(X) \qquad easy & if \; k \; and \; X \; are \; known\\
 ## Example
 + [[RSA]]
 + [[Diffie-Hellman Key Exchange]]
-+ [[Elliptic Curve]]
++ [[ElGamal Cryptography]]
++ [[ECC(Elliptic Curve Cryptography)]]
 + [[DSS]]
