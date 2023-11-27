@@ -1,5 +1,4 @@
-
-입력으로 Grammar descritption을 받아, Pasing Table과 Parser, 즉 [[Syntax Analyzer(Parser)]]를 생성한다.
+입력으로 Grammar descritption([[BNF(Backus-Naur From)]])을 받아, Pasing Table과 Parser, 즉 [[Syntax Analyzer(Parser)]]를 생성한다.
 
 종류
 1. Stanford PGS: John Hennessy, [[Pascal]]로 5000 line 작성. 구문 구조를 Abstract Syntax Tree(AST) 형태로 얻음. 결과로 AST의 정보를 포함한 Pasing Table 출력.

@@ -1,0 +1,1 @@
+[[문법(Grammer)]] $G=(V_N, V_T, P, S)$가 있을 때 다음과 같은 문법으로 확장한 형태의 문법 $$G' = (V_N\cup\{S'\}, V_T, P\cup\{S'\rightarrow S\}, S'), \; where\; S' \; is \; a \; new \; start \; symbol \; not \; in \; V_N$$

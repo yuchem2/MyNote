@@ -150,7 +150,7 @@ stack top과 input symbol에 따라 parsing table을 참조하여 action을 결�
 	+ SLR(Simple LR)
 	+ LALR(LookAhead LR)
 	+ CLR(Canonical LR)
-## Top-down Parser
+## LL Parser
 ### Deterministic Top-Down Parsing
 Top-down 방법으로 구문 분석을 할 때 backtracking을 하지 않고 결정적으로 생성규칙을 선택해 적용하는 parsing을 말함. Input string을 한번만 스캐닝(left to right)을 하며 문장의 형태가 잘못됬다고 판단하면 바로 reject할 수 있다. *LL parsing*이라고도 부르며 LL은 "Left to right scanning and Left parse"의 약어이다.
 #### [[FIRST]]
@@ -273,4 +273,42 @@ end
 ##### LL(k) Grammar
 > G is said to be *LL(k)*, for some fixed integer k > 0, if whenever thear are two leftmost derivations.  $S\Rightarrow^* \mu A \gamma \Rightarrow \mu\alpha\gamma \Rightarrow^* \mu x \in V_T^*$and $S\Rightarrow^* \mu A\delta \rightarrow \mu\beta\delta \Rightarrow^* \mu y \in V_T^*$ such that $FIRST_k(X) = FIRST_k(y)$. It follows that $\alpha = \beta$
 
-## Bottom-up Parser
+## LR Parser
+### Deterministic Bottom-up Parsing
+Bottom-up parsing을 진행할 때 backtracking없이 구문 분석하는 방법을 말한다. 입력에 대해Left-to right scanning을 진행하고, 우측 유도를 이용해 파싱을 진행한다. LR은 Left to right scanning and Right parse의 약어이다. 
+
+일반적으로 [[Syntax Analyzer(Parser)#LL Parser]]보다 많이 사용되는 형태인데, 이유는 다음과 같다. 
++ 대부분의 [[프로그래밍 언어]]를 구성할 수 있다.
++ LL parsing 방법보다 일반적인 방법이다.
++ syntatic error를 빠르게 탐지할 수 있다.
+
+하지만 [[프로그래밍 언어]] 문법을 위한 LR parser로 직접 구현하는 것은 오랜 시간이 걸려, [[Parser Generating System]]을 자주 이용한다. 
+### Parsing Table
+행은 state로 구별되고 열은 ACTION 부분과 GOTO 부분으로 구성 ($|state|\times|V_T\cup \{\$\}\cup V_N|$)
+ACATION 부분은 index로 terminal symbol과 $를 가지고 있으며 shift-reude parsing과 동일한 action을 수행한다. GOTO 부분은 nonterminal symbol을 index로 가진다. parsing table의 연산을 정리하면 다음과 같다.
++ ACTION$[S_m,a_i]$ = $shift\; S$ $::= (S_0X_1S_1 ...X_mS_m, a_ia_{i+1}...a_n\$) \Rightarrow(S_0X_1S_1X_mS_ma_jS, A_{i+1}...a_n\$)$ 
++ ACTION$[S_m, a_i]$ = $reduce \; A \rightarrow \beta$ and $|\beta| = r$ $::=(S_0X_1S_1 ...X_mS_m, a_ia_{i+1}...a_n\$) \Rightarrow (S_0X_1S_1 ... X_{m-r}S_{m-r}, a_ia_{i+1}...a_n\$), GOTO(S_{m-r}, A) = S$$\;\;\Rightarrow(S_0X_1S_1 ... X_{m-r}S_{m-r}AS, a_ia_{i+1} ... a_n\$)$ 
++ ACTION$[S_m, a_i]$ = $accept$, parsing 종료
++ ACTION$[S_m,a_i]$ = $error$, parser가 error를 감지. [[Error Recovery(Complier)]] routine 호출
+### LR(0) items
+문법으로부터 LR parsing table을 구성하기 위해 사용되는 방법에서 사용되는 요소. LR(0) item을 정의하기 전에 문법을 다음 방법으로 확장한다. 
+
+![[Augmented Grammar]]
+이러한 형태로 문법을 확장하는 이유는 parsing을 멈추고, 입력으로 주어진 string을 인식하는 시점을 결정하기 위해서다. 해당 생성 규칙을 추가하게 되면 string이 parser에 의해 accept되는 경우는 오직 $S'\rightarrow S$로 reduce될 때이다.  
+
+LR(0) item은 다음과 같이 정의한다.
+> LR(0) item is a production with a dot at some position of the right side. $$\begin{align}e.g. A\rightarrow XYZ \in P,\\&[A\rightarrow.XYZ]\; [A\rightarrow X.YZ]\\ & [A\rightarrow XY.Z] \; [A\rightarrow XYZ .]\end{align}$$
+
+여기서 dot 이후에 처음 등장하는 symbol을 mark symbol이라고 하며 다음과 같이 정의한다. 
+> A mark symbol is the symbol after the dot if it exists
+
+LR(0) item은 dot의 위치에 따라 다음과 같이 구분할 수 있다. 
+>+ kernel item $::= [A\rightarrow \alpha.\beta]\;if\;\alpha \neq \epsilon$
+>+ closure item $::= [A\rightarrow .\alpha]$: the result of performing the CLOSURE operation, 
+>  $\qquad\qquad\qquad\quad\;\;$ but $[S'\rightarrow .S]$ is kernel item
+>+ reduce item $::=[A\rightarrow \alpha.]$: dot is at the end of rhs
+
+여기서 $[A\rightarrow \alpha.\beta]$는 다음과 같은 의미를 가진다. 
++ $\alpha$로부터 유도된 입력 스트링들은 이미 확인되었다. (현재 stack의 top에 $\alpha$가 존재)
++ $\beta$로부터 유도될 수 있는 입력 스트링이 다음 확인에 등장한다면 $A\rightarrow \alpha \beta$에 의해 reduce한다.
+
