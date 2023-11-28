@@ -31,4 +31,3 @@ Deadlock은 다음과 같은 4개의 상황이 동시에 발생하는 경우 야
 [[Resource-Allocatin Graph]]에서 cycle이 존재하지 않는 경우에는 Deadlock 상태가 아니다. 하지만 cycle이 존재하는 경우에 각 자원의 객체가 하나밖에 존재하지 않는 경우에는 Deadlock이 생기고, 하나 이상 존재하는 경우에는 Deadlock에 빠질 가능성이 존재한다. 
 ## [[Deadlock handling]]
 ![[Deadlock handling]]
-## Recovery from Deadlock
