@@ -1,11 +1,11 @@
 Private key와 Public key 두 개의 키를 사용하는 [[암호화 알고리즘(Cypotographic algorithms)]]
 Public-Key encryption
 
-기존 [[Symmetric encryption]]에서는 Private key 한 개만을 사용하며 permutation 연산과 substitution 연산을 통한 대칭적인 암호화, 복호화를 수행한다. 이 형태를 완전히 대치하기 위해 등장한  [[Asymmetric encryption]]은 두 개의 키를 사용하며 수학적인 함수를 비대칭적인 암호화, 복호화를 수행한다. 
+기존 [[Symmetric encryption]]에서는 Private key 한 개만을 사용하며 permutation 연산과 substitution 연산을 통한 대칭적인 암호화, 복호화를 수행한다. 이 형태를 완전히 대치하기 위해 등장한  [[Asymmetric Encryption]]은 두 개의 키를 사용하며 수학적인 함수를 비대칭적인 암호화, 복호화를 수행한다. 
 
 [[Symmetric encryption]]보다 좀 더 보안성이 높다.
 
-[[Key exchange]]와 [[디지털 서명(Digital Signature)]] 문제를 해결하기 위해 개발되었다. *Diffie*와 *Hellman*에 의해 최초로 공개된 형태이다. 
+[[Key exchange]]와 [[Digital Signature]] 문제를 해결하기 위해 개발되었다. *Diffie*와 *Hellman*에 의해 최초로 공개된 형태이다. 
 
 데이터를 처리하는 방법에 따라 구분된다.
 + [[Block Cipher Asymmetric Encryption]]
@@ -27,7 +27,7 @@ Public-Key encryption
 + either of the two related keys can be used for encryption, with the other used for decryption(in some schemes)
 ## Applications
 + encryption/decryption
-+ [[디지털 서명(Digital Signature)]]
++ [[Digital Signature]]
 + [[Key exchange]]
 
 |     algorithm      | Encryption/Decryption | Digital Signature | Key Exchange |
@@ -37,7 +37,7 @@ Public-Key encryption
 | [[Diffie-Hellman Key Exchange]] | No                    | No                | Yes          |
 |      [[DSS]]       | No                    | Yes               | No           |
 ## Requirements
-[[Asymmetric encryption#Characteristics]]을 만족하기 위해 *trap-door one-way function*을 사용할 수 있다.
+[[Asymmetric Encryption#Characteristics]]을 만족하기 위해 *trap-door one-way function*을 사용할 수 있다.
 ### One-way function
 $$\begin{align} Y & = f(X) \qquad easy \\ X & = f^{-1}(Y) \quad infeasible\end{align}$$
 ### Trap-door one-way function

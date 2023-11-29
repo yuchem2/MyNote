@@ -4,7 +4,7 @@
 ## 특정한 [[Security mechanism]]
 + [[암호화 알고리즘(Cypotographic algorithms)]]
 + [[데이터 무결성(Data Integrity)]]
-+ [[디지털 서명(Digital Signature)]]
++ [[Digital Signature]]
 + [[인증 교환(Authentication exchange)]]
 + [[Traffic padding]]
 + [[Routing control]]

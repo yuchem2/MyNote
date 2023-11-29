@@ -1,0 +1,2 @@
+## [[Hash Function]]
+![[Hash Function]]

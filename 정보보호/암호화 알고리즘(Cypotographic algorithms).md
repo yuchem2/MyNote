@@ -3,15 +3,14 @@
 
 가역적인 암호화 알고리즘은 단순히 데이터가 암호된 후에 복호화되도록 허용하는 알고리즘으로 암호 Key가 존재한다(Single-key, Two-key)
 
-비가역적인 암호화 알고리즘은 암호 Key가 따로 존재하지 않는다(Keyless). [[디지털 서명(Digital Signature)]]과 message authenication에서 사용된다.
+비가역적인 암호화 알고리즘은 암호 Key가 따로 존재하지 않는다(Keyless). [[Digital Signature]]과 message authenication에서 사용된다.
 
 
 ## **키를 통한 분류**
 ### Keyless
 결정론적인 함수들(Deterministic functions)을 사용함으로써 암호화하는 알고리즘
-+ [[Cryptographic hash function]]
++ [[Cryptographic Hash Function]]
 + [[PRNG(Pseudo-Random Number Generator)]]
-
 ### Single-Key
 하나의 사용자 비밀 키를 이용한 알고리즘
 + [[Symmetric encryption]]
@@ -21,13 +20,13 @@
 
 ### Two-key
 두 개의 사용자 비밀 키를 이용한 알고리즘. Private key와 public key를 사용한다.
-+ [[Asymmetric encryption]]
++ [[Asymmetric Encryption]]
 	+ [[Block Cipher Asymmetric Encryption]]
 	+ [[Stream Cipher Asymmetric Encryption]]
-+ [[디지털 서명(Digital Signature)]]
++ [[Digital Signature]]
 + [[Key exchange]]
 + [[User authentication]]
-### [[Symmetric encryption]] vs [[Asymmetric encryption]]
+### [[Symmetric encryption]] vs [[Asymmetric Encryption]]
 
 |                   | Conventional Encryption                                                                                                                                              | Public-Key Encrpytion                                                                                   |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |

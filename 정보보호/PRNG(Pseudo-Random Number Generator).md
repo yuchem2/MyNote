@@ -16,7 +16,7 @@
 하지만 이 경우 값을 잘 조정한다면 마치 실제로 랜덤한 것처럼 보일 수 있지만, 같은 값이 등장할 확률은 상당히 높다. 또한 공격자가 해당 값을 대입하며 수식을 재구성할 가능성도 존재한다.
 
 ## Blum Blum Shub Generator
-공개 키 알고리즘에 기초한 [[Random Numbers]]를 생성하는 기술이다. 즉, [[Asymmetric encryption]]에서 기초한 방법이다. [[Random Numbers]]은 다음과 같은 과정을 통해 생성된다. 
+공개 키 알고리즘에 기초한 [[Random Numbers]]를 생성하는 기술이다. 즉, [[Asymmetric Encryption]]에서 기초한 방법이다. [[Random Numbers]]은 다음과 같은 과정을 통해 생성된다. 
 1. 먼저 두 개의 큰 [[Prime Number]] $p, q$를 선택한다. 이때 두 수는 4로 나눴을 때 나머지가 3인 수로 한정한다. $$p\equiv q\equiv 3\pmod 4$$
 2. 그리고 $n=p\times q$로 정의한 후 $n$과 relatively prime인 임의의 $s$를 선택한다. 그 후 다음과 같은 과정으로 [[Random Numbers]]를 생성한다.$$\begin{align}X_0 & = s^2 \bmod n \\ for\; i & = 1 \; to \; \infty \\ X_i & = X_{i-1}^2 \bmod n \\ B_i & = X_i \bmod 2\end{align}$$
 3. 이렇게 생성된 $B_i$는 $bit$ 단위의 각 자리수를 의미하고, 이를 통해 [[Random Numbers]]를 생성한다
@@ -61,3 +61,19 @@ ANSI에서 공개한 [[Triple DES]]를 이용해 [[Random Numbers]]를 생성하
 
 ![[Pasted image 20231022163608.png | 600]]
 <div align="center">Intel DRNG Logical Structure</div>
+
+## Using [[Asymmetric encryption]]
+[[Asymmetric Encryption]] 알고리즘은 대략적으로 랜덤인 결과를 출력한다는 기대를 가지고 있다. 그러므로, [[PRNG(Pseudo-Random Number Generator)]]를 만드는데, 사용될 수 있다. 하지만 [[Symmetric encryption]]을 사용하는 것에 비해 느린 단점을 가진다. 이로 인해 일반적으로 짧은 pseudorandom bit sequence를 생성하는데 사용된다. (e.g. key)
+### [[RSA]]
+Michali-Schonorr PRNG는 [[RSA]]를 사용해 개발되었다. ANSI X9.82와 ISO 18031 표준으로 등록되어 있다. 
+
+![[Pasted image 20231129160702.png | 600]]
+### [[ECC(Elliptic Curve Cryptography)]]
+[[ECC(Elliptic Curve Cryptography)]]를 이용한 PRNG는 NIST SP 800-9, ANSI X9.82와 ISO 18031 표준으로 등록되어 있다. 보안성과 비효율성 문제에 대한 논쟁이 존재한다.
+```pseudo code
+p, q are two points on EC
+for i = 1 to k 
+	set Si = x(Si-1 * p)
+	set Ri = lsb240(x(Si * q))
+return R1, ..., Rk
+```
