@@ -180,7 +180,7 @@ PKCE(Proof Key for Code Exchange)는 authorization flow을 더욱 향상시키�
 
 PKCE의 작동 
 1. Client(Application)는 "code verifier"라는 임의의 문자열을 생성
-2. Client는 [[Hashing algorithm]]을 사용하는 code verifier의 hash인 "code challenge"를 생성
+2. Client는 [[Hash Function]]을 사용하는 code verifier의 hash인 "code challenge"를 생성
 3. Client는 authorization 요청에서 space에 code challenge를 보냄
 4. Space는 code challenge를 저장하고 이 요청에 대해 생성한 authorization code와 연결
 5. User가 authorization 요청을 승인하면 client는 authorization code를 받습니다. 그런 다음 client는 space에서 access token을 요청. authorization 코드와 함께 client는 original code verifier를 전송
