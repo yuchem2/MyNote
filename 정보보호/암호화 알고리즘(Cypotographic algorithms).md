@@ -3,9 +3,7 @@
 
 가역적인 암호화 알고리즘은 단순히 데이터가 암호된 후에 복호화되도록 허용하는 알고리즘으로 암호 Key가 존재한다(Single-key, Two-key)
 
-비가역적인 암호화 알고리즘은 암호 Key가 따로 존재하지 않는다(Keyless). [[Digital Signature]]과 message authenication에서 사용된다.
-
-
+비가역적인 암호화 알고리즘은 암호 Key가 따로 존재하지 않는다(Keyless). [[Digital Signature]]과 [[Message Authenication]]에서 사용된다.
 ## **키를 통한 분류**
 ### Keyless
 결정론적인 함수들(Deterministic functions)을 사용함으로써 암호화하는 알고리즘
@@ -25,7 +23,7 @@
 	+ [[Stream Cipher Asymmetric Encryption]]
 + [[Digital Signature]]
 + [[Key exchange]]
-+ [[User authentication]]
++ [[Message Authenication]]
 ### [[Symmetric encryption]] vs [[Asymmetric Encryption]]
 
 |                   | Conventional Encryption                                                                                                                                              | Public-Key Encrpytion                                                                                   |

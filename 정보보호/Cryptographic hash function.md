@@ -15,7 +15,7 @@
 
 <div align="center">Simplified Examples of Use of a Hash Function for Message Authentication</div>
 
-위 예시의 그림은 4가지 방법으로 [[Hash Function]]을 이용해 Message Authentication을 하는 예시를 보여주고 있다. 
+위 예시의 그림은 4가지 방법으로 [[Hash Function]]을 이용해 [[Message Authenication]]을 하는 예시를 보여주고 있다. 
 1. 메시지를 hash code로 변환한 뒤 메시지와 hash code를 함께 하나의 데이터로 하여 암호화해 전송한다. 전송을 받은 측에서는 복호화하고, hash code 부분과 메시지를 나눈 뒤 메시지를 hash code로 변환해 두 값이 같은지 비교한다. 
 2. 변환된 hash code만을 암호화 한 후 원본 메시지와 하나의 데이터로 하여 전송한다. 전송 받은 측에서는 암호화된 부분을 복호화하고, 원본 메시지를 hash code로 변환해 두 값이 같은 지 비교한다. 
 3. 암호화 없이 수행하는 방법으로, 비밀 값 $S$를 선택해 이를 원본 메시지와 함께 하나로 데이터로 하여 hash code로 변환한 뒤 그 hash code와 원본 데이터를 하나의 데이터로 하여 전송한다. 전송 받은 측에서는 이를 hash code부분과 원본 데이터로 나눈 뒤 비밀 값 $S$와 원본 데이터 부분을 hash code로 변환해 두 값이 같은지 비교한다. 
@@ -65,7 +65,12 @@ $[0:N-1]$ 범위에서 [[Uniform distribution]]을 만족한다고 할 때, 랜�
 ![[Pasted image 20231130115452.png | 600]]
 
 <div align="center">General Structure of Secure Hash Code</div>
-
+위 그림에서는 [[Block Cipher]] 방식을 통해 [[Hash Function]]을 구현하고 있다. 이러한 경우에 다음과 같은 특징을 가진다. 
++ $H_0=0$과 마지막 블록에 zero-padding를 사용한다.
++ $H_i = E_{M_i}(H_{i-1})$를 계산한다. 
++ final block을 hash code로 사용한다.
++ [[CBC(Cipher Block Chaining)]]와 유사하지만 키를 사용하지 않는다. 
++ 일반적으로 [[DES(Data Encryption Standard)]]를 사용했기 때문에 hash code의 결과가 64bit로 매우 작은 크기를 가진다. 이로 인해 birthday attack과 meet-in-the-middle 공격에 취약하다. 
 ## Algorithm
 ### Insecure Simple [[Hash Function]]
 #### Bit-by-Bit Exclusive-OR(XOR)
@@ -79,5 +84,5 @@ $[0:N-1]$ 범위에서 [[Uniform distribution]]을 만족한다고 할 때, 랜�
 	+ hash code 블록에 XOR을 수행한다.
 
 데이터 무결성검사로서는 효과적이지만, 보안적으로는 쓸모없는 방식이다.
-
-### Secure [[Hash Function]]
+### [[SHA(Secure Hash Algorithm)]]
+![[SHA(Secure Hash Algorithm)]]

@@ -20,4 +20,4 @@
 [[데이터 무결성(Data Integrity)]]
 ![[데이터 무결성(Data Integrity)#Security 에서의 정의]]
 
-![[부인봉쇄(Non-repudiation)]]
+![[부인방지(Non-repudiation)]]
