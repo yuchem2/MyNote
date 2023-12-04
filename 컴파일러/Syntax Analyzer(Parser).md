@@ -165,7 +165,7 @@ Top-down 방법으로 구문 분석을 할 때 backtracking을 하지 않고 결
 Parser를 일련의 순환 프로시저로 구현한 형태이다. 하지만 문법이 바뀌면 코드 자체를 전부 바꿔야 하는 소요가 있어 실제 [[컴파일러(Compiler)]] 구현에는 사용하지 않는 방법이다. 
 #### LOOKAHEAD
 Recursive-descent parser를 설계할 때 가장 중요한 것은 각 프로시저 내에서 입력 심벌에 따라 어떤 생성 규칙을 선택하느냐 하는 문제이다. 각 생성 규칙에 [[LOOKAHEAD]]를 계산함으로써 해결 할 수 있다.
-![[LOOKAHEAD]]
+![[LOOKAHEAD#LOOKAHEAD]]
 
 RDP가 결정적으로 구문 분석하기 위해서는 [[LL Condition#Strong LL condition]]을 만족해야 한다. 
 ![[LL Condition#Strong LL condition]]
@@ -391,3 +391,35 @@ SLR를 구성할 때 방법에서 reduce하는 방법만 달라진다.
 3. $ACTION[i,\$]:= accept\; if \; [S'\rightarrow S.] \in I_i$
 4. $GOTO(i, A) := j \; if \; GOTO(I_i, A) = I_j$
 5. error for all undefinded entries and initial state is $i \; if \; [S'\rightarrow.S]\in I_i$
+
+### LALR Parsing Table
+LALR을 구성하는 방법은 두 가지 방법이 존재한다. 
+#### $C_1$
+$C_1$을 이용하는 방법은 core가 같은 LR(1) items들을 합치는 것이다. 이렇게 합치는 작업을 수행하게 되면 SLR과 크기가 같은 parsing table이 구성된다. 
+
+일반적으로 이 작업에서는 shift/reduce간의 충돌은 발생하지 않는다. reduce/reduce간의 충돌은 발생할 수 있다. 
+#### $C_0$
+위에서 언급한대로 $C_1$을 만들고, merge하는 방식은 충돌의 가능성이 존재하고, 시간과 공간을 많이 소요한다. 그러므로 일반적으로 상대적으로 시간과 공간을 적게 소모하며 충돌의 가능성이 적은 $C_0$를 이용하는 방법으로 LALR을 구성한다.
+
+$C_0$를 이용하는 방법은 먼저 $C_0$를 구성하고, reduce item에 대해서만 [[LOOKAHEAD]]를 계산해 이를 이용해 reduce하는 것이다. 이를 위해 먼저 [[LOOKAHEAD#Efficient Computaion of LOOKAHAED Sets]]를 다음과 같이 정의한다.
+![[LOOKAHEAD#Efficient Computaion of LOOKAHAED Sets]]
+
+$C_1$을 구성할 때는 [[LOOKAHEAD]]을 계속해서 계산했기 때문에 계산이 쉬웠지만, 이 경우에서는 계산은 다음과 같은 규칙을 통해 이뤄진다.$$LA(p, \; [A\rightarrow\alpha.\beta]) = \bigcup_{q\in PRED(p, \alpha)} \;\bigcup_{[B\rightarrow\alpha_1.A\alpha_2] \in q} FIRST(\alpha_2) \oplus LA(q, \; [B\rightarrow\alpha_1.A\alpha_2]$$여기서 $PRED(p,\alpha)=\{q \; | \; p \in GOTO(q, \alpha)\}$로 정의한다.
+
+위 계산은 결국, 현재 상태에서 $\alpha$만큼 거슬러 올라가서 $A$를 marksymbol로 가지는 상태들에서 $\alpha_2$를 확인한다는 의미이다. 
+[[LOOKAHEAD]]를 계산하는 알고리즘은 다음과 같다.
+```pseudo code
+function LA(p: state; I: time): set of Vt;
+{
+	assume I = [A->a.b];
+	if (A == S') LA = {$};
+	else {
+		LA = {};
+		for q in PRED(p, a) do
+			for [B->a.Ac] in q do
+				LA = LA + FIRST(c);
+				if (e in FIRST(c) && !MAP(q, [B->a.Ac]))
+					LA = LA + LA(q, [B->a.Ac])
+	}
+}
+```
