@@ -63,7 +63,7 @@ Linking이 execution time까지 연기 된 후 exeuction time에서 linking된�
 + Roll out/in: 우선순위 기반의 [[Scheduling Algorithm]]을 위해 다양하게 사용되는 swapping. 낮은 우선순위 프로세스는 높은 우선순위 프로세스가 적재되어 실행될 수 있도록 Swap out된다.
 
 Swaping 시간의 대부분은 전송 시간이다. Total transfer time은 총 메모리 양에 직접적으로 비례한다. 
-## Contiguous Allocation
+### Contiguous Allocation
 Main memory는 두 개의 부분으로 나뉘게 된다. 
 + Resident [[운영체제(Operating System)]]: 보통 [[인터럽트(Interrupt)]] vector와 함께 하위 메모리에 위치
 + User processes: 상위 메모리에 위치
@@ -73,7 +73,7 @@ Main memory는 두 개의 부분으로 나뉘게 된다.
  + limit register는 논리 주소 범위를 포함한다. 
 
 즉, 다음과 같이 쓸 수 있으며 MMU는 rerocation register의 값을 더함으로써 논리 주소를 동적으로 매핑하여 메모리에 보낸다. $$logical \; address \; < limit\; register\; \rightarrow \; logical \; register + relocation \; register$$
-### Hole
+#### Hole
 유효한 메모리 블럭을 말하며, 연속적인 할당에서 메모리 부분에서 할당된 공간 사이에 빈 공간을 말한다. 만약 이 공간이 충분히 크다면, 새로 들어온 프로세스를 그 공간에 할당 가능하다. 
 
 구멍들에 할당할 때는 n 크기의 요청에 따라 여러 할당하는 방법이 존재한다. 
@@ -84,7 +84,7 @@ Main memory는 두 개의 부분으로 나뉘게 된다.
 	+ 이 방법도 best-fit과 동일하게 정렬되지 않으면 모두 확인해야 함
 
 First-fit과 best-fit이 worst-fit에 비해 속도와 사용률 측명에서 좋다. 
-### Fragmentation
+#### Fragmentation
 메모리를 할당하다 보면 필연적으로 빈 fragmentation이 생긴가.
 + External: 전체 메모리 공간은 한 요청을 만족시키기엔 충분하나 연속적이지 않음
 + Internal: 할당된 메모리가 요청한 메모리보다 아주 약간 작은 경우
@@ -96,3 +96,48 @@ First-fit과 best-fit이 worst-fit에 비해 속도와 사용률 측명에서 �
 	+ 입출력에 포함되는 동안은 메모리에 작업이 잠굼
 	+ 입출력은 단지 OS buffer를 이용해 수행
 ## Paging
+[[Memory Management]] 방법의 일종으로, 다음을 가능케 한다.
++ 프로세스의  physical 주소 공간은 연속적이지 않아도됨
++ 프로세스는 메모리가 유효할 때 언제든지 물리 메모리에 할당됨
+
+paging 기법을 사용할 때 physical memory는 frame(512 bytes)로 나뉘게 된다. Logical 주소는 frame과 동일한 크기의 블록으로 나누고, 이를 page라고 부른다.
+
+모든 자유 frame을 기록하고 관리한다. Logical 주소를 physical 주소로 변환하는 page table을 설정한 후 이를 통해 page와 frame을 매핑함으로써 할당한다. 이 경우에 external fragementation은 생기지 않지만 internal fragmentation은 생긴다. 
+### Address Translation Scheme
+CPU에 의해 생성되는 logical 주소는 다음과 같은 요소로 구성된다.
++ Page number (p): physical memory 내의 각 page의 기본 주소를 포함하는page table의 인덱스로 사용된다.
++ Page offset (d): 메모리 유닛에 보내지는 physical memory 주소를 정의하기 위해 base address와 조합된다.
+
+Logical address space = $2^m$, size of page = $2^n$인 경우 다음과 같이 구성된다. 
++ 상위 m-n bit는 page number(p)를 지정.
++ 하위 n bit는 page offset(d)를 지정
+
+CPU에서 page number + page offset이 입력되면 page number를 통해 page table에서 frame number를 찾는다. page number를 frame number로 변경시킨 후 이를 통해 physical memory에 접근한다. 
+#### Page Table Size
+page table의 크기는 logical address space와 page table enrty에 의해 결정된다. 일반적으로 page number는 4 bytes, frame의 크기는 4($=2^{12}$) KB이다. 이렇게 결정한다면 이 시스템은 $2^{44}$ bytes의 주소를 지정할 수 있다. 
+#### Free Frames
+새로운 프로세스가 생성되면, 운영체제는 필요한 page 개수 만큼의 할당 가능한 frame이 있는지 확인한다. 할당이 가능하다면 각 page마다 frame을 할당한다.
+### Implenation of Page Table
+Page table은 main memory에 저장되어 있다. 
++ PTBR(Page-table base register): 페이지 테이블을 가리키는 레지스터
++ PRLR(Page-table length register): 페이지 테이블의 길이 정보를 저장
+
+모든 데이터/명령 접근은 두 번의 메모리 접근이 필요(페이지 테이블, 데이터/명령어 접급). 이러한 문제는 TLB(tranlation look-aside buffers)로 해결 가능하다.
+#### TLB
+특수한 빠른 검색이 가능한 H/W로, page table을 위한 cache로서 사용된다.
+TLB는 몇 개의 page table entry 정보를 가지고 있다. 다음과 같은 과정으로 TLB는 logical 주소에 대한 처리를 수행한다. 
+1. CPU에 의해 logical 주소가 생성되면 그 page 번호를 TLB에 제시한다.
+2. 만약 그 page number를 TLB에서 찾으면 frame number를 바로 알 수 있어 바로 메모리에 접근하면 된다.
+3. 만약 찾지 못하는 것을 TLB miss라고 하며 이럴 땐 직접 page talbe에 접근해 frame number를 찾는다.
+4. 이렇게 찾은 frame number를 TLB에 page number와 함께 추가한다.
+5. 만약 TLB 항목이 가득 차 있는 경우에 OS는 이를 교체하기 위해 하나를 선택한다. 이때 선택되는 부분은 가장 최근에 사용되지 않은 것(LRU) 혹은 무작위이다. 
+##### Effective Access Time 
+적중률($\alpha$)를 page number가 TLB에서 발견될 확률로 정의한다. TLB 검색 시간을 $\epsilon$로, 메모리 접근 시간을 $\tau$로 가정하면 유효 접근 시간(EAT)를 다음과 같이 정의할 수 있다. $$EAT=(\tau+\epsilon)\alpha + (2\tau+\epsilon)(1-\alpha)$$
+#### Memory Protection
+각 frame에 연관된 protection bit를 추가함으로써 구현할 수 있다. 
++ one bit 값이 사용되며 page가 읽기 전용인지 쓰기 가능인지 정의 가능
++ 읽기 전용 page에 쓰기 시도는 H/W trap을 OS에게 보내 읽기를 방지한다.
+
+page table의 각 항목에 Valid-invalid bit를 추가함으로써 관련된 페이지가 합법적인지 여부를 확인할 수 있다.
++ Valid: 관련된 page가 프로세스의 logical 주소 공간에 존재하며 합법적인 page임을 나타냄
++ Invalid: page가 프로세스의 logical 주소 공간에 속하지 않는다는 것을 나타낸다. 
