@@ -18,5 +18,18 @@
 + Source repudiation(출발지 거부): 출처별 메시지 전송 거부
 + Destination repuditaion(목적지 거부): 대상별 메시지 수신 거부
 ## Message Encryption
+메시지를 암호화하는 것은 그 자체로 인증을 제공한다고 볼 수 있다.
 ### Symmetric Message Encryption
+[[Symmetric encryption]]을 사용해 메시지를 인증하는 경우는 다음과 같다.
++ 수신자가 그 메시지가 송신자가 만들었다는 것을 알고 있을 때 
++ 오직 송, 수신자만이 키를 알고 있을 대
++ 메시지의 내용이 바뀌지 않음이 보장될 때
++ 메시지가 변화를 감지 할 수 있는 checksum 혹은 redundancy를 가지는 구조를 가질 때  
+![[Pasted image 20231206152911.png| 600]]
 ### Public-Key Message Encryption
+[[Asymmetric Encryption]]을 사용해 메시지를 인증하는 경우는 다음과 같다.
++ 암호화가 특정 송신자를 보장하지 않을 때 
+![[Pasted image 20231206153235.png | 600]]
+
+## [[MAC(Message Authentication Code)]]
+![[MAC(Message Authentication Code)]]
