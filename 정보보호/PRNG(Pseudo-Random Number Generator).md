@@ -77,3 +77,11 @@ for i = 1 to k
 	set Ri = lsb240(x(Si * q))
 return R1, ..., Rk
 ```
+
+## Using [[Hash Function]]
+Hash PRNG는 SP800-90과 ISO 18031에서 사용된다. Seed 값 $V$를 가지고, 이 $V$ 값에 반복적으로 1을 더하며 사용한다. 결과로 $n$ bit의 hash value가 나오고, 이 값이 random value로 상요된다. 
+
+![[Pasted image 20231207103832.png | 600]]
+## Using [[MAC(Message Authentication Code)]]
+MAC PRNGs는 SP800-90과 IEEE 802. 11i, TLS에서 사용된다. 초기 $V$ 값을 사용하고, 이후 $V$ 값은 HMAC 연산의 결과가 사용된다. HMAC 기법을 사용하기 때문에 $K$ 값이 필요로 한다. 
+![[Pasted image 20231207104214.png | 600]]

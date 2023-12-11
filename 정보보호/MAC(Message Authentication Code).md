@@ -58,3 +58,19 @@ HMAC의 보안성은 내장한 [[Hash Function]]에 의존하고 있다. HMAC에
 ![[Pasted image 20231206163224.png | 600]]
 
 ## Authenticated Encryption
+기밀성과 통신의 신뢰성을 만족시키는 방법이다. 많은 프로그램이 이를 지원하고 있지만 일반적으로 두 부분이 나눠서 설계된다. 일반적으로 다음과 같은 4가지 접근이 존재한다.
++ Hashing followed by encryption($H\rightarrow A$): $E(K, (E\;||\;H(M))$
++ Authentication followed by encryption($A \rightarrow E$): $E(K2, (M\; ||\; MAC(K1, M))$
++ Encryption followed by authenticaion($E\rightarrow A$): $C=E(K2, M), \; T=MAC(K1, C)$
++ Independently encrypt and authenticate($E+A$): $C=E(K2, M), \; T=MAC(K1, M)$
+
+각 접근에서 복호화와 검증은 다음과 같이 이루어진다. $H\rightarrow A$, $A \rightarrow E$, $E+A$는 복호화를 먼저 진행한 후에 검증을 진행하게 된다. $E\rightarrow A$는 검증을 먼저 한 후에 복호화를 진행한다. 
+
+위 접근 방식은 모두 보안 취약성이 존재한다. 
+### Couter with [[CBC(Cipher Block Chaining)]] MAC
+CCM 모드로 불리는 이 연산은 WiFi에서 사용되는 NIST 표준이다. 암호화와 MAC을 함께 이용하는 방식이다. 암호화와 MAC에 동일한 키를 사용한다. 여기서 사용되는 알고리즘은 다음과 같다.
++ [[AES(Advanced Encryption Standard)]]
++ [[CTR(Counter)]] 
++ CMAC
+
+![[Pasted image 20231207103349.png | 600]]
