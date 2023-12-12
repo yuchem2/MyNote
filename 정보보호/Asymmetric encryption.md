@@ -5,7 +5,7 @@ Public-Key encryption
 
 [[Symmetric encryption]]보다 좀 더 보안성이 높다.
 
-[[Key exchange]]와 [[Digital Signature]] 문제를 해결하기 위해 개발되었다. *Diffie*와 *Hellman*에 의해 최초로 공개된 형태이다. 
+[[Key Distribution]]와 [[Digital Signature]] 문제를 해결하기 위해 개발되었다. *Diffie*와 *Hellman*에 의해 최초로 공개된 형태이다. 
 
 데이터를 처리하는 방법에 따라 구분된다.
 + [[Block Cipher Asymmetric Encryption]]
@@ -28,7 +28,7 @@ Public-Key encryption
 ## Applications
 + encryption/decryption
 + [[Digital Signature]]
-+ [[Key exchange]]
++ [[Key Distribution]]
 
 |     algorithm      | Encryption/Decryption | Digital Signature | Key Exchange |
 |:------------------:| --------------------- | ----------------- | ------------ |

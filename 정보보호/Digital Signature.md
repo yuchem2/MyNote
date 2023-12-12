@@ -63,3 +63,20 @@ Global prameter $(p, q, g)$를 사용한다.
 + private key: chose $x<q$
 + public key: $y=g^x \bmod q$
 ##### Digital Signature Creation
+송신자는 메시지 $m$에 서명을 진행한다.
++ 임의의 서명 키 $k$를 생성한다. ($k<q$)
++ 이때 $k$는 반드시 임의의 수여야 하며 사용한 뒤에 삭제되어야 한다. 또한, 중복된 $k$가 사용되서는 안된다.
++ $k$로부터 서명을 생성한다
+	+ $r=(g^k \bmod p) \bmod q$
+	+ $s = k^{-1} (SHA(M)+x\times r) \bmod q$
++ ($r, s$)를 메시지와 함께 전송한다. 
+
+##### Digital Signature Verification
+메시지 $m$과 서명 $(r, s)$를 수신 후 서명을 검증한다. 
++ $w = s^{-1} \bmod q$
++ $u_1 = (SHA(M)\times w)\bmod q$
++ $u_2 = (r\times w) \bmod q$
++ $v=(g^{u_1} \times y^{u_2} \bmod p) \bmod q$
+
+위에서 계산된 $v=r$이면, 옳은 서명이 도착했음을 판단할 수 있다. 
+![[Pasted image 20231212093140.png | 600]]

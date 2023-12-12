@@ -22,8 +22,9 @@
 	+ [[Block Cipher Asymmetric Encryption]]
 	+ [[Stream Cipher Asymmetric Encryption]]
 + [[Digital Signature]]
-+ [[Key exchange]]
++ [[Key Distribution]]
 + [[Message Authenication]]
++ [[User Authentication]]
 ### [[Symmetric encryption]] vs [[Asymmetric Encryption]]
 
 |                   | Conventional Encryption                                                                                                                                              | Public-Key Encrpytion                                                                                   |
