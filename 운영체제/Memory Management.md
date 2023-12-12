@@ -141,3 +141,23 @@ TLB는 몇 개의 page table entry 정보를 가지고 있다. 다음과 같은 
 page table의 각 항목에 Valid-invalid bit를 추가함으로써 관련된 페이지가 합법적인지 여부를 확인할 수 있다.
 + Valid: 관련된 page가 프로세스의 logical 주소 공간에 존재하며 합법적인 page임을 나타냄
 + Invalid: page가 프로세스의 logical 주소 공간에 속하지 않는다는 것을 나타낸다. 
+### Page Table Structure
+#### Hierarchical Paging
+32 bit 크기의 논리 주소 공간을 사용하고, 4 KB의 page를 사용하는 시스템의 경우 page table의 크기는 $(2^{32}/2^{12})\times 4$ byte$=4$ Mbytes가 된다. 크기가 매우 큰 테이블이 생성되는 것을 볼 수 있다. 이를 해결하기 위해 논리 주소를 여러 개의 page table로 나누는 방법이 요구되었다.
+
+가장 간단한 방법은 두 개의 계층을 만드는 방법이다.
+##### Two-level Paging Example
+위와 같은 예시에서 일반적인 paging 기법을 사용하는 경우 page number는 20 bit로 표현될 수 있고, page offset은 12 bit로 표현된다. 이 상태에서 page number를 다시 한번 10 bit의 page number, 10 bit의 page offset으로 나누게 되면, 논리 주소는 다음과 같아진다. 
++ page number $p_1 = 10\; bit$
++ page number $p_2 = 10\;bit$
++ page offset $d=12\;bit$
+
+$p_1$은 외부 page table의 index가 되고, $p_2$는 외부 page table의 값을 통해 실제 page로 바꿔주는 역할을 수행한다. 이 경우에 3번의 메모리 접근이 필요해 성능은 상대적으로 감소할 수 있다. 하지만 page table의 크기를 최소화할 수 있다.
+#### Hashed Page Table
+virtual page number를 [[Hash Function]]을 이용해 page table에 접근한다. 즉, page table을 [[Hash Table]]로서 사용한다. 이때 chaining 기법을 사용한다. 각 element는 다음과 같은 값을 가진다. 
++ virtual page number
++ value of the mapped page frame
++ a pointer to the next element
+#### Inverted Page Tables
+page table을 page number만으로 찾는 것이 아니라, pid를 함께 사용해 entry로 사용한다. 동적 배열로 page table을 유지해 메모리 공간을 최소화할 수 있다. 하지만 프로세스 수가 증가할 수록 탐색 시간이 증가한다. 
+## Segmentation

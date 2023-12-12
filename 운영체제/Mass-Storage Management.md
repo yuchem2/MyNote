@@ -8,4 +8,4 @@
 + [[Storage allocation]]
 + [[Disk scheduling]]
 
-[[Teriary storage]]에 대한 관리 mechanism도 필요하다. WORM, RW 등 다양한 관리 방법이 존재한다 
+[[Tertiary storage]]에 대한 관리 mechanism도 필요하다. WORM, RW 등 다양한 관리 방법이 존재한다 
