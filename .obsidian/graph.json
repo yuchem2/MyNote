@@ -78,7 +78,7 @@
       }
     },
     {
-      "query": "path: Math  ",
+      "query": "path: Math  path:이산수학  ",
       "color": {
         "a": 1,
         "rgb": 3818381
@@ -97,18 +97,25 @@
         "a": 1,
         "rgb": 10111528
       }
+    },
+    {
+      "query": "path: 컴퓨터네트워크  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 1.3,
-  "nodeSizeMultiplier": 2.0,
-  "lineSizeMultiplier": 3.0,
+  "nodeSizeMultiplier": 2,
+  "lineSizeMultiplier": 3,
   "collapse-forces": false,
   "centerStrength": 0.7,
   "repelStrength": 10.1,
   "linkStrength": 1,
   "linkDistance": 225,
-  "scale": 0.5,
+  "scale": 0.3536297895367214,
   "close": false
 }

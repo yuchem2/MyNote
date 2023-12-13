@@ -29,7 +29,7 @@
 ## **Process in Memory**
 + 프로세스의 현재 활동 정보는 [[PC(Program Counter)]]와 processor의 [[레지스터(Register)]]의 내용에 의해 나타난다
 + [[스택(Stack)]]: 일시적 자료를 포함한다(함수 매개변수, 반환 주소, 지역 변수들...)
-+ [[Data section]]: 전역 변수들을 포함한다
++ Data section: 전역 변수들을 포함한다
 + [[힙(Heap)]]: 실행 시간 동안 동적으로 할당되는 메모리
 + Text: program code가 저장되어 있는 영역
 

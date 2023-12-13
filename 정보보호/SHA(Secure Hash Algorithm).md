@@ -1,4 +1,4 @@
-1993년에 NIST와 NSA에서 처음으로 설계한 Secure [[Cryptographic Hash Function]]. 1995년에 SHA-1이 등장하면서 공개되었다. [[DSA]]에 사용되는 US 표준이다. 
+1993년에 NIST와 NSA에서 처음으로 설계한 Secure [[Cryptographic Hash Function]]. 1995년에 SHA-1이 등장하면서 공개되었다. [[DSA(Digital Signature Algorithm)]]에 사용되는 US 표준이다. 
 
 SHA는 [[Hash Function]] MD4를 기초로 하고 있기 때문에 MD4와 설계상으로 유사하다. 다양한 출력을 제공하지만 초기에는 160 bit hash code를 출력하였다. 
 

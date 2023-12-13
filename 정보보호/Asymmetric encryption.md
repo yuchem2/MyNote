@@ -30,12 +30,12 @@ Public-Key encryption
 + [[Digital Signature]]
 + [[Key Distribution]]
 
-|     algorithm      | Encryption/Decryption | Digital Signature | Key Exchange |
-|:------------------:| --------------------- | ----------------- | ------------ |
-|      [[RSA]]       | Yes                   | Yes               | Yes          |
-| [[Elliptic Curve]] | Yes                   | Yes               | Yes          |
-| [[Diffie-Hellman Key Exchange]] | No                    | No                | Yes          |
-|      [[DSS]]       | No                    | Yes               | No           |
+|              algorithm              | Encryption/Decryption | Digital Signature | Key Exchange |
+|:-----------------------------------:| --------------------- | ----------------- | ------------ |
+|               [[RSA]]               | Yes                   | Yes               | Yes          |
+|         [[Elliptic Curve]]          | Yes                   | Yes               | Yes          |
+|   [[Diffie-Hellman Key Exchange]]   | No                    | No                | Yes          |
+| [[DSS(Digital Signature Standard)]] | No                    | Yes               | No           |
 ## Requirements
 [[Asymmetric Encryption#Characteristics]]을 만족하기 위해 *trap-door one-way function*을 사용할 수 있다.
 ### One-way function
@@ -54,4 +54,4 @@ $$\begin{align} Y & = f_k(X) \qquad easy & if \; k \; and \; X \; are \; known\\
 + [[Diffie-Hellman Key Exchange]]
 + [[ElGamal Cryptography]]
 + [[ECC(Elliptic Curve Cryptography)]]
-+ [[DSS]]
++ [[DSS(Digital Signature Standard)]]
