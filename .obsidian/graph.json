@@ -88,7 +88,7 @@
       "query": "path:리눅스프로그래밍  ",
       "color": {
         "a": 1,
-        "rgb": 13541603
+        "rgb": 4527451
       }
     },
     {
@@ -116,6 +116,6 @@
   "repelStrength": 10.1,
   "linkStrength": 1,
   "linkDistance": 225,
-  "scale": 0.3536297895367214,
-  "close": false
+  "scale": 0.49190766839871397,
+  "close": true
 }

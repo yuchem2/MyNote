@@ -1,3 +1,4 @@
+[[운영체제/Process|Process]] 참고 
 #### Shell command
 ##### ps 
 ```shell
