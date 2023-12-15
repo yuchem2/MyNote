@@ -1,5 +1,5 @@
 
-[[운영체제(Operating System)]]의 heap 영역에 저장되어 있으며 각 [[Process]]는 OS에 의해 이 곳에 위치해 있다
+[[운영체제(Operating System)]]의 heap 영역에 저장되어 있으며 각 [[운영체제/Process]]는 OS에 의해 이 곳에 위치해 있다
 
 각 프로세스와 연관된 정보를 가지고 있다
 + Process state

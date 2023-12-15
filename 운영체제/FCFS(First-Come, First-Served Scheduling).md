@@ -1,4 +1,4 @@
-가장 간단한 형태의 [[Scheduling Algorithm]]로, 단순히 ready queue에 진입한 순서대로, [[Process]]에게 CPU를 할당한다.
+가장 간단한 형태의 [[Scheduling Algorithm]]로, 단순히 ready queue에 진입한 순서대로, [[운영체제/Process]]에게 CPU를 할당한다.
 
 이로 인해 알고리즘을 통해 성능이 조절되지 않고, 단순히 각 프로세스가 어떤 순서로 ready queue에 진입했는지에 따라 [[Process Scheduling#Criteria]]가 결정된다.
 

@@ -1,5 +1,5 @@
 
-부모 [[Process]]는 자식 [[Process]]를 생성할 수 있다. 각 [[Process]]는 [[PID(Process Identifier)]]을 통해 구분
+부모 [[운영체제/Process]]는 자식 [[운영체제/Process]]를 생성할 수 있다. 각 [[운영체제/Process]]는 [[PID(Process Identifier)]]을 통해 구분
 
 차례대로 다른 프로세스들을 생성하며 [[트리(Tree)]]구조를 띈다
 

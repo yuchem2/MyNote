@@ -1,4 +1,4 @@
-CPU를 다른 [[Process]]에게 전환하는 작업
+CPU를 다른 [[운영체제/Process]]에게 전환하는 작업
 
 현재 프로세스의 상태를 저장하고, 다른 프로세스 상태로 복귀하는 작업이 필요([[PCB(Process Control Bolck)]] 이용)
 

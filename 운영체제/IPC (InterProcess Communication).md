@@ -1,5 +1,5 @@
 
-[[Process]]간의 Commniucate와 Synchronize에 관련된 mechanims
+[[운영체제/Process]]간의 Commniucate와 Synchronize에 관련된 mechanims
 
 ## 공유 메모리
 각 프로세스들 간에 공유하는 메모리 영역을 만들어 사용(Directly)

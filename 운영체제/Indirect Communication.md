@@ -1,5 +1,5 @@
 
-[[Process]]들 간의 메시지가 직접 연결된 mailbox(port)를 통해서만 전달되는 [[Message-Passing System]]
+[[운영체제/Process]]들 간의 메시지가 직접 연결된 mailbox(port)를 통해서만 전달되는 [[Message-Passing System]]
 
 Mailbox는 [[운영체제(Operating System)]] 내부에 위치하며 messsage를 임시 저장하는 객체(유일한 ID를 가짐)
 

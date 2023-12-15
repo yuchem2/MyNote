@@ -1,5 +1,5 @@
 
-디스크에서 ready queue로 가져올 [[Process]]를 선택하는 [[Process Scheduler]]
+디스크에서 ready queue로 가져올 [[운영체제/Process]]를 선택하는 [[Process Scheduler]]
 
 상대적으로 느리게  실행되며 [[Multi-programming]]의 정도를 제어한다
 + 메모리에 올라와 있는 process의 개수를 조절한다

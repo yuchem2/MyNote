@@ -1,4 +1,4 @@
-CPU를 여러 [[Process]] 중 어떤 process에 할당할지 결정하는 작업, 즉 ready queue에 있는 [[Process]]를 선택해 CPU를 할당하는 작업
+CPU를 여러 [[운영체제/Process]] 중 어떤 process에 할당할지 결정하는 작업, 즉 ready queue에 있는 [[운영체제/Process]]를 선택해 CPU를 할당하는 작업
 
 CPU scheduling, Process scheduling, Kernel Tread scheduing 세 용어가 같은 의미로 사용된다.
 

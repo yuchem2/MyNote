@@ -14,7 +14,7 @@ monitor monitor-name {
 }
 ```
 
-Monitor instance는 여러 [[Process]]에서 공유된다. 한 순간에 오직 하나의 프로세스만이 monitor와 함께 활성화 될 수 있음을 보장한다. 
+Monitor instance는 여러 [[운영체제/Process]]에서 공유된다. 한 순간에 오직 하나의 프로세스만이 monitor와 함께 활성화 될 수 있음을 보장한다. 
 ## Schematic View
 ### Basic Monitor
 Monitor의 구성 요소는 다음과 같다.

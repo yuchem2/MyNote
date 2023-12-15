@@ -1,10 +1,10 @@
 
-[[Process]]내의 제어 흐름을 말한다. CPU utilization의 기본 단위로서 다음의 정보들로 구성된다.
+[[운영체제/Process]]내의 제어 흐름을 말한다. CPU utilization의 기본 단위로서 다음의 정보들로 구성된다.
 + Thread ID, [[PC(Program Counter)]], register set, stack
 
-같은 [[Process]]내에 속한 다른 [[Thread]]들과 code, data, OS resource를 공유한다. 위에 서술한 정보들은 공유하지 않고 고유한 값들을 유지한다.
+같은 [[운영체제/Process]]내에 속한 다른 [[Thread]]들과 code, data, OS resource를 공유한다. 위에 서술한 정보들은 공유하지 않고 고유한 값들을 유지한다.
 
-[[Process]]가 다중 [[Thread]] 제어가 가능하다면 하나 이상의 작업을 동시에 수행할 수 있다.
+[[운영체제/Process]]가 다중 [[Thread]] 제어가 가능하다면 하나 이상의 작업을 동시에 수행할 수 있다.
 
 ## Multi-thread Program
 현대 [[운영체제(Operating System)]]에서 수행되는 많은 SW들이 지원하는 기능
@@ -24,7 +24,7 @@
 
 User-level threads library에 의해 관리가 이루어지며 kernel 위에서 지원되나 kernel의 지원 없이 관리된다. 
 
-e.g. POSIX Pthreads, Win32 threads, Java threads
+e.g. [[POSIX Therads]], Win32 threads, Java threads
 
 ### Kernel Thread
 [[운영체제(Operating System)]] Kernel이 지원하고 관리하는 thread

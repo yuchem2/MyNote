@@ -1,7 +1,7 @@
 
 [[운영체제(Operating System)]]가 지원하는 서비스에 대한 Programming Interface
 
-[[Process]]가 [[운영체제(Operating System)]]와 통신하는 유일한 방법
+[[운영체제/Process]]가 [[운영체제(Operating System)]]와 통신하는 유일한 방법
 
 전통적으로 [[고급 프로그래밍 언어]]인 [[C]] 나 [[C++]]로 작성되며 때때로 [[어셈블리 언어(Assembly Language)]]로도 작성된다
 
@@ -30,7 +30,7 @@
 
 
 ## 종류
-+ [[Process]] control
++ [[운영체제/Process]] control
 + File Management
 + Device Management
 + Information maintenance

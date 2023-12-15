@@ -1,5 +1,5 @@
 
-데이터 형식과 위치가 [[운영체제(Operating System)]]가 아닌 [[Process]]에 의해 결정됨
+데이터 형식과 위치가 [[운영체제(Operating System)]]가 아닌 [[운영체제/Process]]에 의해 결정됨
 
 사용법을 process에서 잘 결정해야 하며 새 data를 어떻게 유지(공유/비공유)할지 결정해 저장위치를 결정해야 한다
 

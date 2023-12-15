@@ -1,5 +1,5 @@
 
-[[Process]]들아 명확하게 서로의 이름(명칭)을 알고 있는 상태로 메시지를 교환하는 [[Message-Passing System]]
+[[운영체제/Process]]들아 명확하게 서로의 이름(명칭)을 알고 있는 상태로 메시지를 교환하는 [[Message-Passing System]]
 + send(P, messaage)
 + receivce(Q, message)
 
