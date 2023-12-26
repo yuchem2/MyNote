@@ -84,3 +84,31 @@
 ![[RC4]]
 ## Chapter8. Intrdoduction to Number Theory
 ![[Prime Number]]
+## Chapter9. Public-Key Cryptography and RSA
+![[Asymmetric encryption]]
+
+![[RSA]]
+## Chapter10. Other Public-Key Cryptosystems
+![[Diffie-Hellman Key Exchange]]
+
+![[ElGamal Cryptography]]
+
+![[ECC(Elliptic Curve Cryptography)]]
+
+![[PRNG(Pseudo-Random Number Generator)#RSA]]
+
+![[PRNG(Pseudo-Random Number Generator)#ECC(Elliptic Curve Cryptography)]]
+## Chapter11. Cryptograpic Hash Functions
+![[Cryptographic hash function]]
+## Chapter12. Messae Authentication Codes
+![[MAC(Message Authentication Code)]]
+
+![[PRNG(Pseudo-Random Number Generator)#Using Hash Function]]
+
+![[PRNG(Pseudo-Random Number Generator)#Using MAC(Message Authentication Code)]]
+## Chapter13. Digital Signatrures
+![[Digital Signature]]
+## Chapter 15. Cryptographic Key Management and Distribution
+![[Key Distribution]]
+## Chapter16. User Authentication
+![[User Authentication]]

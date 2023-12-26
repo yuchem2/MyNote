@@ -79,8 +79,7 @@ $p, q$를 결정한 뒤 key generation에서는 $e, d$를 결정해야 한다.
 + $gcd(e, \phi(N))=1$를 만족하는 $e$를 결정한 뒤 $d \equiv e^{-1}\pmod{\phi(n)}$ 
 + $gcd(d, \phi(N))=1$를 만족하는 $d$를 결정한 뒤 $e \equiv d^{-1}\pmod{\phi(n)}$ 
 
-일반적으로 첫 번째 방법이 많이 사용되며 곱셈 역원을 구할 때 [[GCD(Greatest Common Divisor)#Euclidean Algorithm]]을 이용할 수 있다. 아래 예시에서 $p=\phi(n)$으로 적용하면 된다. 
-![[Finite Field#Finding the multiplicative Inverse in GF(p)]]
+일반적으로 첫 번째 방법이 많이 사용되며 곱셈 역원을 구할 때 [[GCD(Greatest Common Divisor)#Euclidean Algorithm]]을 이용할 수 있다. 
 ## Security
 RSA를 공격하는 접근은 다음과 같은 방법들이 존재한다.
 + [[Brute-force attack]]: 현재로써는 실현 불가능한 방법
@@ -111,6 +110,7 @@ RSA를 수학적으로 공격하는 방법 중 하나. 다음과 같은 방법�
 ![[Pasted image 20231121112243.png|600]]
 
 <div align="center">Progess in Factoring & Shor's Factorizing Algorithm</div>
+
 ### [[Timing Attacks]]
 1990년대 중반에 RSA를 공격할 [[Timing Attacks]]이 개발되었다. 큰 값과 작은 값을 곱할 때 연산이 수행되는 시간이 다른 것을 악용한 공격이다. 피연산자의 크기에 따라 연산 시간이 결정되기 때문이다. 이를 방지하기 위해 다음과 같은 방법들이 존재한다. 
 + Use constant exponentiation time: 모든 exponentiation이 같은 시간이 소요되게 성능의 정도를 고정시켜 사용한다. 

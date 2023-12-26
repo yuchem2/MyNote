@@ -9,7 +9,7 @@
     "pageSize": "A4",
     "landscape": false,
     "margin": "2",
-    "downscalePercent": 70
+    "downscalePercent": 65
   },
   "newFileLocation": "current",
   "useMarkdownLinks": false,
