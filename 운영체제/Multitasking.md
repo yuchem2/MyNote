@@ -5,4 +5,4 @@ Responmse time은 1초 미만이여야 하고, 각 사용자는 적어도 메모
 
 [[운영체제/Process]]가 메모리에 맞지 않는다면, Swapping을 수행한다. 
 
-[[Virtual Memory]]는 [[운영체제/Process]]가 메모리 크기에 맞지 않은 경우에도 실행할 수 있도로 ㄱ해줌.
+[[Virtual Memory Management]]는 [[운영체제/Process]]가 메모리 크기에 맞지 않은 경우에도 실행할 수 있도로 ㄱ해줌.
