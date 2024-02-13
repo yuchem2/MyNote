@@ -6,6 +6,7 @@
 	passwd: string, // token 암호화 필요
 	oauthProvider: string, // OAuth 제공자(google, kakao)
 	createdAt: datetime,
+	updatedAt: datetime,
 }
 ```
 ## Map
@@ -22,7 +23,7 @@
 ```json
 {
 	_id: ObjectId,
-	owned: ObjectId, // 소유한 사용자 식별자
+	owner: ObjectId, // 소유한 사용자 식별자
 	mapId: ObjectId, // memory가 작성된 지도 식별자
 	title: string,
 	content: string,
