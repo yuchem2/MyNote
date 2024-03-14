@@ -66,11 +66,6 @@ http 204 status code
 | :--: | :--: | :--: | :--: |
 | clientToken | string | O | fe client token |
 | Authorization | string | O | login 시 발급받은 token |
-+ body
-```
-no body
-```
-
 ### response
 ```
 http 204 status code
@@ -115,7 +110,7 @@ no body
 |Name|Type|Required|Description|
 |:-:|:-:|:-:|:-:|
 |clientToken|string|O|fe client token|
-+ rl params
++ url params
 
 |Name|Type|Required|Description|
 |:-:|:-:|:-:|:-:|

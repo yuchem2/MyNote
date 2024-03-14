@@ -8,10 +8,6 @@
 | :--: | :--: | :--: | :--: |
 | clientToken | string | O | fe client token |
 | Authorization | string | O | login 시 발급받은 token |
-+ Body
-```
-no body
-```
 ### response
 + Body
 ```json
@@ -56,10 +52,6 @@ no body
 | :--: | :--: | :--: | :--: |
 | clientToken | string | O | fe client token |
 | Authorization | string | O | login 시 발급받은 token |
-+ Body
-```
-no body
-```
 + URIparams
 
 | Name  |  Type  | Required | Description |

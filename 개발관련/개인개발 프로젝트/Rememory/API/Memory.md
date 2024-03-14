@@ -14,10 +14,6 @@
 | Name  |  Type  | Required | Description |
 |:-----:|:------:|:--------:|:-----------:|
 | mapId | string |    O     | map 식별자  |
-+ Body
-```
-no body
-```
 ### response
 ```json
 {
@@ -129,11 +125,6 @@ http 204 status code
 | :--: | :--: | :--: | :--: |
 | mapId | string | O | map 식별자 |
 | memoryId | string | O | memory 식별자 |
-
-+ Body
-```
-no body
-```
 ### response
 ```
 http 204 status code
