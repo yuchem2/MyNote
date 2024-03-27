@@ -5,14 +5,14 @@
   "defaultViewMode": "source",
   "livePreview": true,
   "pdfExportSettings": {
-    "includeName": false,
-    "pageSize": "A4",
+    "includeName": true,
+    "pageSize": "A3",
     "landscape": false,
     "margin": "2",
-    "downscalePercent": 65
+    "downscalePercent": 80
   },
   "newFileLocation": "current",
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "showUnsupportedFiles": false,
   "attachmentFolderPath": "./"
 }
