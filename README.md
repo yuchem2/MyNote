@@ -4,26 +4,25 @@
 ## Note List
 
 ### 📘CS important
-+ [[알고리즘(Algorithm)]] prof. 김민호 & prof. 정용화
-+ [[자료구조(Data Structure)]] prof. 조민호
-+ [[운영체제(Operating System)]] prof. 김명섭
-+ [[컴퓨터네트워크]] prof. 김승연
-+ [[이산수학]] prof. 박대희
-+ [[확률및통계]] prof. 서민석
-+ [[전산선형대수]] prof. 조현중
++ [알고리즘(Algorithm)](알고리즘(Algorithm).md) prof. 김민호 & prof. 정용화
++ [자료구조(Data Structure)](자료구조(Data%20Structure).md) prof. 조민호
++ [운영체제(Operating System)](운영체제(Operating%20System).md) prof. 김명섭
++ [컴퓨터네트워크](컴퓨터네트워크.md) prof. 김승연
++ [이산수학](이산수학.md) prof. 박대희
++ [확률및통계](확률및통계) prof. 서민석
++ [전산선형대수](전산선형대수) prof. 조현중
 
 ### 📗CS study
-+ [[컴파일러 입문]] prof. 임영희
-+ [[데이터베이스]] prof. 김승연
-+ [[정보 보호(Information Security)]]: [[Cryptography and Network Security Principles]] prof. 정용화
-+ [[리눅스프로그래밍실습]] prof. 김명섭
-+ [[객체 지향 프로그래밍 언어]] prof. 서민석
-+ [[어셈블리 언어(Assembly Language)]] prof. 박병관
++ [컴파일러 입문](컴파일러%20입문.md) prof. 임영희
++ [데이터베이스](데이터베이스.md) prof. 김승연
++ [정보 보호(Information Security)](정보%20보호(Information%20Security).md): [Cryptography and Network Security Principles](Cryptography%20and%20Network%20Security%20Principles.md) prof. 정용화
++ [리눅스프로그래밍실습](리눅스프로그래밍실습.md) prof. 김명섭
++ [객체 지향 프로그래밍 언어](객체%20지향%20프로그래밍%20언어.md) prof. 서민석
++ [어셈블리 언어(Assembly Language)](어셈블리%20언어(Assembly%20Language).md) prof. 박병관
 
 ### 📑GE study
-+ [[고전음악의 이해]] prof. 김원하
++ [고전음악의 이해](고전음악의%20이해.md) prof. 김원하
 
-### 🍀 개발 관련 공부
-+ [[Git 협업 방법]]
-+ [[Space 협업]]
-+ [[고급 프로그래밍 언어]]
+### 🍀 협업관련
++ [Git 협업 방법](Git%20협업%20방법.md)
++ [Space 협업](Space%20협업.md)
