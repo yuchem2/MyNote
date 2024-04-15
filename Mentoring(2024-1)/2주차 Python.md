@@ -2,10 +2,23 @@
 ## `print()`
 ```python
 print(*objects, sep=' ', end='\n', flie=None, flush=False)
+
+
+a = 10, b = 20, c = '='
+
+print(a, c, b) # 10 = 20
+print(a, c, b, sep='', end='') # 10=20
+print(a, c, b, sep='a') # 10a=a20
+
 ```
 `file`에 입력된 `objects`를 `sep`로 나눠서 출력한다. 
 ## `input()`
 `stdin`에서 한 줄 단위로 문자열을 읽어서 리턴 한다. 
+```python
+a = input() # hello world 1234567 \n
+a # 'hello world 1234567'
+```
+
 # 자료형
 기본적으로 python에서는 데이터 타입으로 변수를 지정하지 않는다. 각 리터럴(초기화 값)의 형태에 따라 자료형이 자동으로 결정된다.
 ## 숫자형
@@ -17,6 +30,11 @@ print(*objects, sep=' ', end='\n', flie=None, flush=False)
 	+ 16진수: `0x(0X)`
 ### 실수형
 지수 표현, 부동소수점 표현 모두 가능
+
+```python
+1.2345
+1.23E-2
+```
 ### 복소수형
 `x+yj` 형태로 표기된다. `x`는 실수부, `y`는 허수부분이며 따로 분리가 가능하고, 연산도 따로 가능하다.
 ```python
@@ -34,11 +52,20 @@ multiline = '''
 	... Life is too short 
 	... You need python 
 	... '''
+
+"a's hello"
+'she said, "hello"'
 ```
 ### 연산
 + `+`를 통해서 두 문자열을 연결할 수 있음
 + `*`를 통해서 같은 문자열을 반복시켜 저장할 수 있다. `"python" * 2 = "pythonpython"`
 + `len()`을 통해 길이를 측정할 수 있음
+
+```python
+'hello' + 'world' # 'helloworld', strcat()
+'hello' * 2 # 'hellohello'
+len('hello') # 5, strlen()
+```
 ### 인덱싱
 문자열은 배열의 형태로 저장된다.
 ```python
@@ -60,6 +87,7 @@ a[1] # 'i'
 a[1] = 'y' # error
 ```
 ### 슬라이싱
+![[Pasted image 20240401220334.png]]
 ```python
 a[0:4] # 'Life'
 a[:4] # 'Life'
@@ -122,6 +150,16 @@ a # [1, 3]
 + `count(x)` 리스트에 `x`가 몇 개 있는 지 확인해 그 개수를 리턴
 + `extend(x)` `x`는 리스트 요소로, 원래 리스트에 `x`리스트를 더해준다. 즉 리스트간의 더하기 연산을 수행해준다.
 
+```python
+
+a = [1, 2, 3]
+
+a.append(-1) # a =[1, 2, 3, -1]
+a.pop() # -1, a = [1, 2, 3]
+
+a.extend([1, 2, 3]) # a = [1, 2, 3, 1, 2, 3]
+```
+
 더 많은 `method`는 <a href="https://devdocs.io/python~3.12/library/stdtypes#list">여기</a>를 참고
 ## 튜플
 리스트와 유사하며 아래 나열한 부분에서만 차이가 존재한다.
@@ -153,6 +191,9 @@ a[3] = [1, 2, 3]
 a # {1: 'a', 2: 'b', 'name': 'pey', 3: [1, 2, 3]}
 del a[1]
 a # {2: 'b', 'name': 'pey', 3: [1, 2, 3]}
+
+a[2] = 'c'
+a # {2: 'c', 'name': 'pey', 3: [1, 2,3]}
 ```
 ### method
 + `keys()`: 딕셔너리의 `key`로 구성된 `dict_keys()` 객체를 리턴한다.
@@ -161,9 +202,13 @@ a # {2: 'b', 'name': 'pey', 3: [1, 2, 3]}
 + `clear()`: 딕셔너리 비우기
 + `get(key)`: `key`를 통해 `value`를 얻을 수 있다. 만약 대응되는 키가 없는 경우 `None`을 리턴한다. 만약 `get(key, x)`의 형태로 사용할 때 대응되는 키가 없는 경우 `x`를 리턴한다.
 + `in`을 통해 `key`가 딕셔너리에 존재하는 지 확인할 수 있다. `'nane' in a`
+```python
+b = a.keys() 
+print(b) # [2, 'name', 3]
+```
 
 더 많은 `method`는 <a href="https://devdocs.io/python~3.12/library/stdtypes#dict">여기</a>를 참고
-## 집합
+## 집합(set)
 수학 집합에 관련된 연산을 수행하기 위한 자료형으로 다음과 같은 특징이 있다.
 + 중복을 허용하지 않는다
 + 순서가 없다.
@@ -201,6 +246,18 @@ s2.difference(s1) # {8, 9, 7}
 + `add(x)`: `x` 값을 추가한다.
 + `update()`: 여러 값을 한번에 추가한다.
 + `remove(x)`: `x` 값을 제거한다.
+```python
+s1 = set()
+s1.add(1)
+print(s1) # set({1})
+
+
+class dict {
+	function add(x) {
+		# statement
+	}
+}
+```
 
 더 많은 `method`는 <a href="https://devdocs.io/python~3.12/library/stdtypes#set">여기</a>를 참고
 # 출처
