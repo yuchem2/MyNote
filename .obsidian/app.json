@@ -12,7 +12,7 @@
     "downscalePercent": 80
   },
   "newFileLocation": "current",
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "showUnsupportedFiles": false,
   "attachmentFolderPath": "./"
 }
