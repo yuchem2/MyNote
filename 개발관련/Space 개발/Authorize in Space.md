@@ -1,4 +1,4 @@
-space 보안은 access token을 기반으로 구성.  space와 통신하기 위해 먼저 appliaction은 access token을 얻고, 이 토큰을 통해 요청을 전송할 수 있음
+ㅏspace 보안은 access token을 기반으로 구성.  space와 통신하기 위해 먼저 appliaction은 access token을 얻고, 이 토큰을 통해 요청을 전송할 수 있음
 
 예시
 ```javascript
