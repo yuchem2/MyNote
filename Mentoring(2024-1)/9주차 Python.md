@@ -23,9 +23,8 @@ print(sub(5, 10))
 ```
 
 ```python
-from mod1 import add, sub
+from mod1 import add
 print(add(5, 10))
-print(sub(10, 5))
 ```
 
 ```python
@@ -34,23 +33,39 @@ print(add(5, 10))
 print(sub(10, 5))
 ```
 #### 다른 디렉터리 모듈
+
+```
+\main
+	mod1.py
+	mod2.py
+\sub
+	example.py
+```
+
 자신이 만든 모듈을 다른 디렉토리의 python 파일에서 불러오기 위해서는 python shell에서 sys 모듈을 통해 설정을 해야 한다.
 ```python
-import sys
+'''
+example.py
+'''
+# import mod1
+```
 
-sys.path ## python 디렉터리가 설치되어있는 디렉터리 목록
-sys.path.append('모듈이 있는 디렉토리 주소')
+```python
+>> import sys
+>> sys.path ## python 디렉터리가 설치되어있는 디렉터리 목록
+>> sys.path.append('\main')
 ```
 
 ```shell
->set PYTHONPATH=C:\example\mod
+>> set PYTHONPATH=C:\example\mod
 ```
+
 ## 패키지
 python에서 package는 관련 있는 모듈의 집합을 말한다. python 모듈을 계층적(디렉터리 구조)으로 관리할 수 있는 방법을 말한다.
 
 ```
 game/
-	__init__.py
+	__init__.py 
 	sound/
 		__init__.py
 		echo.py
