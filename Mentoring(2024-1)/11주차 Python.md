@@ -1,7 +1,8 @@
 ## 유니코드
 기존 ASCII code는 127개의 문자만 처리할 수 있어서 비영어권의 문자를 표현하는데 문제가 많았다. 이로 인해 서유럽에서는 ISO8859, 한국에서는 KSC5601 등을 만들기 시작했지만, 여러 나라에서 따로 문자 셋을 만들었기 때문에 *하나의 문서에 여러 나라의 언어를 동시에 표현할 수 있는 방법*이 없었다.
 
-이런 문제를 해결하고자 하는 것이 Unicode. 모든 나라의 문자를 모두 포함하도록 4B 크기의 모든 문자를 할당하였다. 유니코드는 문자 외에 다양한 기호도 포함하고 있다.
+이런 문제를 해결하고자 하는 것이 Unicode. 모든 나라의 문자를 모두 포함하도록 4B 크기의 모든 문자를 할당하였다. 
+2^32...유니코드는 문자 외에 다양한 기호도 포함하고 있다.
 ### Python 유니코드
 파이썬은 3.0.0부터 모든 문자열을 유니코드로 처리하고 있다. 파이썬에서 사용하던 모든 문자열은 유니코드 문자열.
 #### Encode
@@ -28,7 +29,6 @@ b = a.encode('euc-kr')
 b.decode('euc-kr') # '한글'
 b.decode('utf-8') # error
 ```
-
 ### 소스 코드 인코딩
 ```python
 # -*- coding: utf-8 -*-
@@ -52,11 +52,11 @@ class Mul:
 	def __init__(self, m):
 		self.m = m
 
-	def __call__(self, n): 
+	def __call__(self, n): # instance
 		return self.m * n;
 
-mul3 = mul(3)
-mul5 = mul(5)
+mul3 = Mul(3)
+mul5 = Mul(5)
 print(mul3(10))
 print(mul5(10))
 ```
@@ -69,6 +69,7 @@ def mul(m):
 
 mul3 = mul(3)
 mul5 = mul(5)
+
 print(mul3(10)) # 30
 print(mul5(10)) # 50
 ```
@@ -80,7 +81,7 @@ import time
 
 def myfunc():
 	start = time.time()
-	print("함수 실행");
+	print("함수 실행")
 	end = time.time()
 	print("수행시간: %f초" % (end-start))
 
@@ -142,13 +143,20 @@ myfunc("You need python")
 ```
 
 > `*args`는 모든 입력 인수를 튜플로 변환하는 매개변수, `**kwargs`는 모든 키=값 형태의 입력을 딕셔너리로 변환하는 매개변수
+
+```python
+
+print('hello')
+print('hello', 3, 4) # *args
+print('hello', sep=' ', end='') # **kwargs
+```
 ## Iterator & Generator
 ### Iterator
 `next` 함수 호출 시 계속 그 다음 값을 리턴하는 객체. 한번 순회를 마치면, 더 이상 그 값을 가져오지 못하는 특징을 가지고 있다. 
 
 ```python
 a = [1, 2, 3]
-ia = iter(a)
+ia = iter(a) 
 type(ia) # <class 'list_iterator'>
 next(ia) # 1
 next(ia) # 2
@@ -206,11 +214,13 @@ def mygen():
 	for i in range(1, 1000):
 		result = i * i;
 		yield result
+		
 gen = mygen()
 print(next(gen)) # 1
 print(next(gen)) # 4
 print(next(gen)) # 9
 
+a = [i for i in range(1, 10)]
 gen = (i * i for i in range(1, 1000)) # generator expression
 print(next(gen)) # 1
 print(next(gen)) # 4
@@ -226,7 +236,7 @@ def longtime_job():
     return "done"
 
 list_job = [longtime_job() for i in range(5)]
-print(list_job[0]) 
+print(list_job[0]) # 5초 지연
 ```
 
 ```
@@ -259,11 +269,18 @@ done
 + generator를 이용하면 간단하게 iterator를 만들 수 있다. 
 $\therefore$ Iterator의 성격에 따라 클래스로 만들 것인지, 제너레이터로 만들 것인지 선택해야 한다. 
 ## Annotation
-### 동적언어와 정적언어
+### 동적 언어와 정적 언어
 + 동적 언어: 프로그램 실행 중에 변수의 타입을 동적으로 바꿀 수 있는 언어
 + 정적 언어: 컴파일 타임에 변수의 타입이 결정되고, 실행 시간 동안 타입을 변경할 수 없는 언어
 
 동적 언어는 타입에 자유로워 유연한 코딩이 가능하고 쉽고 빠르지만, 타입을 잘못 사용해 버그가 생길 확률이 높다.
+
+```python
+a = '3'
+b = 5
+
+print(a + b) # error 
+```
 ### Annotation
 파이썬은 동적 언어의 단점을 극복하기 위해 3.5버전부터 annotation 기능을 지원하기 시작했다. 적극적인 타입 체크가 아닌 type annotation(타입에 대한 힌트를 알려 주는 기능)만 지원한다.
 
@@ -281,7 +298,7 @@ print(add(3, 4.3)) # no error
 적극적인 타입 체크를 해주는 외부 라이브러리. `mypy`를 이용해 annotation이 사용된 파일을 체크하면 오류 체크를 해준다. 
 
 ```shell
-C:\...>mypy sample.py
+C:\...>mypy sample.py    
 sample.py:6 error: Argument 2 to "add" has incompatible type "float"; expected "int"
 Found 1 error in 1 file (checked 1 source file)
 ```
